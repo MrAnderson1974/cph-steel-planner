@@ -13,50 +13,213 @@
 
 <header id="topbar">
     <div id="topbar-left">
+        <button id="sidebar-toggle" onclick="toggleSidebar()" title="Skjul/vis sidebar">☰</button>
         <img src="assets/logo_white.png" class="topbar-logo" alt="CPH Steel">
         <span class="logo-divider"></span>
         <span class="logo">PLANNER</span>
         <span id="dirty-flag" class="hidden">●</span>
     </div>
     <div id="topbar-right">
-        <button id="btn-save" onclick="forceSave()" title="Ctrl+S">💾 Gem</button>
-        <button id="btn-export" onclick="exportExcel()" title="Ctrl+E">📊 Excel</button>
-        <button id="btn-settings" onclick="toggleSettings()">⚙ Indstillinger</button>
+        <button id="btn-undo" onclick="undoLast()" title="Fortryd (Ctrl+Z)" disabled>↩ Fortryd</button>
+        <button id="btn-save" onclick="forceSave()" title="Publicér til GitHub (Ctrl+S)">☁ Publicér</button>
+        <button id="btn-export" onclick="exportExcel()" title="Eksporter Excel (Ctrl+E)">📊 Excel</button>
         <span id="save-status"></span>
     </div>
 </header>
 
-<div id="settings-panel" class="hidden">
-    <div class="settings-inner">
-        <h3>Indstillinger</h3>
-        <label>GitHub Token (fine-grained, repo scope):
-            <input type="password" id="s-token" placeholder="ghp_...">
-        </label>
-        <label>Repository (bruger/cph-steel-planner):
-            <input type="text" id="s-repo" placeholder="dit-brugernavn/cph-steel-planner">
-        </label>
-        <label>Kapacitet pr. dag (timer):
-            <input type="number" id="s-capacity" step="0.1" min="1" max="24" value="7.4">
-        </label>
-        <div class="settings-buttons">
-            <button onclick="saveSettings()">Gem indstillinger</button>
-            <button onclick="toggleSettings()">Luk</button>
+<div id="app-layout">
+
+    <aside id="sidebar">
+        <nav class="sidebar-nav">
+
+            <div class="sidebar-group">
+                <div class="sidebar-label">Visning</div>
+                <div class="sidebar-item active" data-tooltip="Vis plan dag for dag">
+                    <span class="si-icon">📅</span>
+                    <span class="si-text">Dagsplan</span>
+                </div>
+            </div>
+
+            <div class="sidebar-group">
+                <div class="sidebar-label">Filtre</div>
+                <button class="sidebar-item filter-btn active" id="f-all" onclick="setFilter('all')" data-tooltip="Vis alle tilbud">
+                    <span class="si-icon">◉</span>
+                    <span class="si-text">Alle tilbud</span>
+                </button>
+                <button class="sidebar-item filter-btn" id="f-miss" onclick="setFilter('miss')" data-tooltip="Tilbud der misser deadline">
+                    <span class="si-icon">🔴</span>
+                    <span class="si-text">Misser deadline</span>
+                </button>
+                <button class="sidebar-item filter-btn" id="f-tight" onclick="setFilter('tight')" data-tooltip="0–2 dages margin til deadline">
+                    <span class="si-icon">🟡</span>
+                    <span class="si-text">Stramt</span>
+                </button>
+                <button class="sidebar-item filter-btn" id="f-nobt" onclick="setFilter('nobt')" data-tooltip="BT mangler — kræver Toms input">
+                    <span class="si-icon">⚠</span>
+                    <span class="si-text">Mangler BT</span>
+                </button>
+                <button class="sidebar-item filter-btn" id="f-grade-a" onclick="setFilter('grade-a')" data-tooltip="Kun Grade A topkunder">
+                    <span class="si-icon">★</span>
+                    <span class="si-text">Grade A kunder</span>
+                </button>
+                <button class="sidebar-item filter-btn" id="f-mw" onclick="setFilter('mw')" data-tooltip="Strategisk kritiske must-win tilbud">
+                    <span class="si-icon">⚡</span>
+                    <span class="si-text">Must Win</span>
+                </button>
+            </div>
+
+            <div class="sidebar-group">
+                <div class="sidebar-label">Automationer</div>
+                <button class="sidebar-item" onclick="runReOptimer()" data-tooltip="Genrangér alle tilbud efter prioritetscore og genbyg planen">
+                    <span class="si-icon">🔄</span>
+                    <span class="si-text">Re-optimer</span>
+                </button>
+                <button class="sidebar-item" onclick="runPakSchedule()" data-tooltip="Behold rækkefølge — pak schedule fra i dag og luk huller">
+                    <span class="si-icon">📦</span>
+                    <span class="si-text">Pak schedule</span>
+                </button>
+            </div>
+
+            <div class="sidebar-group">
+                <div class="sidebar-label">Tilbud</div>
+                <button class="sidebar-item sidebar-item--add" onclick="toggleAddTilbud()" data-tooltip="Tilføj nyt tilbud til planen">
+                    <span class="si-icon">＋</span>
+                    <span class="si-text">Tilføj tilbud</span>
+                </button>
+            </div>
+
+            <div class="sidebar-group">
+                <div class="sidebar-label">System</div>
+                <button class="sidebar-item" onclick="toggleSettings()" data-tooltip="GitHub token og kapacitetsindstillinger">
+                    <span class="si-icon">⚙</span>
+                    <span class="si-text">Indstillinger</span>
+                </button>
+                <button class="sidebar-item" onclick="toggleHelp()" data-tooltip="Vejledning og tastaturgenveje">
+                    <span class="si-icon">?</span>
+                    <span class="si-text">Hjælp</span>
+                </button>
+            </div>
+
+        </nav>
+    </aside>
+
+    <main id="main-content">
+
+        <div id="settings-panel" class="hidden">
+            <div class="settings-inner">
+                <h3>Indstillinger</h3>
+                <label>GitHub Token (fine-grained, repo scope):
+                    <input type="password" id="s-token" placeholder="ghp_...">
+                </label>
+                <label>Repository (bruger/cph-steel-planner):
+                    <input type="text" id="s-repo" placeholder="dit-brugernavn/cph-steel-planner">
+                </label>
+                <label>Kapacitet pr. dag (timer):
+                    <input type="number" id="s-capacity" step="0.1" min="1" max="24" value="7.4">
+                </label>
+                <div class="settings-buttons">
+                    <button onclick="saveSettings()">Gem indstillinger</button>
+                    <button onclick="toggleSettings()">Luk</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="kpi-bar"></div>
+
+        <div id="action-section">
+            <div id="action-header" onclick="toggleActionRequired()">
+                <span id="action-toggle">▼</span>
+                <strong>⚠ Action Required</strong>
+                <span id="action-count" class="action-badge"></span>
+            </div>
+            <div id="action-body"></div>
+        </div>
+
+        <div id="board"></div>
+
+    </main>
+</div>
+
+<div id="toast-container"></div>
+
+<div id="help-panel" class="hidden">
+    <div class="help-inner">
+        <div class="help-header">
+            <span class="help-title">Hjælp &amp; Genveje</span>
+            <button onclick="toggleHelp()" class="help-close">✕</button>
+        </div>
+        <div class="help-body">
+            <div class="help-section">
+                <div class="help-section-title">Tastatursgenveje</div>
+                <div class="help-row"><kbd>Ctrl+S</kbd> Gem til GitHub</div>
+                <div class="help-row"><kbd>Ctrl+Z</kbd> Fortryd seneste handling</div>
+                <div class="help-row"><kbd>Ctrl+E</kbd> Eksporter til Excel</div>
+                <div class="help-row"><kbd>Esc</kbd> Luk åbne paneler</div>
+            </div>
+            <div class="help-section">
+                <div class="help-section-title">Drag &amp; Drop</div>
+                <div class="help-row">Grib i <strong>⠿</strong> ikonet øverst til venstre på et kort og træk det til en ny dag.</div>
+                <div class="help-row">Kortet splittes automatisk over dage hvis kapaciteten er fuld. Den grønne/gule/røde bar viser belastning.</div>
+                <div class="help-row">Slip kortet over en dags drop-zone — den markeres med en stibred kant når du er over den.</div>
+            </div>
+            <div class="help-section">
+                <div class="help-section-title">Badge-forklaring</div>
+                <div class="help-row"><span class="help-badge grade-a">Grade A</span> Topkunde — prioriteres højt</div>
+                <div class="help-row"><span class="help-badge grade-b">Grade B</span> Standard kunde</div>
+                <div class="help-row"><span class="help-badge grade-c">Grade C</span> Ny/lav-prioritet kunde</div>
+                <div class="help-row"><span class="help-badge kpi-mw">MW</span> Must Win — strategisk kritisk tilbud</div>
+                <div class="help-row"><span class="help-badge kpi-href">⭐ REF</span> Høj referenceverdi</div>
+                <div class="help-row"><span class="help-badge">🔩1–5</span> Stålscope: antal ståltyper og kompleksitet</div>
+                <div class="help-row"><span class="help-badge">Xt tot</span> Beregnertid (BT) — Toms kalkulationstimer</div>
+                <div class="help-row"><span class="help-badge risk-ok">🟢 Xd margin</span> 3+ dages margin til deadline</div>
+                <div class="help-row"><span class="help-badge risk-tight">🟡 Xd margin</span> 0–2 dages margin til deadline</div>
+                <div class="help-row"><span class="help-badge risk-miss">🔴 X OVER</span> Planlagt aflevering EFTER deadline</div>
+            </div>
+            <div class="help-section">
+                <div class="help-section-title">Automationer</div>
+                <div class="help-row"><strong>Re-optimer:</strong> Genrangér og genbyg plan efter prioritetsscoren: urgency×8 + stålscope×6 + Grade×5 + bonus×2 + søsterbonus.</div>
+                <div class="help-row"><strong>Pak schedule:</strong> Behold nuværende rækkefølge — pak alt så tæt som muligt fra i dag og luk eventuelle huller.</div>
+                <div class="help-row">Begge automationer kan fortrydes med Ctrl+Z.</div>
+            </div>
         </div>
     </div>
 </div>
 
-<div id="kpi-bar"></div>
-
-<div id="action-section">
-    <div id="action-header" onclick="toggleActionRequired()">
-        <span id="action-toggle">▼</span>
-        <strong>⚠ Action Required</strong>
-        <span id="action-count" class="action-badge"></span>
+<div id="onboarding-overlay" class="hidden">
+    <div class="onboarding-box">
+        <div class="ob-step" id="ob-1">
+            <div class="ob-icon">📅</div>
+            <div class="ob-title">Velkommen til CPH Steel Planner</div>
+            <div class="ob-text">Her ser du Toms kalkulations-pipeline dag for dag. Hvert kort er et tilbud med deadline, BT og risiko-indikator.</div>
+            <div class="ob-actions">
+                <button onclick="obNext(2)">Næste →</button>
+            </div>
+        </div>
+        <div class="ob-step hidden" id="ob-2">
+            <div class="ob-icon">⠿</div>
+            <div class="ob-title">Drag &amp; Drop</div>
+            <div class="ob-text">Grib i ⠿ ikonet øverst til venstre og træk et kort til en ny dag. Kortet splittes automatisk hvis kapaciteten er fuld.</div>
+            <div class="ob-actions">
+                <button onclick="obNext(1)" class="ob-back">← Tilbage</button>
+                <button onclick="obNext(3)">Næste →</button>
+            </div>
+        </div>
+        <div class="ob-step hidden" id="ob-3">
+            <div class="ob-icon">🔄</div>
+            <div class="ob-title">Automationer &amp; Fortryd</div>
+            <div class="ob-text">Brug <strong>Re-optimer</strong> i sidebaren til automatisk at genrangere planen. <strong>Ctrl+Z</strong> fortryder altid seneste handling.</div>
+            <div class="ob-actions">
+                <button onclick="obNext(2)" class="ob-back">← Tilbage</button>
+                <button onclick="closeOnboarding()">Kom i gang ✓</button>
+            </div>
+        </div>
+        <div class="ob-dots">
+            <span class="ob-dot active" id="dot-1"></span>
+            <span class="ob-dot" id="dot-2"></span>
+            <span class="ob-dot" id="dot-3"></span>
+        </div>
     </div>
-    <div id="action-body"></div>
 </div>
-
-<div id="board"></div>
 
 <script src="https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js"></script>
 <script src="js/utils.js"></script>

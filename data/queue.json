@@ -3,7 +3,9 @@
     "generated": "2026-05-21",
     "source_export": "eksport (99).xlsx",
     "tom_hours_per_day": 7.4,
-    "planning_weeks": 6
+    "planning_weeks": 6,
+    "merged_at": "2026-05-21 15:45",
+    "planner_version": "2026-05-21"
   },
   "config": {
     "capacity_per_day": 7.4,

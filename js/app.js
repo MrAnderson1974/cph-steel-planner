@@ -5,8 +5,13 @@ const state = {
     sha: null,
     dirty: false,
     actionCollapsed: false,
-    autoSaveTimer: null
+    autoSaveTimer: null,
+    filter: 'all',
+    sidebarCollapsed: false
 };
+
+const undoStack = [];
+const MAX_UNDO = 20;
 
 // ── INIT ──
 
@@ -16,6 +21,7 @@ async function init() {
     render();
     setupKeyBindings();
     startAutoSave();
+    checkOnboarding();
 }
 
 async function loadData() {
@@ -40,6 +46,108 @@ async function loadData() {
     if (!res.ok) { showStatus('❌ Kunne ikke indlæse queue.json'); return; }
     state.queue = await res.json();
     showStatus('Lokale data indlæst');
+}
+
+// ── UNDO ──
+
+function pushUndo(label) {
+    undoStack.push({ label, snapshot: JSON.parse(JSON.stringify(state.queue)) });
+    if (undoStack.length > MAX_UNDO) undoStack.shift();
+    updateUndoBtn();
+}
+
+function undoLast() {
+    if (!undoStack.length) return;
+    const { label, snapshot } = undoStack.pop();
+    state.queue = snapshot;
+    state.dirty = true;
+    updateUndoBtn();
+    render();
+    showToast(`↩ Fortryd: ${label}`);
+}
+
+function updateUndoBtn() {
+    const btn = document.getElementById('btn-undo');
+    btn.disabled = undoStack.length === 0;
+    btn.textContent = undoStack.length > 0 ? `↩ Fortryd (${undoStack.length})` : '↩ Fortryd';
+}
+
+// ── SIDEBAR ──
+
+function toggleSidebar() {
+    state.sidebarCollapsed = !state.sidebarCollapsed;
+    document.getElementById('sidebar').classList.toggle('collapsed', state.sidebarCollapsed);
+}
+
+// ── FILTERS ──
+
+function setFilter(f) {
+    state.filter = f;
+    document.querySelectorAll('.filter-btn').forEach(el => {
+        el.classList.toggle('active', el.id === `f-${f}`);
+    });
+    render();
+}
+
+function getFilteredSet(q) {
+    if (state.filter === 'all') return null;
+    const active = q.tilbud.filter(t => !t.is_sister);
+    let filtered;
+    switch (state.filter) {
+        case 'miss':    filtered = active.filter(t => t.risk === '🔴'); break;
+        case 'tight':   filtered = active.filter(t => t.risk === '🟡'); break;
+        case 'nobt':    filtered = active.filter(t => t.bt_estimated); break;
+        case 'grade-a': filtered = active.filter(t => t.kunde_grade === 'A'); break;
+        case 'mw':      filtered = active.filter(t => t.must_win); break;
+        default:        filtered = active;
+    }
+    return new Set(filtered.map(t => t.tilbudsnr));
+}
+
+// ── AUTOMATIONER ──
+
+function runReOptimer() {
+    if (!state.queue) return;
+    pushUndo('Re-optimer rækkefølge');
+    reOptimer(state.queue);
+    state.dirty = true;
+    render();
+    showToast('Re-optimer kørt — plan genrangeret efter prioritet');
+}
+
+function runPakSchedule() {
+    if (!state.queue) return;
+    pushUndo('Pak schedule');
+    pakSchedule(state.queue);
+    state.dirty = true;
+    render();
+    showToast('Schedule pakket — huller lukket fra i dag');
+}
+
+// ── HELP ──
+
+function toggleHelp() {
+    document.getElementById('help-panel').classList.toggle('hidden');
+}
+
+// ── ONBOARDING ──
+
+function checkOnboarding() {
+    if (!localStorage.getItem('cph_onboarded')) {
+        document.getElementById('onboarding-overlay').classList.remove('hidden');
+    }
+}
+
+function obNext(step) {
+    document.querySelectorAll('.ob-step').forEach(el => el.classList.add('hidden'));
+    document.querySelectorAll('.ob-dot').forEach(el => el.classList.remove('active'));
+    document.getElementById(`ob-${step}`).classList.remove('hidden');
+    document.getElementById(`dot-${step}`).classList.add('active');
+}
+
+function closeOnboarding() {
+    localStorage.setItem('cph_onboarded', '1');
+    document.getElementById('onboarding-overlay').classList.add('hidden');
 }
 
 // ── RENDER ──
@@ -95,46 +203,56 @@ function renderKPI() {
 function renderActionRequired() {
     const q = state.queue;
     const today = todayStr();
-    const items = [];
+    const overdue = [], miss = [], nobt = [];
 
     for (const t of q.tilbud) {
         if (t.is_sister) continue;
         if (t.deadline && t.deadline < today) {
-            items.push({ type: 'OVERSKREDET', t });
-        } else if (t.risk === '🔴' && t.planned_end && t.deadline && t.planned_end > t.deadline) {
-            items.push({ type: 'FOR SENT', t });
+            overdue.push(t);
+        } else if (t.planned_end && t.deadline && t.planned_end > t.deadline) {
+            miss.push(t);
         } else if (t.bt_estimated) {
-            items.push({ type: 'MANGLER BT', t });
+            const firstDay = t.scheduled_days && t.scheduled_days.length > 0 ? t.scheduled_days[0] : t.deadline;
+            const daysAway = firstDay ? daysBetween(today, firstDay) : 999;
+            if (daysAway <= 14) nobt.push(t);
         }
     }
 
-    document.getElementById('action-count').textContent = items.length;
+    const total = overdue.length + miss.length + nobt.length;
+    document.getElementById('action-count').textContent = total;
 
-    if (items.length === 0) {
-        document.getElementById('action-body').innerHTML =
-            '<div class="action-empty">Ingen action items 👍</div>';
-        return;
+    function groupRows(items, detailFn) {
+        if (items.length === 0) return '<div class="ag-empty">Ingen</div>';
+        return items.map(t => `
+            <div class="ag-row">
+                <span class="ag-tnr">${escHtml(t.tilbudsnr)}</span>
+                <span class="ag-name" title="${escHtml(t.projekt || t.tilbudsnavn)}">${escHtml((t.projekt || t.tilbudsnavn).substring(0, 28))}</span>
+                <span class="ag-detail">${detailFn(t)}</span>
+            </div>`).join('');
     }
 
-    const html = items.map(({ type, t }) => {
-        let cls = 'action-item';
-        let label = '';
-        if (type === 'OVERSKREDET') {
-            cls += ' action-overdue';
-            label = `🔴 OVERSKREDET — DL ${formatDateShort(t.deadline)} passeret`;
-        } else if (type === 'FOR SENT') {
-            cls += ' action-miss';
-            label = `🔴 FOR SENT — DL ${formatDateShort(t.deadline)}, slut ${formatDateShort(t.planned_end)}`;
-        } else {
-            cls += ' action-bt';
-            label = `⚠ MANGLER BT — estimeret @${formatNum(t.beregnertid)}t`;
-        }
-        return `<div class="${cls}">
-            <span class="action-tnr">${escHtml(t.tilbudsnr)}</span>
-            <span class="action-name">${escHtml(t.projekt || t.tilbudsnavn)}</span>
-            <span class="action-label">${label}</span>
+    const html = `
+        <div class="action-group action-group--overdue">
+            <div class="ag-header">
+                <span class="ag-title">Deadline overskredet</span>
+                <span class="ag-count">${overdue.length}</span>
+            </div>
+            ${groupRows(overdue, t => `DL ${formatDateShort(t.deadline)} passeret`)}
+        </div>
+        <div class="action-group action-group--miss">
+            <div class="ag-header">
+                <span class="ag-title">Misser deadline</span>
+                <span class="ag-count">${miss.length}</span>
+            </div>
+            ${groupRows(miss, t => `DL ${formatDateShort(t.deadline)} · slut ${formatDateShort(t.planned_end)}`)}
+        </div>
+        <div class="action-group action-group--bt">
+            <div class="ag-header">
+                <span class="ag-title">Mangler BT · starter &lt;14d</span>
+                <span class="ag-count">${nobt.length}</span>
+            </div>
+            ${groupRows(nobt, t => `~${formatNum(t.beregnertid)}t estimeret`)}
         </div>`;
-    }).join('');
 
     const body = document.getElementById('action-body');
     body.innerHTML = html;
@@ -148,46 +266,76 @@ function renderBoard() {
     const allDays = getWorkingDaysInRange(today, endDate, q.config.holidays);
     const weekMap = groupByWeek(allDays);
     const tilbudMap = Object.fromEntries(q.tilbud.map(t => [t.tilbudsnr, t]));
+    const filterSet = getFilteredSet(q);
 
     let html = '';
 
     for (const [week, days] of weekMap) {
         const weekTilbud = new Set();
         let weekUsed = 0, weekCap = 0;
+        let weekHasContent = false;
 
         for (const d of days) {
             const info = q.day_capacity[d] || { used: 0, capacity: q.config.capacity_per_day };
             weekUsed += info.used;
             weekCap  += info.capacity;
-            (q.schedule[d] || []).forEach(i => { if (!i.is_sister_display) weekTilbud.add(i.tilbudsnr); });
+            const items = q.schedule[d] || [];
+            items.forEach(i => {
+                if (!i.is_sister_display) {
+                    if (!filterSet || filterSet.has(i.tilbudsnr)) {
+                        weekTilbud.add(i.tilbudsnr);
+                        weekHasContent = true;
+                    }
+                }
+            });
         }
 
-        const pct = weekCap > 0 ? Math.round(weekUsed / weekCap * 100) : 0;
+        if (filterSet && !weekHasContent) continue;
+
+        const normWeekCap = days.length * q.config.capacity_per_day; // 37t for full week
+        const weekOT = Math.max(0, weekUsed - normWeekCap);
+        const weekOTHtml = weekOT > 0.05
+            ? ` &mdash; <span class="week-ot">+${formatNum(weekOT, 1)}t OT</span>`
+            : '';
 
         html += `<div class="week-section">
-            <div class="week-header">📅 UGE ${week} &mdash; ${weekTilbud.size} tilbud &mdash; ${formatNum(weekUsed, 0)}t/${formatNum(weekCap, 0)}t (${pct}%)</div>
+            <div class="week-header">📅 UGE ${week} &mdash; ${weekTilbud.size} tilbud &mdash; ${formatNum(weekUsed, 1)}t${weekOTHtml}</div>
             <div class="week-days">`;
 
         for (const date of days) {
             const items = q.schedule[date] || [];
             const info  = q.day_capacity[date] || { used: 0, capacity: q.config.capacity_per_day };
-            const pctDay = info.capacity > 0 ? Math.min(1, info.used / info.capacity) : 0;
-            const barCls = pctDay >= 1 ? 'full' : pctDay >= 0.85 ? 'tight' : '';
+            const normCap = q.config.capacity_per_day;
+            const otHours = Math.max(0, info.used - normCap);
+            const pctDay  = normCap > 0 ? Math.min(1, info.used / normCap) : 0;
+            const barCls  = otHours > 0.05 ? 'ot' : (pctDay >= 1 ? 'full' : pctDay >= 0.85 ? 'tight' : '');
             const isToday = date === today;
             const holName = q.config.holidays[date];
+
+            const otHtml = otHours > 0.05
+                ? `<span class="day-ot">+${formatNum(otHours, 1)}t OT</span>`
+                : '';
+
+            const visibleItems = items.filter(i => {
+                if (i.is_sister_display) return false;
+                return !filterSet || filterSet.has(i.tilbudsnr);
+            });
+            if (filterSet && visibleItems.length === 0) continue;
 
             html += `<div class="day-column${isToday ? ' day-today' : ''}">
                 <div class="day-header">
                     <span class="day-name">${formatDateLong(date)}${holName ? ` — ${holName}` : ''}</span>
-                    <span class="day-capacity">${formatNum(info.used)}t / ${formatNum(info.capacity)}t</span>
-                    ${pctDay >= 1 ? '<span class="capacity-full">FULD</span>' : ''}
+                    <span class="day-capacity">${formatNum(info.used, 1)}t${otHtml}</span>
                 </div>
                 <div class="cap-bar"><div class="cap-bar-fill ${barCls}" style="width:${Math.round(pctDay*100)}%"></div></div>
-                <div class="day-drop-zone" data-date="${date}">`;
+                <div class="day-drop-zone" data-date="${date}"
+                    ondragover="onDragOver(event)"
+                    ondragleave="onDragLeave(event)"
+                    ondrop="onDrop(event)">`;
 
-            // Render non-sister cards; collect sisters for each master
             for (const item of items) {
                 if (item.is_sister_display) continue;
+                if (filterSet && !filterSet.has(item.tilbudsnr)) continue;
                 const t = tilbudMap[item.tilbudsnr];
                 if (!t) continue;
 
@@ -198,27 +346,26 @@ function renderBoard() {
                 html += renderCard(t, item.hours, date, sistersHere);
             }
 
-            // Orphan sister display cards (when master is on a different day)
-            for (const item of items) {
-                if (!item.is_sister_display) continue;
-                const t = tilbudMap[item.tilbudsnr];
-                if (!t) continue;
-                // Check if master is also on this day
-                const masterTnr = t.master_nr;
-                const masterOnDay = masterTnr && items.some(i => i.tilbudsnr === masterTnr && !i.is_sister_display);
-                if (!masterOnDay) {
-                    html += renderSisterCard(t);
+            // Orphan sister display cards
+            if (!filterSet) {
+                for (const item of items) {
+                    if (!item.is_sister_display) continue;
+                    const t = tilbudMap[item.tilbudsnr];
+                    if (!t) continue;
+                    const masterTnr = t.master_nr;
+                    const masterOnDay = masterTnr && items.some(i => i.tilbudsnr === masterTnr && !i.is_sister_display);
+                    if (!masterOnDay) html += renderSisterCard(t);
                 }
             }
 
-            html += `</div></div>`; // drop-zone + day-column
+            html += `</div></div>`;
         }
 
-        html += `</div></div>`; // week-days + week-section
+        html += `</div></div>`;
     }
 
     document.getElementById('board').innerHTML = html ||
-        '<div class="no-schedule">Ingen tilbud planlagt i denne periode.</div>';
+        '<div class="no-schedule">Ingen tilbud matcher det valgte filter.</div>';
 }
 
 function getRiskClass(risk) {
@@ -231,60 +378,99 @@ function getRiskClass(risk) {
 function renderCard(t, hoursToday, date, sistersHere) {
     const today = todayStr();
     const isOverdue = t.deadline && t.deadline < today;
-    const gradeClass = { A:'grade-a', B:'grade-b', C:'grade-c' }[t.kunde_grade] || 'grade-unknown';
+    const gradeClass   = { A:'grade-a', B:'grade-b', C:'grade-c' }[t.kunde_grade] || 'grade-unknown';
+    const gradeIcon    = { A:'★', B:'◆', C:'○' }[t.kunde_grade] || '?';
+    const riskBorder   = { '🟢':'card-ok', '🟡':'card-tight', '🔴':'card-miss', '⚪':'card-none' }[t.risk] || '';
 
     let marginText = '—';
+    let marginShort = '';
     if (t.planned_end && t.deadline) {
         if (t.planned_end > t.deadline) {
-            marginText = `${Math.abs(daysBetween(t.deadline, t.planned_end))}d OVER`;
+            const d = Math.abs(daysBetween(t.deadline, t.planned_end));
+            marginText = `${d}d OVER`;
+            marginShort = `${d}d OVER`;
         } else {
-            const m = daysBetween(t.planned_end, t.deadline);
-            marginText = `${m}d margin`;
+            const d = daysBetween(t.planned_end, t.deadline);
+            marginText = `${d}d margin`;
+            marginShort = `+${d}d`;
         }
     }
 
     const beskr = t.beskrivelse
-        ? escHtml(t.beskrivelse.length > 110 ? t.beskrivelse.substring(0,110)+'…' : t.beskrivelse)
+        ? escHtml(t.beskrivelse.length > 160 ? t.beskrivelse.substring(0,160)+'…' : t.beskrivelse)
         : '';
 
     const sistersHtml = sistersHere && sistersHere.length > 0
-        ? `<div class="sister-block">💜 Søstre: ${sistersHere.map(s =>
-            `<span class="sister-tag">${escHtml(s.tilbudsnr)} (${escHtml(s.kundenavn.split(' ')[0])})</span>`
-          ).join(' ')}</div>`
+        ? `<div class="sister-block">
+            <span class="sister-label">💜 Søstre</span>
+            ${sistersHere.map(s =>
+                `<span class="sister-tag">${escHtml(s.tilbudsnr)}<span class="sister-tag-sep"> · </span><span class="sister-tag-kunde">${escHtml(s.kundenavn.split(' ')[0])}</span></span>`
+            ).join('')}
+           </div>`
         : '';
 
     const btEditHtml = t.bt_estimated
-        ? `<div class="card-edit-bt">BT: <input class="bt-input" type="number" value="${t.beregnertid}" step="0.5" min="0"
-            onchange="onBTChange('${t.tilbudsnr}', this.value)" onclick="event.stopPropagation()">t
-            <span class="bt-estimated-badge">(estimeret)</span></div>`
-        : '';
+        ? `<div class="card-edit-bt">
+            <span class="bt-label">BT estimeret</span>
+            <input class="bt-input" type="number" value="${t.beregnertid}" step="0.5" min="0"
+                onchange="onBTChange('${t.tilbudsnr}', this.value)" onclick="event.stopPropagation()">
+            <span class="bt-unit">t — klik for at bekræfte</span>
+           </div>`
+        : `<div class="card-edit-bt card-edit-bt--ok">
+            <span class="bt-label bt-label--ok">BT</span>
+            <input class="bt-input bt-input--ok" type="number" value="${t.beregnertid}" step="0.5" min="0"
+                onchange="onBTChange('${t.tilbudsnr}', this.value)" onclick="event.stopPropagation()">
+            <span class="bt-unit">timer total</span>
+           </div>`;
 
-    return `<div class="card${t.bt_estimated ? ' card-estimated' : ''}${isOverdue ? ' card-overdue' : ''}"
-        draggable="true" data-tnr="${escHtml(t.tilbudsnr)}" data-date="${date}">
-        <div class="card-header${isOverdue ? ' header-overdue' : ''}">
+    const riskTooltip = {
+        '🟢': '3+ dages margin til deadline — OK',
+        '🟡': '0–2 dages margin til deadline — Stramt',
+        '🔴': 'Planlagt aflevering er EFTER deadline',
+        '⚪': 'Ingen deadline sat'
+    }[t.risk] || '';
+
+    const gradeTooltip = {
+        'A': 'Grade A — Topkunde, prioriteres højt i planen',
+        'B': 'Grade B — Standard kunde',
+        'C': 'Grade C — Ny eller lav-prioritet'
+    }[t.kunde_grade] || 'Grade ukendt';
+
+    const dlClass = isOverdue ? 'card-dl dl-over' : (t.risk === '🔴' ? 'card-dl dl-miss' : t.risk === '🟡' ? 'card-dl dl-tight' : 'card-dl');
+
+    return `<div class="card ${riskBorder}${t.bt_estimated ? ' card-estimated' : ''}"
+        draggable="true" data-tnr="${escHtml(t.tilbudsnr)}" data-date="${date}"
+        ondragstart="onDragStart(event)" ondragend="onDragEnd(event)">
+        <div class="card-header">
+            <span class="drag-handle" title="Træk for at flytte">⠿</span>
             <span class="card-tnr">${escHtml(t.tilbudsnr)}</span>
-            <span class="card-hours">${formatNum(hoursToday)}t</span>
             <span class="card-kunde">${escHtml(t.kundenavn)}</span>
-            ${t.deadline ? `<span class="card-dl">DL ${formatDateShort(t.deadline)}</span>` : ''}
+            <span class="card-hours">${formatNum(hoursToday)}t</span>
+            ${t.deadline ? `<span class="${dlClass}">DL ${formatDateShort(t.deadline)}</span>` : ''}
         </div>
         <div class="card-body">
             <div class="card-projekt">${escHtml(t.projekt || t.tilbudsnavn)}</div>
             ${beskr ? `<div class="card-beskr">${beskr}</div>` : ''}
         </div>
         <div class="card-kpis">
-            <span class="kpi-tile ${getRiskClass(t.risk)}">${t.risk} ${marginText}</span>
-            <span class="kpi-tile ${gradeClass}">Grade ${t.kunde_grade || '?'}</span>
-            ${t.must_win ? '<span class="kpi-tile kpi-mw">MW</span>' : ''}
-            ${t.high_ref ? '<span class="kpi-tile kpi-href">⭐ REF</span>' : ''}
-            <span class="kpi-tile">🔩${t.steel_scope || '?'}</span>
-            <span class="kpi-tile">${formatNum(t.beregnertid)}t tot${t.bt_estimated ? ' ~' : ''}</span>
+            <span class="kpi-tile ${getRiskClass(t.risk)}" data-tooltip="${escHtml(riskTooltip)}">${t.risk || '⚪'} ${marginText}</span>
+            <span class="kpi-tile ${gradeClass}" data-tooltip="${escHtml(gradeTooltip)}">${gradeIcon} ${t.kunde_grade || '?'}</span>
+            ${t.must_win  ? `<span class="kpi-tile kpi-mw"   data-tooltip="Must Win — strategisk kritisk tilbud">⚡ MW</span>` : ''}
+            ${t.high_ref  ? `<span class="kpi-tile kpi-href" data-tooltip="Høj referenceverdi — vigtigt referenceprojekt">★ REF</span>` : ''}
+            <span class="kpi-tile kpi-scope" data-tooltip="Stålscope ${t.steel_scope||'?'}/5 — antal ståltyper og kompleksitet">🔩 ${t.steel_scope || '?'}</span>
+            <span class="kpi-tile kpi-bt"    data-tooltip="Total beregnertid${t.bt_estimated ? ' (estimeret — klik for at bekræfte)' : ''}">⏱ ${formatNum(t.beregnertid)}t${t.bt_estimated ? ' ~' : ''}</span>
+            ${(t.scheduled_days && t.scheduled_days.length > 1)
+                ? `<button class="card-split-btn card-split-btn--merge" title="Saml projektet til én dag (flex)"
+                    onclick="event.stopPropagation(); onMergeCard('${escHtml(t.tilbudsnr)}')">⊕ Saml</button>`
+                : `<button class="card-split-btn" title="Del fra denne dag (fordel over dage med normal kapacitet)"
+                    onclick="event.stopPropagation(); onSplitCard('${escHtml(t.tilbudsnr)}', '${date}')">✂ Del</button>`
+            }
         </div>
         ${sistersHtml}${btEditHtml}
     </div>`;
 }
 
 function renderSisterCard(t) {
-    const master = state.queue.tilbud.find(x => x.tilbudsnr === t.master_nr);
     return `<div class="card-sister">
         <span class="sister-tnr">${escHtml(t.tilbudsnr)}</span>
         <span class="sister-info">${escHtml(t.kundenavn)} — Søster af ${escHtml(t.master_nr || '?')}</span>
@@ -293,9 +479,32 @@ function renderSisterCard(t) {
 
 // ── EVENT HANDLERS ──
 
+function onSplitCard(tilbudsNr, date) {
+    pushUndo(`Del ${tilbudsNr}`);
+    moveCard(state.queue, tilbudsNr, date); // no flexMax = normal 7.4t cap → natural split
+    state.dirty = true;
+    render();
+    const t = state.queue.tilbud.find(x => x.tilbudsnr === tilbudsNr);
+    const days = t && t.scheduled_days ? t.scheduled_days.length : 1;
+    showToast(`${tilbudsNr} delt over ${days} dag${days !== 1 ? 'e' : ''}`);
+}
+
+function onMergeCard(tilbudsNr) {
+    const t = state.queue.tilbud.find(x => x.tilbudsnr === tilbudsNr);
+    if (!t || !t.scheduled_days || t.scheduled_days.length === 0) return;
+    pushUndo(`Saml ${tilbudsNr}`);
+    const startDay = t.scheduled_days[0];
+    const flexMax  = state.queue.config.capacity_per_day * 2;
+    moveCard(state.queue, tilbudsNr, startDay, flexMax);
+    state.dirty = true;
+    render();
+    showToast(`${tilbudsNr} samlet fra ${formatDateShort(startDay)}`);
+}
+
 function onBTChange(tilbudsNr, newVal) {
     const bt = parseFloat(String(newVal).replace(',', '.'));
     if (isNaN(bt) || bt < 0) return;
+    pushUndo(`BT ændret: ${tilbudsNr}`);
     updateBeregnertid(state.queue, tilbudsNr, bt);
     state.dirty = true;
     render();
@@ -350,7 +559,7 @@ async function forceSave() {
         showStatus('✓ Gemt til GitHub');
     } catch (e) {
         if (e.message === 'CONFLICT') {
-            showStatus('⚠ Konflikt — reload siden for at synkronisere');
+            showStatus('⚠ Konflikt — reload for at synkronisere');
         } else {
             showStatus(`❌ Gem fejlede: ${e.message}`);
         }
@@ -370,8 +579,11 @@ function setupKeyBindings() {
     document.addEventListener('keydown', e => {
         if (e.ctrlKey && e.key === 's') { e.preventDefault(); forceSave(); }
         if (e.ctrlKey && e.key === 'e') { e.preventDefault(); exportExcel(); }
+        if (e.ctrlKey && e.key === 'z') { e.preventDefault(); undoLast(); }
         if (e.key === 'Escape') {
             document.getElementById('settings-panel').classList.add('hidden');
+            document.getElementById('help-panel').classList.add('hidden');
+            document.getElementById('onboarding-overlay').classList.add('hidden');
         }
     });
 }
@@ -381,6 +593,19 @@ function showStatus(msg) {
     el.textContent = msg;
     clearTimeout(el._t);
     el._t = setTimeout(() => { el.textContent = ''; }, 5000);
+}
+
+function showToast(msg, duration = 5500) {
+    const container = document.getElementById('toast-container');
+    const toast = document.createElement('div');
+    toast.className = 'toast';
+    toast.textContent = msg;
+    container.appendChild(toast);
+    requestAnimationFrame(() => requestAnimationFrame(() => toast.classList.add('toast-show')));
+    setTimeout(() => {
+        toast.classList.remove('toast-show');
+        setTimeout(() => toast.remove(), 300);
+    }, duration);
 }
 
 window.addEventListener('DOMContentLoaded', init);

@@ -3,30 +3,33 @@
 const dragState = { tilbudsNr: null, sourceDate: null };
 
 function setupDragDrop() {
-    document.querySelectorAll('.card[draggable="true"]').forEach(card => {
-        card.addEventListener('dragstart', onDragStart);
-        card.addEventListener('dragend', onDragEnd);
-    });
-
-    document.querySelectorAll('.day-drop-zone').forEach(zone => {
-        zone.addEventListener('dragover', onDragOver);
-        zone.addEventListener('dragleave', onDragLeave);
-        zone.addEventListener('drop', onDrop);
-    });
+    // Drag handlers are wired inline in renderCard / renderBoard via ondragstart etc.
 }
 
 function onDragStart(e) {
-    dragState.tilbudsNr = e.currentTarget.dataset.tnr;
+    dragState.tilbudsNr  = e.currentTarget.dataset.tnr;
     dragState.sourceDate = e.currentTarget.dataset.date;
     e.currentTarget.classList.add('dragging');
     e.dataTransfer.effectAllowed = 'move';
     e.dataTransfer.setData('text/plain', dragState.tilbudsNr);
+
+    // Add drop hints to empty zones
+    document.querySelectorAll('.day-drop-zone').forEach(z => {
+        const cards = z.querySelectorAll('.card, .card-sister');
+        if (cards.length === 0) {
+            const hint = document.createElement('div');
+            hint.className = 'drop-hint-el';
+            hint.textContent = '↓ Slip her';
+            z.appendChild(hint);
+        }
+    });
 }
 
 function onDragEnd(e) {
     e.currentTarget.classList.remove('dragging');
     document.querySelectorAll('.day-drop-zone.drag-over').forEach(z => z.classList.remove('drag-over'));
-    dragState.tilbudsNr = null;
+    document.querySelectorAll('.drop-hint-el').forEach(el => el.remove());
+    dragState.tilbudsNr  = null;
     dragState.sourceDate = null;
 }
 
@@ -49,12 +52,15 @@ function onDrop(e) {
     zone.classList.remove('drag-over');
 
     const targetDate = zone.dataset.date;
-    const tilbudsNr = dragState.tilbudsNr;
+    const tilbudsNr  = dragState.tilbudsNr;
 
     if (!tilbudsNr || !targetDate) return;
     if (dragState.sourceDate === targetDate) return;
 
-    moveCard(state.queue, tilbudsNr, targetDate);
+    pushUndo(`Flyt ${tilbudsNr}`);
+    // Flex drag: always allow up to 2× cap per day so days are never hard-blocked
+    const flexMax = state.queue.config.capacity_per_day * 2;
+    moveCard(state.queue, tilbudsNr, targetDate, flexMax);
     state.dirty = true;
     render();
 }
