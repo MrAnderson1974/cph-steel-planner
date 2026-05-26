@@ -1,633 +1,105 @@
 {
-  "meta": {
-    "generated": "2026-05-21",
-    "source_export": "eksport (99).xlsx",
-    "tom_hours_per_day": 7.4,
-    "planning_weeks": 6,
-    "merged_at": "2026-05-21 15:45",
-    "planner_version": "2026-05-21"
-  },
-  "config": {
-    "capacity_per_day": 7.4,
-    "planning_weeks": 6,
-    "holidays": {
-      "2026-01-01": "Nytårsdag",
-      "2026-04-02": "Skærtorsdag",
-      "2026-04-03": "Langfredag",
-      "2026-04-05": "Påskedag",
-      "2026-04-06": "2. Påskedag",
-      "2026-05-14": "Kr. Himmelfartsdag",
-      "2026-05-24": "Pinsedag",
-      "2026-05-25": "2. Pinsedag",
-      "2026-06-05": "Grundlovsdag",
-      "2026-12-24": "Juleaftensdag",
-      "2026-12-25": "Juledag",
-      "2026-12-26": "2. Juledag",
-      "2026-12-31": "Nytårsaftensdag",
-      "2027-01-01": "Nytårsdag",
-      "2027-03-25": "Skærtorsdag",
-      "2027-03-26": "Langfredag",
-      "2027-03-28": "Påskedag",
-      "2027-03-29": "2. Påskedag",
-      "2027-05-06": "Kr. Himmelfartsdag",
-      "2027-05-16": "Pinsedag",
-      "2027-05-17": "2. Pinsedag",
-      "2027-06-05": "Grundlovsdag",
-      "2027-12-24": "Juleaftensdag",
-      "2027-12-25": "Juledag",
-      "2027-12-26": "2. Juledag",
-      "2027-12-31": "Nytårsaftensdag"
-    }
-  },
-  "sister_groups": {
-    "Sophie Amalie Gården": [
-      "T7755",
-      "T7764",
-      "T7789",
-      "T7779"
-    ],
-    "Biskop Krags Vænge 7": [
-      "T7804",
-      "T7799"
-    ],
-    "Huset KBH": [
-      "T7744",
-      "T7753",
-      "T7747"
-    ]
-  },
-  "kunde_grades": {
-    "Wolff": {
-      "grade": "A",
-      "must_win": false,
-      "high_ref": false
-    },
-    "HVID": {
-      "grade": "A",
-      "must_win": false,
-      "high_ref": false
-    },
-    "Jakon": {
-      "grade": "A",
-      "must_win": true,
-      "high_ref": false
-    },
-    "Einar Kornerup": {
-      "grade": "A",
-      "must_win": true,
-      "high_ref": false
-    },
-    "BIG": {
-      "grade": "B",
-      "must_win": true,
-      "high_ref": true
-    },
-    "BJARKE INGELS": {
-      "grade": "B",
-      "must_win": true,
-      "high_ref": true
-    },
-    "Clarke": {
-      "grade": "B",
-      "must_win": true,
-      "high_ref": false
-    },
-    "CH BYG": {
-      "grade": "B",
-      "must_win": true,
-      "high_ref": false
-    },
-    "ASON": {
-      "grade": "B",
-      "must_win": true,
-      "high_ref": false
-    },
-    "NÅR": {
-      "grade": "C",
-      "must_win": true,
-      "high_ref": false
-    },
-    "Bjørn Svendsen": {
-      "grade": "C",
-      "must_win": false,
-      "high_ref": false
-    },
-    "LKA": {
-      "grade": "C",
-      "must_win": true,
-      "high_ref": false
-    },
-    "Georg Berg": {
-      "grade": "C",
-      "must_win": false,
-      "high_ref": true
-    },
-    "Hovedstadens": {
-      "grade": "B",
-      "must_win": false,
-      "high_ref": false
-    },
-    "Nordstern": {
-      "grade": "C",
-      "must_win": false,
-      "high_ref": false
-    },
-    "VM ANLÆG": {
-      "grade": "B",
-      "must_win": false,
-      "high_ref": false
-    },
-    "Juul": {
-      "grade": "B",
-      "must_win": false,
-      "high_ref": false
-    },
-    "Lars Phoenix": {
-      "grade": "C",
-      "must_win": false,
-      "high_ref": false
-    },
-    "DDS": {
-      "grade": "C",
-      "must_win": false,
-      "high_ref": false
-    }
-  },
-  "steel_scope": {
-    "T7808": {
-      "score": 5,
-      "desc": "Dedicated smedeentreprise (Fagentreprise 9), fuld stål-tilbudsliste, BIG arkitekt"
-    },
-    "T7793": {
-      "score": 5,
-      "desc": "Dedicated Stål-mappe, 21 tegninger, bjælker/søjler/samlinger, statik"
-    },
-    "T7780": {
-      "score": 5,
-      "desc": "99 stk stål eksplicit listet (bjælker+søjler i 3 bygninger), Einar Kornerup"
-    },
-    "T7798": {
-      "score": 4,
-      "desc": "Fuld 'Staal generelt' arbejdsbeskrivelse i fase 1+2, konstruktionstegninger"
-    },
-    "T7755": {
-      "score": 4,
-      "desc": "Altaner + værn (UNP160, tremmeværn fladstål), kalkulation påbegyndt"
-    },
-    "T7785": {
-      "score": 3,
-      "desc": "ARB.250 Stål + stål for ventilationsanlæg"
-    },
-    "T7744": {
-      "score": 3,
-      "desc": "Flugtvejstrappe (stål) + stål under ventilation + ARB.250 Stål"
-    },
-    "T7807": {
-      "score": 3,
-      "desc": "STÅL position i hovedentreprise tilbudsliste"
-    },
-    "T7796": {
-      "score": 3,
-      "desc": "Skeletkonstruktioner mixed med beton (K09)"
-    },
-    "T7799": {
-      "score": 2,
-      "desc": "Nye bjælker + brandsikring stålkonstruktion (mindre scope)"
-    },
-    "T7794": {
-      "score": 1,
-      "desc": "Murer og stål kombineret, ~50k (meget lille)"
-    },
-    "T7810": {
-      "score": 1,
-      "desc": "Kun fotos, minimalt synligt scope"
-    },
-    "T7812": {
-      "score": 2,
-      "desc": "Ingen projektmappe fundet — ukendt scope"
-    },
-    "T7809": {
-      "score": 2,
-      "desc": "Ingen projektmappe fundet — ukendt scope"
-    },
-    "T7730": {
-      "score": 2,
-      "desc": "Ingen projektmappe fundet — ukendt scope"
-    },
-    "T7801": {
-      "score": 3,
-      "desc": "AB Hellerup Strandgaard — altanrenovering, BT 11t indikerer mellemstort scope"
-    },
-    "T7805": {
-      "score": 2,
-      "desc": "Birkebo afd 6 — ukendt scope, Nordstern"
-    },
-    "T7769": {
-      "score": 3,
-      "desc": "SAS Lounge — Jakon, BT 6t, fit-out/interiør"
-    },
-    "T7778": {
-      "score": 2,
-      "desc": "Utterslev Skole Ventilation — stålunderstøtning for ventilation"
-    },
-    "T7753": {
-      "score": 3,
-      "desc": "Huset KBH — søster til T7744, samme scope (flugtvejstrappe + stål)"
-    },
-    "T7747": {
-      "score": 3,
-      "desc": "Huset KBH — søster til T7744, samme scope (flugtvejstrappe + stål)"
-    },
-    "T7764": {
-      "score": 4,
-      "desc": "Sophie Amalie Gården — søster til T7755, altaner + værn"
-    },
-    "T7789": {
-      "score": 4,
-      "desc": "Sophie Amalie Gården — søster til T7755, altaner + værn"
-    },
-    "T7779": {
-      "score": 4,
-      "desc": "Sophie Amalie Gården — søster til T7755, altaner + værn"
-    },
-    "T7804": {
-      "score": 2,
-      "desc": "Biskop Krags Vænge — bjælker + brandsikring (mindre scope)"
-    }
-  },
-  "project_info": {
-    "T7780": {
-      "projekt": "Ishøj Lokalcenter AAB Afd. 55",
-      "type": "Renovering — boligblokke",
-      "entreprise": "Underentreprise (stål) under Einar Kornerup",
-      "beskrivelse": "Renovering af 3 boligblokke. CPH Steel scope: 99 stk stål (19+4+28 bjælker + 16+8+24 søjler fordelt på 3 bygninger). Altaner og værn. Kalkulationsark + udregning altan/værn påbegyndt.",
-      "arkitekt": "Ikke oplyst",
-      "bygherre": "AAB Afd. 55",
-      "lokation": "Ishøj",
-      "udbudsfiler": 402,
-      "kalk_status": "Påbegyndt (kalkulationsark + altan/værn)",
-      "mappestruktur": "Fuld (inkl. montage, projektafklaring, tillægsarbejde)"
-    },
-    "T7785": {
-      "projekt": "Utterslev Skole",
-      "type": "Renovering — skole",
-      "entreprise": "Underentreprise (stål) under Jakon",
-      "beskrivelse": "Renovering af Utterslev Skole. CPH Steel scope: ARB.250 Stål + stål til ventilationsanlæg. Udbudspakke med byggesagsbeskrivelse, PSS og fagbeskrivelser (BMS, BI).",
-      "arkitekt": "KEJD (Kragh & Berglund)",
-      "bygherre": "Københavns Kommune",
-      "lokation": "København NV",
-      "udbudsfiler": 128,
-      "kalk_status": "Påbegyndt (kalkulationsark + altan/værn)",
-      "mappestruktur": "Fuld"
-    },
-    "T7796": {
-      "projekt": "Ny Transformerstation (10 kV)",
-      "type": "Nybyg — forsyningsanlæg",
-      "entreprise": "Underentreprise (stål) under Wolff Svendsen",
-      "beskrivelse": "Ny NexelCerius standardbygning til 10 kV transformerstation. CPH Steel scope: Skeletkonstruktioner (K09), mixed stål/beton. Entreprisekontrakt + fællesbetingelser vedlagt.",
-      "arkitekt": "Ikke oplyst",
-      "bygherre": "NexelCerius (Radius)",
-      "lokation": "Holbæk",
-      "udbudsfiler": 69,
-      "kalk_status": "Påbegyndt (kalkulationsark)",
-      "mappestruktur": "Fuld"
-    },
-    "T7744": {
-      "projekt": "Huset KBH",
-      "type": "Renovering — kulturhus",
-      "entreprise": "Underentreprise (stål) under CH BYG",
-      "beskrivelse": "Renovering af Huset KBH. CPH Steel scope: Flugtvejstrappe (stål), stål til ventilation, ARB.250 Stål. EU-udbud med udbudsprocesplan. Tilbudsfrist rykket til 26/05.",
-      "arkitekt": "Ikke oplyst",
-      "bygherre": "Københavns Kommune",
-      "lokation": "København",
-      "udbudsfiler": 386,
-      "kalk_status": "Påbegyndt (kalkulationsark T7744)",
-      "mappestruktur": "Fuld"
-    },
-    "T7793": {
-      "projekt": "Svankærvej 17",
-      "type": "Renovering — bolig (hovedentreprise)",
-      "entreprise": "Hovedentreprise under Bjørn Svendsen",
-      "beskrivelse": "Boligrenovering. CPH Steel scope: Dedicated 'Stål' mappe med 21 tegninger — bjælker, søjler, samlinger + statiske beregninger. Tilbudsliste beskrivelsesopdelt. Omfattende udbudspakke.",
-      "arkitekt": "Ikke oplyst",
-      "bygherre": "Privat",
-      "lokation": "Svankærvej 17",
-      "udbudsfiler": 526,
-      "kalk_status": "Påbegyndt (kalkulationsark)",
-      "mappestruktur": "Fuld"
-    },
-    "T7804": {
-      "projekt": "Biskop Krags Vænge (Clarke)",
-      "type": "Renovering — bolig",
-      "entreprise": "Underentreprise under Clarke Entreprise",
-      "beskrivelse": "Renovering af Biskop Krags Vænge 7. CPH Steel scope: Nye bjælker + brandsikring stålkonstruktion (mindre scope). Søster til T7799 — samme beregning.",
-      "arkitekt": "Ikke oplyst",
-      "bygherre": "Boligforening",
-      "lokation": "København Ø (2100)",
-      "udbudsfiler": 0,
-      "kalk_status": "Påbegyndt (kalkulationsark)",
-      "mappestruktur": "Fuld (Master for søstergruppe)"
-    },
-    "T7798": {
-      "projekt": "Gudhjem Svømmehal",
-      "type": "Renovering/tilbygning — svømmehal",
-      "entreprise": "Direkte (CPH Steel eget tilbud)",
-      "beskrivelse": "Gudhjem Svømmehal stålprojekt. CPH Steel scope: Fuld 'Staal generelt' arbejdsbeskrivelse i fase 1+2, konstruktionstegninger. Omfattende udbudsmateriale (257 filer).",
-      "arkitekt": "Ikke oplyst",
-      "bygherre": "Bornholms Kommune",
-      "lokation": "Gudhjem, Bornholm",
-      "udbudsfiler": 257,
-      "kalk_status": "Påbegyndt (kalkulationsark)",
-      "mappestruktur": "Fuld"
-    },
-    "T7764": {
-      "projekt": "Sofie Amalie Gården (Georg Berg)",
-      "type": "Renovering — bolig",
-      "entreprise": "Underentreprise (stål) under Georg Berg",
-      "beskrivelse": "Sofie Amalie Gården, Frederiksberg — stålentreprise. Invitation til udbud modtaget. Søster til T7755 (REBO). Georg Berg er HIGH-REF kunde.",
-      "arkitekt": "Ikke oplyst",
-      "bygherre": "Andelsforening",
-      "lokation": "Frederiksberg",
-      "udbudsfiler": 0,
-      "kalk_status": "Påbegyndt (kalkulationsark)",
-      "mappestruktur": "Fuld (Master for søstergruppe)"
-    },
-    "T7794": {
-      "projekt": "Peter Vedels Gade 8",
-      "type": "Renovering — udbedring af murværk",
-      "entreprise": "Underentreprise under NÅR",
-      "beskrivelse": "Udbedring af murværk, Peter Vedels Gade 8. CPH Steel scope: 'Murer og stål' kombineret — meget lille stålscope (~50k). Miljøundersøgelse + nedrivning.",
-      "arkitekt": "KEJD",
-      "bygherre": "Privat",
-      "lokation": "København K",
-      "udbudsfiler": 57,
-      "kalk_status": "Påbegyndt (kalkulationsark)",
-      "mappestruktur": "Fuld"
-    },
-    "T7808": {
-      "projekt": "TAAR (BIG)",
-      "type": "Nybyg — erhverv/kultur",
-      "entreprise": "Fagentreprise 9 (Smed) — BIG projekt",
-      "beskrivelse": "TAAR — Bjarke Ingels Group projekt. CPH Steel scope: Dedicated smedeentreprise (Fagentreprise 9). Fuld stål-tilbudsliste med vægtbaseret prissætning. Komplet udbudsprojekt (ARK + ING). Design Manual vedlagt.",
-      "arkitekt": "BIG (Bjarke Ingels Group)",
-      "bygherre": "Ikke oplyst",
-      "lokation": "Ikke oplyst",
-      "udbudsfiler": 0,
-      "kalk_status": "Påbegyndt (kalkulationsark)",
-      "mappestruktur": "Fuld (udbudsmateriale i 02.04)"
-    },
-    "T7810": {
-      "projekt": "NOV",
-      "type": "Ukendt — kun fotos",
-      "entreprise": "Underentreprise under HVID Entreprise",
-      "beskrivelse": "NOV-projekt. Kun fotos tilgængelige (15 billeder). Minimalt synligt stålscope. Ingen beskrivelser eller tilbudsliste fundet.",
-      "arkitekt": "Ikke oplyst",
-      "bygherre": "Ikke oplyst",
-      "lokation": "Ikke oplyst",
-      "udbudsfiler": 15,
-      "kalk_status": "Påbegyndt (kalkulationsark)",
-      "mappestruktur": "Standard (mangler beskrivelser)"
-    },
-    "T7755": {
-      "projekt": "Sophie Amalie Gården (REBO)",
-      "type": "Renovering/ombygning — bolig",
-      "entreprise": "Underentreprise (stål) under REBO",
-      "beskrivelse": "Sophie Amalie Gården ombygning. CPH Steel scope: Altaner (indespændte, UNP160) + tremmeværn (fladstål 50x10mm). Tilbudsliste REV. A + rettelsesblad 1-3. Kalkulation med per-m² prissætning påbegyndt. Søster til T7764.",
-      "arkitekt": "Ikke oplyst",
-      "bygherre": "Andelsforening",
-      "lokation": "Frederiksberg",
-      "udbudsfiler": 206,
-      "kalk_status": "Påbegyndt (kalkulationsark T7755 + altan/værn)",
-      "mappestruktur": "Fuld"
-    },
-    "T7807": {
-      "projekt": "Lundehusskolen",
-      "type": "Renovering — skole (modernisering faglokale)",
-      "entreprise": "Hovedentreprise under NÅR",
-      "beskrivelse": "Modernisering af faglokale, Lundehusskolen, Lersø Parkallé 152. CPH Steel scope: STÅL-position i hovedentreprise-tilbudsliste. Byggepladsbeskrivelse + miljøbilag. Udbudsinvitation modtaget.",
-      "arkitekt": "KEJD / NÅR",
-      "bygherre": "Københavns Kommune",
-      "lokation": "København Ø",
-      "udbudsfiler": 174,
-      "kalk_status": "Påbegyndt (kalkulationsark)",
-      "mappestruktur": "Fuld"
-    },
-    "T7799": {
-      "projekt": "Biskop Krags Vænge 7 (KEJD)",
-      "type": "Renovering — bolig",
-      "entreprise": "Underentreprise under Clarke/KEJD",
-      "beskrivelse": "Biskop Krags Vænge 7. CPH Steel scope: Nye bjælker + brandsikring stålkonstruktion (mindre scope). Bilag A tilbudsliste. Fotos fra besigtigelse. Søster til T7804.",
-      "arkitekt": "KEJD",
-      "bygherre": "Boligforening",
-      "lokation": "København Ø (2100)",
-      "udbudsfiler": 41,
-      "kalk_status": "Påbegyndt (kalkulationsark T7799)",
-      "mappestruktur": "Fuld"
-    },
-    "T7730": {
-      "projekt": "Fodbeslag til pergola",
-      "type": "Småtilbud",
-      "entreprise": "Direkte til Lundgaard & Tranberg Arkitekter",
-      "beskrivelse": "Fodbeslag til pergola. Lille tilbud. Ingen projektmappe fundet i Tilbud 2026.",
-      "arkitekt": "Lundgaard & Tranberg",
-      "bygherre": "Lundgaard & Tranberg",
-      "lokation": "Ikke oplyst",
-      "udbudsfiler": 0,
-      "kalk_status": "Ikke påbegyndt",
-      "mappestruktur": "Ingen mappe"
-    },
-    "T7812": {
-      "projekt": "Lars Phoenix projekt",
-      "type": "Ukendt",
-      "entreprise": "Under Lars Phoenix",
-      "beskrivelse": "Ingen projektmappe fundet i Tilbud 2026. Ukendt scope.",
-      "arkitekt": "Ikke oplyst",
-      "bygherre": "Ikke oplyst",
-      "lokation": "Ikke oplyst",
-      "udbudsfiler": 0,
-      "kalk_status": "Ikke påbegyndt",
-      "mappestruktur": "Ingen mappe"
-    },
-    "T7809": {
-      "projekt": "DDS Hjortespring",
-      "type": "Ukendt",
-      "entreprise": "Under DDS Hjortespring Gruppen",
-      "beskrivelse": "Ingen projektmappe fundet i Tilbud 2026. Ukendt scope.",
-      "arkitekt": "Ikke oplyst",
-      "bygherre": "Ikke oplyst",
-      "lokation": "Hjortespring",
-      "udbudsfiler": 0,
-      "kalk_status": "Ikke påbegyndt",
-      "mappestruktur": "Ingen mappe"
-    },
-    "T7801": {
-      "projekt": "AB Hellerup Strandgaard",
-      "type": "Altanrenovering",
-      "entreprise": "Under Hovedstadens Bygningsentreprise",
-      "beskrivelse": "Altanrenovering. BT 11t. CPH Steel scope: stålkonstruktion altaner.",
-      "arkitekt": "Ikke oplyst",
-      "bygherre": "AB Hellerup Strandgaard",
-      "lokation": "Hellerup",
-      "udbudsfiler": 0,
-      "kalk_status": "Ikke påbegyndt",
-      "mappestruktur": "Ikke kontrolleret"
-    },
-    "T7805": {
-      "projekt": "Birkebo afd 6, Birkerød",
-      "type": "Renovering",
-      "entreprise": "Under Nordstern",
-      "beskrivelse": "Birkebo afd 6 renovering. Ukendt stålscope.",
-      "arkitekt": "Ikke oplyst",
-      "bygherre": "Ikke oplyst",
-      "lokation": "Birkerød",
-      "udbudsfiler": 0,
-      "kalk_status": "Ikke påbegyndt",
-      "mappestruktur": "Ikke kontrolleret"
-    },
-    "T7769": {
-      "projekt": "SAS Lounge",
-      "type": "Interiør/fit-out",
-      "entreprise": "Under Jakon A/S",
-      "beskrivelse": "SAS Lounge. BT 6t. Stål til interiør/fit-out.",
-      "arkitekt": "Ikke oplyst",
-      "bygherre": "SAS",
-      "lokation": "Kastrup Lufthavn",
-      "udbudsfiler": 0,
-      "kalk_status": "Ikke påbegyndt",
-      "mappestruktur": "Ikke kontrolleret"
-    },
-    "T7778": {
-      "projekt": "Utterslev Skole, Ventilation",
-      "type": "Ventilation/stålunderstøtning",
-      "entreprise": "Under Juul & Nielsen A/S",
-      "beskrivelse": "Stålunderstøtning for ventilationsanlæg, Utterslev Skole. Relateret til T7785.",
-      "arkitekt": "Ikke oplyst",
-      "bygherre": "Københavns Kommune",
-      "lokation": "Utterslev",
-      "udbudsfiler": 0,
-      "kalk_status": "Ikke påbegyndt",
-      "mappestruktur": "Ikke kontrolleret"
-    },
-    "T7753": {
-      "projekt": "Huset KBH",
-      "type": "Nybyg/renovering",
-      "entreprise": "Under VM ANLÆG A/S",
-      "beskrivelse": "Huset KBH — søster til T7744. Samme scope: flugtvejstrappe + stål under ventilation.",
-      "arkitekt": "Ikke oplyst",
-      "bygherre": "Ikke oplyst",
-      "lokation": "København",
-      "udbudsfiler": 0,
-      "kalk_status": "Ikke påbegyndt",
-      "mappestruktur": "Søster"
-    },
-    "T7747": {
-      "projekt": "Huset KBH",
-      "type": "Nybyg/renovering",
-      "entreprise": "Under Jakon A/S",
-      "beskrivelse": "Huset KBH — søster til T7744. Samme scope: flugtvejstrappe + stål under ventilation. BT 3t.",
-      "arkitekt": "Ikke oplyst",
-      "bygherre": "Ikke oplyst",
-      "lokation": "København",
-      "udbudsfiler": 0,
-      "kalk_status": "Ikke påbegyndt",
-      "mappestruktur": "Søster"
-    }
-  },
   "tilbud": [
     {
       "tilbudsnr": "T7801",
       "tilbudsnavn": "AB Hellerup Strandgaard",
       "kundenavn": "Hovedstadens Bygningsentreprise A/S",
+      "kundenummer": "1418",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "startdato": "2026-08-17",
+      "slutdato": "2028-03-03",
       "deadline": "2026-06-01",
+      "oprettet": "2026-05-13",
+      "sidst_aendret": "2026-05-13",
       "beregnertid": 11.0,
-      "bt_estimated": false,
-      "phase": "Afventer foranalyse",
-      "priority_score": 57.0,
-      "priority": {
-        "urgency": 3.0,
-        "steel": 3,
-        "steel_desc": "AB Hellerup Strandgaard — altanrenovering, BT 11t indikerer mellemstort scope",
-        "grade": "B",
-        "grade_pts": 3,
-        "must_win": false,
-        "high_ref": false,
-        "bonus": 0,
-        "sister_bonus": 0,
-        "num_sisters": 0,
-        "total": 57.0
-      },
-      "kunde_grade": "B",
-      "must_win": false,
-      "high_ref": false,
-      "steel_scope": 3,
-      "steel_desc": "AB Hellerup Strandgaard — altanrenovering, BT 11t indikerer mellemstort scope",
-      "is_master": false,
-      "is_sister": false,
-      "sister_group": null,
-      "master_nr": null,
-      "sisters": [],
-      "risk": "🔴",
-      "planned_end": "2026-06-11",
+      "bt_source": "tracker_confirmed",
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3449114,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "A",
+      "rating_score": 75.05130371801062,
       "scheduled_days": [
         "2026-06-10",
         "2026-06-11"
       ],
-      "projekt": "AB Hellerup Strandgaard",
-      "type": "Altanrenovering",
+      "planned_end": "2026-06-11",
+      "risk": "🔴",
+      "bt_estimated": false,
+      "steel_scope": 3,
+      "steel_desc": "AB Hellerup Strandgaard — altanrenovering, BT 11t indikerer mellemstort scope",
       "entreprise": "Under Hovedstadens Bygningsentreprise",
-      "beskrivelse": "Altanrenovering. BT 11t. CPH Steel scope: stålkonstruktion altaner.",
-      "lokation": "Hellerup"
+      "lokation": "Hellerup",
+      "is_sister": false,
+      "sister_group": null
     },
     {
       "tilbudsnr": "T7812",
       "tilbudsnavn": "Altan og trappe",
       "kundenavn": "Lars Phoenix",
+      "kundenummer": "",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "startdato": "2026-05-20",
+      "slutdato": "2026-06-20",
       "deadline": "2026-06-08",
-      "beregnertid": 6.0,
-      "bt_estimated": true,
-      "phase": "Afventer foranalyse",
-      "priority_score": 38.0,
-      "priority": {
-        "urgency": 2.0,
-        "steel": 2,
-        "steel_desc": "Ingen projektmappe fundet — ukendt scope",
-        "grade": "C",
-        "grade_pts": 2,
-        "must_win": false,
-        "high_ref": false,
-        "bonus": 0,
-        "sister_bonus": 0,
-        "num_sisters": 0,
-        "total": 38.0
-      },
-      "kunde_grade": "C",
-      "must_win": false,
-      "high_ref": false,
-      "steel_scope": 2,
-      "steel_desc": "Ingen projektmappe fundet — ukendt scope",
-      "is_master": false,
-      "is_sister": false,
-      "sister_group": null,
-      "master_nr": null,
-      "sisters": [],
-      "risk": "🔴",
-      "planned_end": "2026-06-16",
+      "oprettet": "2026-05-20",
+      "sidst_aendret": "2026-05-21",
+      "beregnertid": 2.5,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3460938,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "Ny",
+      "rating_score": null,
       "scheduled_days": [
         "2026-06-15",
         "2026-06-16"
       ],
-      "projekt": "Lars Phoenix projekt",
-      "type": "Ukendt",
+      "planned_end": "2026-06-16",
+      "risk": "🔴",
+      "bt_estimated": true,
+      "bt_tier": "S",
+      "bt_range": "1.0–4.0t",
+      "steel_scope": 2,
+      "steel_desc": "Ingen projektmappe fundet — ukendt scope",
       "entreprise": "Under Lars Phoenix",
-      "beskrivelse": "Ingen projektmappe fundet i Tilbud 2026. Ukendt scope.",
-      "lokation": "Ikke oplyst"
+      "lokation": "Ikke oplyst",
+      "is_sister": false,
+      "sister_group": null
     },
     {
       "tilbudsnr": "T7805",
       "tilbudsnavn": "Birkebo afd 6, Birkerød",
       "kundenavn": "Nordstern",
       "deadline": "2026-06-24",
-      "beregnertid": 6.0,
+      "beregnertid": 2.5,
       "bt_estimated": true,
       "phase": "Afventer foranalyse",
       "priority_score": 30.0,
@@ -663,7 +135,10 @@
       "type": "Renovering",
       "entreprise": "Under Nordstern",
       "beskrivelse": "Birkebo afd 6 renovering. Ukendt stålscope.",
-      "lokation": "Birkerød"
+      "lokation": "Birkerød",
+      "_removed_from_pipeline": true,
+      "bt_tier": "S",
+      "bt_range": "1.0–4.0t"
     },
     {
       "tilbudsnr": "T7799",
@@ -704,14 +179,15 @@
       "type": "Renovering — bolig",
       "entreprise": "Underentreprise under Clarke/KEJD",
       "beskrivelse": "Biskop Krags Vænge 7. CPH Steel scope: Nye bjælker + brandsikring stålkonstruktion (mindre scope). Bilag A tilbudsliste. Fotos fra besigtigelse. Søster til T7804.",
-      "lokation": "København Ø (2100)"
+      "lokation": "København Ø (2100)",
+      "_removed_from_pipeline": true
     },
     {
       "tilbudsnr": "T7804",
       "tilbudsnavn": "Biskop Krags Vænge 7",
       "kundenavn": "Clarke Entreprise ApS",
       "deadline": "2026-05-25",
-      "beregnertid": 6.0,
+      "beregnertid": 2.5,
       "bt_estimated": true,
       "phase": "Afventer foranalyse",
       "priority_score": 71.0,
@@ -749,51 +225,58 @@
       "type": "Renovering — bolig",
       "entreprise": "Underentreprise under Clarke Entreprise",
       "beskrivelse": "Renovering af Biskop Krags Vænge 7. CPH Steel scope: Nye bjælker + brandsikring stålkonstruktion (mindre scope). Søster til T7799 — samme beregning.",
-      "lokation": "København Ø (2100)"
+      "lokation": "København Ø (2100)",
+      "_removed_from_pipeline": true,
+      "bt_tier": "S",
+      "bt_range": "1.0–4.0t"
     },
     {
       "tilbudsnr": "T7809",
       "tilbudsnavn": "Bålsted Herlev",
       "kundenavn": "DDS Hjortespring Gruppe",
+      "kundenummer": "",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "startdato": "2026-10-05",
+      "slutdato": "2026-10-26",
       "deadline": "2026-07-21",
-      "beregnertid": 6.0,
-      "bt_estimated": true,
-      "phase": "Afventer foranalyse",
-      "priority_score": 30.0,
-      "priority": {
-        "urgency": 1.0,
-        "steel": 2,
-        "steel_desc": "Ingen projektmappe fundet — ukendt scope",
-        "grade": "C",
-        "grade_pts": 2,
-        "must_win": false,
-        "high_ref": false,
-        "bonus": 0,
-        "sister_bonus": 0,
-        "num_sisters": 0,
-        "total": 30.0
-      },
-      "kunde_grade": "C",
-      "must_win": false,
-      "high_ref": false,
-      "steel_scope": 2,
-      "steel_desc": "Ingen projektmappe fundet — ukendt scope",
-      "is_master": false,
-      "is_sister": false,
-      "sister_group": null,
-      "master_nr": null,
-      "sisters": [],
-      "risk": "🟢",
-      "planned_end": "2026-06-17",
+      "oprettet": "2026-05-20",
+      "sidst_aendret": "2026-05-20",
+      "beregnertid": 2.5,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3459082,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "Ny",
+      "rating_score": null,
       "scheduled_days": [
         "2026-06-16",
         "2026-06-17"
       ],
-      "projekt": "DDS Hjortespring",
-      "type": "Ukendt",
+      "planned_end": "2026-06-17",
+      "risk": "🟢",
+      "bt_estimated": true,
+      "bt_tier": "S",
+      "bt_range": "1.0–4.0t",
+      "steel_scope": 2,
+      "steel_desc": "Ingen projektmappe fundet — ukendt scope",
       "entreprise": "Under DDS Hjortespring Gruppen",
-      "beskrivelse": "Ingen projektmappe fundet i Tilbud 2026. Ukendt scope.",
-      "lokation": "Hjortespring"
+      "lokation": "Hjortespring",
+      "is_sister": false,
+      "sister_group": null
     },
     {
       "tilbudsnr": "T7730",
@@ -837,7 +320,8 @@
       "type": "Småtilbud",
       "entreprise": "Direkte til Lundgaard & Tranberg Arkitekter",
       "beskrivelse": "Fodbeslag til pergola. Lille tilbud. Ingen projektmappe fundet i Tilbud 2026.",
-      "lokation": "Ikke oplyst"
+      "lokation": "Ikke oplyst",
+      "_removed_from_pipeline": true
     },
     {
       "tilbudsnr": "T7798",
@@ -882,7 +366,8 @@
       "type": "Renovering/tilbygning — svømmehal",
       "entreprise": "Direkte (CPH Steel eget tilbud)",
       "beskrivelse": "Gudhjem Svømmehal stålprojekt. CPH Steel scope: Fuld 'Staal generelt' arbejdsbeskrivelse i fase 1+2, konstruktionstegninger. Omfattende udbudsmateriale (257 filer).",
-      "lokation": "Gudhjem, Bornholm"
+      "lokation": "Gudhjem, Bornholm",
+      "_removed_from_pipeline": true
     },
     {
       "tilbudsnr": "T7744",
@@ -929,7 +414,8 @@
       "type": "Renovering — kulturhus",
       "entreprise": "Underentreprise (stål) under CH BYG",
       "beskrivelse": "Renovering af Huset KBH. CPH Steel scope: Flugtvejstrappe (stål), stål til ventilation, ARB.250 Stål. EU-udbud med udbudsprocesplan. Tilbudsfrist rykket til 26/05.",
-      "lokation": "København"
+      "lokation": "København",
+      "_removed_from_pipeline": true
     },
     {
       "tilbudsnr": "T7753",
@@ -970,7 +456,8 @@
       "type": "Nybyg/renovering",
       "entreprise": "Under VM ANLÆG A/S",
       "beskrivelse": "Huset KBH — søster til T7744. Samme scope: flugtvejstrappe + stål under ventilation.",
-      "lokation": "København"
+      "lokation": "København",
+      "_removed_from_pipeline": true
     },
     {
       "tilbudsnr": "T7747",
@@ -1011,139 +498,150 @@
       "type": "Nybyg/renovering",
       "entreprise": "Under Jakon A/S",
       "beskrivelse": "Huset KBH — søster til T7744. Samme scope: flugtvejstrappe + stål under ventilation. BT 3t.",
-      "lokation": "København"
+      "lokation": "København",
+      "_removed_from_pipeline": true
     },
     {
       "tilbudsnr": "T7780",
       "tilbudsnavn": "Ishøj Lokalcenter AAB Afd. 55",
       "kundenavn": "EINAR KORNERUP A/S",
+      "kundenummer": "629",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "startdato": "2026-05-04",
+      "slutdato": "2026-06-04",
       "deadline": "2026-05-27",
-      "beregnertid": 6.0,
-      "bt_estimated": true,
-      "phase": "Afventer foranalyse",
-      "priority_score": 89.0,
-      "priority": {
-        "urgency": 4.0,
-        "steel": 5,
-        "steel_desc": "99 stk stål eksplicit listet (bjælker+søjler i 3 bygninger), Einar Kornerup",
-        "grade": "A",
-        "grade_pts": 4,
-        "must_win": true,
-        "high_ref": false,
-        "bonus": 3.5,
-        "sister_bonus": 0,
-        "num_sisters": 0,
-        "total": 89.0
-      },
-      "kunde_grade": "A",
-      "must_win": true,
-      "high_ref": false,
-      "steel_scope": 5,
-      "steel_desc": "99 stk stål eksplicit listet (bjælker+søjler i 3 bygninger), Einar Kornerup",
-      "is_master": false,
-      "is_sister": false,
-      "sister_group": null,
-      "master_nr": null,
-      "sisters": [],
-      "risk": "🟢",
-      "planned_end": "2026-05-22",
+      "oprettet": "2026-05-04",
+      "sidst_aendret": "2026-05-04",
+      "beregnertid": 9.0,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3432214,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "A",
+      "rating_score": 72.10921991523149,
       "scheduled_days": [
         "2026-05-21",
         "2026-05-22"
       ],
-      "projekt": "Ishøj Lokalcenter AAB Afd. 55",
-      "type": "Renovering — boligblokke",
+      "planned_end": "2026-05-22",
+      "risk": "🟢",
+      "bt_estimated": true,
+      "bt_tier": "L",
+      "bt_range": "7.0–14.0t",
+      "steel_scope": 5,
+      "steel_desc": "99 stk stål eksplicit listet (bjælker+søjler i 3 bygninger), Einar Kornerup",
       "entreprise": "Underentreprise (stål) under Einar Kornerup",
-      "beskrivelse": "Renovering af 3 boligblokke. CPH Steel scope: 99 stk stål (19+4+28 bjælker + 16+8+24 søjler fordelt på 3 bygninger). Altaner og værn. Kalkulationsark + udregning altan/værn påbegyndt.",
-      "lokation": "Ishøj"
+      "lokation": "Ishøj",
+      "is_sister": false,
+      "sister_group": null
     },
     {
       "tilbudsnr": "T7807",
       "tilbudsnavn": "Lundehusskolen, Lersø Parkallé 152",
       "kundenavn": "NÅR A/S",
+      "kundenummer": "2471",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "startdato": "2026-05-18",
+      "slutdato": "2026-06-18",
       "deadline": "2026-06-26",
+      "oprettet": "2026-05-18",
+      "sidst_aendret": "2026-05-19",
       "beregnertid": 5.0,
-      "bt_estimated": false,
-      "phase": "Afventer foranalyse",
-      "priority_score": 43.0,
-      "priority": {
-        "urgency": 1.0,
-        "steel": 3,
-        "steel_desc": "STÅL position i hovedentreprise tilbudsliste",
-        "grade": "C",
-        "grade_pts": 2,
-        "must_win": true,
-        "high_ref": false,
-        "bonus": 3.5,
-        "sister_bonus": 0,
-        "num_sisters": 0,
-        "total": 43.0
-      },
-      "kunde_grade": "C",
-      "must_win": true,
-      "high_ref": false,
-      "steel_scope": 3,
-      "steel_desc": "STÅL position i hovedentreprise tilbudsliste",
-      "is_master": false,
-      "is_sister": false,
-      "sister_group": null,
-      "master_nr": null,
-      "sisters": [],
-      "risk": "🟢",
-      "planned_end": "2026-06-15",
+      "bt_source": "tracker_confirmed",
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3455591,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "C",
+      "rating_score": 51.10842856376415,
       "scheduled_days": [
         "2026-06-12",
         "2026-06-15"
       ],
-      "projekt": "Lundehusskolen",
-      "type": "Renovering — skole (modernisering faglokale)",
+      "planned_end": "2026-06-15",
+      "risk": "🟢",
+      "bt_estimated": false,
+      "steel_scope": 3,
+      "steel_desc": "STÅL position i hovedentreprise tilbudsliste",
       "entreprise": "Hovedentreprise under NÅR",
-      "beskrivelse": "Modernisering af faglokale, Lundehusskolen, Lersø Parkallé 152. CPH Steel scope: STÅL-position i hovedentreprise-tilbudsliste. Byggepladsbeskrivelse + miljøbilag. Udbudsinvitation modtaget.",
-      "lokation": "København Ø"
+      "lokation": "København Ø",
+      "is_sister": false,
+      "sister_group": null
     },
     {
       "tilbudsnr": "T7810",
       "tilbudsnavn": "NOV",
       "kundenavn": "HVID Entreprise A/S",
+      "kundenummer": "1704",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "startdato": "2026-05-20",
+      "slutdato": "2026-06-20",
       "deadline": "2026-05-29",
-      "beregnertid": 6.0,
-      "bt_estimated": true,
-      "phase": "Afventer foranalyse",
-      "priority_score": 50.0,
-      "priority": {
-        "urgency": 3.0,
-        "steel": 1,
-        "steel_desc": "Kun fotos, minimalt synligt scope",
-        "grade": "A",
-        "grade_pts": 4,
-        "must_win": false,
-        "high_ref": false,
-        "bonus": 0,
-        "sister_bonus": 0,
-        "num_sisters": 0,
-        "total": 50.0
-      },
-      "kunde_grade": "A",
-      "must_win": false,
-      "high_ref": false,
-      "steel_scope": 1,
-      "steel_desc": "Kun fotos, minimalt synligt scope",
-      "is_master": false,
-      "is_sister": false,
-      "sister_group": null,
-      "master_nr": null,
-      "sisters": [],
-      "risk": "🔴",
-      "planned_end": "2026-06-12",
+      "oprettet": "2026-05-20",
+      "sidst_aendret": "2026-05-20",
+      "beregnertid": 2.5,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3459445,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "A",
+      "rating_score": 75.212927195665,
       "scheduled_days": [
         "2026-06-11",
         "2026-06-12"
       ],
-      "projekt": "NOV",
-      "type": "Ukendt — kun fotos",
+      "planned_end": "2026-06-12",
+      "risk": "🔴",
+      "bt_estimated": true,
+      "bt_tier": "S",
+      "bt_range": "1.0–4.0t",
+      "steel_scope": 1,
+      "steel_desc": "Kun fotos, minimalt synligt scope",
       "entreprise": "Underentreprise under HVID Entreprise",
-      "beskrivelse": "NOV-projekt. Kun fotos tilgængelige (15 billeder). Minimalt synligt stålscope. Ingen beskrivelser eller tilbudsliste fundet.",
-      "lokation": "Ikke oplyst"
+      "lokation": "Ikke oplyst",
+      "is_sister": false,
+      "sister_group": null
     },
     {
       "tilbudsnr": "T7796",
@@ -1186,257 +684,268 @@
       "type": "Nybyg — forsyningsanlæg",
       "entreprise": "Underentreprise (stål) under Wolff Svendsen",
       "beskrivelse": "Ny NexelCerius standardbygning til 10 kV transformerstation. CPH Steel scope: Skeletkonstruktioner (K09), mixed stål/beton. Entreprisekontrakt + fællesbetingelser vedlagt.",
-      "lokation": "Holbæk"
+      "lokation": "Holbæk",
+      "_removed_from_pipeline": true
     },
     {
       "tilbudsnr": "T7794",
       "tilbudsnavn": "Peter Vedels Gade 8",
       "kundenavn": "NÅR A/S",
+      "kundenummer": "2471",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "startdato": "2026-07-20",
+      "slutdato": "2026-12-22",
       "deadline": "2026-05-28",
+      "oprettet": "2026-05-11",
+      "sidst_aendret": "2026-05-12",
       "beregnertid": 2.5,
-      "bt_estimated": false,
-      "phase": "Afventer foranalyse",
-      "priority_score": 55.0,
-      "priority": {
-        "urgency": 4.0,
-        "steel": 1,
-        "steel_desc": "Murer og stål kombineret, ~50k (meget lille)",
-        "grade": "C",
-        "grade_pts": 2,
-        "must_win": true,
-        "high_ref": false,
-        "bonus": 3.5,
-        "sister_bonus": 0,
-        "num_sisters": 0,
-        "total": 55.0
-      },
-      "kunde_grade": "C",
-      "must_win": true,
-      "high_ref": false,
-      "steel_scope": 1,
-      "steel_desc": "Murer og stål kombineret, ~50k (meget lille)",
-      "is_master": false,
-      "is_sister": false,
-      "sister_group": null,
-      "master_nr": null,
-      "sisters": [],
-      "risk": "🔴",
-      "planned_end": "2026-06-11",
+      "bt_source": "tracker_confirmed",
+      "rating_erp": 10,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": 10531,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3444356,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "C",
+      "rating_score": 51.10842856376415,
       "scheduled_days": [
         "2026-06-11"
       ],
-      "projekt": "Peter Vedels Gade 8",
-      "type": "Renovering — udbedring af murværk",
+      "planned_end": "2026-06-11",
+      "risk": "🔴",
+      "bt_estimated": false,
+      "steel_scope": 1,
+      "steel_desc": "Murer og stål kombineret, ~50k (meget lille)",
       "entreprise": "Underentreprise under NÅR",
-      "beskrivelse": "Udbedring af murværk, Peter Vedels Gade 8. CPH Steel scope: 'Murer og stål' kombineret — meget lille stålscope (~50k). Miljøundersøgelse + nedrivning.",
-      "lokation": "København K"
+      "lokation": "København K",
+      "is_sister": false,
+      "sister_group": null
     },
     {
       "tilbudsnr": "T7769",
       "tilbudsnavn": "SAS Lounge",
       "kundenavn": "Jakon A/S",
+      "kundenummer": "1721",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "startdato": "2026-06-01",
+      "slutdato": "2027-05-28",
       "deadline": "2026-06-01",
+      "oprettet": "2026-04-30",
+      "sidst_aendret": "2026-05-06",
       "beregnertid": 6.0,
-      "bt_estimated": false,
-      "phase": "Afventer foranalyse",
-      "priority_score": 69.0,
-      "priority": {
-        "urgency": 3.0,
-        "steel": 3,
-        "steel_desc": "SAS Lounge — Jakon, BT 6t, fit-out/interiør",
-        "grade": "A",
-        "grade_pts": 4,
-        "must_win": true,
-        "high_ref": false,
-        "bonus": 3.5,
-        "sister_bonus": 0,
-        "num_sisters": 0,
-        "total": 69.0
-      },
-      "kunde_grade": "A",
-      "must_win": true,
-      "high_ref": false,
-      "steel_scope": 3,
-      "steel_desc": "SAS Lounge — Jakon, BT 6t, fit-out/interiør",
-      "is_master": false,
-      "is_sister": false,
-      "sister_group": null,
-      "master_nr": null,
-      "sisters": [],
-      "risk": "🟢",
-      "planned_end": "2026-05-28",
+      "bt_source": "tracker_confirmed",
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3426999,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "A",
+      "rating_score": 74.93655775524438,
       "scheduled_days": [
         "2026-05-27",
         "2026-05-28"
       ],
-      "projekt": "SAS Lounge",
-      "type": "Interiør/fit-out",
+      "planned_end": "2026-05-28",
+      "risk": "🟢",
+      "bt_estimated": false,
+      "steel_scope": 3,
+      "steel_desc": "SAS Lounge — Jakon, BT 6t, fit-out/interiør",
       "entreprise": "Under Jakon A/S",
-      "beskrivelse": "SAS Lounge. BT 6t. Stål til interiør/fit-out.",
-      "lokation": "Kastrup Lufthavn"
+      "lokation": "Kastrup Lufthavn",
+      "is_sister": false,
+      "sister_group": null
     },
     {
       "tilbudsnr": "T7789",
       "tilbudsnavn": "Sophie Amalie Gården, ombygning",
       "kundenavn": "ASON A/S",
+      "kundenummer": "1948",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "startdato": "2026-05-06",
+      "slutdato": "2026-06-06",
       "deadline": "2026-06-08",
+      "oprettet": "2026-05-06",
+      "sidst_aendret": "2026-05-21",
       "beregnertid": 0,
-      "bt_estimated": true,
-      "phase": "Afventer foranalyse",
-      "priority_score": 62.0,
-      "priority": {
-        "urgency": 2.0,
-        "steel": 4,
-        "steel_desc": "Sophie Amalie Gården — søster til T7755, altaner + værn",
-        "grade": "B",
-        "grade_pts": 3,
-        "must_win": true,
-        "high_ref": false,
-        "bonus": 3.5,
-        "sister_bonus": 0,
-        "num_sisters": 0,
-        "total": 62.0
-      },
-      "kunde_grade": "B",
-      "must_win": true,
-      "high_ref": false,
+      "bt_source": "tracker_confirmed",
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "Udregnet i T7755",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3436645,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "B",
+      "rating_score": 55.07772680937819,
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "bt_estimated": false,
       "steel_scope": 4,
       "steel_desc": "Sophie Amalie Gården — søster til T7755, altaner + værn",
-      "is_master": false,
       "is_sister": true,
-      "sister_group": 1,
-      "master_nr": "T7755",
-      "sisters": [],
-      "risk": "⚪",
-      "planned_end": null,
-      "scheduled_days": []
+      "sister_group": 1
     },
     {
       "tilbudsnr": "T7764",
       "tilbudsnavn": "Sophie Amalie Gården, ombygning",
       "kundenavn": "Georg Berg A/S",
+      "kundenummer": "1943",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "startdato": "2026-04-28",
+      "slutdato": "2026-05-28",
       "deadline": "2026-05-22",
+      "oprettet": "2026-04-28",
+      "sidst_aendret": "2026-05-21",
       "beregnertid": 0,
-      "bt_estimated": true,
-      "phase": "Afventer foranalyse",
-      "priority_score": 73.0,
-      "priority": {
-        "urgency": 4.5,
-        "steel": 4,
-        "steel_desc": "Sophie Amalie Gården — søster til T7755, altaner + værn",
-        "grade": "C",
-        "grade_pts": 2,
-        "must_win": false,
-        "high_ref": true,
-        "bonus": 1.5,
-        "sister_bonus": 0,
-        "num_sisters": 0,
-        "total": 73.0
-      },
-      "kunde_grade": "C",
-      "must_win": false,
-      "high_ref": true,
+      "bt_source": "tracker_confirmed",
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "Udregnet i T7755",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3418230,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "C",
+      "rating_score": null,
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "bt_estimated": false,
       "steel_scope": 4,
       "steel_desc": "Sophie Amalie Gården — søster til T7755, altaner + værn",
-      "is_master": false,
-      "is_sister": true,
-      "sister_group": 1,
-      "master_nr": "T7755",
-      "sisters": [],
-      "risk": "⚪",
-      "planned_end": null,
-      "scheduled_days": [],
-      "projekt": "Sofie Amalie Gården (Georg Berg)",
-      "type": "Renovering — bolig",
       "entreprise": "Underentreprise (stål) under Georg Berg",
-      "beskrivelse": "Sofie Amalie Gården, Frederiksberg — stålentreprise. Invitation til udbud modtaget. Søster til T7755 (REBO). Georg Berg er HIGH-REF kunde.",
-      "lokation": "Frederiksberg"
+      "lokation": "Frederiksberg",
+      "is_sister": true,
+      "sister_group": 1
     },
     {
       "tilbudsnr": "T7779",
       "tilbudsnavn": "Sophie Amalie Gården, ombygning",
       "kundenavn": "LKA Entreprise A/S",
+      "kundenummer": "2344",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "startdato": "2026-05-04",
+      "slutdato": "2026-06-04",
       "deadline": "2026-06-08",
+      "oprettet": "2026-05-04",
+      "sidst_aendret": "2026-05-21",
       "beregnertid": 0,
-      "bt_estimated": true,
-      "phase": "Afventer foranalyse",
-      "priority_score": 57.0,
-      "priority": {
-        "urgency": 2.0,
-        "steel": 4,
-        "steel_desc": "Sophie Amalie Gården — søster til T7755, altaner + værn",
-        "grade": "C",
-        "grade_pts": 2,
-        "must_win": true,
-        "high_ref": false,
-        "bonus": 3.5,
-        "sister_bonus": 0,
-        "num_sisters": 0,
-        "total": 57.0
-      },
-      "kunde_grade": "C",
-      "must_win": true,
-      "high_ref": false,
+      "bt_source": "tracker_confirmed",
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "Udregnet i T7755",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3431743,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "C",
+      "rating_score": 52.49000751113257,
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "bt_estimated": false,
       "steel_scope": 4,
       "steel_desc": "Sophie Amalie Gården — søster til T7755, altaner + værn",
-      "is_master": false,
       "is_sister": true,
-      "sister_group": 1,
-      "master_nr": "T7755",
-      "sisters": [],
-      "risk": "⚪",
-      "planned_end": null,
-      "scheduled_days": []
+      "sister_group": 1
     },
     {
       "tilbudsnr": "T7755",
       "tilbudsnavn": "Sophie Amalie Gården, ombygning",
       "kundenavn": "REBO A/S",
+      "kundenummer": "397",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "startdato": "2026-04-27",
+      "slutdato": "2026-05-27",
       "deadline": "2026-06-08",
+      "oprettet": "2026-04-27",
+      "sidst_aendret": "2026-05-20",
       "beregnertid": 20.0,
-      "bt_estimated": false,
-      "phase": "Afventer foranalyse",
-      "priority_score": 62.5,
-      "priority": {
-        "urgency": 2.0,
-        "steel": 4,
-        "steel_desc": "Altaner + værn (UNP160, tremmeværn fladstål), kalkulation påbegyndt",
-        "grade": "?",
-        "grade_pts": 1.5,
-        "must_win": false,
-        "high_ref": false,
-        "bonus": 0,
-        "sister_bonus": 15,
-        "num_sisters": 3,
-        "total": 62.5
-      },
-      "kunde_grade": "?",
-      "must_win": false,
-      "high_ref": false,
-      "steel_scope": 4,
-      "steel_desc": "Altaner + værn (UNP160, tremmeværn fladstål), kalkulation påbegyndt",
-      "is_master": true,
-      "is_sister": false,
-      "sister_group": 1,
-      "master_nr": null,
-      "sisters": [
-        "T7764",
-        "T7779",
-        "T7789"
-      ],
-      "risk": "🟢",
-      "planned_end": "2026-06-02",
+      "bt_source": "tracker_confirmed",
+      "rating_erp": 10,
+      "tags": [],
+      "kategori_id": 10531,
+      "beskrivelse": "Udregnet her\n\nKære underentreprenør\n \nHermed fremsendes udbudsmaterialet vedr. Sophie Amalie Gården - ombygning, til brug for din beregning.\n \nUdbudsmaterialet kan hentes via Dropbox på dette link:\nhttps://www.dropbox.com/scl/fo/kvtzd3mmm37axhza2y0bz/AG9l2utbyan2706ezAmry4M?rlkey=o6d38b82tnh7j0p1cvf3kx7qo&st=sl82madv&dl=0\n \nDer afholdes besigtigelse tirsdag d. 28. april 2026 kl. 13.00, mødested er Marielystvej 50, 2000 Frederiksberg.\n \nVi ser frem til at modtage dit tilbud senest fredag den 22. maj 2026 kl. 12.00. Tilbud bedes sendt til tilbud@rebo.dk.",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3415430,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": null,
+      "deadline_source": "opfølgningsdato",
+      "rating": "Ny",
+      "rating_score": null,
       "scheduled_days": [
         "2026-05-28",
         "2026-05-29",
         "2026-06-01",
         "2026-06-02"
       ],
-      "projekt": "Sophie Amalie Gården (REBO)",
-      "type": "Renovering/ombygning — bolig",
+      "planned_end": "2026-06-02",
+      "risk": "🟢",
+      "bt_estimated": false,
+      "steel_scope": 4,
+      "steel_desc": "Altaner + værn (UNP160, tremmeværn fladstål), kalkulation påbegyndt",
       "entreprise": "Underentreprise (stål) under REBO",
-      "beskrivelse": "Sophie Amalie Gården ombygning. CPH Steel scope: Altaner (indespændte, UNP160) + tremmeværn (fladstål 50x10mm). Tilbudsliste REV. A + rettelsesblad 1-3. Kalkulation med per-m² prissætning påbegyndt. Søster til T7764.",
-      "lokation": "Frederiksberg"
+      "lokation": "Frederiksberg",
+      "is_sister": false,
+      "sister_group": 1
     },
     {
       "tilbudsnr": "T7793",
@@ -1480,138 +989,267 @@
       "type": "Renovering — bolig (hovedentreprise)",
       "entreprise": "Hovedentreprise under Bjørn Svendsen",
       "beskrivelse": "Boligrenovering. CPH Steel scope: Dedicated 'Stål' mappe med 21 tegninger — bjælker, søjler, samlinger + statiske beregninger. Tilbudsliste beskrivelsesopdelt. Omfattende udbudspakke.",
-      "lokation": "Svankærvej 17"
+      "lokation": "Svankærvej 17",
+      "_removed_from_pipeline": true
     },
     {
       "tilbudsnr": "T7808",
       "tilbudsnavn": "TAAR: Strandvejen 626A",
       "kundenavn": "BJARKE INGELS GROUP A/S",
+      "kundenummer": "2151",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "startdato": "2026-05-19",
+      "slutdato": "2026-06-19",
       "deadline": "2026-06-05",
-      "beregnertid": 6.0,
-      "bt_estimated": true,
-      "phase": "Afventer foranalyse",
-      "priority_score": 71.0,
-      "priority": {
-        "urgency": 2.0,
-        "steel": 5,
-        "steel_desc": "Dedicated smedeentreprise (Fagentreprise 9), fuld stål-tilbudsliste, BIG arkitekt",
-        "grade": "B",
-        "grade_pts": 3,
-        "must_win": true,
-        "high_ref": true,
-        "bonus": 5.0,
-        "sister_bonus": 0,
-        "num_sisters": 0,
-        "total": 71.0
-      },
-      "kunde_grade": "B",
-      "must_win": true,
-      "high_ref": true,
-      "steel_scope": 5,
-      "steel_desc": "Dedicated smedeentreprise (Fagentreprise 9), fuld stål-tilbudsliste, BIG arkitekt",
-      "is_master": false,
-      "is_sister": false,
-      "sister_group": null,
-      "master_nr": null,
-      "sisters": [],
-      "risk": "🟢",
-      "planned_end": "2026-05-27",
+      "oprettet": "2026-05-19",
+      "sidst_aendret": "2026-05-22",
+      "beregnertid": 9.0,
+      "bt_source": "erp",
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3458235,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "B",
+      "rating_score": 61.1950077793873,
       "scheduled_days": [
         "2026-05-27"
       ],
-      "projekt": "TAAR (BIG)",
-      "type": "Nybyg — erhverv/kultur",
+      "planned_end": "2026-05-27",
+      "risk": "🟢",
+      "bt_estimated": true,
+      "steel_scope": 5,
+      "steel_desc": "Dedicated smedeentreprise (Fagentreprise 9), fuld stål-tilbudsliste, BIG arkitekt",
       "entreprise": "Fagentreprise 9 (Smed) — BIG projekt",
-      "beskrivelse": "TAAR — Bjarke Ingels Group projekt. CPH Steel scope: Dedicated smedeentreprise (Fagentreprise 9). Fuld stål-tilbudsliste med vægtbaseret prissætning. Komplet udbudsprojekt (ARK + ING). Design Manual vedlagt.",
-      "lokation": "Ikke oplyst"
+      "lokation": "Ikke oplyst",
+      "is_sister": false,
+      "sister_group": null,
+      "bt_tier": "L",
+      "bt_range": "7.0–14.0t"
     },
     {
       "tilbudsnr": "T7785",
       "tilbudsnavn": "Utterslev Skole",
       "kundenavn": "Jakon A/S",
-      "deadline": "2026-05-27",
+      "kundenummer": "1721",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "startdato": "2026-06-01",
+      "slutdato": "2026-09-30",
+      "deadline": "2026-06-08",
+      "oprettet": "2026-05-05",
+      "sidst_aendret": "2026-05-26",
       "beregnertid": 7.0,
-      "bt_estimated": false,
-      "phase": "Afventer foranalyse",
-      "priority_score": 77.0,
-      "priority": {
-        "urgency": 4.0,
-        "steel": 3,
-        "steel_desc": "ARB.250 Stål + stål for ventilationsanlæg",
-        "grade": "A",
-        "grade_pts": 4,
-        "must_win": true,
-        "high_ref": false,
-        "bonus": 3.5,
-        "sister_bonus": 0,
-        "num_sisters": 0,
-        "total": 77.0
-      },
-      "kunde_grade": "A",
-      "must_win": true,
-      "high_ref": false,
-      "steel_scope": 3,
-      "steel_desc": "ARB.250 Stål + stål for ventilationsanlæg",
-      "is_master": false,
-      "is_sister": false,
-      "sister_group": null,
-      "master_nr": null,
-      "sisters": [],
-      "risk": "🟡",
-      "planned_end": "2026-05-27",
+      "bt_source": "tracker_confirmed",
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3434031,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "A",
+      "rating_score": 74.93655775524438,
       "scheduled_days": [
         "2026-05-26",
         "2026-05-27"
       ],
-      "projekt": "Utterslev Skole",
-      "type": "Renovering — skole",
+      "planned_end": "2026-05-27",
+      "risk": "🟡",
+      "bt_estimated": false,
+      "steel_scope": 3,
+      "steel_desc": "ARB.250 Stål + stål for ventilationsanlæg",
       "entreprise": "Underentreprise (stål) under Jakon",
-      "beskrivelse": "Renovering af Utterslev Skole. CPH Steel scope: ARB.250 Stål + stål til ventilationsanlæg. Udbudspakke med byggesagsbeskrivelse, PSS og fagbeskrivelser (BMS, BI).",
-      "lokation": "København NV"
+      "lokation": "København NV",
+      "is_sister": false,
+      "sister_group": null
     },
     {
       "tilbudsnr": "T7778",
       "tilbudsnavn": "Utterslev Skole, Ventilation",
       "kundenavn": "Juul & Nielsen A/S",
-      "deadline": "2026-05-26",
-      "beregnertid": 6.0,
-      "bt_estimated": true,
-      "phase": "Afventer foranalyse",
-      "priority_score": 59.0,
-      "priority": {
-        "urgency": 4.0,
-        "steel": 2,
-        "steel_desc": "Utterslev Skole Ventilation — stålunderstøtning for ventilation",
-        "grade": "B",
-        "grade_pts": 3,
-        "must_win": false,
-        "high_ref": false,
-        "bonus": 0,
-        "sister_bonus": 0,
-        "num_sisters": 0,
-        "total": 59.0
-      },
-      "kunde_grade": "B",
-      "must_win": false,
-      "high_ref": false,
-      "steel_scope": 2,
-      "steel_desc": "Utterslev Skole Ventilation — stålunderstøtning for ventilation",
-      "is_master": false,
-      "is_sister": false,
-      "sister_group": null,
-      "master_nr": null,
-      "sisters": [],
-      "risk": "🔴",
-      "planned_end": "2026-06-10",
+      "kundenummer": "1142",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "startdato": "2026-06-29",
+      "slutdato": "2027-07-24",
+      "deadline": "2026-06-08",
+      "oprettet": "2026-05-04",
+      "sidst_aendret": "2026-05-26",
+      "beregnertid": 2.5,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "udregnet i T7785",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3431732,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "A",
+      "rating_score": 68.55933794731477,
       "scheduled_days": [
         "2026-06-09",
         "2026-06-10"
       ],
-      "projekt": "Utterslev Skole, Ventilation",
-      "type": "Ventilation/stålunderstøtning",
+      "planned_end": "2026-06-10",
+      "risk": "🔴",
+      "bt_estimated": true,
+      "bt_tier": "S",
+      "bt_range": "1.0–4.0t",
+      "steel_scope": 2,
+      "steel_desc": "Utterslev Skole Ventilation — stålunderstøtning for ventilation",
       "entreprise": "Under Juul & Nielsen A/S",
-      "beskrivelse": "Stålunderstøtning for ventilationsanlæg, Utterslev Skole. Relateret til T7785.",
-      "lokation": "Utterslev"
+      "lokation": "Utterslev",
+      "is_sister": false,
+      "sister_group": null
+    },
+    {
+      "tilbudsnr": "T7814",
+      "tilbudsnavn": "Børne  og kulturhuset",
+      "kundenavn": "Heto ApS",
+      "kundenummer": "1004",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "startdato": "2026-05-21",
+      "slutdato": "2026-06-21",
+      "deadline": "2026-05-21",
+      "oprettet": "2026-05-21",
+      "sidst_aendret": "2026-05-21",
+      "beregnertid": 9.0,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3463048,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "A",
+      "rating_score": 75.26791941627769,
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "bt_estimated": true,
+      "bt_tier": "L",
+      "bt_range": "7.0–14.0t"
+    }
+  ],
+  "afsendt": [
+    {
+      "tilbudsnr": "T7751",
+      "tilbudsnavn": "BAB Brøndby Parkvej FA 09",
+      "kundenavn": "Hovedstadens Bygningsentreprise A/S",
+      "afsendelsesdato": "2026-04-29",
+      "hn_offer_id": 3408109
+    },
+    {
+      "tilbudsnr": "T7637",
+      "tilbudsnavn": "BHOVE10903R",
+      "kundenavn": "Testkunde test test test test test test test test",
+      "afsendelsesdato": "2026-03-17",
+      "hn_offer_id": 3315893
+    },
+    {
+      "tilbudsnr": "T7767",
+      "tilbudsnavn": "Faksegade 8",
+      "kundenavn": "Martin & Co. ApS",
+      "afsendelsesdato": "2026-04-30",
+      "hn_offer_id": 3423678
+    },
+    {
+      "tilbudsnr": "T7768",
+      "tilbudsnavn": "FES Duehallen",
+      "kundenavn": "P. OLESEN OG SØNNER A/S",
+      "afsendelsesdato": "2026-04-30",
+      "hn_offer_id": 3425788
+    },
+    {
+      "tilbudsnr": "T7744",
+      "tilbudsnavn": "Huset KBH",
+      "kundenavn": "CH BYG A/S",
+      "afsendelsesdato": "2026-05-26",
+      "hn_offer_id": 3401223
+    },
+    {
+      "tilbudsnr": "T7753",
+      "tilbudsnavn": "Huset Kbh",
+      "kundenavn": "VM ANLÆG A/S",
+      "afsendelsesdato": "2026-05-26",
+      "hn_offer_id": 3409046
+    },
+    {
+      "tilbudsnr": "T7747",
+      "tilbudsnavn": "Huset-KBH",
+      "kundenavn": "Jakon A/S",
+      "afsendelsesdato": "2026-05-26",
+      "hn_offer_id": 3403843
+    },
+    {
+      "tilbudsnr": "T7734-1",
+      "tilbudsnavn": "Svend Dyrings vej 14",
+      "kundenavn": "Christoffer Aagaard Melson",
+      "afsendelsesdato": "2026-04-29",
+      "hn_offer_id": 3393454
+    },
+    {
+      "tilbudsnr": "T7815",
+      "tilbudsnavn": "Søtorvet",
+      "kundenavn": "Tømrer- og Snedkermester Børge Nielsen A/S",
+      "afsendelsesdato": "2026-05-21",
+      "hn_offer_id": 3463276
+    },
+    {
+      "tilbudsnr": "T7795",
+      "tilbudsnavn": "Tilbud på istandsættelse af bygning til foreningsformål",
+      "kundenavn": "Tawhid Islamisk Trossamfund",
+      "afsendelsesdato": "2026-05-12",
+      "hn_offer_id": 3446059
+    },
+    {
+      "tilbudsnr": "T7541",
+      "tilbudsnavn": "Vibo Afd. 142",
+      "kundenavn": "Enemærke & Petersen A/S",
+      "afsendelsesdato": "2026-02-06",
+      "hn_offer_id": 3247702
     }
   ],
   "schedule": {
@@ -1826,43 +1464,6 @@
       }
     ]
   },
-  "overrides": {
-    "manual_order": [
-      {
-        "tnr": "T7796",
-        "action": "to_pos",
-        "value": 0,
-        "reason": "Wolff først (DL 22/5)"
-      },
-      {
-        "tnr": "T7780",
-        "action": "to_pos",
-        "value": 1,
-        "reason": "Einar lige efter (DL 27/5)"
-      },
-      {
-        "tnr": "T7793",
-        "action": "after",
-        "value": "T7755",
-        "reason": "Bjørn Svendsen efter Amalie"
-      },
-      {
-        "tnr": "T7804",
-        "action": "after",
-        "value": "T7755",
-        "reason": "Biskop Krags skubbet"
-      },
-      {
-        "tnr": "T7798",
-        "action": "after",
-        "value": "T7755",
-        "reason": "Gudhjem skubbet"
-      }
-    ],
-    "skip_tilbud": [],
-    "dato_overrides": {},
-    "bt_overrides": {}
-  },
   "day_capacity": {
     "2026-05-21": {
       "used": 7.4,
@@ -1976,5 +1577,203 @@
       "used": 0.0,
       "capacity": 7.4
     }
+  },
+  "overrides": {
+    "manual_order": [
+      {
+        "tnr": "T7796",
+        "action": "to_pos",
+        "value": 0,
+        "reason": "Wolff først (DL 22/5)"
+      },
+      {
+        "tnr": "T7780",
+        "action": "to_pos",
+        "value": 1,
+        "reason": "Einar lige efter (DL 27/5)"
+      },
+      {
+        "tnr": "T7793",
+        "action": "after",
+        "value": "T7755",
+        "reason": "Bjørn Svendsen efter Amalie"
+      },
+      {
+        "tnr": "T7804",
+        "action": "after",
+        "value": "T7755",
+        "reason": "Biskop Krags skubbet"
+      },
+      {
+        "tnr": "T7798",
+        "action": "after",
+        "value": "T7755",
+        "reason": "Gudhjem skubbet"
+      }
+    ],
+    "skip_tilbud": [],
+    "dato_overrides": {},
+    "bt_overrides": {}
+  },
+  "config": {
+    "capacity_per_day": 7.4,
+    "planning_weeks": 6,
+    "holidays": {
+      "2026-01-01": "Nytårsdag",
+      "2026-04-02": "Skærtorsdag",
+      "2026-04-03": "Langfredag",
+      "2026-04-05": "Påskedag",
+      "2026-04-06": "2. Påskedag",
+      "2026-05-14": "Kr. Himmelfartsdag",
+      "2026-05-24": "Pinsedag",
+      "2026-05-25": "2. Pinsedag",
+      "2026-06-05": "Grundlovsdag",
+      "2026-12-24": "Juleaftensdag",
+      "2026-12-25": "Juledag",
+      "2026-12-26": "2. Juledag",
+      "2026-12-31": "Nytårsaftensdag",
+      "2027-01-01": "Nytårsdag",
+      "2027-03-25": "Skærtorsdag",
+      "2027-03-26": "Langfredag",
+      "2027-03-28": "Påskedag",
+      "2027-03-29": "2. Påskedag",
+      "2027-05-06": "Kr. Himmelfartsdag",
+      "2027-05-16": "Pinsedag",
+      "2027-05-17": "2. Pinsedag",
+      "2027-06-05": "Grundlovsdag",
+      "2027-12-24": "Juleaftensdag",
+      "2027-12-25": "Juledag",
+      "2027-12-26": "2. Juledag",
+      "2027-12-31": "Nytårsaftensdag"
+    }
+  },
+  "grades": {},
+  "steel_scope": {
+    "T7808": {
+      "score": 5,
+      "desc": "Dedicated smedeentreprise (Fagentreprise 9), fuld stål-tilbudsliste, BIG arkitekt"
+    },
+    "T7793": {
+      "score": 5,
+      "desc": "Dedicated Stål-mappe, 21 tegninger, bjælker/søjler/samlinger, statik"
+    },
+    "T7780": {
+      "score": 5,
+      "desc": "99 stk stål eksplicit listet (bjælker+søjler i 3 bygninger), Einar Kornerup"
+    },
+    "T7798": {
+      "score": 4,
+      "desc": "Fuld 'Staal generelt' arbejdsbeskrivelse i fase 1+2, konstruktionstegninger"
+    },
+    "T7755": {
+      "score": 4,
+      "desc": "Altaner + værn (UNP160, tremmeværn fladstål), kalkulation påbegyndt"
+    },
+    "T7785": {
+      "score": 3,
+      "desc": "ARB.250 Stål + stål for ventilationsanlæg"
+    },
+    "T7744": {
+      "score": 3,
+      "desc": "Flugtvejstrappe (stål) + stål under ventilation + ARB.250 Stål"
+    },
+    "T7807": {
+      "score": 3,
+      "desc": "STÅL position i hovedentreprise tilbudsliste"
+    },
+    "T7796": {
+      "score": 3,
+      "desc": "Skeletkonstruktioner mixed med beton (K09)"
+    },
+    "T7799": {
+      "score": 2,
+      "desc": "Nye bjælker + brandsikring stålkonstruktion (mindre scope)"
+    },
+    "T7794": {
+      "score": 1,
+      "desc": "Murer og stål kombineret, ~50k (meget lille)"
+    },
+    "T7810": {
+      "score": 1,
+      "desc": "Kun fotos, minimalt synligt scope"
+    },
+    "T7812": {
+      "score": 2,
+      "desc": "Ingen projektmappe fundet — ukendt scope"
+    },
+    "T7809": {
+      "score": 2,
+      "desc": "Ingen projektmappe fundet — ukendt scope"
+    },
+    "T7730": {
+      "score": 2,
+      "desc": "Ingen projektmappe fundet — ukendt scope"
+    },
+    "T7801": {
+      "score": 3,
+      "desc": "AB Hellerup Strandgaard — altanrenovering, BT 11t indikerer mellemstort scope"
+    },
+    "T7805": {
+      "score": 2,
+      "desc": "Birkebo afd 6 — ukendt scope, Nordstern"
+    },
+    "T7769": {
+      "score": 3,
+      "desc": "SAS Lounge — Jakon, BT 6t, fit-out/interiør"
+    },
+    "T7778": {
+      "score": 2,
+      "desc": "Utterslev Skole Ventilation — stålunderstøtning for ventilation"
+    },
+    "T7753": {
+      "score": 3,
+      "desc": "Huset KBH — søster til T7744, samme scope (flugtvejstrappe + stål)"
+    },
+    "T7747": {
+      "score": 3,
+      "desc": "Huset KBH — søster til T7744, samme scope (flugtvejstrappe + stål)"
+    },
+    "T7764": {
+      "score": 4,
+      "desc": "Sophie Amalie Gården — søster til T7755, altaner + værn"
+    },
+    "T7789": {
+      "score": 4,
+      "desc": "Sophie Amalie Gården — søster til T7755, altaner + værn"
+    },
+    "T7779": {
+      "score": 4,
+      "desc": "Sophie Amalie Gården — søster til T7755, altaner + værn"
+    },
+    "T7804": {
+      "score": 2,
+      "desc": "Biskop Krags Vænge — bjælker + brandsikring (mindre scope)"
+    }
+  },
+  "sister_groups": {
+    "Sophie Amalie Gården": [
+      "T7755",
+      "T7764",
+      "T7789",
+      "T7779"
+    ],
+    "Biskop Krags Vænge 7": [
+      "T7804",
+      "T7799"
+    ],
+    "Huset KBH": [
+      "T7744",
+      "T7753",
+      "T7747"
+    ]
+  },
+  "meta": {
+    "generated": "2026-05-26 15:50",
+    "source": "E-regnskab API + tracker merge (pipeline.py)",
+    "active_count": 16,
+    "afsendt_count": 11,
+    "removed_count": 7,
+    "merged_at": "2026-05-26 15:50",
+    "planner_version": "2026-05-26 15:45"
   }
 }
