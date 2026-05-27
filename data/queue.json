@@ -1171,6 +1171,84 @@
       "bt_estimated": true,
       "bt_tier": "L",
       "bt_range": "7.0–14.0t"
+    },
+    {
+      "tilbudsnr": "T7819",
+      "tilbudsnavn": "Peder Skrams Gade 16 A-C",
+      "kundenavn": "Hovedstadens Bygningsentreprise A/S",
+      "kundenummer": "1418",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "startdato": "2026-05-27",
+      "slutdato": "2026-06-27",
+      "deadline": "2026-06-22",
+      "oprettet": "2026-05-27",
+      "sidst_aendret": "2026-05-27",
+      "beregnertid": 5.0,
+      "bt_source": "erp",
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": 10531,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3472015,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "A",
+      "rating_score": 75.05130371801062,
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "bt_estimated": true,
+      "bt_tier": "M",
+      "bt_range": "3.0–7.0t"
+    },
+    {
+      "tilbudsnr": "T7820",
+      "tilbudsnavn": "Peter Vedels Gade 8",
+      "kundenavn": "CH BYG A/S",
+      "kundenummer": "2385",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "startdato": "2026-05-27",
+      "slutdato": "2026-06-27",
+      "deadline": "2026-05-27",
+      "oprettet": "2026-05-27",
+      "sidst_aendret": "2026-05-27",
+      "beregnertid": 5.0,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "udregnet i 7794",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3472080,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "B",
+      "rating_score": 54.03971511347176,
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "bt_estimated": true,
+      "bt_tier": "M",
+      "bt_range": "3.0–7.0t"
     }
   ],
   "afsendt": [
@@ -1201,27 +1279,6 @@
       "kundenavn": "P. OLESEN OG SØNNER A/S",
       "afsendelsesdato": "2026-04-30",
       "hn_offer_id": 3425788
-    },
-    {
-      "tilbudsnr": "T7744",
-      "tilbudsnavn": "Huset KBH",
-      "kundenavn": "CH BYG A/S",
-      "afsendelsesdato": "2026-05-26",
-      "hn_offer_id": 3401223
-    },
-    {
-      "tilbudsnr": "T7753",
-      "tilbudsnavn": "Huset Kbh",
-      "kundenavn": "VM ANLÆG A/S",
-      "afsendelsesdato": "2026-05-26",
-      "hn_offer_id": 3409046
-    },
-    {
-      "tilbudsnr": "T7747",
-      "tilbudsnavn": "Huset-KBH",
-      "kundenavn": "Jakon A/S",
-      "afsendelsesdato": "2026-05-26",
-      "hn_offer_id": 3403843
     },
     {
       "tilbudsnr": "T7734-1",
@@ -1768,12 +1825,12 @@
     ]
   },
   "meta": {
-    "generated": "2026-05-26 16:19",
+    "generated": "2026-05-27 09:06",
     "source": "E-regnskab API + tracker merge (pipeline.py)",
-    "active_count": 16,
-    "afsendt_count": 11,
-    "removed_count": 7,
-    "merged_at": "2026-05-26 16:19",
-    "planner_version": "2026-05-26 15:50"
+    "active_count": 18,
+    "afsendt_count": 8,
+    "removed_count": 10,
+    "merged_at": "2026-05-27 09:06",
+    "planner_version": "2026-05-26 16:19"
   }
 }
