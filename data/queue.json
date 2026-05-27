@@ -602,9 +602,9 @@
       "tilbudsansvarlig_id": 15940,
       "startdato": "2026-05-20",
       "slutdato": "2026-06-20",
-      "deadline": "2026-05-29",
+      "deadline": "2026-06-19",
       "oprettet": "2026-05-20",
-      "sidst_aendret": "2026-05-20",
+      "sidst_aendret": "2026-05-27",
       "beregnertid": 2.5,
       "bt_source": null,
       "rating_erp": null,
@@ -1901,12 +1901,12 @@
     ]
   },
   "meta": {
-    "generated": "2026-05-27 09:38",
+    "generated": "2026-05-27 09:44",
     "source": "E-regnskab API + tracker merge (pipeline.py)",
     "active_count": 19,
     "afsendt_count": 8,
     "removed_count": 11,
-    "merged_at": "2026-05-27 09:38",
-    "planner_version": "2026-05-27 09:32"
+    "merged_at": "2026-05-27 09:44",
+    "planner_version": "2026-05-27 09:38"
   }
 }
