@@ -515,7 +515,7 @@
       "oprettet": "2026-05-04",
       "sidst_aendret": "2026-05-04",
       "beregnertid": 9.0,
-      "bt_source": null,
+      "bt_source": "tracker_confirmed",
       "rating_erp": null,
       "tags": [
         "#Skabelon",
@@ -534,14 +534,12 @@
       "rating": "A",
       "rating_score": 72.10921991523149,
       "scheduled_days": [
-        "2026-05-21",
-        "2026-05-22"
+        "2026-05-27",
+        "2026-05-28"
       ],
-      "planned_end": "2026-05-22",
+      "planned_end": "2026-05-28",
       "risk": "🟢",
-      "bt_estimated": true,
-      "bt_tier": "L",
-      "bt_range": "7.0–14.0t",
+      "bt_estimated": false,
       "steel_scope": 5,
       "steel_desc": "99 stk stål eksplicit listet (bjælker+søjler i 3 bygninger), Einar Kornerup",
       "entreprise": "Underentreprise (stål) under Einar Kornerup",
@@ -1170,7 +1168,8 @@
       "risk": "⚪",
       "bt_estimated": true,
       "bt_tier": "L",
-      "bt_range": "7.0–14.0t"
+      "bt_range": "7.0–14.0t",
+      "_removed_from_pipeline": true
     },
     {
       "tilbudsnr": "T7819",
@@ -1260,7 +1259,7 @@
       "tilbudsansvarlig_id": 15940,
       "startdato": "2026-05-26",
       "slutdato": "2026-06-26",
-      "deadline": "2026-05-26",
+      "deadline": "2026-06-18",
       "oprettet": "2026-05-26",
       "sidst_aendret": "2026-05-27",
       "beregnertid": 5.0,
@@ -1903,12 +1902,12 @@
     ]
   },
   "meta": {
-    "generated": "2026-05-27 09:14",
+    "generated": "2026-05-27 09:29",
     "source": "E-regnskab API + tracker merge (pipeline.py)",
-    "active_count": 20,
+    "active_count": 19,
     "afsendt_count": 8,
-    "removed_count": 10,
-    "merged_at": "2026-05-27 09:14",
-    "planner_version": "2026-05-27 09:06"
+    "removed_count": 11,
+    "merged_at": "2026-05-27 09:29",
+    "planner_version": "2026-05-27 09:14"
   }
 }
