@@ -45,7 +45,9 @@ async function loadData() {
 
     const res = await fetch('data/queue.json');
     if (!res.ok) { showStatus('❌ Kunne ikke indlæse queue.json'); return; }
-    state.queue = await res.json();
+    // Brug .text() + JSON.parse så browseren altid tolker som UTF-8 (GitHub Pages sætter ikke charset)
+    const raw = await res.text();
+    state.queue = JSON.parse(raw);
     showStatus('✓ Lokale data');
     showPipelineTimestamp();
 }
@@ -286,10 +288,15 @@ function renderBoard() {
         let weekHasContent = false;
 
         for (const d of days) {
-            const info = q.day_capacity[d] || { used: 0, capacity: q.config.capacity_per_day };
+            const schedItems  = q.schedule[d] || [];
+            const usedCalc    = schedItems.filter(i => i.tilbudsnr !== '__admin__').reduce((s, i) => s + (i.hours || 0), 0);
+            const storedDay   = q.day_capacity[d];
+            const info        = storedDay
+                ? { used: Math.max(storedDay.used, usedCalc), capacity: storedDay.capacity || q.config.capacity_per_day }
+                : { used: usedCalc, capacity: q.config.capacity_per_day };
             weekUsed += info.used;
             weekCap  += info.capacity;
-            const items = q.schedule[d] || [];
+            const items = schedItems;
             items.forEach(i => {
                 if (!i.is_sister_display) {
                     if (!filterSet || filterSet.has(i.tilbudsnr)) {
@@ -314,7 +321,11 @@ function renderBoard() {
 
         for (const date of days) {
             const items = q.schedule[date] || [];
-            const info  = q.day_capacity[date] || { used: 0, capacity: q.config.capacity_per_day };
+            const usedFromItems = items.filter(i => i.tilbudsnr !== '__admin__').reduce((s, i) => s + (i.hours || 0), 0);
+            const storedInfo    = q.day_capacity[date];
+            const info          = storedInfo
+                ? { used: Math.max(storedInfo.used, usedFromItems), capacity: storedInfo.capacity || q.config.capacity_per_day }
+                : { used: usedFromItems, capacity: q.config.capacity_per_day };
             const normCap = q.config.capacity_per_day;
             const otHours = Math.max(0, info.used - normCap);
             const pctDay  = normCap > 0 ? Math.min(1, info.used / normCap) : 0;
