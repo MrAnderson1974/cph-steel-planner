@@ -108,15 +108,7 @@
       "project_type": "EXC2",
       "must_win": false,
       "high_ref": false,
-      "resume": "Broarbejder i Albertslund for Christiansen & Essenbæk A/S. Miljøsaneringsomfang skal afklares inden tilbud.",
-      "rfi": [
-        {
-          "type": "INFO",
-          "tekst": "Miljøsanering — afklar omfang"
-        }
-      ],
-      "rfi_kilde": "auto",
-      "rfi_opdateret": "2026-05-29"
+      "resume": "Broarbejder i Albertslund for Christiansen & Essenbæk A/S. Miljøsaneringsomfang skal afklares inden tilbud."
     },
     {
       "tilbudsnr": "T7812",
@@ -226,23 +218,7 @@
       "project_type": "EXC2",
       "must_win": false,
       "high_ref": false,
-      "resume": "Ny bærende bjælke i eksisterende bygning for privat bygherre via tømmermester Troels Bastrup. Simpel leverance — afklar måltjek og brandmaling REI 60.",
-      "rfi": [
-        {
-          "type": "TEKNISK",
-          "tekst": "Mål vejledende — måltjek på stedet inden bestilling"
-        },
-        {
-          "type": "UL",
-          "tekst": "Brandmaling REI 60 — CPH Steel eller UL?"
-        },
-        {
-          "type": "JURIDISK",
-          "tekst": "Kontraktgrundlag ikke oplyst"
-        }
-      ],
-      "rfi_kilde": "auto",
-      "rfi_opdateret": "2026-05-29"
+      "resume": "Ny bærende bjælke i eksisterende bygning for privat bygherre via tømmermester Troels Bastrup. Simpel leverance — afklar måltjek og brandmaling REI 60."
     },
     {
       "tilbudsnr": "T7809",
@@ -299,19 +275,7 @@
       "is_sister": false,
       "must_win": false,
       "high_ref": false,
-      "resume": "Fagentreprise Bålsted Herlev. Begrænset dokumentation i udbudsmaterialet.",
-      "rfi": [
-        {
-          "type": "INFO",
-          "tekst": "Overfladebehandling ikke specificeret"
-        },
-        {
-          "type": "INFO",
-          "tekst": "Miljøsanering — afklar omfang"
-        }
-      ],
-      "rfi_kilde": "auto",
-      "rfi_opdateret": "2026-05-29"
+      "resume": "Fagentreprise Bålsted Herlev. Begrænset dokumentation i udbudsmaterialet."
     },
     {
       "tilbudsnr": "T7818",
@@ -364,19 +328,7 @@
       "project_type": "EXC2",
       "must_win": false,
       "high_ref": false,
-      "resume": "Tilbygning/ombygning Krogårdskolen SFO for ASON A/S. Montagestart juli 2026, aflevering april 2027. Elementliste afventer afklaring.",
-      "rfi": [
-        {
-          "type": "INFO",
-          "tekst": "Overfladebehandling ikke specificeret"
-        },
-        {
-          "type": "INFO",
-          "tekst": "Miljøsanering — afklar omfang"
-        }
-      ],
-      "rfi_kilde": "auto",
-      "rfi_opdateret": "2026-05-29"
+      "resume": "Tilbygning/ombygning Krogårdskolen SFO for ASON A/S. Montagestart juli 2026, aflevering april 2027. Elementliste afventer afklaring."
     },
     {
       "tilbudsnr": "T7807",
@@ -432,27 +384,7 @@
       "is_sister": false,
       "must_win": false,
       "high_ref": false,
-      "resume": "Fagentreprise Lundehusskolen for NÅR A/S. Stor facadeandel (220 m²). Brandmalingsspec afventes. Dagbøder bekræftet.",
-      "rfi": [
-        {
-          "type": "UL",
-          "tekst": "Brandmalingsspec fra brandkonsulent mangler"
-        },
-        {
-          "type": "INFO",
-          "tekst": "Montagestart og B2-deadline ukendt"
-        },
-        {
-          "type": "INFO",
-          "tekst": "Miljøsanering — afklar omfang"
-        },
-        {
-          "type": "JURIDISK",
-          "tekst": "Dagbøder — afklar beløb"
-        }
-      ],
-      "rfi_kilde": "auto",
-      "rfi_opdateret": "2026-05-29"
+      "resume": "Fagentreprise Lundehusskolen for NÅR A/S. Stor facadeandel (220 m²). Brandmalingsspec afventes. Dagbøder bekræftet."
     },
     {
       "tilbudsnr": "T7810",
@@ -509,19 +441,7 @@
       "is_sister": false,
       "must_win": false,
       "high_ref": false,
-      "resume": "NOV — underentreprise under HVID. Begrænset udbudsmateriale, kun fotos tilgængeligt. Scope skal afklares.",
-      "rfi": [
-        {
-          "type": "INFO",
-          "tekst": "Overfladebehandling ikke specificeret"
-        },
-        {
-          "type": "INFO",
-          "tekst": "Miljøsanering — afklar omfang"
-        }
-      ],
-      "rfi_kilde": "auto",
-      "rfi_opdateret": "2026-05-29"
+      "resume": "NOV — underentreprise under HVID. Begrænset udbudsmateriale, kun fotos tilgængeligt. Scope skal afklares."
     },
     {
       "tilbudsnr": "T7819",
@@ -573,19 +493,7 @@
       "project_type": "EXC2",
       "must_win": false,
       "high_ref": false,
-      "resume": "Fagentreprise Peder Skrams Gade 16A-C for Hovedstadens Bygningsentreprise (A-rated, 3% hit). Scope og tonnage ukendt — elementliste afventer Tom's kalkulation.",
-      "rfi": [
-        {
-          "type": "INFO",
-          "tekst": "Miljøsanering — afklar omfang"
-        },
-        {
-          "type": "JURIDISK",
-          "tekst": "Dagbøder — afklar beløb"
-        }
-      ],
-      "rfi_kilde": "auto",
-      "rfi_opdateret": "2026-05-29"
+      "resume": "Fagentreprise Peder Skrams Gade 16A-C for Hovedstadens Bygningsentreprise (A-rated, 3% hit). Scope og tonnage ukendt — elementliste afventer Tom's kalkulation."
     },
     {
       "tilbudsnr": "T7769",
@@ -829,27 +737,7 @@
       "sister_group": 1,
       "must_win": false,
       "high_ref": false,
-      "resume": "Fagentreprise Marielystvej 50 / Rådmand Steins Alle 20-24 for REBO (ny kunde). Bred elementpakke. Søster-tilbud T7789, T7764, T7779 i samme udbudspakke.",
-      "rfi": [
-        {
-          "type": "TEKNISK",
-          "tekst": "EXC/KK-klasse ikke fundet — antag EXC2/KK2"
-        },
-        {
-          "type": "INFO",
-          "tekst": "Montagestart ukendt — B2-deadline mangler"
-        },
-        {
-          "type": "INFO",
-          "tekst": "Miljøsanering — afklar omfang og ansvar"
-        },
-        {
-          "type": "JURIDISK",
-          "tekst": "Dagbøder — afklar beløb"
-        }
-      ],
-      "rfi_kilde": "auto",
-      "rfi_opdateret": "2026-05-29"
+      "resume": "Fagentreprise Marielystvej 50 / Rådmand Steins Alle 20-24 for REBO (ny kunde). Bred elementpakke. Søster-tilbud T7789, T7764, T7779 i samme udbudspakke."
     },
     {
       "tilbudsnr": "T7821",
@@ -902,15 +790,7 @@
       "project_type": "EXC2",
       "must_win": false,
       "high_ref": false,
-      "resume": "Ståltrappe og gelænder, Asnæsgade, for Tømrer- og Snedkermester Børge Nielsen (A-rated). Lille kalkulation 2,5t. Miljøsanering skal afklares.",
-      "rfi": [
-        {
-          "type": "INFO",
-          "tekst": "Miljøsanering — afklar omfang"
-        }
-      ],
-      "rfi_kilde": "auto",
-      "rfi_opdateret": "2026-05-29"
+      "resume": "Ståltrappe og gelænder, Asnæsgade, for Tømrer- og Snedkermester Børge Nielsen (A-rated). Lille kalkulation 2,5t. Miljøsanering skal afklares."
     },
     {
       "tilbudsnr": "T7808",
@@ -971,60 +851,33 @@
       "rfi": [
         {
           "type": "INFO",
-          "tekst": "Q1: Opsvejste profiler — CPH Steel beregner vægte selv",
-          "status": "DELVIS",
-          "ansvarlig": "Tom/Lasse"
+          "tekst": "RFI-01: FE04 Stykliste — profilvægte og mål n Delvis",
+          "status": "DELVIS"
         },
         {
           "type": "UL",
-          "tekst": "Q2: Brandmalingstykkelse — afklares med leverandør ved prod.",
-          "status": "DELVIS",
-          "ansvarlig": "Lasse/Vivi"
+          "tekst": "RFI-02: Brandmaling — tykkelsesspec og leverandørgaranti n Delvis",
+          "status": "DELVIS"
         },
         {
-          "type": "TEKNISK",
-          "tekst": "Q4: Alu-legering FE09 — foreslå EN AW-5083 (marin) til AW",
-          "status": "AABEN",
-          "ansvarlig": "Lasse"
+          "type": "INFO",
+          "tekst": "RFI-04: Aluminium — legeringstype nn Åben",
+          "status": "AABEN"
         },
         {
           "type": "UL",
-          "tekst": "Q6: Brandkrav FE09 (K01_C05_N004) — afventer brandrådgiver",
-          "status": "AFVENTER",
-          "ansvarlig": "AW → Lasse"
+          "tekst": "RFI-06: Brandkrav FE09 — K01_C05_N004 n Afventer",
+          "status": "AFVENTER"
         },
         {
           "type": "TEKNISK",
-          "tekst": "Q9: IFC-model — find i 04 Bygherre Tegninger/ eller kontakt AW",
-          "status": "AABEN",
-          "ansvarlig": "Lasse"
+          "tekst": "RFI-09: IFC-model — placering nn Åben",
+          "status": "AABEN"
         },
         {
           "type": "INFO",
-          "tekst": "Q10: FE10 facadetegninger — afventer levering fra AW",
-          "status": "AFVENTER",
-          "ansvarlig": "AW → Lasse"
-        },
-        {
-          "type": "TEKNISK",
-          "tekst": "NDT-krav: VT alene eller ekstern MT/PT/UT? — afklar med bygherre",
-          "status": "AABEN",
-          "ansvarlig": "Lasse",
-          "kilde": "KS Rapport v3"
-        },
-        {
-          "type": "TEKNISK",
-          "tekst": "Alu-WPS: legeringstype bekræftes — afklar med KKL (svejsekoord.)",
-          "status": "AABEN",
-          "ansvarlig": "Lasse + KKL",
-          "kilde": "KS Rapport v3"
-        },
-        {
-          "type": "INFO",
-          "tekst": "B2.2.2.x Kontrolplan — IKKE sendt til VITA endnu (krav: 20 arbd.dage inden opstart)",
-          "status": "AABEN",
-          "ansvarlig": "Lasse",
-          "kilde": "KS Plan v4"
+          "tekst": "RFI-10: Facadetegninger FE10 n Afventer",
+          "status": "AFVENTER"
         }
       ],
       "rfi_kilde": "auto",
@@ -1085,26 +938,6 @@
       "must_win": false,
       "high_ref": false,
       "resume": "Fagentreprise Utterslev Skole for Jakon A/S (A-rated, 10% hit). Søster-tilbud T7778 i samme pakke. Brandmalingsspec fra brandkonsulent afventes.",
-      "rfi": [
-        {
-          "type": "UL",
-          "tekst": "Brandmalingsspec fra brandkonsulent mangler"
-        },
-        {
-          "type": "INFO",
-          "tekst": "Montagestart ukendt — B2-deadline mangler"
-        },
-        {
-          "type": "INFO",
-          "tekst": "Miljøsanering — afklar omfang"
-        },
-        {
-          "type": "JURIDISK",
-          "tekst": "Dagbøder — afklar beløb"
-        }
-      ],
-      "rfi_kilde": "auto",
-      "rfi_opdateret": "2026-05-29",
       "is_master": true,
       "sisters": [
         "T7778"
@@ -1165,9 +998,237 @@
       "sister_group": "override_T7785",
       "must_win": false,
       "high_ref": false
+    },
+    {
+      "tilbudsnr": "T7683",
+      "tilbudsnavn": "Balkon - Kirkerupvej 11",
+      "kundenavn": "Natasha Dyregaard",
+      "kundenummer": "2592",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 53472,
+      "startdato": "2026-03-25",
+      "slutdato": "2026-04-25",
+      "deadline": "2026-03-25",
+      "oprettet": "2026-03-25",
+      "sidst_aendret": "2026-03-25",
+      "beregnertid": 5.0,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3353345,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": null,
+      "deadline_source": "opfølgningsdato",
+      "rating": "Ny",
+      "rating_score": null,
+      "kunde_grade": null,
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "must_win": false,
+      "high_ref": false,
+      "bt_estimated": true,
+      "bt_tier": "M",
+      "bt_range": "3.0–7.0t"
+    },
+    {
+      "tilbudsnr": "T7659",
+      "tilbudsnavn": "Benretter",
+      "kundenavn": "CPH Steel A/S",
+      "kundenummer": "1421",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 14013,
+      "startdato": "2026-03-17",
+      "slutdato": "2026-04-17",
+      "deadline": "2026-07-07",
+      "oprettet": "2026-03-17",
+      "sidst_aendret": "2026-04-29",
+      "beregnertid": 5.0,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 336750.0,
+      "hn_offer_id": 3334969,
+      "custom_field1": null,
+      "custom_field2": "Benskinne opretter jf. model inkl. 1 elastik",
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "Ny",
+      "rating_score": null,
+      "kunde_grade": null,
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "must_win": false,
+      "high_ref": false,
+      "bt_estimated": true,
+      "bt_tier": "M",
+      "bt_range": "3.0–7.0t"
+    },
+    {
+      "tilbudsnr": "T7612",
+      "tilbudsnavn": "Nyhuse i Hillerød",
+      "kundenavn": "Leocon Entreprise ApS",
+      "kundenummer": "2563",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 14555,
+      "startdato": "2026-02-19",
+      "slutdato": "2026-03-19",
+      "deadline": "2026-03-27",
+      "oprettet": "2026-02-19",
+      "sidst_aendret": "2026-02-26",
+      "beregnertid": 5.0,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3286808,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "C",
+      "rating_score": 51.22424754546918,
+      "kunde_grade": "C",
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "must_win": false,
+      "high_ref": false,
+      "bt_estimated": true,
+      "bt_tier": "M",
+      "bt_range": "3.0–7.0t"
+    },
+    {
+      "tilbudsnr": "T6749",
+      "tilbudsnavn": "Overslagspris gangbro til VIP + Tilbud på ny trappe til TV platform + Udskiftning a eksisterende",
+      "kundenavn": "PARKEN SPORT & ENTERTAINMENT A/S",
+      "kundenummer": "",
+      "kontaktperson": "Jacob",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 23722,
+      "startdato": "2026-04-01",
+      "slutdato": "2026-12-31",
+      "deadline": "2026-12-31",
+      "oprettet": "2025-01-28",
+      "sidst_aendret": "2026-04-09",
+      "beregnertid": 2.5,
+      "bt_source": null,
+      "rating_erp": 50,
+      "tags": [],
+      "kategori_id": 3908,
+      "beskrivelse": "Jacob Wexiø Bachiry <jbac@fck.dk>\n\nKreditorbrev ligger under filer\n\nA001.Parken.Rev.A.pdf ligger under filer\n\nTidsplan ligger under filer",
+      "kostpris": 1030000.0,
+      "salgspris": 1595000.0,
+      "hn_offer_id": 2646420,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": null,
+      "deadline_source": "slutdato_fallback",
+      "rating": "Ny",
+      "rating_score": 0,
+      "kunde_grade": null,
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "must_win": false,
+      "high_ref": false,
+      "bt_estimated": true,
+      "bt_tier": "S",
+      "bt_range": "1.0–4.0t"
+    },
+    {
+      "tilbudsnr": "T7823",
+      "tilbudsnavn": "test _claude",
+      "kundenavn": "hr, andersen APS",
+      "kundenummer": "",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 49884,
+      "startdato": "2026-07-07",
+      "slutdato": "2026-08-18",
+      "deadline": "2026-06-02",
+      "oprettet": "2026-05-29",
+      "sidst_aendret": "2026-05-29",
+      "beregnertid": 5.0,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "snydt",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3478524,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "Ny",
+      "rating_score": null,
+      "kunde_grade": null,
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "must_win": false,
+      "high_ref": false,
+      "bt_estimated": true,
+      "bt_tier": "M",
+      "bt_range": "3.0–7.0t"
     }
   ],
   "afsendt": [
+    {
+      "tilbudsnr": "T7621",
+      "tilbudsnavn": "Nyhus i Hillerød - Udskiftning af trapper",
+      "kundenavn": "Leocon A/S",
+      "afsendelsesdato": "2026-02-23",
+      "hn_offer_id": 3294385
+    },
+    {
+      "tilbudsnr": "T7547",
+      "tilbudsnavn": "Schlegels Allé 1, 5. sal",
+      "kundenavn": "Clarke Entreprise ApS",
+      "afsendelsesdato": "2026-02-23",
+      "hn_offer_id": 3251324
+    },
+    {
+      "tilbudsnr": "T7657",
+      "tilbudsnavn": "AB Storgården",
+      "kundenavn": "Clarke Entreprise ApS",
+      "afsendelsesdato": "2026-03-26",
+      "hn_offer_id": 3334695
+    },
+    {
+      "tilbudsnr": "T7786",
+      "tilbudsnavn": "Adidas",
+      "kundenavn": "TERP & CO. ApS",
+      "afsendelsesdato": "2026-05-19",
+      "hn_offer_id": 3434054
+    },
     {
       "tilbudsnr": "T7751",
       "tilbudsnavn": "BAB Brøndby Parkvej FA 09",
@@ -1183,6 +1244,69 @@
       "hn_offer_id": 3315893
     },
     {
+      "tilbudsnr": "T7765",
+      "tilbudsnavn": "Birkelundsvej 2",
+      "kundenavn": "Curacon",
+      "afsendelsesdato": "2026-05-11",
+      "hn_offer_id": 3418255
+    },
+    {
+      "tilbudsnr": "T7799",
+      "tilbudsnavn": "Biskop Krags Vænge 7",
+      "kundenavn": "CH BYG A/S",
+      "afsendelsesdato": "2026-05-22",
+      "hn_offer_id": 3447728
+    },
+    {
+      "tilbudsnr": "T7804",
+      "tilbudsnavn": "Biskop Krags Vænge 7",
+      "kundenavn": "Clarke Entreprise ApS",
+      "afsendelsesdato": "2026-05-22",
+      "hn_offer_id": 3454161
+    },
+    {
+      "tilbudsnr": "T7525",
+      "tilbudsnavn": "CPH - RBA",
+      "kundenavn": "Jakon A/S",
+      "afsendelsesdato": "2026-03-05",
+      "hn_offer_id": 3229319
+    },
+    {
+      "tilbudsnr": "T7561",
+      "tilbudsnavn": "CPH - RBA",
+      "kundenavn": "JD Byg Entreprise A/S",
+      "afsendelsesdato": "2026-03-05",
+      "hn_offer_id": 3261053
+    },
+    {
+      "tilbudsnr": "T7526",
+      "tilbudsnavn": "CPH - RBA",
+      "kundenavn": "LM|Pihl A/S",
+      "afsendelsesdato": "2026-03-05",
+      "hn_offer_id": 3229658
+    },
+    {
+      "tilbudsnr": "T7627",
+      "tilbudsnavn": "DTU 451",
+      "kundenavn": "Curacon",
+      "afsendelsesdato": "2026-02-26",
+      "hn_offer_id": 3300686
+    },
+    {
+      "tilbudsnr": "T7630",
+      "tilbudsnavn": "Egtoftevej",
+      "kundenavn": "Clarke Entreprise ApS",
+      "afsendelsesdato": "2026-02-27",
+      "hn_offer_id": 3303406
+    },
+    {
+      "tilbudsnr": "T7656",
+      "tilbudsnavn": "Energinet Ringsbjerg",
+      "kundenavn": "CH BYG A/S",
+      "afsendelsesdato": "2026-04-08",
+      "hn_offer_id": 3332406
+    },
+    {
       "tilbudsnr": "T7767",
       "tilbudsnavn": "Faksegade 8",
       "kundenavn": "Martin & Co. ApS",
@@ -1190,11 +1314,312 @@
       "hn_offer_id": 3423678
     },
     {
+      "tilbudsnr": "T7546",
+      "tilbudsnavn": "Falkoner Alle 55",
+      "kundenavn": "RIK Byg A/S",
+      "afsendelsesdato": "2026-02-09",
+      "hn_offer_id": 3251080
+    },
+    {
+      "tilbudsnr": "T7496",
+      "tilbudsnavn": "Farum Midtpunkt",
+      "kundenavn": "Wolff Svendsen A/S",
+      "afsendelsesdato": "2026-01-27",
+      "hn_offer_id": 3207940
+    },
+    {
       "tilbudsnr": "T7768",
       "tilbudsnavn": "FES Duehallen",
       "kundenavn": "P. OLESEN OG SØNNER A/S",
       "afsendelsesdato": "2026-04-30",
       "hn_offer_id": 3425788
+    },
+    {
+      "tilbudsnr": "T7647",
+      "tilbudsnavn": "Flugtvejstrappe",
+      "kundenavn": "PM ENERGI",
+      "afsendelsesdato": "2026-03-12",
+      "hn_offer_id": 3324935
+    },
+    {
+      "tilbudsnr": "T7518",
+      "tilbudsnavn": "Fredensvej 12",
+      "kundenavn": "VM ANLÆG A/S",
+      "afsendelsesdato": "2026-01-23",
+      "hn_offer_id": 3223796
+    },
+    {
+      "tilbudsnr": "T7573",
+      "tilbudsnavn": "Fredtoftevej 19,",
+      "kundenavn": "EVC Rådgivning ApS",
+      "afsendelsesdato": "2026-02-11",
+      "hn_offer_id": 3263522
+    },
+    {
+      "tilbudsnr": "T7705-2",
+      "tilbudsnavn": "Frellsen, Ny Fabriksbutik",
+      "kundenavn": "Wolff Svendsen A/S",
+      "afsendelsesdato": "2026-04-27",
+      "hn_offer_id": 3369105
+    },
+    {
+      "tilbudsnr": "T7699",
+      "tilbudsnavn": "Garnisonskirken",
+      "kundenavn": "Jakon A/S",
+      "afsendelsesdato": "2026-04-17",
+      "hn_offer_id": 3359900
+    },
+    {
+      "tilbudsnr": "T7669",
+      "tilbudsnavn": "Gelænder",
+      "kundenavn": "Jon Bach Svendsen",
+      "afsendelsesdato": "2026-03-23",
+      "hn_offer_id": 3341130
+    },
+    {
+      "tilbudsnr": "T6431",
+      "tilbudsnavn": "Gersonsvej andelsboliger Altaner",
+      "kundenavn": "ALH ApS",
+      "afsendelsesdato": "2024-09-13",
+      "hn_offer_id": 2438189
+    },
+    {
+      "tilbudsnr": "T7784",
+      "tilbudsnavn": "Grantofteskolen",
+      "kundenavn": "REBO A/S",
+      "afsendelsesdato": "2026-05-19",
+      "hn_offer_id": 3434021
+    },
+    {
+      "tilbudsnr": "T7664",
+      "tilbudsnavn": "Grønnevang skole",
+      "kundenavn": "Tømrer- og Snedkermester Børge Nielsen A/S",
+      "afsendelsesdato": "2026-03-18",
+      "hn_offer_id": 3337884
+    },
+    {
+      "tilbudsnr": "T7638",
+      "tilbudsnavn": "Hedehusene Station / Aarsleff Rail",
+      "kundenavn": "Aarsleff Rail A/S",
+      "afsendelsesdato": "2026-03-18",
+      "hn_offer_id": 3316325
+    },
+    {
+      "tilbudsnr": "T7709",
+      "tilbudsnavn": "Hermelinvænget 66",
+      "kundenavn": "Randi & Bo",
+      "afsendelsesdato": "2026-04-14",
+      "hn_offer_id": 3373556
+    },
+    {
+      "tilbudsnr": "T7781",
+      "tilbudsnavn": "Horsekildevej 3",
+      "kundenavn": "Clarke Entreprise ApS",
+      "afsendelsesdato": "2026-05-11",
+      "hn_offer_id": 3432780
+    },
+    {
+      "tilbudsnr": "T7744-1",
+      "tilbudsnavn": "Huset KBH",
+      "kundenavn": "CH BYG A/S",
+      "afsendelsesdato": "2026-05-26",
+      "hn_offer_id": 3401223
+    },
+    {
+      "tilbudsnr": "T7753",
+      "tilbudsnavn": "Huset Kbh",
+      "kundenavn": "VM ANLÆG A/S",
+      "afsendelsesdato": "2026-05-26",
+      "hn_offer_id": 3409046
+    },
+    {
+      "tilbudsnr": "T7747",
+      "tilbudsnavn": "Huset-KBH",
+      "kundenavn": "Jakon A/S",
+      "afsendelsesdato": "2026-05-26",
+      "hn_offer_id": 3403843
+    },
+    {
+      "tilbudsnr": "T7606",
+      "tilbudsnavn": "Ishøj bycenter",
+      "kundenavn": "airteam A/S",
+      "afsendelsesdato": "2026-02-18",
+      "hn_offer_id": 3282605
+    },
+    {
+      "tilbudsnr": "T7780",
+      "tilbudsnavn": "Ishøj Lokalcenter",
+      "kundenavn": "EINAR KORNERUP A/S",
+      "afsendelsesdato": "2026-05-28",
+      "hn_offer_id": 3432214
+    },
+    {
+      "tilbudsnr": "T7532",
+      "tilbudsnavn": "Jupiter",
+      "kundenavn": "Jesper Højer",
+      "afsendelsesdato": "2026-01-29",
+      "hn_offer_id": 3236524
+    },
+    {
+      "tilbudsnr": "T7735",
+      "tilbudsnavn": "Kirstinehøj 42",
+      "kundenavn": "Canbyg ASX 1516 ApS",
+      "afsendelsesdato": "2026-04-29",
+      "hn_offer_id": 3393563
+    },
+    {
+      "tilbudsnr": "T7661",
+      "tilbudsnavn": "Kjeld Langes Gade 6-8",
+      "kundenavn": "PNP-Byg A/S",
+      "afsendelsesdato": "2026-03-23",
+      "hn_offer_id": 3335059
+    },
+    {
+      "tilbudsnr": "T7749",
+      "tilbudsnavn": "Kultur hus i Hellerup.",
+      "kundenavn": "Tømrer- og Snedkermester Børge Nielsen A/S",
+      "afsendelsesdato": "2026-05-07",
+      "hn_offer_id": 3406287
+    },
+    {
+      "tilbudsnr": "T7806",
+      "tilbudsnavn": "Kvistaltan",
+      "kundenavn": "Christoffer Winther Bouet",
+      "afsendelsesdato": "2026-05-18",
+      "hn_offer_id": 3455060
+    },
+    {
+      "tilbudsnr": "T7685",
+      "tilbudsnavn": "Magleparken 77",
+      "kundenavn": "Clarke Entreprise ApS",
+      "afsendelsesdato": "2026-04-28",
+      "hn_offer_id": 3353535
+    },
+    {
+      "tilbudsnr": "T6487",
+      "tilbudsnavn": "NHVT Spærrebom ved Lyngby tunnelen",
+      "kundenavn": "STRØM HANSEN A/S",
+      "afsendelsesdato": "2024-10-31",
+      "hn_offer_id": 2474230
+    },
+    {
+      "tilbudsnr": "T7737",
+      "tilbudsnavn": "Nick Sauer",
+      "kundenavn": "Nick Sauer",
+      "afsendelsesdato": "2026-04-17",
+      "hn_offer_id": 3396250
+    },
+    {
+      "tilbudsnr": "T7673",
+      "tilbudsnavn": "Novo Nordisk, 2H",
+      "kundenavn": "LAURITZ HANNIBAL ApS",
+      "afsendelsesdato": "2026-03-25",
+      "hn_offer_id": 3342948
+    },
+    {
+      "tilbudsnr": "T7681",
+      "tilbudsnavn": "Ny Søndervang trappe låger",
+      "kundenavn": "HANSSON & KNUDSEN A/S",
+      "afsendelsesdato": "2026-03-25",
+      "hn_offer_id": 3349502
+    },
+    {
+      "tilbudsnr": "T7796",
+      "tilbudsnavn": "Ny transformerstation.",
+      "kundenavn": "Wolff Svendsen A/S",
+      "afsendelsesdato": "2026-05-21",
+      "hn_offer_id": 3446476
+    },
+    {
+      "tilbudsnr": "T7624",
+      "tilbudsnavn": "NYADEL",
+      "kundenavn": "NCC DANMARK A/S",
+      "afsendelsesdato": "2026-02-27",
+      "hn_offer_id": 3297813
+    },
+    {
+      "tilbudsnr": "T7670",
+      "tilbudsnavn": "Ole Rømer-Skolen",
+      "kundenavn": "CH BYG A/S",
+      "afsendelsesdato": "2026-04-07",
+      "hn_offer_id": 3341136
+    },
+    {
+      "tilbudsnr": "T7534",
+      "tilbudsnavn": "Oman Vælrætt",
+      "kundenavn": "Nordhus ApS",
+      "afsendelsesdato": "2026-02-13",
+      "hn_offer_id": 3236589
+    },
+    {
+      "tilbudsnr": "T7641",
+      "tilbudsnavn": "Peter Hentzen",
+      "kundenavn": "Peter Hentzen",
+      "afsendelsesdato": "2026-03-12",
+      "hn_offer_id": 3321761
+    },
+    {
+      "tilbudsnr": "T7820",
+      "tilbudsnavn": "Peter Vedels Gade 8",
+      "kundenavn": "CH BYG A/S",
+      "afsendelsesdato": "2026-05-29",
+      "hn_offer_id": 3472080
+    },
+    {
+      "tilbudsnr": "T7794",
+      "tilbudsnavn": "Peter Vedels Gade 8",
+      "kundenavn": "NÅR A/S",
+      "afsendelsesdato": "2026-05-29",
+      "hn_offer_id": 3444356
+    },
+    {
+      "tilbudsnr": "T7516",
+      "tilbudsnavn": "Pilehavevænget 64",
+      "kundenavn": "Vestegnens Murer ApS",
+      "afsendelsesdato": "2026-01-14",
+      "hn_offer_id": 3218364
+    },
+    {
+      "tilbudsnr": "T7748",
+      "tilbudsnavn": "Porsche værksted Gladsaxe.",
+      "kundenavn": "KEH Gruppen ApS",
+      "afsendelsesdato": "2026-04-27",
+      "hn_offer_id": 3406275
+    },
+    {
+      "tilbudsnr": "T6958",
+      "tilbudsnavn": "Ragnhildgade",
+      "kundenavn": "Jakon A/S",
+      "afsendelsesdato": "2025-07-02",
+      "hn_offer_id": 2817268
+    },
+    {
+      "tilbudsnr": "T7314",
+      "tilbudsnavn": "Rockwool EFIC",
+      "kundenavn": "Alpha tømrerentreprise Aps",
+      "afsendelsesdato": "2025-10-17",
+      "hn_offer_id": 3074509
+    },
+    {
+      "tilbudsnr": "T7662",
+      "tilbudsnavn": "Rådmandgade Skole",
+      "kundenavn": "Curacon",
+      "afsendelsesdato": "2026-04-16",
+      "hn_offer_id": 3335277
+    },
+    {
+      "tilbudsnr": "T7689",
+      "tilbudsnavn": "Skjoldagervej",
+      "kundenavn": "Heto ApS",
+      "afsendelsesdato": "2026-04-08",
+      "hn_offer_id": 3354452
+    },
+    {
+      "tilbudsnr": "T7644",
+      "tilbudsnavn": "stålrækværk",
+      "kundenavn": "Svendborg Architects",
+      "afsendelsesdato": "2026-03-11",
+      "hn_offer_id": 3324813
     },
     {
       "tilbudsnr": "T7734-1",
@@ -1211,6 +1636,20 @@
       "hn_offer_id": 3463276
     },
     {
+      "tilbudsnr": "T7577",
+      "tilbudsnavn": "Søtorvet 2",
+      "kundenavn": "Tømrer- og Snedkermester Børge Nielsen A/S",
+      "afsendelsesdato": "2026-02-25",
+      "hn_offer_id": 3266518
+    },
+    {
+      "tilbudsnr": "T7718",
+      "tilbudsnavn": "Terrasse trappe",
+      "kundenavn": "Janne Wilken",
+      "afsendelsesdato": "2026-04-10",
+      "hn_offer_id": 3382349
+    },
+    {
       "tilbudsnr": "T7795",
       "tilbudsnavn": "Tilbud på istandsættelse af bygning til foreningsformål",
       "kundenavn": "Tawhid Islamisk Trossamfund",
@@ -1218,11 +1657,67 @@
       "hn_offer_id": 3446059
     },
     {
+      "tilbudsnr": "T7790",
+      "tilbudsnavn": "Tombak baldakin, Vesterbrogade, 24 - Gundtoft",
+      "kundenavn": "TEGNESTUEN VANDKUNSTEN A/S",
+      "afsendelsesdato": "2026-05-07",
+      "hn_offer_id": 3438303
+    },
+    {
+      "tilbudsnr": "T7147",
+      "tilbudsnavn": "Transformerstation",
+      "kundenavn": "NCC DANMARK A/S",
+      "afsendelsesdato": "2025-09-05",
+      "hn_offer_id": 2956102
+    },
+    {
+      "tilbudsnr": "T7740",
+      "tilbudsnavn": "Trappe Ishøj Bycenter",
+      "kundenavn": "MB Murerfirma ApS",
+      "afsendelsesdato": "2026-04-23",
+      "hn_offer_id": 3400489
+    },
+    {
+      "tilbudsnr": "T7668",
+      "tilbudsnavn": "Vejlesøvej 88, Holte",
+      "kundenavn": "Clarke Entreprise ApS",
+      "afsendelsesdato": "2026-04-13",
+      "hn_offer_id": 3341085
+    },
+    {
+      "tilbudsnr": "T7686",
+      "tilbudsnavn": "Vester Voldgade 123",
+      "kundenavn": "Jakon A/S",
+      "afsendelsesdato": "2026-04-24",
+      "hn_offer_id": 3353799
+    },
+    {
       "tilbudsnr": "T7541",
       "tilbudsnavn": "Vibo Afd. 142",
       "kundenavn": "Enemærke & Petersen A/S",
       "afsendelsesdato": "2026-02-06",
       "hn_offer_id": 3247702
+    },
+    {
+      "tilbudsnr": "T7609",
+      "tilbudsnavn": "Værftshal 19",
+      "kundenavn": "A/S JULIUS NIELSEN & SØN",
+      "afsendelsesdato": "2026-02-23",
+      "hn_offer_id": 3285708
+    },
+    {
+      "tilbudsnr": "T7530",
+      "tilbudsnavn": "Værftshal 19",
+      "kundenavn": "ELINDCO BYGGEFIRMA A/S",
+      "afsendelsesdato": "2026-02-23",
+      "hn_offer_id": 3233064
+    },
+    {
+      "tilbudsnr": "T7524",
+      "tilbudsnavn": "Værftshal 19",
+      "kundenavn": "Jakon A/S",
+      "afsendelsesdato": "2026-02-23",
+      "hn_offer_id": 3229017
     }
   ],
   "schedule": {
@@ -2211,16 +2706,16 @@
     ]
   },
   "meta": {
-    "generated": "2026-05-29 10:52",
+    "generated": "2026-05-29 11:07",
     "source": "E-regnskab API + tracker merge (pipeline.py)",
-    "active_count": 18,
-    "afsendt_count": 8,
+    "active_count": 23,
+    "afsendt_count": 74,
     "removed_count": 0,
     "ghost_removed": 51,
-    "merged_at": "2026-05-29 10:52",
-    "planner_version": "2026-05-29 08:33",
-    "push_validated": "2026-05-29 10:52",
-    "push_count": 18,
+    "merged_at": "2026-05-29 11:07",
+    "planner_version": "2026-05-29 10:52",
+    "push_validated": "2026-05-29 11:07",
+    "push_count": 23,
     "push_warnings": []
   }
 }
