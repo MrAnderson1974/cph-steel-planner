@@ -570,9 +570,12 @@ function renderCard(t, hoursToday, date, sistersHere) {
         <div class="card-kpis">
             <span class="kpi-tile ${getRiskClass(t.risk)}" data-tooltip="${escHtml(riskTooltip)}">Margin: ${marginText}</span>
             <span class="kpi-tile ${gradeClass}" data-tooltip="${escHtml(gradeTooltip)}">Kunde: ${grade || 'Ny'}${t.rating_score ? ` (${Math.round(t.rating_score)})` : ''}</span>
-            ${t.must_win  ? `<span class="kpi-tile kpi-mw"   data-tooltip="Must Win — strategisk kritisk tilbud">⚡ Must Win</span>` : ''}
-            ${t.high_ref  ? `<span class="kpi-tile kpi-href" data-tooltip="Høj referenceverdi — vigtigt referenceprojekt">★ Ref</span>` : ''}
             <span class="kpi-tile kpi-bt" data-tooltip="Beregnertid${t.bt_estimated ? ' — estimeret, klik for at bekræfte' : ''}">BT: ${formatNum(t.beregnertid)}t${t.bt_estimated ? ' ~' : ''}</span>
+            ${t.exc_class ? `<span class="kpi-tile kpi-scope" data-tooltip="Konsekvensklasse">${escHtml(t.exc_class)}</span>` : ''}
+            ${t.kompleksitet ? `<span class="kpi-tile kpi-scope" data-tooltip="Kompleksitet">${escHtml(t.kompleksitet)}</span>` : ''}
+            ${t.entreprise ? `<span class="kpi-tile kpi-scope" data-tooltip="Entrepriseform">${escHtml(t.entreprise)}</span>` : ''}
+            ${t.must_win  ? `<span class="kpi-tile kpi-mw"   data-tooltip="Must Win — strategisk kritisk tilbud">⚡ MW</span>` : ''}
+            ${t.high_ref  ? `<span class="kpi-tile kpi-href" data-tooltip="Høj referenceverdi">★ Ref</span>` : ''}
             ${faHtml}
             ${(t.scheduled_days && t.scheduled_days.length > 1)
                 ? `<button class="card-split-btn card-split-btn--merge" title="Saml projektet til én dag (flex)"
