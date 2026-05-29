@@ -1207,6 +1207,7 @@ select.add-input { cursor: pointer; }
   align-items: center;
   gap: 8px;
 }
+.card-edit-bt .card-split-btn { margin-left: auto; }
 .card-edit-bt--ok {
   border-top-color: var(--border-light);
   background: var(--surface-1);
