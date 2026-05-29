@@ -627,8 +627,8 @@ select.add-input { cursor: pointer; }
 }
 .action-group--overdue .ag-title  { color: var(--red); }
 .action-group--overdue .ag-count  { background: rgba(200,16,46,0.1); color: var(--red); border: 1px solid rgba(200,16,46,0.25); }
-.action-group--miss    .ag-title  { color: #8A4200; }
-.action-group--miss    .ag-count  { background: rgba(184,134,11,0.12); color: #8A6200; border: 1px solid rgba(184,134,11,0.3); }
+.action-group--miss    .ag-title  { color: var(--red); }
+.action-group--miss    .ag-count  { background: rgba(200,16,46,0.1); color: var(--red); border: 1px solid rgba(200,16,46,0.25); }
 .action-group--bt      .ag-title  { color: var(--coal); }
 .action-group--bt      .ag-count  { background: rgba(59,60,61,0.08); color: var(--coal); border: 1px solid rgba(59,60,61,0.2); }
 
@@ -665,8 +665,12 @@ select.add-input { cursor: pointer; }
   white-space: nowrap;
   flex-shrink: 0;
 }
-.action-group--overdue .ag-detail { color: var(--red); }
-.action-group--miss    .ag-detail { color: #8A4200; }
+.action-group--overdue .ag-detail { color: var(--red); font-weight: 800; }
+.action-group--miss    .ag-detail { color: var(--red); font-weight: 700; }
+
+.ag-row--urgent { background: rgba(200,16,46,0.04); border-radius: 2px; padding: 5px 4px; margin: 1px 0; }
+.ag-row--urgent .ag-tnr  { color: var(--red); }
+.ag-row--urgent .ag-name { color: var(--coal); font-weight: 600; }
 .action-group--bt      .ag-detail { color: var(--text-muted); }
 
 .ag-empty {

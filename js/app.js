@@ -34,6 +34,7 @@ async function loadData() {
             const result = await persistence.loadQueue(token, repo);
             state.queue = result.content;
             state.sha   = result.sha;
+            refreshRisk();
             showStatus('✓ GitHub');
             showPipelineTimestamp();
             return;
@@ -48,8 +49,17 @@ async function loadData() {
     // Brug .text() + JSON.parse så browseren altid tolker som UTF-8 (GitHub Pages sætter ikke charset)
     const raw = await res.text();
     state.queue = JSON.parse(raw);
+    refreshRisk();
     showStatus('✓ Lokale data');
     showPipelineTimestamp();
+}
+
+function refreshRisk() {
+    // Genberegn risk live fra planned_end vs deadline — aldrig stolt på gemt felt
+    if (!state.queue) return;
+    for (const t of state.queue.tilbud) {
+        t.risk = calculateRisk(t);
+    }
 }
 
 function showPipelineTimestamp() {
@@ -233,12 +243,12 @@ function renderActionRequired() {
     const total = overdue.length + miss.length + nobt.length;
     document.getElementById('action-count').textContent = total;
 
-    function groupRows(items, detailFn) {
+    function groupRows(items, detailFn, urgent = false) {
         if (items.length === 0) return '<div class="ag-empty">Ingen</div>';
         return items.map(t => `
-            <div class="ag-row">
+            <div class="ag-row${urgent ? ' ag-row--urgent' : ''}">
                 <span class="ag-tnr">${escHtml(t.tilbudsnr)}</span>
-                <span class="ag-name" title="${escHtml(t.projekt || t.tilbudsnavn)}">${escHtml((t.projekt || t.tilbudsnavn).substring(0, 28))}</span>
+                <span class="ag-name" title="${escHtml(t.projekt || t.tilbudsnavn)}">${escHtml((t.projekt || t.tilbudsnavn).substring(0, 26))}</span>
                 <span class="ag-detail">${detailFn(t)}</span>
             </div>`).join('');
     }
@@ -246,17 +256,20 @@ function renderActionRequired() {
     const html = `
         <div class="action-group action-group--overdue">
             <div class="ag-header">
-                <span class="ag-title">Deadline overskredet</span>
+                <span class="ag-title">⛔ Deadline overskredet</span>
                 <span class="ag-count">${overdue.length}</span>
             </div>
-            ${groupRows(overdue, t => `DL ${formatDateShort(t.deadline)} passeret`)}
+            ${groupRows(overdue, t => `DL ${formatDateShort(t.deadline)} passeret`, true)}
         </div>
         <div class="action-group action-group--miss">
             <div class="ag-header">
-                <span class="ag-title">Misser deadline</span>
+                <span class="ag-title">🔴 Misser deadline</span>
                 <span class="ag-count">${miss.length}</span>
             </div>
-            ${groupRows(miss, t => `DL ${formatDateShort(t.deadline)} · slut ${formatDateShort(t.planned_end)}`)}
+            ${groupRows(miss, t => {
+                const over = daysBetween(t.deadline, t.planned_end);
+                return `DL ${formatDateShort(t.deadline)} — slut ${formatDateShort(t.planned_end)} (+${over}d)`;
+            }, true)}
         </div>
         <div class="action-group action-group--bt">
             <div class="ag-header">
