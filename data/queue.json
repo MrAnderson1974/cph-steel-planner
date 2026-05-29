@@ -1052,9 +1052,9 @@
       "rating_score": null,
       "kunde_grade": null,
       "scheduled_days": [
-        "2026-05-29"
+        "2026-06-02"
       ],
-      "planned_end": "2026-05-29",
+      "planned_end": "2026-06-02",
       "risk": "⚪",
       "bt_estimated": true,
       "bt_tier": "M",
@@ -1191,10 +1191,6 @@
       {
         "tilbudsnr": "T7755",
         "hours": 5.0
-      },
-      {
-        "tilbudsnr": "T7823",
-        "hours": 5.0
       }
     ],
     "2026-06-01": [
@@ -1215,6 +1211,10 @@
       {
         "tilbudsnr": "T7808",
         "hours": 6.67
+      },
+      {
+        "tilbudsnr": "T7823",
+        "hours": 5.0
       }
     ],
     "2026-06-03": [
