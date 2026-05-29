@@ -2107,15 +2107,15 @@
     ]
   },
   "meta": {
-    "generated": "2026-05-29 11:42",
+    "generated": "2026-05-29 11:49",
     "source": "E-regnskab API + tracker merge (pipeline.py)",
     "active_count": 19,
     "afsendt_count": 8,
     "removed_count": 0,
     "ghost_removed": 51,
-    "merged_at": "2026-05-29 11:42",
-    "planner_version": "2026-05-29 11:40",
-    "push_validated": "2026-05-29 11:42",
+    "merged_at": "2026-05-29 11:49",
+    "planner_version": "2026-05-29 11:42",
+    "push_validated": "2026-05-29 11:49",
     "push_count": 19,
     "push_warnings": []
   }
