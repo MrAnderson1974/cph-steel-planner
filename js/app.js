@@ -245,8 +245,6 @@ function renderActionRequired() {
     }
 
     const total = overdue.length + miss.length + nobt.length + jaDecision.length + pipelineFixed.length;
-
-    const total = overdue.length + miss.length + nobt.length;
     document.getElementById('action-count').textContent = total;
 
     function groupRows(items, detailFn, urgent = false) {
