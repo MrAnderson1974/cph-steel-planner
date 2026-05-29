@@ -898,15 +898,15 @@ select.add-input { cursor: pointer; }
 
 .card-tnr {
   font-family: var(--font-h);
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 700;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.05em;
   color: #000;
   flex-shrink: 0;
 }
 .card-hours {
   font-family: var(--font-h);
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 700;
   color: #000;
   flex-shrink: 0;
@@ -915,7 +915,7 @@ select.add-input { cursor: pointer; }
 .card-kunde {
   flex: 1;
   font-family: var(--font-b);
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 500;
   color: var(--text-secondary);
   white-space: nowrap;
@@ -927,7 +927,7 @@ select.add-input { cursor: pointer; }
 /* Udbudsnavn — i header, fylder mellemrummet */
 .card-udbudsnavn {
   font-family: var(--font-h);
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 700;
   color: #000;
   flex: 1;
@@ -940,7 +940,7 @@ select.add-input { cursor: pointer; }
 /* Kundenavn — sekundær linje i card-body */
 .card-kunde-sub {
   font-family: var(--font-b);
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 500;
   color: #000;
   margin-bottom: 4px;
@@ -949,9 +949,9 @@ select.add-input { cursor: pointer; }
 /* DL badge variants */
 .card-dl {
   font-family: var(--font-h);
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 700;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
   padding: 3px 8px;
   white-space: nowrap;
   flex-shrink: 0;
