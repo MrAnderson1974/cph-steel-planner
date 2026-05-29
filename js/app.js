@@ -504,18 +504,26 @@ function renderCard(t, hoursToday, date, sistersHere) {
            </div>`
         : '';
 
+    const splitBtn = (t.scheduled_days && t.scheduled_days.length > 1)
+        ? `<button class="card-split-btn card-split-btn--merge" title="Saml til én dag"
+               onclick="event.stopPropagation(); onMergeCard('${escHtml(t.tilbudsnr)}')">⊕ Saml</button>`
+        : `<button class="card-split-btn" title="Del over flere dage"
+               onclick="event.stopPropagation(); onSplitCard('${escHtml(t.tilbudsnr)}', '${date}')">✂ Del</button>`;
+
     const btEditHtml = t.bt_estimated
         ? `<div class="card-edit-bt">
             <span class="bt-label">BT estimeret</span>
             <input class="bt-input" type="number" value="${t.beregnertid}" step="0.5" min="0"
                 onchange="onBTChange('${t.tilbudsnr}', this.value)" onclick="event.stopPropagation()">
             <span class="bt-unit">t — klik for at bekræfte</span>
+            ${splitBtn}
            </div>`
         : `<div class="card-edit-bt card-edit-bt--ok">
             <span class="bt-label bt-label--ok">BT</span>
             <input class="bt-input bt-input--ok" type="number" value="${t.beregnertid}" step="0.5" min="0"
                 onchange="onBTChange('${t.tilbudsnr}', this.value)" onclick="event.stopPropagation()">
             <span class="bt-unit">timer total</span>
+            ${splitBtn}
            </div>`;
 
     const riskTooltip = {
@@ -585,12 +593,6 @@ function renderCard(t, hoursToday, date, sistersHere) {
             ${t.must_win  ? `<span class="kpi-tile kpi-mw"   data-tooltip="Must Win — strategisk kritisk tilbud">⚡ MW</span>` : ''}
             ${t.high_ref  ? `<span class="kpi-tile kpi-href" data-tooltip="Høj referenceverdi">★ Ref</span>` : ''}
             ${faHtml}
-            ${(t.scheduled_days && t.scheduled_days.length > 1)
-                ? `<button class="card-split-btn card-split-btn--merge" title="Saml projektet til én dag (flex)"
-                    onclick="event.stopPropagation(); onMergeCard('${escHtml(t.tilbudsnr)}')">⊕ Saml</button>`
-                : `<button class="card-split-btn" title="Del fra denne dag (fordel over dage med normal kapacitet)"
-                    onclick="event.stopPropagation(); onSplitCard('${escHtml(t.tilbudsnr)}', '${date}')">✂ Del</button>`
-            }
         </div>
         ${rfiHtml}${sistersHtml}${btEditHtml}
     </div>`;
