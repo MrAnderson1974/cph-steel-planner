@@ -512,17 +512,17 @@ function renderCard(t, hoursToday, date, sistersHere) {
 
     const btEditHtml = t.bt_estimated
         ? `<div class="card-edit-bt">
-            <span class="bt-label">BT estimeret</span>
+            <span class="bt-label">BT ~</span>
             <input class="bt-input" type="number" value="${t.beregnertid}" step="0.5" min="0"
                 onchange="onBTChange('${t.tilbudsnr}', this.value)" onclick="event.stopPropagation()">
-            <span class="bt-unit">t — klik for at bekræfte</span>
+            <span class="bt-unit">t</span>
             ${splitBtn}
            </div>`
         : `<div class="card-edit-bt card-edit-bt--ok">
             <span class="bt-label bt-label--ok">BT</span>
             <input class="bt-input bt-input--ok" type="number" value="${t.beregnertid}" step="0.5" min="0"
                 onchange="onBTChange('${t.tilbudsnr}', this.value)" onclick="event.stopPropagation()">
-            <span class="bt-unit">timer total</span>
+            <span class="bt-unit">t</span>
             ${splitBtn}
            </div>`;
 
