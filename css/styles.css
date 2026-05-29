@@ -24,10 +24,10 @@
   --surface-2:  #FFFFFF;   /* cards */
   --surface-3:  #EAE6DF;   /* kpi bar */
 
-  /* Text on light */
-  --text-primary:   #1A1A1A;
-  --text-secondary: #4A4645;
-  --text-muted:     #8A8280;
+  /* Text on light — høj kontrast */
+  --text-primary:   #000000;
+  --text-secondary: #1A1A1A;
+  --text-muted:     #3B3C3D;
 
   /* Borders on light */
   --border:       rgba(0,0,0,0.10);
@@ -49,7 +49,7 @@
 
 body {
   font-family: var(--font-b);
-  font-size: 13px;
+  font-size: 15px;
   background: var(--surface-0);
   color: var(--text-primary);
   min-width: 1024px;
@@ -128,7 +128,7 @@ body {
   padding: 5px 12px;
   cursor: pointer;
   font-family: var(--font-h);
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -150,7 +150,7 @@ body {
 
 #save-status {
   font-family: var(--font-b);
-  font-size: 11px;
+  font-size: 14px;
   color: var(--steel);
   min-width: 140px;
   text-align: right;
@@ -159,7 +159,7 @@ body {
 /* Pipeline timestamp */
 .pipeline-ts {
   font-family: var(--font-b);
-  font-size: 10px;
+  font-size: 13px;
   color: rgba(186,162,144,0.4);
   white-space: nowrap;
   letter-spacing: 0.02em;
@@ -246,7 +246,7 @@ body {
   text-align: center;
 }
 .si-text {
-  font-size: 12px;
+  font-size: 14px;
   overflow: hidden;
   white-space: nowrap;
   transition: opacity 0.15s;
@@ -269,7 +269,7 @@ body {
   background: var(--dark);
   color: rgba(255,255,255,0.85);
   font-family: var(--font-b);
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 400;
   letter-spacing: 0;
   text-transform: none;
@@ -326,7 +326,7 @@ body {
 }
 .add-title {
   font-family: var(--font-h);
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.22em;
   text-transform: uppercase;
@@ -374,7 +374,7 @@ body {
 
 .add-req {
   color: var(--red);
-  font-size: 10px;
+  font-size: 13px;
   display: inline;
   font-weight: 900;
 }
@@ -387,7 +387,7 @@ body {
   border: 1px solid var(--border);
   color: var(--text-primary);
   font-family: var(--font-b);
-  font-size: 12px;
+  font-size: 14px;
   border-radius: 2px;
   transition: border-color 0.15s;
   min-width: 0;
@@ -403,7 +403,7 @@ select.add-input { cursor: pointer; }
   gap: 8px;
   cursor: pointer;
   font-family: var(--font-b);
-  font-size: 12px;
+  font-size: 14px;
   color: var(--text-secondary);
   user-select: none;
   white-space: nowrap;
@@ -430,7 +430,7 @@ select.add-input { cursor: pointer; }
   border-radius: 2px;
   cursor: pointer;
   font-family: var(--font-h);
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.15em;
   text-transform: uppercase;
@@ -445,7 +445,7 @@ select.add-input { cursor: pointer; }
   border-radius: 2px;
   cursor: pointer;
   font-family: var(--font-h);
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -466,7 +466,7 @@ select.add-input { cursor: pointer; }
 }
 .settings-inner h3 {
   font-family: var(--font-h);
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -477,7 +477,7 @@ select.add-input { cursor: pointer; }
   display: block;
   margin-bottom: 14px;
   font-family: var(--font-h);
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.15em;
   text-transform: uppercase;
@@ -501,7 +501,7 @@ select.add-input { cursor: pointer; }
   padding: 8px 20px;
   cursor: pointer;
   font-family: var(--font-h);
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.15em;
   text-transform: uppercase;
@@ -574,10 +574,10 @@ select.add-input { cursor: pointer; }
   border-bottom: 1px solid var(--border-light);
 }
 #action-header:hover { background: var(--surface-1); }
-#action-toggle { font-size: 10px; color: var(--text-muted); }
+#action-toggle { font-size: 13px; color: var(--text-muted); }
 #action-header strong {
   font-family: var(--font-h);
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
@@ -589,7 +589,7 @@ select.add-input { cursor: pointer; }
   border-radius: 10px;
   padding: 2px 8px;
   font-family: var(--font-h);
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 700;
 }
 
@@ -642,7 +642,7 @@ select.add-input { cursor: pointer; }
 }
 .ag-tnr {
   font-family: var(--font-h);
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.06em;
   color: var(--coal);
@@ -650,7 +650,7 @@ select.add-input { cursor: pointer; }
   min-width: 48px;
 }
 .ag-name {
-  font-size: 11px;
+  font-size: 14px;
   color: var(--text-secondary);
   flex: 1;
   overflow: hidden;
@@ -703,7 +703,7 @@ select.add-input { cursor: pointer; }
 .action-group--bt      .ag-detail { color: var(--text-muted); }
 
 .ag-empty {
-  font-size: 11px;
+  font-size: 14px;
   color: var(--text-muted);
   padding: 4px 0;
   font-style: italic;
@@ -723,7 +723,7 @@ select.add-input { cursor: pointer; }
   color: var(--bronze);
   padding: 8px 16px;
   font-family: var(--font-h);
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.16em;
   text-transform: uppercase;
@@ -758,7 +758,7 @@ select.add-input { cursor: pointer; }
 }
 .day-name {
   font-family: var(--font-h);
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.10em;
   text-transform: uppercase;
@@ -768,7 +768,7 @@ select.add-input { cursor: pointer; }
 .day-today .day-name { color: var(--coal); }
 .day-capacity {
   font-family: var(--font-b);
-  font-size: 11px;
+  font-size: 14px;
   color: var(--text-muted);
   display: flex;
   align-items: center;
@@ -787,7 +787,7 @@ select.add-input { cursor: pointer; }
 }
 .week-ot {
   font-family: var(--font-h);
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 700;
   color: var(--bronze);
   letter-spacing: 0.06em;
@@ -977,18 +977,18 @@ select.add-input { cursor: pointer; }
 .card-beskr-wrap { display: flex; flex-direction: column; gap: 4px; }
 
 .beskr-steel {
-  font-size: 11px;
+  font-size: 14px;
   color: var(--text-primary);
   line-height: 1.45;
   font-weight: 500;
 }
 .beskr-resume {
-  font-size: 11px;
+  font-size: 14px;
   color: var(--text-secondary);
   line-height: 1.45;
 }
 .beskr-meta {
-  font-size: 10px;
+  font-size: 13px;
   color: var(--text-muted);
   line-height: 1.4;
   padding-top: 2px;
@@ -1034,7 +1034,7 @@ select.add-input { cursor: pointer; }
   background: var(--coal);
   color: #F0EDE6;
   font-family: var(--font-b);
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 400;
   letter-spacing: 0;
   text-transform: none;
@@ -1070,7 +1070,7 @@ select.add-input { cursor: pointer; }
   align-items: center;
   padding: 0 9px;
   font-family: var(--font-h);
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.05em;
   border-radius: 2px;
@@ -1162,7 +1162,7 @@ select.add-input { cursor: pointer; }
   padding: 0 8px;
   border-radius: 2px;
   font-family: var(--font-h);
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 700;
   color: #6B5344;
   gap: 2px;
@@ -1219,7 +1219,7 @@ select.add-input { cursor: pointer; }
 .bt-input--ok { border-color: var(--border); }
 .bt-input--ok:focus { border-color: var(--bronze); }
 .bt-input:focus { outline: none; border-color: #8A6200; }
-.bt-unit { font-family: var(--font-b); font-size: 11px; color: var(--text-muted); }
+.bt-unit { font-family: var(--font-b); font-size: 14px; color: var(--text-muted); }
 
 /* ── RFI BLOCK ── */
 .rfi-block {
@@ -1240,7 +1240,7 @@ select.add-input { cursor: pointer; }
   margin-bottom: 2px;
 }
 .rfi-item {
-  font-size: 11px;
+  font-size: 14px;
   line-height: 1.4;
   padding: 2px 0;
   display: flex;
@@ -1272,9 +1272,9 @@ select.add-input { cursor: pointer; }
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 11px;
+  font-size: 14px;
 }
-.card-sister .sister-tnr  { font-family: var(--font-h); font-weight: 700; color: var(--bronze); font-size: 10px; letter-spacing: 0.08em; }
+.card-sister .sister-tnr  { font-family: var(--font-h); font-weight: 700; color: var(--bronze); font-size: 13px; letter-spacing: 0.08em; }
 .card-sister .sister-info { color: var(--text-secondary); }
 
 /* ── TOAST ── */
@@ -1296,7 +1296,7 @@ select.add-input { cursor: pointer; }
   border-left: 3px solid var(--bronze);
   padding: 10px 18px;
   font-family: var(--font-b);
-  font-size: 12px;
+  font-size: 14px;
   opacity: 0;
   transform: translateY(10px);
   transition: opacity 0.25s, transform 0.25s;
@@ -1332,7 +1332,7 @@ select.add-input { cursor: pointer; }
 }
 .help-title {
   font-family: var(--font-h);
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
@@ -1360,7 +1360,7 @@ select.add-input { cursor: pointer; }
   margin-bottom: 10px;
 }
 .help-row {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--text-secondary);
   margin-bottom: 8px;
   line-height: 1.5;
@@ -1375,7 +1375,7 @@ kbd {
   border-radius: 3px;
   padding: 2px 7px;
   font-family: var(--font-b);
-  font-size: 11px;
+  font-size: 14px;
   color: var(--text-primary);
   white-space: nowrap;
 }
@@ -1385,7 +1385,7 @@ kbd {
   border: 1px solid var(--border);
   background: var(--surface-1);
   font-family: var(--font-h);
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.06em;
   color: var(--text-secondary);
@@ -1439,7 +1439,7 @@ kbd {
 .ob-actions button {
   padding: 10px 24px;
   font-family: var(--font-h);
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.15em;
   text-transform: uppercase;
