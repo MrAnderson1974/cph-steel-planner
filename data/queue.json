@@ -965,37 +965,64 @@
       "rfi": [
         {
           "type": "INFO",
-          "tekst": "RFI-01: FE04 Stykliste — profilvægte og mål n Delvis",
-          "status": "DELVIS"
+          "tekst": "Q1: Opsvejste profiler — CPH Steel beregner vægte selv",
+          "status": "DELVIS",
+          "ansvarlig": "Tom/Lasse"
         },
         {
           "type": "UL",
-          "tekst": "RFI-02: Brandmaling — tykkelsesspec og leverandørgaranti n Delvis",
-          "status": "DELVIS"
-        },
-        {
-          "type": "INFO",
-          "tekst": "RFI-04: Aluminium — legeringstype nn Åben",
-          "status": "AABEN"
-        },
-        {
-          "type": "UL",
-          "tekst": "RFI-06: Brandkrav FE09 — K01_C05_N004 n Afventer",
-          "status": "AFVENTER"
+          "tekst": "Q2: Brandmalingstykkelse — afklares med leverandør ved prod.",
+          "status": "DELVIS",
+          "ansvarlig": "Lasse/Vivi"
         },
         {
           "type": "TEKNISK",
-          "tekst": "RFI-09: IFC-model — placering nn Åben",
-          "status": "AABEN"
+          "tekst": "Q4: Alu-legering FE09 — foreslå EN AW-5083 (marin) til AW",
+          "status": "AABEN",
+          "ansvarlig": "Lasse"
+        },
+        {
+          "type": "UL",
+          "tekst": "Q6: Brandkrav FE09 (K01_C05_N004) — afventer brandrådgiver",
+          "status": "AFVENTER",
+          "ansvarlig": "AW → Lasse"
+        },
+        {
+          "type": "TEKNISK",
+          "tekst": "Q9: IFC-model — find i 04 Bygherre Tegninger/ eller kontakt AW",
+          "status": "AABEN",
+          "ansvarlig": "Lasse"
         },
         {
           "type": "INFO",
-          "tekst": "RFI-10: Facadetegninger FE10 n Afventer",
-          "status": "AFVENTER"
+          "tekst": "Q10: FE10 facadetegninger — afventer levering fra AW",
+          "status": "AFVENTER",
+          "ansvarlig": "AW → Lasse"
+        },
+        {
+          "type": "TEKNISK",
+          "tekst": "NDT-krav: VT alene eller ekstern MT/PT/UT? — afklar med bygherre",
+          "status": "AABEN",
+          "ansvarlig": "Lasse",
+          "kilde": "KS Rapport v3"
+        },
+        {
+          "type": "TEKNISK",
+          "tekst": "Alu-WPS: legeringstype bekræftes — afklar med KKL (svejsekoord.)",
+          "status": "AABEN",
+          "ansvarlig": "Lasse + KKL",
+          "kilde": "KS Rapport v3"
+        },
+        {
+          "type": "INFO",
+          "tekst": "B2.2.2.x Kontrolplan — IKKE sendt til VITA endnu (krav: 20 arbd.dage inden opstart)",
+          "status": "AABEN",
+          "ansvarlig": "Lasse",
+          "kilde": "KS Plan v4"
         }
       ],
       "rfi_opdateret": "2026-05-29",
-      "rfi_kilde": "auto"
+      "rfi_kilde": "RFI_Log_T7808_v1.pdf + KS_Plan_v4 + KS_Rapport_v3"
     },
     {
       "tilbudsnr": "T7785",
