@@ -1060,24 +1060,24 @@
     ],
     "2026-05-29": [
       {
-        "tilbudsnr": "T7755",
-        "hours": 7.4
-      },
-      {
         "tilbudsnr": "T7801",
         "hours": 5.5
+      },
+      {
+        "tilbudsnr": "T7755",
+        "hours": 5.0
       }
     ],
     "2026-06-01": [
       {
         "tilbudsnr": "T7755",
-        "hours": 7.4
+        "hours": 5.0
       }
     ],
     "2026-06-02": [
       {
         "tilbudsnr": "T7755",
-        "hours": 3.1999999999999993
+        "hours": 5.0
       },
       {
         "tilbudsnr": "T7808",
@@ -1092,11 +1092,6 @@
     ],
     "2026-06-04": [
       {
-        "tilbudsnr": "T7799",
-        "hours": 0,
-        "is_sister_display": true
-      },
-      {
         "tilbudsnr": "T7808",
         "hours": 6.67
       }
@@ -1104,18 +1099,10 @@
     "2026-06-09": [
       {
         "tilbudsnr": "T7778",
-        "hours": 5.8000000000000025
+        "hours": 0.0
       }
     ],
     "2026-06-10": [
-      {
-        "tilbudsnr": "T7778",
-        "hours": 0.1999999999999975
-      },
-      {
-        "tilbudsnr": "T7801",
-        "hours": 7.200000000000003
-      },
       {
         "tilbudsnr": "T7822",
         "hours": 5.0
@@ -1123,17 +1110,13 @@
       {
         "tilbudsnr": "T7818",
         "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7778",
+        "hours": 0.0
       }
     ],
     "2026-06-11": [
-      {
-        "tilbudsnr": "T7801",
-        "hours": 3.799999999999997
-      },
-      {
-        "tilbudsnr": "T7810",
-        "hours": 1.1000000000000032
-      },
       {
         "tilbudsnr": "T7817",
         "hours": 2.5
@@ -1141,20 +1124,24 @@
       {
         "tilbudsnr": "T7818",
         "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7810",
+        "hours": 1.25
       }
     ],
     "2026-06-12": [
       {
-        "tilbudsnr": "T7810",
-        "hours": 4.899999999999997
+        "tilbudsnr": "T7817",
+        "hours": 2.5
       },
       {
         "tilbudsnr": "T7807",
-        "hours": 2.5000000000000036
+        "hours": 2.5
       },
       {
-        "tilbudsnr": "T7817",
-        "hours": 2.5
+        "tilbudsnr": "T7810",
+        "hours": 1.25
       },
       {
         "tilbudsnr": "T7819",
@@ -1163,12 +1150,12 @@
     ],
     "2026-06-15": [
       {
-        "tilbudsnr": "T7807",
-        "hours": 2.4999999999999964
+        "tilbudsnr": "T7812",
+        "hours": 1.25
       },
       {
-        "tilbudsnr": "T7812",
-        "hours": 4.900000000000004
+        "tilbudsnr": "T7807",
+        "hours": 2.5
       },
       {
         "tilbudsnr": "T7819",
@@ -1178,11 +1165,11 @@
     "2026-06-16": [
       {
         "tilbudsnr": "T7812",
-        "hours": 1.099999999999996
+        "hours": 1.25
       },
       {
         "tilbudsnr": "T7809",
-        "hours": 0.30000000000000426
+        "hours": 1.25
       },
       {
         "tilbudsnr": "T7821",
@@ -1192,7 +1179,7 @@
     "2026-06-17": [
       {
         "tilbudsnr": "T7809",
-        "hours": 5.699999999999996
+        "hours": 1.25
       }
     ]
   },
