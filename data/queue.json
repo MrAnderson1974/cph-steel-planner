@@ -964,34 +964,48 @@
       "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7808%20TAAR/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7808_TAAR_v1.pdf",
       "rfi": [
         {
-          "type": "INFO",
-          "tekst": "Stykliste fra VITA mangler (FE04)"
+          "type": "UL",
+          "tekst": "Opsvejste profiler — CPH Steel beregner selv vægte",
+          "status": "DELVIS"
         },
         {
           "type": "UL",
-          "tekst": "Brandmalingsspec fra Artelia — tykkelse pr. profil"
-        },
-        {
-          "type": "INFO",
-          "tekst": "Rustfrit vs. S355J2 — ikke markeret på tegning"
-        },
-        {
-          "type": "INFO",
-          "tekst": "Mængder FE09 — trapper, lm værn mangler"
-        },
-        {
-          "type": "JURIDISK",
-          "tekst": "AB 92 (ikke AB 18) — juridisk review nødvendig"
+          "tekst": "Brandmalingstykkelse — afklares med leverandør ved prod.",
+          "status": "DELVIS"
         },
         {
           "type": "TEKNISK",
-          "tekst": "NDT-omfang — VT alene eller ekstern MT/PT/UT?"
+          "tekst": "Alu-legering FE09 — CPH Steel foreslår EN AW-5083 til AW",
+          "status": "AABEN"
         },
         {
-          "type": "UE",
-          "tekst": "FE09/FE04 montagekoordinering uafklaret"
+          "type": "INFO",
+          "tekst": "Brandkrav FE09 (K01_C05_N004) — AW afventer brandrådgiver",
+          "status": "AFVENTER"
+        },
+        {
+          "type": "TEKNISK",
+          "tekst": "IFC-model — Lasse finder sti i projektmappe",
+          "status": "AABEN"
+        },
+        {
+          "type": "INFO",
+          "tekst": "FE10 facadetegninger — forventet 27/5, tjek prisimpact",
+          "status": "AFVENTER"
+        },
+        {
+          "type": "TEKNISK",
+          "tekst": "HE600M (2.103 kg) — kran-kapacitet med Kim Olsen",
+          "status": "DELVIS"
+        },
+        {
+          "type": "JURIDISK",
+          "tekst": "AB 92 (ikke AB 18) — juridisk review nødvendig",
+          "status": "AABEN"
         }
-      ]
+      ],
+      "rfi_opdateret": "2026-05-27",
+      "rfi_kilde": "RFI_Log_T7808_v1.pdf + Obsidian TAAR_BIG.md"
     },
     {
       "tilbudsnr": "T7785",

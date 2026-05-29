@@ -476,16 +476,21 @@ function renderCard(t, hoursToday, date, sistersHere) {
         : (t.beskrivelse ? `<div class="beskr-resume">${escHtml(t.beskrivelse.substring(0,200))}</div>` : '');
 
     // RFI-sektion
-    const rfiIcons = { UL:'🔩', UE:'🏗', INFO:'📋', JURIDISK:'⚖', TEKNISK:'🔧' };
+    const rfiIcons  = { UL:'🔩', UE:'🏗', INFO:'📋', JURIDISK:'⚖', TEKNISK:'🔧' };
     const rfiColors = { UL:'rfi-ul', UE:'rfi-ue', INFO:'rfi-info', JURIDISK:'rfi-juridisk', TEKNISK:'rfi-teknisk' };
-    const rfiHtml = t.rfi && t.rfi.length > 0
+    const rfiOpen   = (t.rfi || []).filter(r => r.status !== 'BESVARET');
+    const rfiDone   = (t.rfi || []).filter(r => r.status === 'BESVARET');
+    const rfiHtml = rfiOpen.length > 0
         ? `<div class="rfi-block">
-            <span class="rfi-label">Afvent / RFI</span>
-            ${t.rfi.map(r =>
-                `<span class="rfi-item ${rfiColors[r.type]||'rfi-info'}" title="${escHtml(r.type)}">${rfiIcons[r.type]||'📋'} ${escHtml(r.tekst)}</span>`
-            ).join('')}
+            <span class="rfi-label">Afvent / RFI${rfiDone.length ? ` · ${rfiDone.length} lukket` : ''}</span>
+            ${rfiOpen.map(r => {
+                const statusCls = r.status === 'AFVENTER' ? ' rfi-afventer' : r.status === 'DELVIS' ? ' rfi-delvis' : '';
+                return `<span class="rfi-item ${rfiColors[r.type]||'rfi-info'}${statusCls}" title="${escHtml(r.status||r.type)}">${rfiIcons[r.type]||'📋'} ${escHtml(r.tekst)}</span>`;
+            }).join('')}
            </div>`
-        : '';
+        : (rfiDone.length > 0
+            ? `<div class="rfi-block rfi-block--done"><span class="rfi-label">✓ Alle RFI besvaret (${rfiDone.length})</span></div>`
+            : '');
 
     const sistersHtml = sistersHere && sistersHere.length > 0
         ? `<div class="sister-block">

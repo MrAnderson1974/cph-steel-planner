@@ -1229,8 +1229,17 @@ select.add-input { cursor: pointer; }
 .rfi-ul       { color: #5C3D11; }
 .rfi-ue       { color: #2E4A1E; }
 .rfi-info     { color: var(--text-secondary); }
-.rfi-juridisk { color: #8B0000; }
+.rfi-juridisk { color: #8B0000; font-weight: 600; }
 .rfi-teknisk  { color: #1A3A5C; }
+
+.rfi-afventer { opacity: 0.65; font-style: italic; }
+.rfi-delvis   { color: #7D5A00; }
+.rfi-block--done {
+  background: rgba(46,125,50,0.04);
+  border-top: 1px solid rgba(46,125,50,0.15);
+  padding: 5px 12px;
+}
+.rfi-block--done .rfi-label { color: #2E7D32; letter-spacing: 0.1em; }
 
 /* ── SISTER CARD (orphan) ── */
 .card-sister {
