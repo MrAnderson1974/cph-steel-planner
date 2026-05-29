@@ -567,10 +567,12 @@ function renderCard(t, hoursToday, date, sistersHere) {
             <div class="card-kunde-sub">${escHtml(t.kundenavn)}</div>
             ${beskr ? `<div class="card-beskr-wrap">${beskr}</div>` : ''}
         </div>
-        <div class="card-kpis">
+        <div class="card-kpis card-kpis-row1">
             <span class="kpi-tile ${getRiskClass(t.risk)}" data-tooltip="${escHtml(riskTooltip)}">Margin: ${marginText}</span>
             <span class="kpi-tile ${gradeClass}" data-tooltip="${escHtml(gradeTooltip)}">Kunde: ${grade || 'Ny'}${t.rating_score ? ` (${Math.round(t.rating_score)})` : ''}</span>
             <span class="kpi-tile kpi-bt" data-tooltip="Beregnertid${t.bt_estimated ? ' — estimeret, klik for at bekræfte' : ''}">BT: ${formatNum(t.beregnertid)}t${t.bt_estimated ? ' ~' : ''}</span>
+        </div>
+        <div class="card-kpis card-kpis-row2">
             ${t.exc_class ? `<span class="kpi-tile kpi-scope" data-tooltip="${escHtml(t.exc_class)}">${escHtml(t.exc_class.split(' ')[0])}</span>` : ''}
             ${t.entreprise ? `<span class="kpi-tile kpi-scope" data-tooltip="${escHtml(t.entreprise)}">${
                 t.entreprise.toLowerCase().startsWith('hoved') ? 'HE' :
@@ -578,7 +580,7 @@ function renderCard(t, hoursToday, date, sistersHere) {
                 t.entreprise.toLowerCase().startsWith('under') ? 'UE' :
                 t.entreprise.substring(0,8)
             }</span>` : ''}
-            ${t.ordrevaerdi_dkk ? `<span class="kpi-tile kpi-scope" data-tooltip="Estimeret ordreværdi">≈ ${formatNum(Math.round(t.ordrevaerdi_dkk/1000))}k</span>` : ''}
+            ${t.ordrevaerdi_dkk ? `<span class="kpi-tile kpi-scope" data-tooltip="Estimeret ordreværdi">≈ ${Math.round(t.ordrevaerdi_dkk/1000).toLocaleString('da-DK')}k</span>` : ''}
             ${t.dg_pct ? `<span class="kpi-tile kpi-scope" data-tooltip="Estimeret dækningsgrad">DG ${t.dg_pct}%</span>` : ''}
             ${t.must_win  ? `<span class="kpi-tile kpi-mw"   data-tooltip="Must Win — strategisk kritisk tilbud">⚡ MW</span>` : ''}
             ${t.high_ref  ? `<span class="kpi-tile kpi-href" data-tooltip="Høj referenceverdi">★ Ref</span>` : ''}
