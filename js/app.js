@@ -373,11 +373,12 @@ function renderBoard() {
                 const t = tilbudMap[item.tilbudsnr];
                 if (!t) continue;
 
-                const sistersHere = items
-                    .filter(i => i.is_sister_display && (t.sisters||[]).includes(i.tilbudsnr))
-                    .map(i => tilbudMap[i.tilbudsnr]).filter(Boolean);
+                // Vis ALLE søstre fra tilbudslisten — ikke kun dem på samme dag
+                const allSisters = t.is_master && t.sisters
+                    ? t.sisters.map(nr => tilbudMap[nr]).filter(Boolean)
+                    : [];
 
-                html += renderCard(t, item.hours, date, sistersHere);
+                html += renderCard(t, item.hours, date, allSisters);
             }
 
             // Orphan sister display cards
@@ -440,10 +441,13 @@ function renderCard(t, hoursToday, date, sistersHere) {
 
     const sistersHtml = sistersHere && sistersHere.length > 0
         ? `<div class="sister-block">
-            <span class="sister-label">💜 Søstre</span>
-            ${sistersHere.map(s =>
-                `<span class="sister-tag">${escHtml(s.tilbudsnr)}<span class="sister-tag-sep"> · </span><span class="sister-tag-kunde">${escHtml(s.kundenavn.split(' ')[0])}</span></span>`
-            ).join('')}
+            <span class="sister-label">🔗 ${sistersHere.length + 1} virksomheder byder</span>
+            <span class="sister-tag sister-tag--master">${escHtml(t.kundenavn.split(' ')[0])} <span class="sister-grade grade-${(t.kunde_grade||t.rating||'').toLowerCase()}">${t.kunde_grade || t.rating || '?'}</span></span>
+            ${sistersHere.map(s => {
+                const g = s.kunde_grade || s.rating || '?';
+                const gc = g === 'Ny' ? 'unknown' : g.toLowerCase();
+                return `<span class="sister-tag">${escHtml(s.kundenavn.split(' ')[0])} <span class="sister-grade grade-${gc}">${g}</span></span>`;
+            }).join('')}
            </div>`
         : '';
 

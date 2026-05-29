@@ -1103,6 +1103,18 @@ select.add-input { cursor: pointer; }
 }
 .sister-tag-sep { color: rgba(186,162,144,0.4); font-weight: 400; }
 .sister-tag-kunde { font-weight: 400; color: var(--text-secondary); font-family: var(--font-b); }
+.sister-tag--master { background: rgba(186,162,144,0.22); border-color: rgba(186,162,144,0.5); }
+.sister-grade {
+  font-size: 9px;
+  font-weight: 800;
+  padding: 0 3px;
+  border-radius: 2px;
+  margin-left: 2px;
+}
+.sister-grade.grade-a { color: #2E7D32; background: rgba(46,125,50,0.12); }
+.sister-grade.grade-b { color: #6B5344; background: rgba(186,162,144,0.18); }
+.sister-grade.grade-c { color: #A01020; background: rgba(200,16,46,0.08); }
+.sister-grade.grade-ny,.sister-grade.grade-unknown { color: var(--text-muted); background: transparent; }
 
 /* ── BT EDIT ── */
 .card-edit-bt {

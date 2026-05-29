@@ -592,7 +592,9 @@
       "is_sister": true,
       "sister_group": 1,
       "must_win": false,
-      "high_ref": false
+      "high_ref": false,
+      "is_master": false,
+      "master_nr": "T7755"
     },
     {
       "tilbudsnr": "T7764",
@@ -638,7 +640,9 @@
       "is_sister": true,
       "sister_group": 1,
       "must_win": false,
-      "high_ref": false
+      "high_ref": false,
+      "is_master": false,
+      "master_nr": "T7755"
     },
     {
       "tilbudsnr": "T7779",
@@ -682,7 +686,9 @@
       "is_sister": true,
       "sister_group": 1,
       "must_win": false,
-      "high_ref": false
+      "high_ref": false,
+      "is_master": false,
+      "master_nr": "T7755"
     },
     {
       "tilbudsnr": "T7755",
@@ -737,7 +743,13 @@
       "must_win": false,
       "high_ref": false,
       "resume": "Fagentreprise Marielystvej 50 / Rådmand Steins Alle 20-24 for REBO (ny kunde). Bred elementpakke. Søster-tilbud T7789, T7764, T7779 i samme udbudspakke.",
-      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7755%20Sophie%20Amalie%20Ga%CC%8Arden/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7755_Sophie_Amalie_Garden_v3.docx"
+      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7755%20Sophie%20Amalie%20Ga%CC%8Arden/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7755_Sophie_Amalie_Garden_v3.docx",
+      "is_master": true,
+      "sisters": [
+        "T7764",
+        "T7779",
+        "T7789"
+      ]
     },
     {
       "tilbudsnr": "T7821",
@@ -964,7 +976,9 @@
       "sister_group": "override_T7785",
       "must_win": false,
       "high_ref": false,
-      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7778%20Utterslev%20Skole/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7778_Utterslev_Skole_Ventilation_v1.docx"
+      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7778%20Utterslev%20Skole/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7778_Utterslev_Skole_Ventilation_v1.docx",
+      "is_master": false,
+      "master_nr": "T7785"
     }
   ],
   "afsendt": [
