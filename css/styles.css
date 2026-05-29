@@ -953,10 +953,26 @@ select.add-input { cursor: pointer; }
   margin-bottom: 4px;
   line-height: 1.2;
 }
-.card-beskr {
+.card-beskr-wrap { display: flex; flex-direction: column; gap: 4px; }
+
+.beskr-steel {
   font-size: 11px;
+  color: var(--text-primary);
+  line-height: 1.45;
+  font-weight: 500;
+}
+.beskr-resume {
+  font-size: 11px;
+  color: var(--text-secondary);
+  line-height: 1.45;
+}
+.beskr-meta {
+  font-size: 10px;
   color: var(--text-muted);
-  line-height: 1.5;
+  line-height: 1.4;
+  padding-top: 2px;
+  border-top: 1px solid var(--border-light);
+  margin-top: 2px;
 }
 
 /* ── CARD KPIs ── */

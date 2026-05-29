@@ -457,11 +457,23 @@ function renderCard(t, hoursToday, date, sistersHere) {
         }
     }
 
-    // Kort projektbeskrivelse til Tom: steel_desc > resume > beskrivelse
-    const beskrRaw = t.steel_desc || t.resume || t.beskrivelse || '';
-    const beskr = beskrRaw
-        ? escHtml(beskrRaw.length > 120 ? beskrRaw.substring(0,120)+'…' : beskrRaw)
-        : '';
+    // Projektbeskrivelse: steel_desc + resume + kontekstfelter
+    const steelDesc = t.steel_desc ? `<div class="beskr-steel">${escHtml(t.steel_desc)}</div>` : '';
+    const resumeTxt = t.resume    ? `<div class="beskr-resume">${escHtml(t.resume)}</div>`    : '';
+
+    const meta = [];
+    if (t.lokation && t.lokation !== 'Ikke oplyst') meta.push(`📍 ${t.lokation}`);
+    if (t.entreprise && t.entreprise !== t.entreprise_form) meta.push(`🏗 ${t.entreprise}`);
+    else if (t.entreprise_form) meta.push(`🏗 ${t.entreprise_form}`);
+    if (t.startdato && t.slutdato) {
+        const fmt = d => { const p = d.split('-'); return `${p[2]}/${p[1]}-${p[0].slice(2)}`; };
+        meta.push(`📅 ${fmt(t.startdato)} → ${fmt(t.slutdato)}`);
+    }
+    const metaHtml = meta.length ? `<div class="beskr-meta">${meta.map(escHtml).join(' · ')}</div>` : '';
+
+    const beskr = (steelDesc || resumeTxt || metaHtml)
+        ? steelDesc + resumeTxt + metaHtml
+        : (t.beskrivelse ? `<div class="beskr-resume">${escHtml(t.beskrivelse.substring(0,200))}</div>` : '');
 
     const sistersHtml = sistersHere && sistersHere.length > 0
         ? `<div class="sister-block">
@@ -536,7 +548,7 @@ function renderCard(t, hoursToday, date, sistersHere) {
         ${pipelineBadge}
         <div class="card-body">
             <div class="card-projekt">${escHtml(t.projekt || t.tilbudsnavn)}</div>
-            ${beskr ? `<div class="card-beskr">${beskr}</div>` : ''}
+            ${beskr ? `<div class="card-beskr-wrap">${beskr}</div>` : ''}
         </div>
         <div class="card-kpis">
             <span class="kpi-tile ${getRiskClass(t.risk)}" data-tooltip="${escHtml(riskTooltip)}">Margin: ${marginText}</span>
