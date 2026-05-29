@@ -89,8 +89,6 @@
       "kunde_grade": "C",
       "scheduled_days": [
         "2026-06-01",
-        "2026-06-03",
-        "2026-06-04",
         "2026-06-08"
       ],
       "planned_end": "2026-06-08",
@@ -141,9 +139,9 @@
       "rating_score": null,
       "kunde_grade": null,
       "scheduled_days": [
-        "2026-06-10"
+        "2026-06-11"
       ],
-      "planned_end": "2026-06-10",
+      "planned_end": "2026-06-11",
       "risk": "🟢",
       "bt_estimated": true,
       "bt_tier": "S",
@@ -196,10 +194,10 @@
       "rating_score": null,
       "kunde_grade": null,
       "scheduled_days": [
-        "2026-06-08",
-        "2026-06-09"
+        "2026-06-09",
+        "2026-06-10"
       ],
-      "planned_end": "2026-06-09",
+      "planned_end": "2026-06-10",
       "risk": "🟢",
       "bt_estimated": true,
       "bt_tier": "M",
@@ -247,10 +245,9 @@
       "rating_score": null,
       "kunde_grade": null,
       "scheduled_days": [
-        "2026-06-11",
-        "2026-06-12"
+        "2026-06-16"
       ],
-      "planned_end": "2026-06-12",
+      "planned_end": "2026-06-16",
       "risk": "🟢",
       "bt_estimated": true,
       "bt_tier": "S",
@@ -303,9 +300,10 @@
       "rating_score": 55.07772680937819,
       "kunde_grade": "B",
       "scheduled_days": [
-        "2026-06-08"
+        "2026-06-08",
+        "2026-06-09"
       ],
-      "planned_end": "2026-06-08",
+      "planned_end": "2026-06-09",
       "risk": "🟢",
       "bt_estimated": true,
       "bt_tier": "M",
@@ -353,10 +351,10 @@
       "rating_score": 51.10842856376415,
       "kunde_grade": "C",
       "scheduled_days": [
-        "2026-06-10",
-        "2026-06-11"
+        "2026-06-11",
+        "2026-06-12"
       ],
-      "planned_end": "2026-06-11",
+      "planned_end": "2026-06-12",
       "risk": "🟢",
       "bt_estimated": false,
       "projektnavn_doc": "Lundehusskolen",
@@ -407,9 +405,9 @@
       "rating_score": 75.212927195665,
       "kunde_grade": "A",
       "scheduled_days": [
-        "2026-06-09"
+        "2026-06-10"
       ],
-      "planned_end": "2026-06-09",
+      "planned_end": "2026-06-10",
       "risk": "🟢",
       "bt_estimated": true,
       "bt_tier": "S",
@@ -462,10 +460,10 @@
       "rating_score": 75.05130371801062,
       "kunde_grade": "A",
       "scheduled_days": [
-        "2026-06-09",
-        "2026-06-10"
+        "2026-06-10",
+        "2026-06-11"
       ],
-      "planned_end": "2026-06-10",
+      "planned_end": "2026-06-11",
       "risk": "🟢",
       "bt_estimated": false,
       "projektnavn_doc": "Peder Skrams gade",
@@ -752,9 +750,9 @@
       "rating_score": null,
       "kunde_grade": null,
       "scheduled_days": [
-        "2026-06-11"
+        "2026-06-12"
       ],
-      "planned_end": "2026-06-11",
+      "planned_end": "2026-06-12",
       "risk": "🟢",
       "bt_estimated": true,
       "bt_tier": "S",
@@ -1070,12 +1068,12 @@
     ],
     "2026-06-01": [
       {
-        "tilbudsnr": "T7755",
-        "hours": 5.0
+        "tilbudsnr": "T7822",
+        "hours": 1.4
       },
       {
-        "tilbudsnr": "T7822",
-        "hours": 2.4
+        "tilbudsnr": "T7755",
+        "hours": 5.0
       }
     ],
     "2026-06-02": [
@@ -1092,44 +1090,42 @@
       {
         "tilbudsnr": "T7808",
         "hours": 6.67
-      },
-      {
-        "tilbudsnr": "T7822",
-        "hours": 0.73
       }
     ],
     "2026-06-04": [
       {
         "tilbudsnr": "T7808",
         "hours": 6.67
-      },
-      {
-        "tilbudsnr": "T7822",
-        "hours": 0.73
       }
     ],
     "2026-06-08": [
       {
         "tilbudsnr": "T7822",
-        "hours": 1.13
+        "hours": 3.6
       },
       {
         "tilbudsnr": "T7818",
-        "hours": 5.0
-      },
-      {
-        "tilbudsnr": "T7817",
-        "hours": 1.27
+        "hours": 2.8
       }
     ],
     "2026-06-09": [
       {
-        "tilbudsnr": "T7778",
-        "hours": 0.0
+        "tilbudsnr": "T7817",
+        "hours": 4.2
       },
       {
+        "tilbudsnr": "T7818",
+        "hours": 2.2
+      },
+      {
+        "tilbudsnr": "T7778",
+        "hours": 0.0
+      }
+    ],
+    "2026-06-10": [
+      {
         "tilbudsnr": "T7817",
-        "hours": 3.73
+        "hours": 0.8
       },
       {
         "tilbudsnr": "T7810",
@@ -1137,52 +1133,41 @@
       },
       {
         "tilbudsnr": "T7819",
-        "hours": 1.17
-      }
-    ],
-    "2026-06-10": [
+        "hours": 3.1
+      },
       {
         "tilbudsnr": "T7778",
         "hours": 0.0
-      },
-      {
-        "tilbudsnr": "T7819",
-        "hours": 3.83
-      },
+      }
+    ],
+    "2026-06-11": [
       {
         "tilbudsnr": "T7812",
         "hours": 2.5
       },
       {
         "tilbudsnr": "T7807",
-        "hours": 1.07
-      }
-    ],
-    "2026-06-11": [
-      {
-        "tilbudsnr": "T7807",
-        "hours": 3.93
+        "hours": 2.0
       },
       {
-        "tilbudsnr": "T7821",
-        "hours": 2.5
-      },
-      {
-        "tilbudsnr": "T7809",
-        "hours": 0.97
+        "tilbudsnr": "T7819",
+        "hours": 1.9
       }
     ],
     "2026-06-12": [
       {
-        "tilbudsnr": "T7809",
-        "hours": 1.53
+        "tilbudsnr": "T7807",
+        "hours": 3.0
+      },
+      {
+        "tilbudsnr": "T7821",
+        "hours": 2.5
       }
     ],
     "2026-06-16": [
       {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0,
-        "label": "Besigtigelse/Admin"
+        "tilbudsnr": "T7809",
+        "hours": 2.5
       }
     ],
     "2026-06-17": [
