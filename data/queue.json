@@ -1018,45 +1018,6 @@
       "high_ref": false
     },
     {
-      "tilbudsnr": "T7683",
-      "tilbudsnavn": "Balkon - Kirkerupvej 11",
-      "kundenavn": "Natasha Dyregaard",
-      "kundenummer": "2592",
-      "kontaktperson": "",
-      "tilbudsansvarlig": "Tom Larsen",
-      "tilbudsansvarlig_id": 53472,
-      "ja_transfer": false,
-      "startdato": "2026-03-25",
-      "slutdato": "2026-04-25",
-      "deadline": "2026-03-25",
-      "oprettet": "2026-03-25",
-      "sidst_aendret": "2026-03-25",
-      "beregnertid": 5.0,
-      "bt_source": null,
-      "rating_erp": null,
-      "tags": [],
-      "kategori_id": null,
-      "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
-      "hn_offer_id": 3353345,
-      "custom_field1": null,
-      "custom_field2": null,
-      "custom_field3": null,
-      "deadline_source": "opfølgningsdato",
-      "rating": "Ny",
-      "rating_score": null,
-      "kunde_grade": null,
-      "scheduled_days": [],
-      "planned_end": null,
-      "risk": "⚪",
-      "bt_estimated": true,
-      "bt_tier": "M",
-      "bt_range": "3.0–7.0t",
-      "must_win": false,
-      "high_ref": false
-    },
-    {
       "tilbudsnr": "T7659",
       "tilbudsnavn": "Benretter",
       "kundenavn": "CPH Steel A/S",
@@ -1238,13 +1199,6 @@
       "hn_offer_id": 2474230
     },
     {
-      "tilbudsnr": "T7681",
-      "tilbudsnavn": "Ny Søndervang trappe låger",
-      "kundenavn": "HANSSON & KNUDSEN A/S",
-      "afsendelsesdato": "2026-03-25",
-      "hn_offer_id": 3349502
-    },
-    {
       "tilbudsnr": "T7516",
       "tilbudsnavn": "Pilehavevænget 64",
       "kundenavn": "Vestegnens Murer ApS",
@@ -1287,13 +1241,6 @@
       "hn_offer_id": 3266518
     },
     {
-      "tilbudsnr": "T7718",
-      "tilbudsnavn": "Terrasse trappe",
-      "kundenavn": "Janne Wilken",
-      "afsendelsesdato": "2026-04-10",
-      "hn_offer_id": 3382349
-    },
-    {
       "tilbudsnr": "T7795",
       "tilbudsnavn": "Tilbud på istandsættelse af bygning til foreningsformål",
       "kundenavn": "Tawhid Islamisk Trossamfund",
@@ -1313,13 +1260,6 @@
       "kundenavn": "NCC DANMARK A/S",
       "afsendelsesdato": "2025-09-05",
       "hn_offer_id": 2956102
-    },
-    {
-      "tilbudsnr": "T7740",
-      "tilbudsnavn": "Trappe Ishøj Bycenter",
-      "kundenavn": "MB Murerfirma ApS",
-      "afsendelsesdato": "2026-04-23",
-      "hn_offer_id": 3400489
     },
     {
       "tilbudsnr": "T7541",
@@ -2315,16 +2255,16 @@
     ]
   },
   "meta": {
-    "generated": "2026-05-29 11:23",
+    "generated": "2026-05-29 11:29",
     "source": "E-regnskab API + tracker merge (pipeline.py)",
-    "active_count": 22,
-    "afsendt_count": 20,
-    "removed_count": 0,
+    "active_count": 21,
+    "afsendt_count": 17,
+    "removed_count": 1,
     "ghost_removed": 51,
-    "merged_at": "2026-05-29 11:23",
-    "planner_version": "2026-05-29 11:16",
-    "push_validated": "2026-05-29 11:23",
-    "push_count": 22,
+    "merged_at": "2026-05-29 11:29",
+    "planner_version": "2026-05-29 11:23",
+    "push_validated": "2026-05-29 11:29",
+    "push_count": 21,
     "push_warnings": []
   }
 }
