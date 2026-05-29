@@ -456,10 +456,10 @@ function renderCard(t, hoursToday, date, sistersHere) {
     }[t.risk] || '';
 
     const gradeTooltip = {
-        'A': 'Grade A — Topkunde, prioriteres højt i planen',
-        'B': 'Grade B — Standard kunde',
-        'C': 'Grade C — Ny eller lav-prioritet'
-    }[grade] || 'Grade ukendt';
+        'A': 'Grade A — Topkunde, høj hit-rate og volumen',
+        'B': 'Grade B — Solid kunde, god historik',
+        'C': 'Grade C — Lav hit-rate eller tynd historik'
+    }[grade] || 'Ny kunde — ingen tidligere historik i systemet';
 
     const dlClass = isOverdue ? 'card-dl dl-over' : (t.risk === '🔴' ? 'card-dl dl-miss' : t.risk === '🟡' ? 'card-dl dl-tight' : 'card-dl');
 
@@ -492,7 +492,7 @@ function renderCard(t, hoursToday, date, sistersHere) {
         </div>
         <div class="card-kpis">
             <span class="kpi-tile ${getRiskClass(t.risk)}" data-tooltip="${escHtml(riskTooltip)}">Margin: ${marginText}</span>
-            <span class="kpi-tile ${gradeClass}" data-tooltip="${escHtml(gradeTooltip)}">Kunde: ${grade || '?'}${t.rating_score ? ` (${Math.round(t.rating_score)})` : ''}</span>
+            <span class="kpi-tile ${gradeClass}" data-tooltip="${escHtml(gradeTooltip)}">Kunde: ${grade || 'Ny'}${t.rating_score ? ` (${Math.round(t.rating_score)})` : ''}</span>
             ${t.must_win  ? `<span class="kpi-tile kpi-mw"   data-tooltip="Must Win — strategisk kritisk tilbud">⚡ Must Win</span>` : ''}
             ${t.high_ref  ? `<span class="kpi-tile kpi-href" data-tooltip="Høj referenceverdi — vigtigt referenceprojekt">★ Ref</span>` : ''}
             <span class="kpi-tile kpi-scope" data-tooltip="Stålscope ${t.steel_scope||'?'}/5 — antal ståltyper og kompleksitet">Scope: ${t.steel_scope || '?'}/5</span>
