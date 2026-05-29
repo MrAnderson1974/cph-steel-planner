@@ -2675,10 +2675,10 @@
     "source": "E-regnskab API + tracker merge (pipeline.py)",
     "active_count": 22,
     "afsendt_count": 74,
-    "removed_count": 1,
+    "removed_count": 0,
     "ghost_removed": 51,
     "merged_at": "2026-05-29 11:16",
-    "planner_version": "2026-05-29 11:07",
+    "planner_version": "2026-05-29 11:16",
     "push_validated": "2026-05-29 11:16",
     "push_count": 22,
     "push_warnings": []
