@@ -567,8 +567,7 @@ function renderCard(t, hoursToday, date, sistersHere) {
             <span class="kpi-tile ${gradeClass}" data-tooltip="${escHtml(gradeTooltip)}">Kunde: ${grade || 'Ny'}${t.rating_score ? ` (${Math.round(t.rating_score)})` : ''}</span>
             ${t.must_win  ? `<span class="kpi-tile kpi-mw"   data-tooltip="Must Win — strategisk kritisk tilbud">⚡ Must Win</span>` : ''}
             ${t.high_ref  ? `<span class="kpi-tile kpi-href" data-tooltip="Høj referenceverdi — vigtigt referenceprojekt">★ Ref</span>` : ''}
-            <span class="kpi-tile kpi-scope" data-tooltip="Stålscope ${t.steel_scope||'?'}/5 — antal ståltyper og kompleksitet">Scope: ${t.steel_scope || '?'}/5</span>
-            <span class="kpi-tile kpi-bt"    data-tooltip="Total beregnertid${t.bt_estimated ? ' (estimeret — klik for at bekræfte)' : ''}">BT: ${formatNum(t.beregnertid)}t${t.bt_estimated ? ' ~' : ''}</span>
+            <span class="kpi-tile kpi-bt" data-tooltip="Beregnertid${t.bt_estimated ? ' — estimeret, klik for at bekræfte' : ''}">BT: ${formatNum(t.beregnertid)}t${t.bt_estimated ? ' ~' : ''}</span>
             ${faHtml}
             ${(t.scheduled_days && t.scheduled_days.length > 1)
                 ? `<button class="card-split-btn card-split-btn--merge" title="Saml projektet til én dag (flex)"
