@@ -1065,42 +1065,43 @@ select.add-input { cursor: pointer; }
 
 /* ── KPI TILES ── */
 .kpi-tile {
-  height: 22px;
+  height: 28px;
   display: inline-flex;
   align-items: center;
-  padding: 0 9px;
+  padding: 0 10px;
   font-family: var(--font-h);
   font-size: 13px;
   font-weight: 700;
-  letter-spacing: 0.05em;
-  border-radius: 2px;
-  border: 1px solid var(--border);
-  background: var(--surface-3);
-  color: var(--text-muted);
+  letter-spacing: 0.04em;
+  border-radius: 3px;
+  border: 1.5px solid #000;
+  background: #fff;
+  color: #000;
   white-space: nowrap;
   cursor: default;
-  gap: 3px;
+  gap: 4px;
+  line-height: 1;
 }
 
-/* Risk */
-.risk-ok    { background: rgba(46,125,50,0.1);  border-color: rgba(46,125,50,0.35);  color: #2E7D32; }
-.risk-tight { background: rgba(184,134,11,0.1); border-color: rgba(184,134,11,0.35); color: #8A6200; }
-.risk-miss  { background: rgba(200,16,46,0.1);  border-color: rgba(200,16,46,0.35);  color: var(--red); }
-.risk-none  { background: transparent; border-color: var(--border-light); color: var(--text-muted); }
+/* Risk — solid farve, hvid tekst */
+.risk-ok    { background: #2E7D32; border-color: #2E7D32; color: #fff; }
+.risk-tight { background: #7D5A00; border-color: #7D5A00; color: #fff; }
+.risk-miss  { background: #C8102E; border-color: #C8102E; color: #fff; }
+.risk-none  { background: #3B3C3D; border-color: #3B3C3D; color: #fff; }
 
-/* Grade */
-.grade-a { background: rgba(46,125,50,0.09); border-color: rgba(46,125,50,0.3); color: #2E7D32; }
-.grade-b { background: rgba(186,162,144,0.12); border-color: rgba(186,162,144,0.35); color: #6B5344; }
-.grade-c { background: rgba(200,16,46,0.07);  border-color: rgba(200,16,46,0.25); color: #A01020; }
-.grade-unknown { color: var(--text-muted); border-color: var(--border-light); background: transparent; }
+/* Grade — solid, hvid tekst */
+.grade-a       { background: #1B5E20; border-color: #1B5E20; color: #fff; }
+.grade-b       { background: #4A3728; border-color: #4A3728; color: #fff; }
+.grade-c       { background: #8B0000; border-color: #8B0000; color: #fff; }
+.grade-unknown { background: #3B3C3D; border-color: #3B3C3D; color: #fff; }
 
-/* Must Win + REF */
-.kpi-mw   { background: rgba(184,134,11,0.1);  border-color: rgba(184,134,11,0.35); color: #8A6200; }
-.kpi-href { background: rgba(186,162,144,0.12); border-color: rgba(186,162,144,0.35); color: #6B5344; }
+/* Must Win + REF — sort baggrund */
+.kpi-mw   { background: #000; border-color: #000; color: #fff; }
+.kpi-href { background: #4A3728; border-color: #4A3728; color: #fff; }
 
-/* Scope + BT */
-.kpi-scope { background: transparent; border-color: var(--border-light); color: var(--text-muted); }
-.kpi-bt    { background: transparent; border-color: var(--border-light); color: var(--text-muted); }
+/* BT — neutral */
+.kpi-scope { background: #fff; border-color: #000; color: #000; }
+.kpi-bt    { background: #fff; border-color: #000; color: #000; }
 
 /* Foranalyse-badge */
 .kpi-fa {
