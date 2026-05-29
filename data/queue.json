@@ -1051,8 +1051,10 @@
       "rating": "Ny",
       "rating_score": null,
       "kunde_grade": null,
-      "scheduled_days": [],
-      "planned_end": null,
+      "scheduled_days": [
+        "2026-05-29"
+      ],
+      "planned_end": "2026-05-29",
       "risk": "⚪",
       "bt_estimated": true,
       "bt_tier": "M",
@@ -2105,15 +2107,15 @@
     ]
   },
   "meta": {
-    "generated": "2026-05-29 11:37",
+    "generated": "2026-05-29 11:40",
     "source": "E-regnskab API + tracker merge (pipeline.py)",
     "active_count": 19,
     "afsendt_count": 8,
     "removed_count": 0,
     "ghost_removed": 51,
-    "merged_at": "2026-05-29 11:37",
-    "planner_version": "2026-05-29 11:34",
-    "push_validated": "2026-05-29 11:37",
+    "merged_at": "2026-05-29 11:40",
+    "planner_version": "2026-05-29 11:37",
+    "push_validated": "2026-05-29 11:40",
     "push_count": 19,
     "push_warnings": []
   }
