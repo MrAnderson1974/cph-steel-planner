@@ -13,7 +13,7 @@
       "deadline": "2026-06-01",
       "oprettet": "2026-05-13",
       "sidst_aendret": "2026-05-13",
-      "beregnertid": 11.0,
+      "beregnertid": 11,
       "bt_source": "tracker_confirmed",
       "rating_erp": null,
       "tags": [
@@ -23,8 +23,8 @@
       ],
       "kategori_id": null,
       "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
+      "kostpris": 0,
+      "salgspris": 0,
       "hn_offer_id": 3449114,
       "custom_field1": null,
       "custom_field2": null,
@@ -69,7 +69,7 @@
       "deadline": "2026-06-15",
       "oprettet": "2026-05-28",
       "sidst_aendret": "2026-05-28",
-      "beregnertid": 5.0,
+      "beregnertid": 5,
       "bt_source": null,
       "rating_erp": null,
       "tags": [
@@ -79,8 +79,8 @@
       ],
       "kategori_id": null,
       "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
+      "kostpris": 0,
+      "salgspris": 0,
       "hn_offer_id": 3475874,
       "custom_field1": null,
       "custom_field2": null,
@@ -133,8 +133,8 @@
       ],
       "kategori_id": null,
       "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
+      "kostpris": 0,
+      "salgspris": 0,
       "hn_offer_id": 3460938,
       "custom_field1": null,
       "custom_field2": null,
@@ -180,7 +180,7 @@
       "deadline": "2026-06-18",
       "oprettet": "2026-05-26",
       "sidst_aendret": "2026-05-27",
-      "beregnertid": 5.0,
+      "beregnertid": 5,
       "bt_source": null,
       "rating_erp": null,
       "tags": [
@@ -190,8 +190,8 @@
       ],
       "kategori_id": null,
       "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
+      "kostpris": 0,
+      "salgspris": 0,
       "hn_offer_id": 3470053,
       "custom_field1": null,
       "custom_field2": null,
@@ -201,10 +201,9 @@
       "rating_score": null,
       "kunde_grade": null,
       "scheduled_days": [
-        "2026-06-09",
-        "2026-06-10"
+        "2026-06-08"
       ],
-      "planned_end": "2026-06-10",
+      "planned_end": "2026-06-08",
       "risk": "🟢",
       "bt_estimated": true,
       "bt_tier": "M",
@@ -244,8 +243,8 @@
       ],
       "kategori_id": null,
       "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
+      "kostpris": 0,
+      "salgspris": 0,
       "hn_offer_id": 3459082,
       "custom_field1": null,
       "custom_field2": null,
@@ -291,7 +290,7 @@
       "deadline": "2026-06-16",
       "oprettet": "2026-05-26",
       "sidst_aendret": "2026-05-27",
-      "beregnertid": 5.0,
+      "beregnertid": 5,
       "bt_source": null,
       "rating_erp": null,
       "tags": [
@@ -301,8 +300,8 @@
       ],
       "kategori_id": null,
       "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
+      "kostpris": 0,
+      "salgspris": 0,
       "hn_offer_id": 3470074,
       "custom_field1": null,
       "custom_field2": null,
@@ -312,7 +311,6 @@
       "rating_score": 55.07772680937819,
       "kunde_grade": "B",
       "scheduled_days": [
-        "2026-06-08",
         "2026-06-09"
       ],
       "planned_end": "2026-06-09",
@@ -345,7 +343,7 @@
       "deadline": "2026-06-26",
       "oprettet": "2026-05-18",
       "sidst_aendret": "2026-05-19",
-      "beregnertid": 5.0,
+      "beregnertid": 5,
       "bt_source": "tracker_confirmed",
       "rating_erp": null,
       "tags": [
@@ -355,8 +353,8 @@
       ],
       "kategori_id": null,
       "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
+      "kostpris": 0,
+      "salgspris": 0,
       "hn_offer_id": 3455591,
       "custom_field1": null,
       "custom_field2": null,
@@ -411,8 +409,8 @@
       ],
       "kategori_id": null,
       "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
+      "kostpris": 0,
+      "salgspris": 0,
       "hn_offer_id": 3459445,
       "custom_field1": null,
       "custom_field2": null,
@@ -458,7 +456,7 @@
       "deadline": "2026-06-22",
       "oprettet": "2026-05-27",
       "sidst_aendret": "2026-05-27",
-      "beregnertid": 5.0,
+      "beregnertid": 5,
       "bt_source": "tracker_confirmed",
       "rating_erp": null,
       "tags": [
@@ -468,8 +466,8 @@
       ],
       "kategori_id": 10531,
       "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
+      "kostpris": 0,
+      "salgspris": 0,
       "hn_offer_id": 3472015,
       "custom_field1": null,
       "custom_field2": null,
@@ -510,7 +508,7 @@
       "deadline": "2026-06-01",
       "oprettet": "2026-04-30",
       "sidst_aendret": "2026-05-06",
-      "beregnertid": 6.0,
+      "beregnertid": 6,
       "bt_source": "tracker_confirmed",
       "rating_erp": null,
       "tags": [
@@ -520,8 +518,8 @@
       ],
       "kategori_id": null,
       "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
+      "kostpris": 0,
+      "salgspris": 0,
       "hn_offer_id": 3426999,
       "custom_field1": null,
       "custom_field2": null,
@@ -575,8 +573,8 @@
       ],
       "kategori_id": null,
       "beskrivelse": "Udregnet i T7755",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
+      "kostpris": 0,
+      "salgspris": 0,
       "hn_offer_id": 3436645,
       "custom_field1": null,
       "custom_field2": null,
@@ -619,8 +617,8 @@
       ],
       "kategori_id": null,
       "beskrivelse": "Udregnet i T7755",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
+      "kostpris": 0,
+      "salgspris": 0,
       "hn_offer_id": 3418230,
       "custom_field1": null,
       "custom_field2": null,
@@ -665,8 +663,8 @@
       ],
       "kategori_id": null,
       "beskrivelse": "Udregnet i T7755",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
+      "kostpris": 0,
+      "salgspris": 0,
       "hn_offer_id": 3431743,
       "custom_field1": null,
       "custom_field2": null,
@@ -699,14 +697,14 @@
       "deadline": "2026-06-08",
       "oprettet": "2026-04-27",
       "sidst_aendret": "2026-05-20",
-      "beregnertid": 20.0,
+      "beregnertid": 20,
       "bt_source": "tracker_confirmed",
       "rating_erp": 10,
       "tags": [],
       "kategori_id": 10531,
       "beskrivelse": "Udregnet her\n\nKære underentreprenør\n \nHermed fremsendes udbudsmaterialet vedr. Sophie Amalie Gården - ombygning, til brug for din beregning.\n \nUdbudsmaterialet kan hentes via Dropbox på dette link:\nhttps://www.dropbox.com/scl/fo/kvtzd3mmm37axhza2y0bz/AG9l2utbyan2706ezAmry4M?rlkey=o6d38b82tnh7j0p1cvf3kx7qo&st=sl82madv&dl=0\n \nDer afholdes besigtigelse tirsdag d. 28. april 2026 kl. 13.00, mødested er Marielystvej 50, 2000 Frederiksberg.\n \nVi ser frem til at modtage dit tilbud senest fredag den 22. maj 2026 kl. 12.00. Tilbud bedes sendt til tilbud@rebo.dk.",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
+      "kostpris": 0,
+      "salgspris": 0,
       "hn_offer_id": 3415430,
       "custom_field1": null,
       "custom_field2": null,
@@ -764,8 +762,8 @@
       ],
       "kategori_id": null,
       "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
+      "kostpris": 0,
+      "salgspris": 0,
       "hn_offer_id": 3473458,
       "custom_field1": null,
       "custom_field2": null,
@@ -807,7 +805,7 @@
       "deadline": "2026-06-05",
       "oprettet": "2026-05-19",
       "sidst_aendret": "2026-05-29",
-      "beregnertid": 20.0,
+      "beregnertid": 20,
       "bt_source": "tracker_confirmed",
       "rating_erp": null,
       "tags": [
@@ -817,8 +815,8 @@
       ],
       "kategori_id": null,
       "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
+      "kostpris": 0,
+      "salgspris": 0,
       "hn_offer_id": 3458235,
       "custom_field1": null,
       "custom_field2": null,
@@ -864,7 +862,7 @@
       "deadline": "2026-06-08",
       "oprettet": "2026-05-05",
       "sidst_aendret": "2026-05-26",
-      "beregnertid": 7.0,
+      "beregnertid": 7,
       "bt_source": "tracker_confirmed",
       "rating_erp": null,
       "tags": [
@@ -874,8 +872,8 @@
       ],
       "kategori_id": null,
       "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
+      "kostpris": 0,
+      "salgspris": 0,
       "hn_offer_id": 3434031,
       "custom_field1": null,
       "custom_field2": null,
@@ -934,8 +932,8 @@
       ],
       "kategori_id": null,
       "beskrivelse": "udregnet i T7785",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
+      "kostpris": 0,
+      "salgspris": 0,
       "hn_offer_id": 3431732,
       "custom_field1": null,
       "custom_field2": null,
@@ -1053,7 +1051,7 @@
       },
       {
         "tilbudsnr": "T7808",
-        "hours": 6.0
+        "hours": 6
       },
       {
         "tilbudsnr": "T7769",
@@ -1096,7 +1094,7 @@
       },
       {
         "tilbudsnr": "T7755",
-        "hours": 5.0
+        "hours": 5
       }
     ],
     "2026-06-01": [
@@ -1106,13 +1104,13 @@
       },
       {
         "tilbudsnr": "T7755",
-        "hours": 5.0
+        "hours": 5
       }
     ],
     "2026-06-02": [
       {
         "tilbudsnr": "T7755",
-        "hours": 5.0
+        "hours": 5
       },
       {
         "tilbudsnr": "T7808",
@@ -1137,29 +1135,21 @@
         "hours": 3.6
       },
       {
-        "tilbudsnr": "T7818",
-        "hours": 2.8
+        "tilbudsnr": "T7817",
+        "hours": 5
       }
     ],
     "2026-06-09": [
       {
-        "tilbudsnr": "T7817",
-        "hours": 4.2
+        "tilbudsnr": "T7778",
+        "hours": 0
       },
       {
         "tilbudsnr": "T7818",
-        "hours": 2.2
-      },
-      {
-        "tilbudsnr": "T7778",
-        "hours": 0.0
+        "hours": 5
       }
     ],
     "2026-06-10": [
-      {
-        "tilbudsnr": "T7817",
-        "hours": 0.8
-      },
       {
         "tilbudsnr": "T7810",
         "hours": 2.5
@@ -1170,7 +1160,7 @@
       },
       {
         "tilbudsnr": "T7778",
-        "hours": 0.0
+        "hours": 0
       }
     ],
     "2026-06-11": [
@@ -1180,7 +1170,7 @@
       },
       {
         "tilbudsnr": "T7807",
-        "hours": 2.0
+        "hours": 2
       },
       {
         "tilbudsnr": "T7819",
@@ -1190,7 +1180,7 @@
     "2026-06-12": [
       {
         "tilbudsnr": "T7807",
-        "hours": 3.0
+        "hours": 3
       },
       {
         "tilbudsnr": "T7821",
@@ -1206,368 +1196,368 @@
     "2026-06-17": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-06-18": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-06-19": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-06-22": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-06-23": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-06-24": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-06-25": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-06-26": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-06-29": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-06-30": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-07-01": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-07-02": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-07-03": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-07-06": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-07-07": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-07-08": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-07-09": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-07-10": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-07-13": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-07-14": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-07-15": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-07-16": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-07-17": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-07-20": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-07-21": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-07-22": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-07-23": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-07-24": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-07-27": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-07-28": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-07-29": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-07-30": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-07-31": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-08-03": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-08-04": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-08-05": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-08-06": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-08-07": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-08-10": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-08-11": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-08-12": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-08-13": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-08-14": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-08-17": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-08-18": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-08-19": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-08-20": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-08-21": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-08-24": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-08-25": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ],
     "2026-08-26": [
       {
         "tilbudsnr": "__admin__",
-        "hours": 6.0,
+        "hours": 6,
         "label": "Besigtigelse/Admin"
       }
     ]
   },
   "day_capacity": {
     "2026-05-22": {
-      "used": 7.4,
+      "used": 0,
       "capacity": 7.4
     },
     "2026-05-26": {
-      "used": 7.4,
+      "used": 6.200000000000001,
       "capacity": 7.4
     },
     "2026-05-27": {
@@ -1575,51 +1565,259 @@
       "capacity": 7.4
     },
     "2026-05-28": {
-      "used": 7.4,
+      "used": 12.9,
       "capacity": 7.4
     },
     "2026-05-29": {
-      "used": 7.4,
+      "used": 10.5,
       "capacity": 7.4
     },
     "2026-06-01": {
-      "used": 7.4,
+      "used": 6.4,
       "capacity": 7.4
     },
     "2026-06-02": {
-      "used": 7.4,
+      "used": 11.67,
       "capacity": 7.4
     },
     "2026-06-04": {
-      "used": 7.4,
+      "used": 6.67,
       "capacity": 7.4
     },
     "2026-06-09": {
-      "used": 7.4,
+      "used": 5,
       "capacity": 7.4
     },
     "2026-06-10": {
-      "used": 7.4,
+      "used": 5.6,
       "capacity": 7.4
     },
     "2026-06-11": {
-      "used": 7.4,
+      "used": 6.4,
       "capacity": 7.4
     },
     "2026-06-12": {
-      "used": 7.4,
+      "used": 5.5,
       "capacity": 7.4
     },
     "2026-06-15": {
-      "used": 7.4,
+      "used": 0,
       "capacity": 7.4
     },
     "2026-06-16": {
-      "used": 7.4,
+      "used": 2.5,
       "capacity": 7.4
     },
     "2026-06-17": {
-      "used": 5.7,
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-06-03": {
+      "used": 6.67,
+      "capacity": 7.4
+    },
+    "2026-06-08": {
+      "used": 8.6,
+      "capacity": 7.4
+    },
+    "2026-06-18": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-06-19": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-06-22": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-06-23": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-06-24": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-06-25": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-06-26": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-06-29": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-06-30": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-07-01": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-07-02": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-07-03": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-07-06": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-07-07": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-07-08": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-07-09": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-07-10": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-07-13": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-07-14": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-07-15": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-07-16": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-07-17": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-07-20": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-07-21": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-07-22": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-07-23": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-07-24": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-07-27": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-07-28": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-07-29": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-07-30": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-07-31": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-08-03": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-08-04": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-08-05": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-08-06": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-08-07": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-08-10": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-08-11": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-08-12": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-08-13": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-08-14": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-08-17": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-08-18": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-08-19": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-08-20": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-08-21": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-08-24": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-08-25": {
+      "used": 6,
+      "capacity": 7.4
+    },
+    "2026-08-26": {
+      "used": 6,
       "capacity": 7.4
     }
   },
