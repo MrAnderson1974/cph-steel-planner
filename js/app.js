@@ -224,7 +224,7 @@ function renderKPI() {
 function renderActionRequired() {
     const q = state.queue;
     const today = todayStr();
-    const overdue = [], miss = [], nobt = [];
+    const overdue = [], miss = [], nobt = [], jaDecision = [], pipelineFixed = [];
 
     for (const t of q.tilbud) {
         if (t.is_sister) continue;
@@ -233,12 +233,18 @@ function renderActionRequired() {
             overdue.push(t);
         } else if (t.planned_end && t.deadline && t.planned_end > t.deadline) {
             miss.push(t);
-        } else if (t.bt_estimated) {
-            const firstDay = t.scheduled_days && t.scheduled_days.length > 0 ? t.scheduled_days[0] : t.deadline;
-            const daysAway = firstDay ? daysBetween(today, firstDay) : 999;
-            if (daysAway <= 14) nobt.push(t);
+        } else {
+            if (t.bt_estimated) {
+                const firstDay = t.scheduled_days && t.scheduled_days.length > 0 ? t.scheduled_days[0] : t.deadline;
+                const daysAway = firstDay ? daysBetween(today, firstDay) : 999;
+                if (daysAway <= 14) nobt.push(t);
+            }
+            if (t._ja_decision) jaDecision.push(t);
+            if (t._pipeline_overridden) pipelineFixed.push(t);
         }
     }
+
+    const total = overdue.length + miss.length + nobt.length + jaDecision.length + pipelineFixed.length;
 
     const total = overdue.length + miss.length + nobt.length;
     document.getElementById('action-count').textContent = total;
@@ -277,6 +283,26 @@ function renderActionRequired() {
                 <span class="ag-count">${nobt.length}</span>
             </div>
             ${groupRows(nobt, t => `~${formatNum(t.beregnertid)}t estimeret`)}
+        </div>
+        <div class="action-group action-group--ja">
+            <div class="ag-header">
+                <span class="ag-title">⚡ JA beslutning</span>
+                <span class="ag-count">${jaDecision.length}</span>
+            </div>
+            ${groupRows(jaDecision, t => {
+                const j = t._ja_decision;
+                return `Tom: ${formatDateShort(j.tracker_end)} · Excel: ${formatDateShort(j.excel_finish)} (${j.days_saved}d bedre)`;
+            })}
+        </div>
+        <div class="action-group action-group--fixed">
+            <div class="ag-header">
+                <span class="ag-title">🔧 Justeret af pipeline</span>
+                <span class="ag-count">${pipelineFixed.length}</span>
+            </div>
+            ${groupRows(pipelineFixed, t => {
+                const p = t._pipeline_overridden;
+                return `${formatDateShort(p.old_planned_end)} → ${formatDateShort(p.new_planned_end)}`;
+            })}
         </div>`;
 
     const body = document.getElementById('action-body');
@@ -493,7 +519,13 @@ function renderCard(t, hoursToday, date, sistersHere) {
         : `<span class="kpi-tile kpi-fa kpi-fa--missing"
                title="Foranalyse ikke lavet endnu\nTilføj dokument i: FÆLLES/…/Tilbud 2026/${escHtml(t.tilbudsnr)}…/02 Tilbud/02.08 Foranalyse/">⚠ FA</span>`;
 
-    return `<div class="card ${riskBorder}${t.bt_estimated ? ' card-estimated' : ''}"
+    const pipelineBadge = t._pipeline_overridden
+        ? `<div class="card-pipeline-badge card-pipeline-badge--fixed" title="Pipeline justerede planen: ${t._pipeline_overridden.old_planned_end} → ${t._pipeline_overridden.new_planned_end}">🔧 Justeret af pipeline</div>`
+        : t._ja_decision
+        ? `<div class="card-pipeline-badge card-pipeline-badge--ja" title="Tom: ${t._ja_decision.tracker_end} · Excel: ${t._ja_decision.excel_finish} (${t._ja_decision.days_saved}d hurtigere). JA beslutter.">⚡ JA kan optimere ${t._ja_decision.days_saved}d</div>`
+        : '';
+
+    return `<div class="card ${riskBorder}${t.bt_estimated ? ' card-estimated' : ''}${t._pipeline_overridden ? ' card-pipeline-fixed' : ''}${t._ja_decision ? ' card-ja-decision' : ''}"
         draggable="true" data-tnr="${escHtml(t.tilbudsnr)}" data-date="${date}"
         ondragstart="onDragStart(event)" ondragend="onDragEnd(event)">
         <div class="card-header">
@@ -503,6 +535,7 @@ function renderCard(t, hoursToday, date, sistersHere) {
             <span class="card-hours">${formatNum(hoursToday)}t</span>
             ${t.deadline ? `<span class="${dlClass}">DL ${formatDateShort(t.deadline)}</span>` : ''}
         </div>
+        ${pipelineBadge}
         <div class="card-body">
             <div class="card-projekt">${escHtml(t.projekt || t.tilbudsnavn)}</div>
             ${beskr ? `<div class="card-beskr">${beskr}</div>` : ''}

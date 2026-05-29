@@ -667,6 +667,35 @@ select.add-input { cursor: pointer; }
 }
 .action-group--overdue .ag-detail { color: var(--red); font-weight: 800; }
 .action-group--miss    .ag-detail { color: var(--red); font-weight: 700; }
+.action-group--ja      .ag-title  { color: #7D5A00; }
+.action-group--ja      .ag-count  { background: rgba(184,134,11,0.12); color: #8A6200; border: 1px solid rgba(184,134,11,0.3); }
+.action-group--ja      .ag-detail { color: #7D5A00; font-weight: 600; }
+.action-group--fixed   .ag-title  { color: var(--coal); }
+.action-group--fixed   .ag-count  { background: rgba(59,60,61,0.08); color: var(--coal); border: 1px solid rgba(59,60,61,0.2); }
+.action-group--fixed   .ag-detail { color: var(--text-muted); }
+
+/* Pipeline badges på kort */
+.card-pipeline-badge {
+  font-family: var(--font-h);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 3px 12px;
+  cursor: default;
+}
+.card-pipeline-badge--fixed {
+  background: rgba(59,60,61,0.06);
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--border-light);
+}
+.card-pipeline-badge--ja {
+  background: rgba(184,134,11,0.07);
+  color: #8A6200;
+  border-bottom: 1px solid rgba(184,134,11,0.2);
+  cursor: help;
+}
+.card-ja-decision  { border-left-color: rgba(184,134,11,0.7) !important; }
+.card-pipeline-fixed { border-left-color: rgba(59,60,61,0.4) !important; }
 
 .ag-row--urgent { background: rgba(200,16,46,0.04); border-radius: 2px; padding: 5px 4px; margin: 1px 0; }
 .ag-row--urgent .ag-tnr  { color: var(--red); }
