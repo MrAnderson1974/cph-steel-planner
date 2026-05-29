@@ -1018,93 +1018,6 @@
       "high_ref": false
     },
     {
-      "tilbudsnr": "T7659",
-      "tilbudsnavn": "Benretter",
-      "kundenavn": "CPH Steel A/S",
-      "kundenummer": "1421",
-      "kontaktperson": "",
-      "tilbudsansvarlig": "Tom Larsen",
-      "tilbudsansvarlig_id": 14013,
-      "ja_transfer": false,
-      "startdato": "2026-03-17",
-      "slutdato": "2026-04-17",
-      "deadline": "2026-07-07",
-      "oprettet": "2026-03-17",
-      "sidst_aendret": "2026-04-29",
-      "beregnertid": 5.0,
-      "bt_source": null,
-      "rating_erp": null,
-      "tags": [
-        "#Skabelon"
-      ],
-      "kategori_id": null,
-      "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 336750.0,
-      "hn_offer_id": 3334969,
-      "custom_field1": null,
-      "custom_field2": "Benskinne opretter jf. model inkl. 1 elastik",
-      "custom_field3": "",
-      "deadline_source": "opfølgningsdato",
-      "rating": "Ny",
-      "rating_score": null,
-      "kunde_grade": null,
-      "scheduled_days": [],
-      "planned_end": null,
-      "risk": "⚪",
-      "bt_estimated": true,
-      "bt_tier": "M",
-      "bt_range": "3.0–7.0t",
-      "projektnavn_doc": "FJ Benretter",
-      "entreprise_form": "Fagentreprise",
-      "exc_class": "EXC2",
-      "foranalyse_kilde": "Foranalyse_T7659_FJ_Benretter_v1.docx",
-      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/FÆLLES/01. CPH Steels teammappe/3. Tilbud/Tilbud 2026/T7659 FJ Benretter/02 Tilbud/02.08 Foranalyse",
-      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7659%20FJ%20Benretter/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7659_FJ_Benretter_v1.docx",
-      "project_type": "EXC2",
-      "must_win": false,
-      "high_ref": false
-    },
-    {
-      "tilbudsnr": "T6749",
-      "tilbudsnavn": "Overslagspris gangbro til VIP + Tilbud på ny trappe til TV platform + Udskiftning a eksisterende",
-      "kundenavn": "PARKEN SPORT & ENTERTAINMENT A/S",
-      "kundenummer": "",
-      "kontaktperson": "Jacob",
-      "tilbudsansvarlig": "Tom Larsen",
-      "tilbudsansvarlig_id": 23722,
-      "ja_transfer": false,
-      "startdato": "2026-04-01",
-      "slutdato": "2026-12-31",
-      "deadline": "2026-12-31",
-      "oprettet": "2025-01-28",
-      "sidst_aendret": "2026-04-09",
-      "beregnertid": 2.5,
-      "bt_source": null,
-      "rating_erp": 50,
-      "tags": [],
-      "kategori_id": 3908,
-      "beskrivelse": "Jacob Wexiø Bachiry <jbac@fck.dk>\n\nKreditorbrev ligger under filer\n\nA001.Parken.Rev.A.pdf ligger under filer\n\nTidsplan ligger under filer",
-      "kostpris": 1030000.0,
-      "salgspris": 1595000.0,
-      "hn_offer_id": 2646420,
-      "custom_field1": null,
-      "custom_field2": null,
-      "custom_field3": null,
-      "deadline_source": "slutdato_fallback",
-      "rating": "Ny",
-      "rating_score": 0,
-      "kunde_grade": null,
-      "scheduled_days": [],
-      "planned_end": null,
-      "risk": "⚪",
-      "bt_estimated": true,
-      "bt_tier": "S",
-      "bt_range": "1.0–4.0t",
-      "must_win": false,
-      "high_ref": false
-    },
-    {
       "tilbudsnr": "T7823",
       "tilbudsnavn": "test _claude",
       "kundenavn": "hr, andersen APS",
@@ -1178,48 +1091,6 @@
       "hn_offer_id": 3425788
     },
     {
-      "tilbudsnr": "T6431",
-      "tilbudsnavn": "Gersonsvej andelsboliger Altaner",
-      "kundenavn": "ALH ApS",
-      "afsendelsesdato": "2024-09-13",
-      "hn_offer_id": 2438189
-    },
-    {
-      "tilbudsnr": "T7638",
-      "tilbudsnavn": "Hedehusene Station / Aarsleff Rail",
-      "kundenavn": "Aarsleff Rail A/S",
-      "afsendelsesdato": "2026-03-18",
-      "hn_offer_id": 3316325
-    },
-    {
-      "tilbudsnr": "T6487",
-      "tilbudsnavn": "NHVT Spærrebom ved Lyngby tunnelen",
-      "kundenavn": "STRØM HANSEN A/S",
-      "afsendelsesdato": "2024-10-31",
-      "hn_offer_id": 2474230
-    },
-    {
-      "tilbudsnr": "T7516",
-      "tilbudsnavn": "Pilehavevænget 64",
-      "kundenavn": "Vestegnens Murer ApS",
-      "afsendelsesdato": "2026-01-14",
-      "hn_offer_id": 3218364
-    },
-    {
-      "tilbudsnr": "T6958",
-      "tilbudsnavn": "Ragnhildgade",
-      "kundenavn": "Jakon A/S",
-      "afsendelsesdato": "2025-07-02",
-      "hn_offer_id": 2817268
-    },
-    {
-      "tilbudsnr": "T7314",
-      "tilbudsnavn": "Rockwool EFIC",
-      "kundenavn": "Alpha tømrerentreprise Aps",
-      "afsendelsesdato": "2025-10-17",
-      "hn_offer_id": 3074509
-    },
-    {
       "tilbudsnr": "T7734-1",
       "tilbudsnavn": "Svend Dyrings vej 14",
       "kundenavn": "Christoffer Aagaard Melson",
@@ -1234,32 +1105,11 @@
       "hn_offer_id": 3463276
     },
     {
-      "tilbudsnr": "T7577",
-      "tilbudsnavn": "Søtorvet 2",
-      "kundenavn": "Tømrer- og Snedkermester Børge Nielsen A/S",
-      "afsendelsesdato": "2026-02-25",
-      "hn_offer_id": 3266518
-    },
-    {
       "tilbudsnr": "T7795",
       "tilbudsnavn": "Tilbud på istandsættelse af bygning til foreningsformål",
       "kundenavn": "Tawhid Islamisk Trossamfund",
       "afsendelsesdato": "2026-05-12",
       "hn_offer_id": 3446059
-    },
-    {
-      "tilbudsnr": "T7790",
-      "tilbudsnavn": "Tombak baldakin, Vesterbrogade, 24 - Gundtoft",
-      "kundenavn": "TEGNESTUEN VANDKUNSTEN A/S",
-      "afsendelsesdato": "2026-05-07",
-      "hn_offer_id": 3438303
-    },
-    {
-      "tilbudsnr": "T7147",
-      "tilbudsnavn": "Transformerstation",
-      "kundenavn": "NCC DANMARK A/S",
-      "afsendelsesdato": "2025-09-05",
-      "hn_offer_id": 2956102
     },
     {
       "tilbudsnr": "T7541",
@@ -2255,16 +2105,16 @@
     ]
   },
   "meta": {
-    "generated": "2026-05-29 11:29",
+    "generated": "2026-05-29 11:31",
     "source": "E-regnskab API + tracker merge (pipeline.py)",
-    "active_count": 21,
-    "afsendt_count": 17,
-    "removed_count": 1,
+    "active_count": 19,
+    "afsendt_count": 8,
+    "removed_count": 2,
     "ghost_removed": 51,
-    "merged_at": "2026-05-29 11:29",
-    "planner_version": "2026-05-29 11:23",
-    "push_validated": "2026-05-29 11:29",
-    "push_count": 21,
+    "merged_at": "2026-05-29 11:31",
+    "planner_version": "2026-05-29 11:29",
+    "push_validated": "2026-05-29 11:31",
+    "push_count": 19,
     "push_warnings": []
   }
 }
