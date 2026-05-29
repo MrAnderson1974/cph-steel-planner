@@ -108,7 +108,13 @@
       "high_ref": false,
       "steel_desc": "Konstruktionsstål EXC2/KK2, ca. 12 t. Ingen brandmaling. Miljøsanering identificeret. PSS krævet.",
       "resume": "Broarbejder i Albertslund for Christiansen & Essenbæk A/S. Miljøsaneringsomfang skal afklares inden tilbud.",
-      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7822%20-%20Albertslund%20broarbejder/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7822_Albertslund_broarbejder_v1.docx"
+      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7822%20-%20Albertslund%20broarbejder/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7822_Albertslund_broarbejder_v1.docx",
+      "rfi": [
+        {
+          "type": "INFO",
+          "tekst": "Miljøsanering — afklar omfang"
+        }
+      ]
     },
     {
       "tilbudsnr": "T7812",
@@ -218,7 +224,21 @@
       "high_ref": false,
       "steel_desc": "2 × HE160B (~0,5 t), EXC2/KK2. Brandmaling REI 60. Direkte leverance uden montage.",
       "resume": "Ny bærende bjælke i eksisterende bygning for privat bygherre via tømmermester Troels Bastrup. Simpel leverance — afklar måltjek og brandmaling REI 60.",
-      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7817%20-%20Bjergbakkevej%207/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7817_Bjergbakkevej_7_v1.docx"
+      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7817%20-%20Bjergbakkevej%207/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7817_Bjergbakkevej_7_v1.docx",
+      "rfi": [
+        {
+          "type": "TEKNISK",
+          "tekst": "Mål vejledende — måltjek på stedet inden bestilling"
+        },
+        {
+          "type": "UL",
+          "tekst": "Brandmaling REI 60 — CPH Steel eller UL?"
+        },
+        {
+          "type": "JURIDISK",
+          "tekst": "Kontraktgrundlag ikke oplyst"
+        }
+      ]
     },
     {
       "tilbudsnr": "T7809",
@@ -275,7 +295,17 @@
       "must_win": false,
       "high_ref": false,
       "resume": "Fagentreprise Bålsted Herlev. Begrænset dokumentation i udbudsmaterialet.",
-      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7809%20-%20Ba%CC%8Alsted%20Herlev/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7809_Balsted_Herlev_v1.docx"
+      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7809%20-%20Ba%CC%8Alsted%20Herlev/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7809_Balsted_Herlev_v1.docx",
+      "rfi": [
+        {
+          "type": "INFO",
+          "tekst": "Overfladebehandling ikke specificeret"
+        },
+        {
+          "type": "INFO",
+          "tekst": "Miljøsanering — afklar omfang"
+        }
+      ]
     },
     {
       "tilbudsnr": "T7818",
@@ -328,7 +358,17 @@
       "high_ref": false,
       "steel_desc": "Konstruktionsstål EXC2/KK2, ca. 12 t. Ingen brandmaling. Miljøsanering identificeret. PSS krævet.",
       "resume": "Tilbygning/ombygning Krogårdskolen SFO for ASON A/S. Montagestart juli 2026, aflevering april 2027. Elementliste afventer afklaring.",
-      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7818%20-%20Kroga%CC%8Ardskolen%20SFO/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7818_Krogardskolen_SFO_v1.docx"
+      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7818%20-%20Kroga%CC%8Ardskolen%20SFO/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7818_Krogardskolen_SFO_v1.docx",
+      "rfi": [
+        {
+          "type": "INFO",
+          "tekst": "Overfladebehandling ikke specificeret"
+        },
+        {
+          "type": "INFO",
+          "tekst": "Miljøsanering — afklar omfang"
+        }
+      ]
     },
     {
       "tilbudsnr": "T7807",
@@ -384,7 +424,25 @@
       "must_win": false,
       "high_ref": false,
       "resume": "Fagentreprise Lundehusskolen for NÅR A/S. Stor facadeandel (220 m²). Brandmalingsspec afventes. Dagbøder bekræftet.",
-      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7807%20Lundehusskolen/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7807_Lundehusskolen_v1.docx"
+      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7807%20Lundehusskolen/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7807_Lundehusskolen_v1.docx",
+      "rfi": [
+        {
+          "type": "UL",
+          "tekst": "Brandmalingsspec fra brandkonsulent mangler"
+        },
+        {
+          "type": "INFO",
+          "tekst": "Montagestart og B2-deadline ukendt"
+        },
+        {
+          "type": "INFO",
+          "tekst": "Miljøsanering — afklar omfang"
+        },
+        {
+          "type": "JURIDISK",
+          "tekst": "Dagbøder — afklar beløb"
+        }
+      ]
     },
     {
       "tilbudsnr": "T7810",
@@ -441,7 +499,17 @@
       "must_win": false,
       "high_ref": false,
       "resume": "NOV — underentreprise under HVID. Begrænset udbudsmateriale, kun fotos tilgængeligt. Scope skal afklares.",
-      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7810%20NOV/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7810_NOV_v1.docx"
+      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7810%20NOV/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7810_NOV_v1.docx",
+      "rfi": [
+        {
+          "type": "INFO",
+          "tekst": "Overfladebehandling ikke specificeret"
+        },
+        {
+          "type": "INFO",
+          "tekst": "Miljøsanering — afklar omfang"
+        }
+      ]
     },
     {
       "tilbudsnr": "T7819",
@@ -493,7 +561,17 @@
       "high_ref": false,
       "steel_desc": "Konstruktionsstål EXC2/KK2, tonnage ukendt. DS 1140 krævet. Dagbøder bekræftet.",
       "resume": "Fagentreprise Peder Skrams Gade 16A-C for Hovedstadens Bygningsentreprise (A-rated, 3% hit). Scope og tonnage ukendt — elementliste afventer Tom's kalkulation.",
-      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7819%20Peder%20Skrams%20gade/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7819_Peder_Skrams_gade_v1.docx"
+      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7819%20Peder%20Skrams%20gade/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7819_Peder_Skrams_gade_v1.docx",
+      "rfi": [
+        {
+          "type": "INFO",
+          "tekst": "Miljøsanering — afklar omfang"
+        },
+        {
+          "type": "JURIDISK",
+          "tekst": "Dagbøder — afklar beløb"
+        }
+      ]
     },
     {
       "tilbudsnr": "T7769",
@@ -749,6 +827,24 @@
         "T7764",
         "T7779",
         "T7789"
+      ],
+      "rfi": [
+        {
+          "type": "TEKNISK",
+          "tekst": "EXC/KK-klasse ikke fundet — antag EXC2/KK2"
+        },
+        {
+          "type": "INFO",
+          "tekst": "Montagestart ukendt — B2-deadline mangler"
+        },
+        {
+          "type": "INFO",
+          "tekst": "Miljøsanering — afklar omfang og ansvar"
+        },
+        {
+          "type": "JURIDISK",
+          "tekst": "Dagbøder — afklar beløb"
+        }
       ]
     },
     {
@@ -802,7 +898,13 @@
       "high_ref": false,
       "steel_desc": "Konstruktionsstål EXC2/KK2, tonnage ukendt. Ingen brandmaling. Miljøsanering identificeret.",
       "resume": "Ståltrappe og gelænder, Asnæsgade, for Tømrer- og Snedkermester Børge Nielsen (A-rated). Lille kalkulation 2,5t. Miljøsanering skal afklares.",
-      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7821%20-%20asn%C3%A6sgade/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7821_asn%C3%A6sgade_v1.docx"
+      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7821%20-%20asn%C3%A6sgade/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7821_asn%C3%A6sgade_v1.docx",
+      "rfi": [
+        {
+          "type": "INFO",
+          "tekst": "Miljøsanering — afklar omfang"
+        }
+      ]
     },
     {
       "tilbudsnr": "T7808",
@@ -859,7 +961,37 @@
       "must_win": false,
       "high_ref": false,
       "resume": "Prestigeprojekt — privat luksus villa for Bjarke Ingels (BIG), Strandvejen 626A. Hybridkonstruktion beton/stål/CLT. Ikke-laveste-pris evaluering. AB 92 kontrakt — juridisk review krævet inden DL 5. juni.",
-      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7808%20TAAR/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7808_TAAR_v1.pdf"
+      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7808%20TAAR/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7808_TAAR_v1.pdf",
+      "rfi": [
+        {
+          "type": "INFO",
+          "tekst": "Stykliste fra VITA mangler (FE04)"
+        },
+        {
+          "type": "UL",
+          "tekst": "Brandmalingsspec fra Artelia — tykkelse pr. profil"
+        },
+        {
+          "type": "INFO",
+          "tekst": "Rustfrit vs. S355J2 — ikke markeret på tegning"
+        },
+        {
+          "type": "INFO",
+          "tekst": "Mængder FE09 — trapper, lm værn mangler"
+        },
+        {
+          "type": "JURIDISK",
+          "tekst": "AB 92 (ikke AB 18) — juridisk review nødvendig"
+        },
+        {
+          "type": "TEKNISK",
+          "tekst": "NDT-omfang — VT alene eller ekstern MT/PT/UT?"
+        },
+        {
+          "type": "UE",
+          "tekst": "FE09/FE04 montagekoordinering uafklaret"
+        }
+      ]
     },
     {
       "tilbudsnr": "T7785",
@@ -919,7 +1051,25 @@
         "T7778"
       ],
       "resume": "Fagentreprise Utterslev Skole for Jakon A/S (A-rated, 10% hit). Søster-tilbud T7778 i samme pakke. Brandmalingsspec fra brandkonsulent afventes.",
-      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7785%20Utterslev%20skole/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7785_Utterslev_skole_v1.docx"
+      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7785%20Utterslev%20skole/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7785_Utterslev_skole_v1.docx",
+      "rfi": [
+        {
+          "type": "UL",
+          "tekst": "Brandmalingsspec fra brandkonsulent mangler"
+        },
+        {
+          "type": "INFO",
+          "tekst": "Montagestart ukendt — B2-deadline mangler"
+        },
+        {
+          "type": "INFO",
+          "tekst": "Miljøsanering — afklar omfang"
+        },
+        {
+          "type": "JURIDISK",
+          "tekst": "Dagbøder — afklar beløb"
+        }
+      ]
     },
     {
       "tilbudsnr": "T7778",

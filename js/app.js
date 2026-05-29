@@ -475,6 +475,18 @@ function renderCard(t, hoursToday, date, sistersHere) {
         ? steelDesc + resumeTxt + metaHtml
         : (t.beskrivelse ? `<div class="beskr-resume">${escHtml(t.beskrivelse.substring(0,200))}</div>` : '');
 
+    // RFI-sektion
+    const rfiIcons = { UL:'🔩', UE:'🏗', INFO:'📋', JURIDISK:'⚖', TEKNISK:'🔧' };
+    const rfiColors = { UL:'rfi-ul', UE:'rfi-ue', INFO:'rfi-info', JURIDISK:'rfi-juridisk', TEKNISK:'rfi-teknisk' };
+    const rfiHtml = t.rfi && t.rfi.length > 0
+        ? `<div class="rfi-block">
+            <span class="rfi-label">Afvent / RFI</span>
+            ${t.rfi.map(r =>
+                `<span class="rfi-item ${rfiColors[r.type]||'rfi-info'}" title="${escHtml(r.type)}">${rfiIcons[r.type]||'📋'} ${escHtml(r.tekst)}</span>`
+            ).join('')}
+           </div>`
+        : '';
+
     const sistersHtml = sistersHere && sistersHere.length > 0
         ? `<div class="sister-block">
             <span class="sister-label">🔗 ${sistersHere.length + 1} virksomheder byder</span>
@@ -565,7 +577,7 @@ function renderCard(t, hoursToday, date, sistersHere) {
                     onclick="event.stopPropagation(); onSplitCard('${escHtml(t.tilbudsnr)}', '${date}')">✂ Del</button>`
             }
         </div>
-        ${sistersHtml}${btEditHtml}
+        ${rfiHtml}${sistersHtml}${btEditHtml}
     </div>`;
 }
 

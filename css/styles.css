@@ -1200,6 +1200,38 @@ select.add-input { cursor: pointer; }
 .bt-input:focus { outline: none; border-color: #8A6200; }
 .bt-unit { font-family: var(--font-b); font-size: 11px; color: var(--text-muted); }
 
+/* ── RFI BLOCK ── */
+.rfi-block {
+  background: rgba(250,247,240,0.8);
+  border-top: 1px solid var(--border-light);
+  padding: 7px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.rfi-label {
+  font-family: var(--font-h);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--bronze);
+  margin-bottom: 2px;
+}
+.rfi-item {
+  font-size: 11px;
+  line-height: 1.4;
+  padding: 2px 0;
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+.rfi-ul       { color: #5C3D11; }
+.rfi-ue       { color: #2E4A1E; }
+.rfi-info     { color: var(--text-secondary); }
+.rfi-juridisk { color: #8B0000; }
+.rfi-teknisk  { color: #1A3A5C; }
+
 /* ── SISTER CARD (orphan) ── */
 .card-sister {
   background: var(--surface-1);
