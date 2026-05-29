@@ -780,7 +780,7 @@
       "slutdato": "2026-06-19",
       "deadline": "2026-06-05",
       "oprettet": "2026-05-19",
-      "sidst_aendret": "2026-05-22",
+      "sidst_aendret": "2026-05-29",
       "beregnertid": 20.0,
       "bt_source": "tracker_confirmed",
       "rating_erp": null,
@@ -802,9 +802,11 @@
       "rating_score": 61.1950077793873,
       "kunde_grade": "B",
       "scheduled_days": [
-        "2026-05-27"
+        "2026-06-02",
+        "2026-06-03",
+        "2026-06-04"
       ],
-      "planned_end": "2026-05-27",
+      "planned_end": "2026-06-04",
       "risk": "🟢",
       "bt_estimated": false,
       "projektnavn_doc": "TAAR — Privat luksus villa",
