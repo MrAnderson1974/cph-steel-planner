@@ -1031,11 +1031,11 @@
       "scheduled_days": [],
       "planned_end": null,
       "risk": "⚪",
-      "must_win": false,
-      "high_ref": false,
       "bt_estimated": true,
       "bt_tier": "M",
-      "bt_range": "3.0–7.0t"
+      "bt_range": "3.0–7.0t",
+      "must_win": false,
+      "high_ref": false
     },
     {
       "tilbudsnr": "T7659",
@@ -1071,11 +1071,18 @@
       "scheduled_days": [],
       "planned_end": null,
       "risk": "⚪",
-      "must_win": false,
-      "high_ref": false,
       "bt_estimated": true,
       "bt_tier": "M",
-      "bt_range": "3.0–7.0t"
+      "bt_range": "3.0–7.0t",
+      "projektnavn_doc": "FJ Benretter",
+      "entreprise_form": "Fagentreprise",
+      "exc_class": "EXC2",
+      "foranalyse_kilde": "Foranalyse_T7659_FJ_Benretter_v1.docx",
+      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/FÆLLES/01. CPH Steels teammappe/3. Tilbud/Tilbud 2026/T7659 FJ Benretter/02 Tilbud/02.08 Foranalyse",
+      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7659%20FJ%20Benretter/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7659_FJ_Benretter_v1.docx",
+      "must_win": false,
+      "high_ref": false,
+      "project_type": "EXC2"
     },
     {
       "tilbudsnr": "T7612",
@@ -1113,11 +1120,11 @@
       "scheduled_days": [],
       "planned_end": null,
       "risk": "⚪",
-      "must_win": false,
-      "high_ref": false,
       "bt_estimated": true,
       "bt_tier": "M",
-      "bt_range": "3.0–7.0t"
+      "bt_range": "3.0–7.0t",
+      "must_win": false,
+      "high_ref": false
     },
     {
       "tilbudsnr": "T6749",
@@ -1151,11 +1158,11 @@
       "scheduled_days": [],
       "planned_end": null,
       "risk": "⚪",
-      "must_win": false,
-      "high_ref": false,
       "bt_estimated": true,
       "bt_tier": "S",
-      "bt_range": "1.0–4.0t"
+      "bt_range": "1.0–4.0t",
+      "must_win": false,
+      "high_ref": false
     },
     {
       "tilbudsnr": "T7823",
@@ -1193,11 +1200,11 @@
       "scheduled_days": [],
       "planned_end": null,
       "risk": "⚪",
-      "must_win": false,
-      "high_ref": false,
       "bt_estimated": true,
       "bt_tier": "M",
-      "bt_range": "3.0–7.0t"
+      "bt_range": "3.0–7.0t",
+      "must_win": false,
+      "high_ref": false
     }
   ],
   "afsendt": [
@@ -2713,7 +2720,7 @@
     "removed_count": 0,
     "ghost_removed": 51,
     "merged_at": "2026-05-29 11:07",
-    "planner_version": "2026-05-29 10:52",
+    "planner_version": "2026-05-29 11:07",
     "push_validated": "2026-05-29 11:07",
     "push_count": 23,
     "push_warnings": []
