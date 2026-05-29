@@ -399,9 +399,9 @@ function renderBoard() {
                 const t = tilbudMap[item.tilbudsnr];
                 if (!t) continue;
 
-                // Vis ALLE søstre fra tilbudslisten — ikke kun dem på samme dag
-                const allSisters = t.is_master && t.sisters
-                    ? t.sisters.map(nr => tilbudMap[nr]).filter(Boolean)
+                // Vis ALLE søstre — opslag direkte i tilbudsliste
+                const allSisters = t.is_master
+                    ? q.tilbud.filter(s => s.is_sister && s.master_nr === t.tilbudsnr)
                     : [];
 
                 html += renderCard(t, item.hours, date, allSisters);
