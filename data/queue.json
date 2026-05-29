@@ -55,7 +55,9 @@
       "is_sister": false,
       "must_win": false,
       "high_ref": false,
-      "resume": "Fagentreprise, AB Hellerup Strandgaard (privat, ny kunde). Scope og tonnage ukendt — Tom's estimat afventes."
+      "resume": "Fagentreprise, AB Hellerup Strandgaard (privat, ny kunde). Scope og tonnage ukendt — Tom's estimat afventes.",
+      "ordrevaerdi_dkk": 308000,
+      "dg_pct": 36
     },
     {
       "tilbudsnr": "T7822",
@@ -110,7 +112,9 @@
       "project_type": "EXC2",
       "must_win": false,
       "high_ref": false,
-      "resume": "Broarbejder i Albertslund for Christiansen & Essenbæk A/S. Miljøsaneringsomfang skal afklares inden tilbud."
+      "resume": "Broarbejder i Albertslund for Christiansen & Essenbæk A/S. Miljøsaneringsomfang skal afklares inden tilbud.",
+      "ordrevaerdi_dkk": 1140000,
+      "dg_pct": 37
     },
     {
       "tilbudsnr": "T7812",
@@ -168,7 +172,9 @@
       "is_sister": false,
       "must_win": false,
       "high_ref": false,
-      "resume": "Underentreprise under Lars Phoenix. Elementliste ikke modtaget endnu."
+      "resume": "Underentreprise under Lars Phoenix. Elementliste ikke modtaget endnu.",
+      "ordrevaerdi_dkk": 237000,
+      "dg_pct": 39
     },
     {
       "tilbudsnr": "T7817",
@@ -222,7 +228,9 @@
       "project_type": "EXC2",
       "must_win": false,
       "high_ref": false,
-      "resume": "Ny bærende bjælke i eksisterende bygning for privat bygherre via tømmermester Troels Bastrup. Simpel leverance — afklar måltjek og brandmaling REI 60."
+      "resume": "Ny bærende bjælke i eksisterende bygning for privat bygherre via tømmermester Troels Bastrup. Simpel leverance — afklar måltjek og brandmaling REI 60.",
+      "ordrevaerdi_dkk": 75000,
+      "dg_pct": 38
     },
     {
       "tilbudsnr": "T7809",
@@ -280,7 +288,9 @@
       "is_sister": false,
       "must_win": false,
       "high_ref": false,
-      "resume": "Fagentreprise Bålsted Herlev. Begrænset dokumentation i udbudsmaterialet."
+      "resume": "Fagentreprise Bålsted Herlev. Begrænset dokumentation i udbudsmaterialet.",
+      "ordrevaerdi_dkk": 42000,
+      "dg_pct": 37
     },
     {
       "tilbudsnr": "T7818",
@@ -334,7 +344,9 @@
       "project_type": "EXC2",
       "must_win": false,
       "high_ref": false,
-      "resume": "Tilbygning/ombygning Krogårdskolen SFO for ASON A/S. Montagestart juli 2026, aflevering april 2027. Elementliste afventer afklaring."
+      "resume": "Tilbygning/ombygning Krogårdskolen SFO for ASON A/S. Montagestart juli 2026, aflevering april 2027. Elementliste afventer afklaring.",
+      "ordrevaerdi_dkk": 1140000,
+      "dg_pct": 37
     },
     {
       "tilbudsnr": "T7807",
@@ -391,7 +403,9 @@
       "is_sister": false,
       "must_win": false,
       "high_ref": false,
-      "resume": "Fagentreprise Lundehusskolen for NÅR A/S. Stor facadeandel (220 m²). Brandmalingsspec afventes. Dagbøder bekræftet."
+      "resume": "Fagentreprise Lundehusskolen for NÅR A/S. Stor facadeandel (220 m²). Brandmalingsspec afventes. Dagbøder bekræftet.",
+      "ordrevaerdi_dkk": 511000,
+      "dg_pct": 38
     },
     {
       "tilbudsnr": "T7810",
@@ -449,7 +463,8 @@
       "is_sister": false,
       "must_win": false,
       "high_ref": false,
-      "resume": "NOV — underentreprise under HVID. Begrænset udbudsmateriale, kun fotos tilgængeligt. Scope skal afklares."
+      "resume": "NOV — underentreprise under HVID. Begrænset udbudsmateriale, kun fotos tilgængeligt. Scope skal afklares.",
+      "dg_pct": 36
     },
     {
       "tilbudsnr": "T7819",
@@ -502,7 +517,8 @@
       "project_type": "EXC2",
       "must_win": false,
       "high_ref": false,
-      "resume": "Fagentreprise Peder Skrams Gade 16A-C for Hovedstadens Bygningsentreprise (A-rated, 3% hit). Scope og tonnage ukendt — elementliste afventer Tom's kalkulation."
+      "resume": "Fagentreprise Peder Skrams Gade 16A-C for Hovedstadens Bygningsentreprise (A-rated, 3% hit). Scope og tonnage ukendt — elementliste afventer Tom's kalkulation.",
+      "dg_pct": 36
     },
     {
       "tilbudsnr": "T7769",
@@ -558,7 +574,9 @@
       "lokation": "Kastrup Lufthavn",
       "is_sister": false,
       "must_win": false,
-      "high_ref": false
+      "high_ref": false,
+      "ordrevaerdi_dkk": 5622000,
+      "dg_pct": 36
     },
     {
       "tilbudsnr": "T7789",
@@ -751,7 +769,9 @@
       "sister_group": 1,
       "must_win": false,
       "high_ref": false,
-      "resume": "Fagentreprise Marielystvej 50 / Rådmand Steins Alle 20-24 for REBO (ny kunde). Bred elementpakke. Søster-tilbud T7789, T7764, T7779 i samme udbudspakke."
+      "resume": "Fagentreprise Marielystvej 50 / Rådmand Steins Alle 20-24 for REBO (ny kunde). Bred elementpakke. Søster-tilbud T7789, T7764, T7779 i samme udbudspakke.",
+      "ordrevaerdi_dkk": 2694000,
+      "dg_pct": 38
     },
     {
       "tilbudsnr": "T7821",
@@ -805,7 +825,9 @@
       "project_type": "EXC2",
       "must_win": false,
       "high_ref": false,
-      "resume": "Ståltrappe og gelænder, Asnæsgade, for Tømrer- og Snedkermester Børge Nielsen (A-rated). Lille kalkulation 2,5t. Miljøsanering skal afklares."
+      "resume": "Ståltrappe og gelænder, Asnæsgade, for Tømrer- og Snedkermester Børge Nielsen (A-rated). Lille kalkulation 2,5t. Miljøsanering skal afklares.",
+      "ordrevaerdi_dkk": 70000,
+      "dg_pct": 37
     },
     {
       "tilbudsnr": "T7808",
@@ -958,7 +980,9 @@
       "is_master": true,
       "sisters": [
         "T7778"
-      ]
+      ],
+      "ordrevaerdi_dkk": 352000,
+      "dg_pct": 36
     },
     {
       "tilbudsnr": "T7778",
@@ -1015,7 +1039,9 @@
       "is_sister": true,
       "sister_group": "override_T7785",
       "must_win": false,
-      "high_ref": false
+      "high_ref": false,
+      "ordrevaerdi_dkk": 238000,
+      "dg_pct": 37
     },
     {
       "tilbudsnr": "T7823",
@@ -1746,15 +1772,15 @@
     ]
   },
   "meta": {
-    "generated": "2026-05-29 12:07",
+    "generated": "2026-05-29 12:53",
     "source": "E-regnskab API + tracker merge (pipeline.py)",
     "active_count": 19,
     "afsendt_count": 8,
     "removed_count": 0,
-    "ghost_removed": 51,
-    "merged_at": "2026-05-29 12:07",
-    "planner_version": "2026-05-29 11:49",
-    "push_validated": "2026-05-29 12:07",
+    "ghost_removed": 0,
+    "merged_at": "2026-05-29 12:53",
+    "planner_version": "2026-05-29 12:07",
+    "push_validated": "2026-05-29 12:53",
     "push_count": 19,
     "push_warnings": []
   }
