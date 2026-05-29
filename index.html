@@ -24,6 +24,7 @@
         <button id="btn-save" onclick="forceSave()" title="Publicér til GitHub (Ctrl+S)">☁ Publicér</button>
         <button id="btn-export" onclick="exportExcel()" title="Eksporter Excel (Ctrl+E)">📊 Excel</button>
         <span id="save-status"></span>
+        <span id="pipeline-ts" class="pipeline-ts" title="Tidspunkt for seneste pipeline-kørsel"></span>
     </div>
 </header>
 
@@ -104,6 +105,64 @@
     </aside>
 
     <main id="main-content">
+
+        <!-- ── ADD TILBUD PANEL ── -->
+        <div id="add-panel" class="hidden">
+            <div class="add-inner">
+                <div class="add-header">
+                    <span class="add-title">Tilføj tilbud til plan</span>
+                    <button onclick="toggleAddTilbud()" class="add-close">✕</button>
+                </div>
+                <div class="add-body">
+                    <div class="add-row">
+                        <label class="add-label">Tilbudsnr <span class="add-req">*</span>
+                            <input type="text" id="add-tnr" placeholder="T7820" class="add-input">
+                        </label>
+                        <label class="add-label">Kundenavn <span class="add-req">*</span>
+                            <input type="text" id="add-kunde" placeholder="Firma A/S" class="add-input">
+                        </label>
+                    </div>
+                    <div class="add-row">
+                        <label class="add-label add-label--full">Projektnavn
+                            <input type="text" id="add-projekt" placeholder="Beskriv projektet kort" class="add-input">
+                        </label>
+                    </div>
+                    <div class="add-row">
+                        <label class="add-label">Deadline
+                            <input type="date" id="add-deadline" class="add-input">
+                        </label>
+                        <label class="add-label">Beregnertid (timer)
+                            <input type="number" id="add-bt" placeholder="5" min="0" step="0.5" class="add-input">
+                        </label>
+                    </div>
+                    <div class="add-row">
+                        <label class="add-label">Kunderating
+                            <select id="add-grade" class="add-input">
+                                <option value="">Ny / Ukendt</option>
+                                <option value="A">★ Grade A — Topkunde</option>
+                                <option value="B">◆ Grade B — Standard</option>
+                                <option value="C">○ Grade C — Ny/lav-prioritet</option>
+                            </select>
+                        </label>
+                        <label class="add-label">Stålscope (1–5)
+                            <input type="number" id="add-scope" placeholder="2" min="1" max="5" step="1" class="add-input">
+                        </label>
+                    </div>
+                    <div class="add-row add-row--checks">
+                        <label class="add-check">
+                            <input type="checkbox" id="add-mw"> <span>⚡ Must Win</span>
+                        </label>
+                        <label class="add-check">
+                            <input type="checkbox" id="add-ref"> <span>★ Høj Reference</span>
+                        </label>
+                    </div>
+                    <div class="add-actions">
+                        <button onclick="addTilbudToQueue()" class="add-btn-primary">Tilføj til plan</button>
+                        <button onclick="toggleAddTilbud()" class="add-btn-cancel">Annuller</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div id="settings-panel" class="hidden">
             <div class="settings-inner">

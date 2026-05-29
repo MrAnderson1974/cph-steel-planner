@@ -127,7 +127,8 @@ function _calcPriorityScore(tilbud, today) {
         else if (daysLeft <= 35) urgency = 2;
         else                     urgency = 1;
     }
-    const gradePts   = ({ A: 3, B: 2, C: 1 }[tilbud.kunde_grade]) || 1;
+    const grade = tilbud.kunde_grade || (tilbud.rating !== 'Ny' ? tilbud.rating : null);
+    const gradePts   = ({ A: 3, B: 2, C: 1 }[grade]) || 1;
     const steelScope = tilbud.steel_scope || 1;
     const bonus      = (tilbud.must_win ? 2 : 0) + (tilbud.high_ref ? 1 : 0);
     const sisterBonus = tilbud.is_master ? 3 : 0;

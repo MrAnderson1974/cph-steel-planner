@@ -34,7 +34,8 @@ async function loadData() {
             const result = await persistence.loadQueue(token, repo);
             state.queue = result.content;
             state.sha   = result.sha;
-            showStatus('✓ Indlæst fra GitHub');
+            showStatus('✓ GitHub');
+            showPipelineTimestamp();
             return;
         } catch (e) {
             console.warn('GitHub load failed:', e);
@@ -45,7 +46,15 @@ async function loadData() {
     const res = await fetch('data/queue.json');
     if (!res.ok) { showStatus('❌ Kunne ikke indlæse queue.json'); return; }
     state.queue = await res.json();
-    showStatus('Lokale data indlæst');
+    showStatus('✓ Lokale data');
+    showPipelineTimestamp();
+}
+
+function showPipelineTimestamp() {
+    const gen = state.queue && state.queue.meta && state.queue.meta.generated;
+    if (!gen) return;
+    const el = document.getElementById('pipeline-ts');
+    if (el) el.textContent = `Pipeline: ${gen}`;
 }
 
 // ── UNDO ──
@@ -91,13 +100,13 @@ function setFilter(f) {
 
 function getFilteredSet(q) {
     if (state.filter === 'all') return null;
-    const active = q.tilbud.filter(t => !t.is_sister);
+    const active = q.tilbud.filter(t => !t.is_sister && !t._removed_from_pipeline);
     let filtered;
     switch (state.filter) {
         case 'miss':    filtered = active.filter(t => t.risk === '🔴'); break;
         case 'tight':   filtered = active.filter(t => t.risk === '🟡'); break;
         case 'nobt':    filtered = active.filter(t => t.bt_estimated); break;
-        case 'grade-a': filtered = active.filter(t => t.kunde_grade === 'A'); break;
+        case 'grade-a': filtered = active.filter(t => (t.kunde_grade || t.rating) === 'A'); break;
         case 'mw':      filtered = active.filter(t => t.must_win); break;
         default:        filtered = active;
     }
@@ -167,7 +176,7 @@ function updateDirtyFlag() {
 
 function renderKPI() {
     const q = state.queue;
-    const active = q.tilbud.filter(t => !t.is_sister);
+    const active = q.tilbud.filter(t => !t.is_sister && !t._removed_from_pipeline);
     const totalTimer = active.reduce((s,t) => s + (t.beregnertid||0), 0);
     const ok    = active.filter(t => t.risk === '🟢').length;
     const stram = active.filter(t => t.risk === '🟡').length;
@@ -207,6 +216,7 @@ function renderActionRequired() {
 
     for (const t of q.tilbud) {
         if (t.is_sister) continue;
+        if (t._removed_from_pipeline) continue;
         if (t.deadline && t.deadline < today) {
             overdue.push(t);
         } else if (t.planned_end && t.deadline && t.planned_end > t.deadline) {
@@ -378,8 +388,10 @@ function getRiskClass(risk) {
 function renderCard(t, hoursToday, date, sistersHere) {
     const today = todayStr();
     const isOverdue = t.deadline && t.deadline < today;
-    const gradeClass   = { A:'grade-a', B:'grade-b', C:'grade-c' }[t.kunde_grade] || 'grade-unknown';
-    const gradeIcon    = { A:'★', B:'◆', C:'○' }[t.kunde_grade] || '?';
+    // Fallback: pipeline bruger 'rating', tracker bruger 'kunde_grade'
+    const grade = t.kunde_grade || (t.rating !== 'Ny' ? t.rating : null);
+    const gradeClass   = { A:'grade-a', B:'grade-b', C:'grade-c' }[grade] || 'grade-unknown';
+    const gradeIcon    = { A:'★', B:'◆', C:'○' }[grade] || '?';
     const riskBorder   = { '🟢':'card-ok', '🟡':'card-tight', '🔴':'card-miss', '⚪':'card-none' }[t.risk] || '';
 
     let marginText = '—';
@@ -434,9 +446,22 @@ function renderCard(t, hoursToday, date, sistersHere) {
         'A': 'Grade A — Topkunde, prioriteres højt i planen',
         'B': 'Grade B — Standard kunde',
         'C': 'Grade C — Ny eller lav-prioritet'
-    }[t.kunde_grade] || 'Grade ukendt';
+    }[grade] || 'Grade ukendt';
 
     const dlClass = isOverdue ? 'card-dl dl-over' : (t.risk === '🔴' ? 'card-dl dl-miss' : t.risk === '🟡' ? 'card-dl dl-tight' : 'card-dl');
+
+    // Foranalyse-badge — åbn fil direkte hvis foranalyse_url findes, ellers kopiér sti
+    const hasFa = t.foranalyse_kilde && t.foranalyse_sti;
+    const faHtml = t.is_sister ? '' : hasFa
+        ? (t.foranalyse_url
+            ? `<a class="kpi-tile kpi-fa kpi-fa--ok" href="${escHtml(t.foranalyse_url)}"
+                   title="Foranalyse: ${escHtml(t.foranalyse_kilde)}\nKlik for at åbne filen"
+                   onclick="event.stopPropagation()">📄 FA</a>`
+            : `<button class="kpi-tile kpi-fa kpi-fa--ok"
+                   title="Foranalyse: ${escHtml(t.foranalyse_kilde)}\nKlik for at kopiere sti"
+                   onclick="event.stopPropagation(); openForanalyse('${escHtml(t.tilbudsnr)}', '${escHtml(t.foranalyse_sti)}', '${escHtml(t.foranalyse_kilde)}')">📄 FA</button>`)
+        : `<span class="kpi-tile kpi-fa kpi-fa--missing"
+               title="Foranalyse ikke lavet endnu\nTilføj dokument i: FÆLLES/…/Tilbud 2026/${escHtml(t.tilbudsnr)}…/02 Tilbud/02.08 Foranalyse/">⚠ FA</span>`;
 
     return `<div class="card ${riskBorder}${t.bt_estimated ? ' card-estimated' : ''}"
         draggable="true" data-tnr="${escHtml(t.tilbudsnr)}" data-date="${date}"
@@ -454,11 +479,12 @@ function renderCard(t, hoursToday, date, sistersHere) {
         </div>
         <div class="card-kpis">
             <span class="kpi-tile ${getRiskClass(t.risk)}" data-tooltip="${escHtml(riskTooltip)}">${t.risk || '⚪'} ${marginText}</span>
-            <span class="kpi-tile ${gradeClass}" data-tooltip="${escHtml(gradeTooltip)}">${gradeIcon} ${t.kunde_grade || '?'}</span>
+            <span class="kpi-tile ${gradeClass}" data-tooltip="${escHtml(gradeTooltip)}">${gradeIcon} ${grade || '?'}</span>
             ${t.must_win  ? `<span class="kpi-tile kpi-mw"   data-tooltip="Must Win — strategisk kritisk tilbud">⚡ MW</span>` : ''}
             ${t.high_ref  ? `<span class="kpi-tile kpi-href" data-tooltip="Høj referenceverdi — vigtigt referenceprojekt">★ REF</span>` : ''}
             <span class="kpi-tile kpi-scope" data-tooltip="Stålscope ${t.steel_scope||'?'}/5 — antal ståltyper og kompleksitet">🔩 ${t.steel_scope || '?'}</span>
             <span class="kpi-tile kpi-bt"    data-tooltip="Total beregnertid${t.bt_estimated ? ' (estimeret — klik for at bekræfte)' : ''}">⏱ ${formatNum(t.beregnertid)}t${t.bt_estimated ? ' ~' : ''}</span>
+            ${faHtml}
             ${(t.scheduled_days && t.scheduled_days.length > 1)
                 ? `<button class="card-split-btn card-split-btn--merge" title="Saml projektet til én dag (flex)"
                     onclick="event.stopPropagation(); onMergeCard('${escHtml(t.tilbudsnr)}')">⊕ Saml</button>`
@@ -501,6 +527,22 @@ function onMergeCard(tilbudsNr) {
     showToast(`${tilbudsNr} samlet fra ${formatDateShort(startDay)}`);
 }
 
+function openForanalyse(tnr, sti, kilde) {
+    if (!sti || !kilde) return;
+    const fullPath = sti + '/' + kilde;
+    // Prøv at åbne som file:// URL (virker i nogle browser-konfigurationer)
+    const fileUrl = 'file://' + fullPath.split('/').map(s => encodeURIComponent(s)).join('/');
+    const win = window.open(fileUrl, '_blank');
+    // Kopier altid sti til clipboard som fallback
+    if (navigator.clipboard) {
+        navigator.clipboard.writeText(fullPath)
+            .then(() => showToast(`📄 ${kilde}\n📋 Sti kopieret — indsæt i Finder (⌘+Shift+G)`))
+            .catch(() => showToast(`📄 ${kilde}`));
+    } else {
+        showToast(`📄 ${kilde}\n${fullPath}`);
+    }
+}
+
 function onBTChange(tilbudsNr, newVal) {
     const bt = parseFloat(String(newVal).replace(',', '.'));
     if (isNaN(bt) || bt < 0) return;
@@ -518,6 +560,83 @@ function toggleActionRequired() {
 
 function toggleSettings() {
     document.getElementById('settings-panel').classList.toggle('hidden');
+    document.getElementById('add-panel').classList.add('hidden');
+}
+
+// ── ADD TILBUD ──
+
+function toggleAddTilbud() {
+    const panel = document.getElementById('add-panel');
+    const isHidden = panel.classList.toggle('hidden');
+    if (!isHidden) {
+        document.getElementById('settings-panel').classList.add('hidden');
+        // Sæt default deadline til 3 uger frem
+        const d = new Date();
+        d.setDate(d.getDate() + 21);
+        document.getElementById('add-deadline').value = _ymd(d.getFullYear(), d.getMonth()+1, d.getDate());
+        document.getElementById('add-tnr').focus();
+    }
+}
+
+function addTilbudToQueue() {
+    const tnr    = document.getElementById('add-tnr').value.trim().toUpperCase();
+    const kunde  = document.getElementById('add-kunde').value.trim();
+    const projekt = document.getElementById('add-projekt').value.trim();
+    const deadline = document.getElementById('add-deadline').value;
+    const bt     = parseFloat(String(document.getElementById('add-bt').value).replace(',','.')) || 0;
+    const grade  = document.getElementById('add-grade').value;
+    const scope  = parseInt(document.getElementById('add-scope').value) || null;
+    const mustWin = document.getElementById('add-mw').checked;
+    const highRef = document.getElementById('add-ref').checked;
+
+    if (!tnr || !kunde) {
+        showToast('⚠ Tilbudsnr og Kundenavn er påkrævet', 3500);
+        return;
+    }
+    if (state.queue.tilbud.some(t => t.tilbudsnr === tnr)) {
+        showToast(`⚠ ${tnr} findes allerede i planen`, 3500);
+        return;
+    }
+
+    pushUndo(`Tilføj ${tnr}`);
+
+    const newTilbud = {
+        tilbudsnr:    tnr,
+        tilbudsnavn:  projekt || `${tnr} — ${kunde}`,
+        kundenavn:    kunde,
+        projekt:      projekt,
+        deadline:     deadline || null,
+        beregnertid:  bt,
+        bt_estimated: bt === 0,
+        bt_source:    'manual',
+        kunde_grade:  grade || null,
+        rating:       grade || 'Ny',
+        must_win:     mustWin,
+        high_ref:     highRef,
+        steel_scope:  scope,
+        risk:         '⚪',
+        scheduled_days: [],
+        planned_end:  null,
+        is_sister:    false,
+        beskrivelse:  '',
+        sidst_aendret: todayStr(),
+        _manual_entry: true,
+    };
+
+    state.queue.tilbud.push(newTilbud);
+    state.dirty = true;
+    toggleAddTilbud();
+
+    // Nulstil form
+    ['add-tnr','add-kunde','add-projekt','add-bt','add-scope'].forEach(id => {
+        document.getElementById(id).value = '';
+    });
+    document.getElementById('add-grade').value = '';
+    document.getElementById('add-mw').checked = false;
+    document.getElementById('add-ref').checked = false;
+
+    render();
+    showToast(`${tnr} tilføjet — træk det ind i planen eller kør Re-optimer`);
 }
 
 function loadSettingsToForm() {
