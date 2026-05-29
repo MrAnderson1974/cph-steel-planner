@@ -558,10 +558,10 @@ function renderCard(t, hoursToday, date, sistersHere) {
         <div class="card-header">
             <span class="drag-handle" title="Træk for at flytte">⠿</span>
             <span class="card-tnr">${escHtml(t.tilbudsnr)}</span>
+            <span class="card-udbudsnavn">${escHtml((t.projekt || t.tilbudsnavn).substring(0,30))}</span>
             <span class="card-hours">${formatNum(hoursToday)}t</span>
             ${t.deadline ? `<span class="${dlClass}">DL ${formatDateShort(t.deadline)}</span>` : ''}
         </div>
-        <div class="card-udbudsnavn">${escHtml(t.projekt || t.tilbudsnavn)}</div>
         ${pipelineBadge}
         <div class="card-body">
             <div class="card-kunde-sub">${escHtml(t.kundenavn)}</div>
