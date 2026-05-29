@@ -999,10 +999,18 @@ select.add-input { cursor: pointer; }
 /* ── CARD KPIs ── */
 .card-kpis {
   display: flex;
-  flex-wrap: wrap;
-  gap: 4px;
-  padding: 6px 12px 10px;
+  flex-wrap: nowrap;
+  gap: 5px;
+  padding: 5px 12px;
   align-items: center;
+}
+.card-kpis-row1 {
+  padding-bottom: 3px;
+}
+.card-kpis-row2 {
+  padding-top: 3px;
+  padding-bottom: 10px;
+  flex-wrap: wrap;
 }
 .card-split-btn {
   margin-left: auto;
@@ -1136,7 +1144,6 @@ select.add-input { cursor: pointer; }
   color: #000;
   white-space: nowrap;
   cursor: pointer;
-  margin-left: auto;
   transition: background 0.12s, color 0.12s;
 }
 .card-split-btn:hover { background: #000; color: #fff; }
