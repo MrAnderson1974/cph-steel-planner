@@ -1103,37 +1103,45 @@ select.add-input { cursor: pointer; }
 .kpi-scope { background: #fff; border-color: #000; color: #000; }
 .kpi-bt    { background: #fff; border-color: #000; color: #000; }
 
-/* Foranalyse-badge */
-.kpi-fa {
-  font-size: 9px;
-  letter-spacing: 0.3px;
-  cursor: default;
-}
+/* Foranalyse-badge — pill-style som resten */
+.kpi-fa { cursor: default; }
 .kpi-fa--ok {
-  background: rgba(46,94,30,0.08);
-  border-color: rgba(46,94,30,0.35);
-  color: #2E5E1E;
-  cursor: pointer;
-  border: 1px solid rgba(46,94,30,0.35);
-  border-radius: 4px;
-  padding: 2px 6px;
-  font-size: 9px;
-  font-family: inherit;
-  transition: background 0.15s, color 0.15s;
-}
-.kpi-fa--ok:hover {
-  background: #2E5E1E;
+  background: #1B5E20;
+  border-color: #1B5E20;
   color: #fff;
+  cursor: pointer;
+  transition: background 0.15s;
 }
+.kpi-fa--ok:hover { background: #2E7D32; border-color: #2E7D32; }
 .kpi-fa--missing {
-  background: rgba(125,90,0,0.07);
-  border: 1px dashed rgba(125,90,0,0.45);
-  border-radius: 4px;
-  padding: 2px 6px;
+  background: #fff;
+  border-color: #7D5A00;
+  border-style: dashed;
   color: #7D5A00;
-  opacity: 0.85;
-  font-size: 9px;
 }
+
+/* SAML / DEL — pill-style */
+.card-split-btn {
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 10px;
+  font-family: var(--font-h);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  border-radius: 3px;
+  border: 1.5px solid #000;
+  background: #fff;
+  color: #000;
+  white-space: nowrap;
+  cursor: pointer;
+  margin-left: auto;
+  transition: background 0.12s, color 0.12s;
+}
+.card-split-btn:hover { background: #000; color: #fff; }
+.card-split-btn--merge { border-color: #1B5E20; color: #1B5E20; }
+.card-split-btn--merge:hover { background: #1B5E20; color: #fff; border-color: #1B5E20; }
 
 /* ── SISTER BLOCK ── */
 .sister-block {
