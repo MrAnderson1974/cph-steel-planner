@@ -543,17 +543,16 @@ function onMergeCard(tilbudsNr) {
 function openForanalyse(tnr, sti, kilde) {
     if (!sti || !kilde) return;
     const fullPath = sti + '/' + kilde;
-    // Prøv at åbne som file:// URL (virker i nogle browser-konfigurationer)
-    const fileUrl = 'file://' + fullPath.split('/').map(s => encodeURIComponent(s)).join('/');
-    const win = window.open(fileUrl, '_blank');
-    // Kopier altid sti til clipboard som fallback
+    // Kopier fuld sti til clipboard
     if (navigator.clipboard) {
         navigator.clipboard.writeText(fullPath)
-            .then(() => showToast(`📄 ${kilde}\n📋 Sti kopieret — indsæt i Finder (⌘+Shift+G)`))
-            .catch(() => showToast(`📄 ${kilde}`));
-    } else {
-        showToast(`📄 ${kilde}\n${fullPath}`);
+            .then(() => showToast(`📄 Foranalyse kopieret!\n\nÅbn Finder → ⌘⇧G → indsæt sti`, 4000))
+            .catch(() => {});
     }
+    // Forsøg at åbne filen direkte (virker i Safari, blokeres i Chrome)
+    const t = state.queue.tilbud.find(x => x.tilbudsnr === tnr);
+    const url = t && t.foranalyse_url;
+    if (url) window.open(url, '_blank');
 }
 
 function onBTChange(tilbudsNr, newVal) {

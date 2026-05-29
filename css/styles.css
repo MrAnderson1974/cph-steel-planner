@@ -90,7 +90,7 @@ body {
 #sidebar-toggle:hover { color: var(--bronze); }
 
 .topbar-logo {
-  height: 36px;
+  height: 44px;
   width: auto;
   display: block;
 }
@@ -180,7 +180,7 @@ body {
 #sidebar {
   width: var(--sidebar-w);
   flex-shrink: 0;
-  background: #2A2B2C;
+  background: #3B3C3D;
   border-right: 1px solid rgba(0,0,0,0.12);
   overflow-y: auto;
   overflow-x: hidden;
@@ -199,7 +199,7 @@ body {
   font-weight: 700;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: rgba(186,162,144,0.65);
+  color: rgba(186,162,144,0.85);
   padding: 12px 16px 4px;
   white-space: nowrap;
   overflow: hidden;
@@ -215,7 +215,7 @@ body {
   cursor: pointer;
   background: transparent;
   border: none;
-  color: rgba(255,255,255,0.72);
+  color: rgba(255,255,255,0.88);
   font-family: var(--font-b);
   font-size: 13px;
   font-weight: 400;

@@ -43,7 +43,7 @@
       "projektnavn_doc": "AB Hellerup Strandgaard — Renovering af altaner, vinduer og tag",
       "entreprise_form": "Ja",
       "exc_class": "#EXC1 (formodet)",
-      "steel_desc": "AB Hellerup Strandgaard — altanrenovering, BT 11t indikerer mellemstort scope",
+      "steel_desc": "Konstruktionsstål EXC3/KK2. PSS krævet. Scope og elementliste ikke specificeret i udbudsmaterialet — Tom's kalkulation afventes. EXC3 er usædvanligt højt; kapacitet og KK-klasse skal afklares.",
       "foranalyse_kilde": "Foranalyse T7801 AB Hellerup Strandgaard.pdf",
       "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/FÆLLES/01. CPH Steels teammappe/3. Tilbud/Tilbud 2026/T7801 AB Hellerup Strandgaard/02 Tilbud/02.08 Foranalyse",
       "steel_scope": 3,
@@ -52,7 +52,9 @@
       "lokation": "Hellerup",
       "is_sister": false,
       "must_win": false,
-      "high_ref": false
+      "high_ref": false,
+      "resume": "Fagentreprise, AB Hellerup Strandgaard (privat, ny kunde). Scope og tonnage ukendt — Tom's estimat afventes.",
+      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7801%20AB%20Hellerup%20Strandgaard/02%20Tilbud/02.08%20Foranalyse/Foranalyse%20T7801%20AB%20Hellerup%20Strandgaard.pdf"
     },
     {
       "tilbudsnr": "T7822",
@@ -103,7 +105,10 @@
       "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/FÆLLES/01. CPH Steels teammappe/3. Tilbud/Tilbud 2026/T7822 - Albertslund broarbejder/02 Tilbud/02.08 Foranalyse",
       "project_type": "EXC2",
       "must_win": false,
-      "high_ref": false
+      "high_ref": false,
+      "steel_desc": "Konstruktionsstål EXC2/KK2, ca. 12 t. Ingen brandmaling. Miljøsanering identificeret. PSS krævet.",
+      "resume": "Broarbejder i Albertslund for Christiansen & Essenbæk A/S. Miljøsaneringsomfang skal afklares inden tilbud.",
+      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7822%20-%20Albertslund%20broarbejder/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7822_Albertslund_broarbejder_v1.docx"
     },
     {
       "tilbudsnr": "T7812",
@@ -152,13 +157,15 @@
       "foranalyse_kilde": "Foranalyse_T7812_Lars_Phoenix_v1.docx",
       "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/FÆLLES/01. CPH Steels teammappe/3. Tilbud/Tilbud 2026/T7812 - Lars Phoenix/02 Tilbud/02.08 Foranalyse",
       "steel_scope": 2,
-      "steel_desc": "Ingen projektmappe fundet — ukendt scope",
+      "steel_desc": "Altan og trappe, EXC2/KK2, for Lars Phoenix. Begrænset dokumentation.",
       "project_type": "EXC2",
       "entreprise": "Under Lars Phoenix",
       "lokation": "Ikke oplyst",
       "is_sister": false,
       "must_win": false,
-      "high_ref": false
+      "high_ref": false,
+      "resume": "Underentreprise under Lars Phoenix. Elementliste ikke modtaget endnu.",
+      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7812%20-%20Lars%20Phoenix/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7812_Lars_Phoenix_v1.docx"
     },
     {
       "tilbudsnr": "T7817",
@@ -209,7 +216,10 @@
       "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/FÆLLES/01. CPH Steels teammappe/3. Tilbud/Tilbud 2026/T7817 - Bjergbakkevej 7/02 Tilbud/02.08 Foranalyse",
       "project_type": "EXC2",
       "must_win": false,
-      "high_ref": false
+      "high_ref": false,
+      "steel_desc": "2 × HE160B (~0,5 t), EXC2/KK2. Brandmaling REI 60. Direkte leverance uden montage.",
+      "resume": "Ny bærende bjælke i eksisterende bygning for privat bygherre via tømmermester Troels Bastrup. Simpel leverance — afklar måltjek og brandmaling REI 60.",
+      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7817%20-%20Bjergbakkevej%207/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7817_Bjergbakkevej_7_v1.docx"
     },
     {
       "tilbudsnr": "T7809",
@@ -258,13 +268,15 @@
       "foranalyse_kilde": "Foranalyse_T7809_Balsted_Herlev_v1.docx",
       "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/FÆLLES/01. CPH Steels teammappe/3. Tilbud/Tilbud 2026/T7809 - Bålsted Herlev/02 Tilbud/02.08 Foranalyse",
       "steel_scope": 2,
-      "steel_desc": "Ingen projektmappe fundet — ukendt scope",
+      "steel_desc": "Konstruktionsstål EXC2/KK2 for DDS Hjortespring. Ingen brandmaling.",
       "project_type": "EXC2",
       "entreprise": "Under DDS Hjortespring Gruppen",
       "lokation": "Hjortespring",
       "is_sister": false,
       "must_win": false,
-      "high_ref": false
+      "high_ref": false,
+      "resume": "Fagentreprise Bålsted Herlev. Begrænset dokumentation i udbudsmaterialet.",
+      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7809%20-%20Ba%CC%8Alsted%20Herlev/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7809_Balsted_Herlev_v1.docx"
     },
     {
       "tilbudsnr": "T7818",
@@ -315,7 +327,10 @@
       "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/FÆLLES/01. CPH Steels teammappe/3. Tilbud/Tilbud 2026/T7818 - Krogårdskolen SFO/02 Tilbud/02.08 Foranalyse",
       "project_type": "EXC2",
       "must_win": false,
-      "high_ref": false
+      "high_ref": false,
+      "steel_desc": "Konstruktionsstål EXC2/KK2, ca. 12 t. Ingen brandmaling. Miljøsanering identificeret. PSS krævet.",
+      "resume": "Tilbygning/ombygning Krogårdskolen SFO for ASON A/S. Montagestart juli 2026, aflevering april 2027. Elementliste afventer afklaring.",
+      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7818%20-%20Kroga%CC%8Ardskolen%20SFO/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7818_Krogardskolen_SFO_v1.docx"
     },
     {
       "tilbudsnr": "T7807",
@@ -363,13 +378,15 @@
       "foranalyse_kilde": "Foranalyse_T7807_Lundehusskolen_v1.docx",
       "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/FÆLLES/01. CPH Steels teammappe/3. Tilbud/Tilbud 2026/T7807 Lundehusskolen/02 Tilbud/02.08 Foranalyse",
       "steel_scope": 3,
-      "steel_desc": "STÅL position i hovedentreprise tilbudsliste",
+      "steel_desc": "Konstruktionsstål, gelænder, 1 trappe, facade 220 m², porte, EXC2/KK2, 17,3 t (Tom's estimat). Pulverlakering. Brandmaling (spec mangler).",
       "project_type": "EXC2",
       "entreprise": "Hovedentreprise under NÅR",
       "lokation": "København Ø",
       "is_sister": false,
       "must_win": false,
-      "high_ref": false
+      "high_ref": false,
+      "resume": "Fagentreprise Lundehusskolen for NÅR A/S. Stor facadeandel (220 m²). Brandmalingsspec afventes. Dagbøder bekræftet.",
+      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7807%20Lundehusskolen/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7807_Lundehusskolen_v1.docx"
     },
     {
       "tilbudsnr": "T7810",
@@ -418,13 +435,15 @@
       "foranalyse_kilde": "Foranalyse_T7810_NOV_v1.docx",
       "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/FÆLLES/01. CPH Steels teammappe/3. Tilbud/Tilbud 2026/T7810 NOV/02 Tilbud/02.08 Foranalyse",
       "steel_scope": 1,
-      "steel_desc": "Kun fotos, minimalt synligt scope",
+      "steel_desc": "Konstruktionsstål EXC2/KK2 for HVID Entreprise A/S. Minimal synlig scope fra fotos.",
       "project_type": "EXC2",
       "entreprise": "Underentreprise under HVID Entreprise",
       "lokation": "Ikke oplyst",
       "is_sister": false,
       "must_win": false,
-      "high_ref": false
+      "high_ref": false,
+      "resume": "NOV — underentreprise under HVID. Begrænset udbudsmateriale, kun fotos tilgængeligt. Scope skal afklares.",
+      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7810%20NOV/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7810_NOV_v1.docx"
     },
     {
       "tilbudsnr": "T7819",
@@ -473,7 +492,10 @@
       "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/FÆLLES/01. CPH Steels teammappe/3. Tilbud/Tilbud 2026/T7819 Peder Skrams gade/02 Tilbud/02.08 Foranalyse",
       "project_type": "EXC2",
       "must_win": false,
-      "high_ref": false
+      "high_ref": false,
+      "steel_desc": "Konstruktionsstål EXC2/KK2, tonnage ukendt. DS 1140 krævet. Dagbøder bekræftet.",
+      "resume": "Fagentreprise Peder Skrams Gade 16A-C for Hovedstadens Bygningsentreprise (A-rated, 3% hit). Scope og tonnage ukendt — elementliste afventer Tom's kalkulation.",
+      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7819%20Peder%20Skrams%20gade/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7819_Peder_Skrams_gade_v1.docx"
     },
     {
       "tilbudsnr": "T7769",
@@ -527,7 +549,8 @@
       "lokation": "Kastrup Lufthavn",
       "is_sister": false,
       "must_win": false,
-      "high_ref": false
+      "high_ref": false,
+      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7769%20SAS%20Lounge/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7769_SAS_Lounge_v3.docx"
     },
     {
       "tilbudsnr": "T7789",
@@ -707,14 +730,16 @@
       "foranalyse_kilde": "Foranalyse_T7755_Sophie_Amalie_Garden_v3.docx",
       "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/FÆLLES/01. CPH Steels teammappe/3. Tilbud/Tilbud 2026/T7755 Sophie Amalie Gården/02 Tilbud/02.08 Foranalyse",
       "steel_scope": 4,
-      "steel_desc": "Altaner + værn (UNP160, tremmeværn fladstål), kalkulation påbegyndt",
+      "steel_desc": "Konstruktionsstål, gelænder, trapper, facade, porte og håndliste, EXC2/KK2, 14,8 t (Tom's estimat). Galvanisering. PSS krævet.",
       "project_type": "EXC2",
       "entreprise": "Underentreprise (stål) under REBO",
       "lokation": "Frederiksberg",
       "is_sister": false,
       "sister_group": 1,
       "must_win": false,
-      "high_ref": false
+      "high_ref": false,
+      "resume": "Fagentreprise Marielystvej 50 / Rådmand Steins Alle 20-24 for REBO (ny kunde). Bred elementpakke. Søster-tilbud T7789, T7764, T7779 i samme udbudspakke.",
+      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7755%20Sophie%20Amalie%20Ga%CC%8Arden/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7755_Sophie_Amalie_Garden_v3.docx"
     },
     {
       "tilbudsnr": "T7821",
@@ -764,7 +789,10 @@
       "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/FÆLLES/01. CPH Steels teammappe/3. Tilbud/Tilbud 2026/T7821 - asnæsgade/02 Tilbud/02.08 Foranalyse",
       "project_type": "EXC2",
       "must_win": false,
-      "high_ref": false
+      "high_ref": false,
+      "steel_desc": "Konstruktionsstål EXC2/KK2, tonnage ukendt. Ingen brandmaling. Miljøsanering identificeret.",
+      "resume": "Ståltrappe og gelænder, Asnæsgade, for Tømrer- og Snedkermester Børge Nielsen (A-rated). Lille kalkulation 2,5t. Miljøsanering skal afklares.",
+      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7821%20-%20asn%C3%A6sgade/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7821_asn%C3%A6sgade_v1.docx"
     },
     {
       "tilbudsnr": "T7808",
@@ -813,13 +841,15 @@
       "foranalyse_kilde": "Foranalyse_T7808_TAAR_v1.pdf",
       "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/FÆLLES/01. CPH Steels teammappe/3. Tilbud/Tilbud 2026/T7808 TAAR/02 Tilbud/02.08 Foranalyse",
       "steel_scope": 5,
-      "steel_desc": "Dedicated smedeentreprise (Fagentreprise 9), fuld stål-tilbudsliste, BIG arkitekt",
+      "steel_desc": "FE04: konstruktionsstål S355J2 + rustfrit, 15–20 t, brandmaling DS1140 (500°C). FE09: smedearbejder 2–4 t, galv. stål + alu, prøvesamling obligatorisk. Samlet ~17–24 t.",
       "project_type": "EXC2 (CC2/PC2/SC2)",
       "entreprise": "Fagentreprise 9 (Smed) — BIG projekt",
       "lokation": "Ikke oplyst",
       "is_sister": false,
       "must_win": false,
-      "high_ref": false
+      "high_ref": false,
+      "resume": "Prestigeprojekt — privat luksus villa for Bjarke Ingels (BIG), Strandvejen 626A. Hybridkonstruktion beton/stål/CLT. Ikke-laveste-pris evaluering. AB 92 kontrakt — juridisk review krævet inden DL 5. juni.",
+      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7808%20TAAR/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7808_TAAR_v1.pdf"
     },
     {
       "tilbudsnr": "T7785",
@@ -867,7 +897,7 @@
       "foranalyse_kilde": "Foranalyse_T7785_Utterslev_skole_v1.docx",
       "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/FÆLLES/01. CPH Steels teammappe/3. Tilbud/Tilbud 2026/T7785 Utterslev skole/02 Tilbud/02.08 Foranalyse",
       "steel_scope": 3,
-      "steel_desc": "ARB.250 Stål + stål for ventilationsanlæg",
+      "steel_desc": "Konstruktionsstål EXC2/KK2, brandmaling (spec mangler), DS 1140 krævet, prøvesamling krævet. PSS + dagbøder.",
       "project_type": "EXC3",
       "entreprise": "Underentreprise (stål) under Jakon",
       "lokation": "København NV",
@@ -877,7 +907,9 @@
       "is_master": true,
       "sisters": [
         "T7778"
-      ]
+      ],
+      "resume": "Fagentreprise Utterslev Skole for Jakon A/S (A-rated, 10% hit). Søster-tilbud T7778 i samme pakke. Brandmalingsspec fra brandkonsulent afventes.",
+      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7785%20Utterslev%20skole/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7785_Utterslev_skole_v1.docx"
     },
     {
       "tilbudsnr": "T7778",
@@ -933,7 +965,8 @@
       "is_sister": true,
       "sister_group": "override_T7785",
       "must_win": false,
-      "high_ref": false
+      "high_ref": false,
+      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7778%20Utterslev%20Skole/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7778_Utterslev_Skole_Ventilation_v1.docx"
     }
   ],
   "afsendt": [
