@@ -11,7 +11,9 @@ const persistence = {
         });
         if (!res.ok) throw new Error(`GitHub ${res.status}`);
         const data = await res.json();
-        const content = JSON.parse(atob(data.content.replace(/\n/g, '')));
+        // atob() er Latin-1 — brug TextDecoder for korrekt UTF-8 (æøå)
+        const bytes = Uint8Array.from(atob(data.content.replace(/\n/g, '')), c => c.charCodeAt(0));
+        const content = JSON.parse(new TextDecoder('utf-8').decode(bytes));
         return { content, sha: data.sha };
     },
 
