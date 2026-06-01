@@ -349,65 +349,6 @@
       "dg_pct": 37
     },
     {
-      "tilbudsnr": "T7807",
-      "tilbudsnavn": "Lundehusskolen, Lersø Parkallé 152",
-      "kundenavn": "NÅR A/S",
-      "kundenummer": "2471",
-      "kontaktperson": "",
-      "tilbudsansvarlig": "Tom Larsen",
-      "tilbudsansvarlig_id": 15940,
-      "ja_transfer": false,
-      "startdato": "2026-05-18",
-      "slutdato": "2026-06-18",
-      "deadline": "2026-06-26",
-      "oprettet": "2026-05-18",
-      "sidst_aendret": "2026-05-19",
-      "beregnertid": 5,
-      "bt_source": "tracker_confirmed",
-      "rating_erp": null,
-      "tags": [
-        "#Skabelon",
-        "#Exc2",
-        "#ds1140"
-      ],
-      "kategori_id": null,
-      "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
-      "hn_offer_id": 3455591,
-      "custom_field1": null,
-      "custom_field2": null,
-      "custom_field3": "",
-      "deadline_source": "opfølgningsdato",
-      "rating": "C",
-      "rating_score": 51.10842856376415,
-      "kunde_grade": "C",
-      "scheduled_days": [
-        "2026-06-11",
-        "2026-06-12"
-      ],
-      "planned_end": "2026-06-12",
-      "risk": "🟢",
-      "bt_estimated": false,
-      "projektnavn_doc": "Lundehusskolen",
-      "entreprise_form": "Hovedentreprise under NÅR",
-      "exc_class": "EXC2",
-      "foranalyse_kilde": "Foranalyse_T7807_Lundehusskolen_v1.docx",
-      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/FÆLLES/01. CPH Steels teammappe/3. Tilbud/Tilbud 2026/T7807 Lundehusskolen/02 Tilbud/02.08 Foranalyse",
-      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7807%20Lundehusskolen/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7807_Lundehusskolen_v1.docx",
-      "steel_scope": 3,
-      "steel_desc": "Konstruktionsstål, gelænder, 1 trappe, facade 220 m², porte, EXC2/KK2, 17,3 t (Tom's estimat). Pulverlakering. Brandmaling (spec mangler).",
-      "project_type": "EXC2",
-      "entreprise": "Hovedentreprise under NÅR",
-      "lokation": "København Ø",
-      "is_sister": false,
-      "must_win": false,
-      "high_ref": false,
-      "resume": "Fagentreprise Lundehusskolen for NÅR A/S. Stor facadeandel (220 m²). Brandmalingsspec afventes. Dagbøder bekræftet.",
-      "ordrevaerdi_dkk": 511000,
-      "dg_pct": 38
-    },
-    {
       "tilbudsnr": "T7810",
       "tilbudsnavn": "NOV",
       "kundenavn": "HVID Entreprise A/S",
@@ -919,7 +860,7 @@
         }
       ],
       "rfi_kilde": "auto",
-      "rfi_opdateret": "2026-05-29"
+      "rfi_opdateret": "2026-06-01"
     },
     {
       "tilbudsnr": "T7785",
@@ -1077,14 +1018,25 @@
       "rating": "Ny",
       "rating_score": null,
       "kunde_grade": null,
-      "scheduled_days": [],
-      "planned_end": null,
+      "scheduled_days": [
+        "2026-06-01"
+      ],
+      "planned_end": "2026-06-01",
       "risk": "⚪",
-      "must_win": false,
-      "high_ref": false,
       "bt_estimated": true,
       "bt_tier": "M",
-      "bt_range": "3.0–7.0t"
+      "bt_range": "3.0–7.0t",
+      "projektnavn_doc": "Saga byg",
+      "entreprise_form": "Fagentreprise",
+      "exc_class": "EXC2",
+      "foranalyse_kilde": "Foranalyse_T7824_Saga_byg_v1.docx",
+      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/FÆLLES/01. CPH Steels teammappe/3. Tilbud/Tilbud 2026/T7824 - Saga byg/02 Tilbud/02.08 Foranalyse",
+      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7824%20-%20Saga%20byg/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7824_Saga_byg_v1.docx",
+      "must_win": false,
+      "high_ref": false,
+      "project_type": "EXC2",
+      "ordrevaerdi_dkk": 42000,
+      "dg_pct": 37
     }
   ],
   "afsendt": [
@@ -1227,6 +1179,10 @@
         "hours": 2.5
       },
       {
+        "tilbudsnr": "T7824",
+        "hours": 5.0
+      },
+      {
         "tilbudsnr": "T7755",
         "hours": 5.0
       }
@@ -1285,19 +1241,11 @@
         "hours": 2.5
       },
       {
-        "tilbudsnr": "T7807",
-        "hours": 2.5
-      },
-      {
         "tilbudsnr": "T7819",
         "hours": 2.5
       }
     ],
     "2026-06-12": [
-      {
-        "tilbudsnr": "T7807",
-        "hours": 2.5
-      },
       {
         "tilbudsnr": "T7821",
         "hours": 2.5
@@ -1770,16 +1718,16 @@
     ]
   },
   "meta": {
-    "generated": "2026-05-29 13:26",
+    "generated": "2026-06-01 12:05",
     "source": "E-regnskab API + tracker merge (pipeline.py)",
-    "active_count": 19,
+    "active_count": 18,
     "afsendt_count": 8,
     "removed_count": 1,
-    "ghost_removed": 1,
-    "merged_at": "2026-05-29 13:26",
-    "planner_version": "2026-05-29 12:53",
-    "push_validated": "2026-05-29 13:26",
-    "push_count": 19,
+    "ghost_removed": 2,
+    "merged_at": "2026-06-01 12:05",
+    "planner_version": "2026-05-29 13:26",
+    "push_validated": "2026-06-01 12:05",
+    "push_count": 18,
     "push_warnings": []
   }
 }
