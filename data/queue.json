@@ -462,64 +462,6 @@
       "dg_pct": 36
     },
     {
-      "tilbudsnr": "T7769",
-      "tilbudsnavn": "SAS Lounge",
-      "kundenavn": "Jakon A/S",
-      "kundenummer": "1721",
-      "kontaktperson": "",
-      "tilbudsansvarlig": "Tom Larsen",
-      "tilbudsansvarlig_id": 15940,
-      "ja_transfer": false,
-      "startdato": "2026-06-01",
-      "slutdato": "2027-05-28",
-      "deadline": "2026-06-01",
-      "oprettet": "2026-04-30",
-      "sidst_aendret": "2026-05-06",
-      "beregnertid": 6,
-      "bt_source": "tracker_confirmed",
-      "rating_erp": null,
-      "tags": [
-        "#Skabelon",
-        "#Exc2",
-        "#ds1140"
-      ],
-      "kategori_id": null,
-      "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
-      "hn_offer_id": 3426999,
-      "custom_field1": null,
-      "custom_field2": null,
-      "custom_field3": "",
-      "deadline_source": "opfølgningsdato",
-      "rating": "A",
-      "rating_score": 74.93655775524438,
-      "kunde_grade": "A",
-      "scheduled_days": [
-        "2026-05-27",
-        "2026-05-28"
-      ],
-      "planned_end": "2026-05-28",
-      "risk": "🟢",
-      "bt_estimated": false,
-      "projektnavn_doc": "SAS Lounge",
-      "entreprise_form": "Fagentreprise",
-      "exc_class": "EXC2",
-      "foranalyse_kilde": "Foranalyse_T7769_SAS_Lounge_v3.docx",
-      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/FÆLLES/01. CPH Steels teammappe/3. Tilbud/Tilbud 2026/T7769 SAS Lounge/02 Tilbud/02.08 Foranalyse",
-      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7769%20SAS%20Lounge/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7769_SAS_Lounge_v3.docx",
-      "steel_scope": 3,
-      "steel_desc": "SAS Lounge — fit-out/interiør stål, Kastrup Lufthavn",
-      "project_type": "EXC2",
-      "entreprise": "Under Jakon A/S",
-      "lokation": "Kastrup Lufthavn",
-      "is_sister": false,
-      "must_win": false,
-      "high_ref": false,
-      "ordrevaerdi_dkk": 5622000,
-      "dg_pct": 36
-    },
-    {
       "tilbudsnr": "T7789",
       "tilbudsnavn": "Sophie Amalie Gården, ombygning",
       "kundenavn": "ASON A/S",
@@ -860,7 +802,7 @@
         }
       ],
       "rfi_kilde": "auto",
-      "rfi_opdateret": "2026-06-01"
+      "rfi_opdateret": "2026-06-02"
     },
     {
       "tilbudsnr": "T7785",
@@ -1032,11 +974,140 @@
       "foranalyse_kilde": "Foranalyse_T7824_Saga_byg_v1.docx",
       "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/FÆLLES/01. CPH Steels teammappe/3. Tilbud/Tilbud 2026/T7824 - Saga byg/02 Tilbud/02.08 Foranalyse",
       "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7824%20-%20Saga%20byg/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7824_Saga_byg_v1.docx",
+      "project_type": "EXC2",
       "must_win": false,
       "high_ref": false,
-      "project_type": "EXC2",
       "ordrevaerdi_dkk": 42000,
       "dg_pct": 37
+    },
+    {
+      "tilbudsnr": "T7827",
+      "tilbudsnavn": "Frederiksberg Slot",
+      "kundenavn": "ASON A/S",
+      "kundenummer": "1948",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "ja_transfer": false,
+      "startdato": "2026-08-03",
+      "slutdato": "2027-10-01",
+      "deadline": "2026-06-02",
+      "oprettet": "2026-06-02",
+      "sidst_aendret": "2026-06-02",
+      "beregnertid": 5.0,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3483795,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "B",
+      "rating_score": 55.07772680937819,
+      "kunde_grade": "B",
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "must_win": false,
+      "high_ref": false,
+      "bt_estimated": true,
+      "bt_tier": "M",
+      "bt_range": "3.0–7.0t"
+    },
+    {
+      "tilbudsnr": "T7825",
+      "tilbudsnavn": "Renovering og ombygning C3",
+      "kundenavn": "Juul & Nielsen A/S",
+      "kundenummer": "1142",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "ja_transfer": false,
+      "startdato": "2026-11-02",
+      "slutdato": "2027-11-01",
+      "deadline": "2026-06-25",
+      "oprettet": "2026-06-01",
+      "sidst_aendret": "2026-06-01",
+      "beregnertid": 5.0,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3482098,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "A",
+      "rating_score": 68.55933794731477,
+      "kunde_grade": "A",
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "must_win": false,
+      "high_ref": false,
+      "bt_estimated": true,
+      "bt_tier": "M",
+      "bt_range": "3.0–7.0t"
+    },
+    {
+      "tilbudsnr": "T7826",
+      "tilbudsnavn": "udvendig trappe fra 1. sal til have.",
+      "kundenavn": "Lasse Skov",
+      "kundenummer": "",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "ja_transfer": false,
+      "startdato": "2026-07-27",
+      "slutdato": "2026-10-01",
+      "deadline": "2026-06-24",
+      "oprettet": "2026-06-01",
+      "sidst_aendret": "2026-06-01",
+      "beregnertid": 2.5,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3482136,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "Ny",
+      "rating_score": null,
+      "kunde_grade": null,
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "must_win": false,
+      "high_ref": false,
+      "bt_estimated": true,
+      "bt_tier": "S",
+      "bt_range": "1.0–4.0t"
     }
   ],
   "afsendt": [
@@ -1074,13 +1145,6 @@
       "kundenavn": "Christoffer Aagaard Melson",
       "afsendelsesdato": "2026-04-29",
       "hn_offer_id": 3393454
-    },
-    {
-      "tilbudsnr": "T7815",
-      "tilbudsnavn": "Søtorvet",
-      "kundenavn": "Tømrer- og Snedkermester Børge Nielsen A/S",
-      "afsendelsesdato": "2026-05-21",
-      "hn_offer_id": 3463276
     },
     {
       "tilbudsnr": "T7795",
@@ -1124,17 +1188,9 @@
       {
         "tilbudsnr": "T7808",
         "hours": 6
-      },
-      {
-        "tilbudsnr": "T7769",
-        "hours": 0.6000000000000014
       }
     ],
     "2026-05-28": [
-      {
-        "tilbudsnr": "T7769",
-        "hours": 5.399999999999999
-      },
       {
         "tilbudsnr": "T7755",
         "hours": 2.0000000000000018
@@ -1189,6 +1245,10 @@
     ],
     "2026-06-02": [
       {
+        "tilbudsnr": "T7825",
+        "hours": 5.0
+      },
+      {
         "tilbudsnr": "T7755",
         "hours": 5.0
       },
@@ -1201,6 +1261,10 @@
       {
         "tilbudsnr": "T7808",
         "hours": 6.67
+      },
+      {
+        "tilbudsnr": "T7826",
+        "hours": 2.5
       }
     ],
     "2026-06-04": [
@@ -1718,16 +1782,16 @@
     ]
   },
   "meta": {
-    "generated": "2026-06-01 12:05",
+    "generated": "2026-06-02 12:05",
     "source": "E-regnskab API + tracker merge (pipeline.py)",
-    "active_count": 18,
-    "afsendt_count": 8,
+    "active_count": 20,
+    "afsendt_count": 7,
     "removed_count": 1,
     "ghost_removed": 2,
-    "merged_at": "2026-06-01 12:05",
-    "planner_version": "2026-05-29 13:26",
-    "push_validated": "2026-06-01 12:05",
-    "push_count": 18,
+    "merged_at": "2026-06-02 12:05",
+    "planner_version": "2026-06-01 12:05",
+    "push_validated": "2026-06-02 12:05",
+    "push_count": 20,
     "push_warnings": []
   }
 }
