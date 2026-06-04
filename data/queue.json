@@ -1,62 +1,6 @@
 {
   "tilbud": [
     {
-      "tilbudsnr": "T7801",
-      "tilbudsnavn": "AB Hellerup Strandgaard",
-      "kundenavn": "Hovedstadens Bygningsentreprise A/S",
-      "kundenummer": "1418",
-      "kontaktperson": "",
-      "tilbudsansvarlig": "Tom Larsen",
-      "tilbudsansvarlig_id": 15940,
-      "ja_transfer": false,
-      "startdato": "2026-08-17",
-      "slutdato": "2028-03-03",
-      "deadline": "2026-06-01",
-      "oprettet": "2026-05-13",
-      "sidst_aendret": "2026-05-13",
-      "beregnertid": 11,
-      "bt_source": "tracker_confirmed",
-      "rating_erp": null,
-      "tags": [
-        "#Skabelon",
-        "#Exc2",
-        "#ds1140"
-      ],
-      "kategori_id": null,
-      "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
-      "hn_offer_id": 3449114,
-      "custom_field1": null,
-      "custom_field2": null,
-      "custom_field3": "",
-      "deadline_source": "opfølgningsdato",
-      "rating": "A",
-      "rating_score": 75.05130371801062,
-      "kunde_grade": "A",
-      "scheduled_days": [
-        "2026-05-28",
-        "2026-05-29"
-      ],
-      "planned_end": "2026-05-29",
-      "risk": "🟢",
-      "bt_estimated": false,
-      "steel_scope": 3,
-      "steel_desc": "Konstruktionsstål EXC3/KK2. PSS krævet. Scope og elementliste ikke specificeret i udbudsmaterialet — Tom's kalkulation afventes. EXC3 er usædvanligt højt; kapacitet og KK-klasse skal afklares.",
-      "project_type": "#EXC1 (formodet)",
-      "entreprise": "Under Hovedstadens Bygningsentreprise",
-      "lokation": "Hellerup",
-      "is_sister": false,
-      "must_win": false,
-      "high_ref": false,
-      "exc_class": "#EXC1 (formodet)",
-      "entreprise_form": "Ja",
-      "resume": "Fagentreprise, AB Hellerup Strandgaard (privat, ny kunde). Scope og tonnage ukendt — Tom's estimat afventes.",
-      "foranalyse_kilde": "Foranalyse T7801 AB Hellerup Strandgaard.pdf",
-      "ordrevaerdi_dkk": 308000,
-      "dg_pct": 36
-    },
-    {
       "tilbudsnr": "T7822",
       "tilbudsnavn": "Albertslund broarbejder 2026",
       "kundenavn": "Christiansen & Essenbæk A/S",
@@ -790,123 +734,7 @@
         }
       ],
       "rfi_kilde": "auto",
-      "rfi_opdateret": "2026-06-03"
-    },
-    {
-      "tilbudsnr": "T7785",
-      "tilbudsnavn": "Utterslev Skole",
-      "kundenavn": "Jakon A/S",
-      "kundenummer": "1721",
-      "kontaktperson": "",
-      "tilbudsansvarlig": "Tom Larsen",
-      "tilbudsansvarlig_id": 15940,
-      "ja_transfer": false,
-      "startdato": "2026-06-01",
-      "slutdato": "2026-09-30",
-      "deadline": "2026-06-08",
-      "oprettet": "2026-05-05",
-      "sidst_aendret": "2026-05-26",
-      "beregnertid": 7,
-      "bt_source": "tracker_confirmed",
-      "rating_erp": null,
-      "tags": [
-        "#Skabelon",
-        "#Exc2",
-        "#ds1140"
-      ],
-      "kategori_id": null,
-      "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
-      "hn_offer_id": 3434031,
-      "custom_field1": null,
-      "custom_field2": null,
-      "custom_field3": "",
-      "deadline_source": "opfølgningsdato",
-      "rating": "A",
-      "rating_score": 74.93655775524438,
-      "kunde_grade": "A",
-      "scheduled_days": [
-        "2026-05-26",
-        "2026-05-27"
-      ],
-      "planned_end": "2026-05-27",
-      "risk": "🟢",
-      "bt_estimated": false,
-      "steel_scope": 3,
-      "steel_desc": "Konstruktionsstål EXC2/KK2, brandmaling (spec mangler), DS 1140 krævet, prøvesamling krævet. PSS + dagbøder.",
-      "project_type": "EXC3",
-      "entreprise": "Underentreprise (stål) under Jakon",
-      "lokation": "København NV",
-      "is_sister": false,
-      "must_win": false,
-      "high_ref": false,
-      "exc_class": "EXC3",
-      "entreprise_form": "Fagentreprise",
-      "resume": "Fagentreprise Utterslev Skole for Jakon A/S (A-rated, 10% hit). Søster-tilbud T7778 i samme pakke. Brandmalingsspec fra brandkonsulent afventes.",
-      "foranalyse_kilde": "Foranalyse_T7785_Utterslev_skole_v1.docx",
-      "ordrevaerdi_dkk": 352000,
-      "dg_pct": 36,
-      "is_master": true,
-      "sisters": [
-        "T7778"
-      ]
-    },
-    {
-      "tilbudsnr": "T7778",
-      "tilbudsnavn": "Utterslev Skole, Ventilation",
-      "kundenavn": "Juul & Nielsen A/S",
-      "kundenummer": "1142",
-      "kontaktperson": "",
-      "tilbudsansvarlig": "Tom Larsen",
-      "tilbudsansvarlig_id": 15940,
-      "ja_transfer": false,
-      "startdato": "2026-06-29",
-      "slutdato": "2027-07-24",
-      "deadline": "2026-06-08",
-      "oprettet": "2026-05-04",
-      "sidst_aendret": "2026-05-26",
-      "beregnertid": 0,
-      "bt_source": "tracker_confirmed",
-      "rating_erp": null,
-      "tags": [
-        "#Skabelon",
-        "#Exc2",
-        "#ds1140"
-      ],
-      "kategori_id": null,
-      "beskrivelse": "udregnet i T7785",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
-      "hn_offer_id": 3431732,
-      "custom_field1": null,
-      "custom_field2": null,
-      "custom_field3": "",
-      "deadline_source": "opfølgningsdato",
-      "rating": "A",
-      "rating_score": 68.55933794731477,
-      "kunde_grade": "A",
-      "scheduled_days": [
-        "2026-06-09",
-        "2026-06-10"
-      ],
-      "planned_end": "2026-06-10",
-      "risk": "⚪",
-      "bt_estimated": false,
-      "steel_scope": 2,
-      "steel_desc": "Utterslev Skole Ventilation — stålunderstøtning for ventilation",
-      "project_type": "EXC3",
-      "entreprise": "Under Juul & Nielsen A/S",
-      "lokation": "Utterslev",
-      "is_sister": true,
-      "sister_group": "override_T7785",
-      "must_win": false,
-      "high_ref": false,
-      "exc_class": "EXC3",
-      "entreprise_form": "Fagentreprise",
-      "foranalyse_kilde": "Foranalyse_T7778_Utterslev_Skole_Ventilation_v1.docx",
-      "ordrevaerdi_dkk": 238000,
-      "dg_pct": 37
+      "rfi_opdateret": "2026-06-04"
     },
     {
       "tilbudsnr": "T7824",
@@ -1091,8 +919,103 @@
       "bt_estimated": true,
       "bt_tier": "S",
       "bt_range": "1.0–4.0t",
+      "projektnavn_doc": "trappe",
+      "entreprise_form": "Fagentreprise",
+      "exc_class": "EXC2",
+      "foranalyse_kilde": "Foranalyse_T7826_trappe_v1.docx",
+      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/FÆLLES/01. CPH Steels teammappe/3. Tilbud/Tilbud 2026/T7826 - trappe/02 Tilbud/02.08 Foranalyse",
+      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7826%20-%20trappe/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7826_trappe_v1.docx",
       "must_win": false,
-      "high_ref": false
+      "high_ref": false,
+      "project_type": "EXC2",
+      "ordrevaerdi_dkk": 237000,
+      "dg_pct": 39
+    },
+    {
+      "tilbudsnr": "T7829",
+      "tilbudsnavn": "gavlskakter",
+      "kundenavn": "LHG Tømrer A/S",
+      "kundenummer": "2469",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "ja_transfer": false,
+      "startdato": "2026-07-15",
+      "slutdato": "2026-08-14",
+      "deadline": "2026-06-22",
+      "oprettet": "2026-06-04",
+      "sidst_aendret": "2026-06-04",
+      "beregnertid": 5.0,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3489582,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "C",
+      "rating_score": 35.121586458501,
+      "kunde_grade": "C",
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "must_win": false,
+      "high_ref": false,
+      "bt_estimated": true,
+      "bt_tier": "M",
+      "bt_range": "3.0–7.0t"
+    },
+    {
+      "tilbudsnr": "T7830",
+      "tilbudsnavn": "Tobaksvejen 25",
+      "kundenavn": "LAURITZ HANNIBAL ApS",
+      "kundenummer": "1248",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "ja_transfer": false,
+      "startdato": "2026-06-04",
+      "slutdato": "2026-07-04",
+      "deadline": "2026-06-22",
+      "oprettet": "2026-06-04",
+      "sidst_aendret": "2026-06-04",
+      "beregnertid": 5.0,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3489691,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "Ny",
+      "rating_score": null,
+      "kunde_grade": null,
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "must_win": false,
+      "high_ref": false,
+      "bt_estimated": true,
+      "bt_tier": "M",
+      "bt_range": "3.0–7.0t"
     }
   ],
   "afsendt": [
@@ -1116,6 +1039,13 @@
       "kundenavn": "P. OLESEN OG SØNNER A/S",
       "afsendelsesdato": "2026-04-30",
       "hn_offer_id": 3425788
+    },
+    {
+      "tilbudsnr": "T7661",
+      "tilbudsnavn": "Kjeld Langes Gade 6-8",
+      "kundenavn": "PNP-Byg A/S",
+      "afsendelsesdato": "2026-03-23",
+      "hn_offer_id": 3335059
     },
     {
       "tilbudsnr": "T7734-1",
@@ -1152,17 +1082,7 @@
         "is_sister_display": true
       }
     ],
-    "2026-05-26": [
-      {
-        "tilbudsnr": "T7785",
-        "hours": 6.200000000000001
-      }
-    ],
     "2026-05-27": [
-      {
-        "tilbudsnr": "T7785",
-        "hours": 0.7999999999999989
-      },
       {
         "tilbudsnr": "T7808",
         "hours": 6
@@ -1187,17 +1107,9 @@
         "tilbudsnr": "T7779",
         "hours": 0,
         "is_sister_display": true
-      },
-      {
-        "tilbudsnr": "T7801",
-        "hours": 5.5
       }
     ],
     "2026-05-29": [
-      {
-        "tilbudsnr": "T7801",
-        "hours": 5.5
-      },
       {
         "tilbudsnr": "T7824",
         "hours": 5.0
@@ -1247,8 +1159,16 @@
     ],
     "2026-06-04": [
       {
+        "tilbudsnr": "T7829",
+        "hours": 5.0
+      },
+      {
         "tilbudsnr": "T7808",
         "hours": 6.67
+      },
+      {
+        "tilbudsnr": "T7830",
+        "hours": 2.5
       },
       {
         "tilbudsnr": "T7826",
@@ -1263,6 +1183,10 @@
       {
         "tilbudsnr": "T7817",
         "hours": 5.0
+      },
+      {
+        "tilbudsnr": "T7830",
+        "hours": 2.5
       }
     ],
     "2026-06-09": [
@@ -1764,16 +1688,16 @@
     ]
   },
   "meta": {
-    "generated": "2026-06-03 12:05",
+    "generated": "2026-06-04 12:05",
     "source": "E-regnskab API + tracker merge (pipeline.py)",
-    "active_count": 20,
-    "afsendt_count": 6,
-    "removed_count": 0,
-    "ghost_removed": 0,
-    "merged_at": "2026-06-03 12:05",
-    "planner_version": "2026-06-02 12:05",
-    "push_validated": "2026-06-03 12:05",
-    "push_count": 20,
+    "active_count": 19,
+    "afsendt_count": 7,
+    "removed_count": 3,
+    "ghost_removed": 4,
+    "merged_at": "2026-06-04 12:05",
+    "planner_version": "2026-06-03 12:05",
+    "push_validated": "2026-06-04 12:05",
+    "push_count": 19,
     "push_warnings": []
   }
 }
