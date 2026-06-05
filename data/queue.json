@@ -52,13 +52,7 @@
       "resume": "Broarbejder i Albertslund for Christiansen & Essenbæk A/S. Miljøsaneringsomfang skal afklares inden tilbud.",
       "foranalyse_kilde": "Foranalyse_T7822_Albertslund_broarbejder_v1.docx",
       "ordrevaerdi_dkk": 1140000,
-      "dg_pct": 37,
-      "_ja_decision": {
-        "tracker_end": "2026-06-08",
-        "excel_finish": "2026-06-04",
-        "days_saved": 4,
-        "reason": "Tracker OK men Excel er 4d hurtigere"
-      }
+      "dg_pct": 37
     },
     {
       "tilbudsnr": "T7812",
@@ -734,7 +728,7 @@
         }
       ],
       "rfi_kilde": "auto",
-      "rfi_opdateret": "2026-06-04"
+      "rfi_opdateret": "2026-06-05"
     },
     {
       "tilbudsnr": "T7824",
@@ -925,9 +919,9 @@
       "foranalyse_kilde": "Foranalyse_T7826_trappe_v1.docx",
       "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/FÆLLES/01. CPH Steels teammappe/3. Tilbud/Tilbud 2026/T7826 - trappe/02 Tilbud/02.08 Foranalyse",
       "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7826%20-%20trappe/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7826_trappe_v1.docx",
+      "project_type": "EXC2",
       "must_win": false,
       "high_ref": false,
-      "project_type": "EXC2",
       "ordrevaerdi_dkk": 237000,
       "dg_pct": 39
     },
@@ -965,14 +959,16 @@
       "rating": "C",
       "rating_score": 35.121586458501,
       "kunde_grade": "C",
-      "scheduled_days": [],
-      "planned_end": null,
+      "scheduled_days": [
+        "2026-06-08"
+      ],
+      "planned_end": "2026-06-08",
       "risk": "⚪",
-      "must_win": false,
-      "high_ref": false,
       "bt_estimated": true,
       "bt_tier": "M",
-      "bt_range": "3.0–7.0t"
+      "bt_range": "3.0–7.0t",
+      "must_win": false,
+      "high_ref": false
     },
     {
       "tilbudsnr": "T7830",
@@ -1008,14 +1004,17 @@
       "rating": "Ny",
       "rating_score": null,
       "kunde_grade": null,
-      "scheduled_days": [],
-      "planned_end": null,
+      "scheduled_days": [
+        "2026-06-08",
+        "2026-06-09"
+      ],
+      "planned_end": "2026-06-09",
       "risk": "⚪",
-      "must_win": false,
-      "high_ref": false,
       "bt_estimated": true,
       "bt_tier": "M",
-      "bt_range": "3.0–7.0t"
+      "bt_range": "3.0–7.0t",
+      "must_win": false,
+      "high_ref": false
     }
   ],
   "afsendt": [
@@ -1185,6 +1184,10 @@
         "hours": 5.0
       },
       {
+        "tilbudsnr": "T7829",
+        "hours": 5.0
+      },
+      {
         "tilbudsnr": "T7830",
         "hours": 2.5
       }
@@ -1193,6 +1196,10 @@
       {
         "tilbudsnr": "T7818",
         "hours": 5.0
+      },
+      {
+        "tilbudsnr": "T7830",
+        "hours": 2.5
       }
     ],
     "2026-06-10": [
@@ -1688,15 +1695,15 @@
     ]
   },
   "meta": {
-    "generated": "2026-06-04 12:05",
+    "generated": "2026-06-05 12:10",
     "source": "E-regnskab API + tracker merge (pipeline.py)",
     "active_count": 19,
     "afsendt_count": 7,
-    "removed_count": 3,
-    "ghost_removed": 4,
-    "merged_at": "2026-06-04 12:05",
-    "planner_version": "2026-06-03 12:05",
-    "push_validated": "2026-06-04 12:05",
+    "removed_count": 0,
+    "ghost_removed": 0,
+    "merged_at": "2026-06-05 12:10",
+    "planner_version": "2026-06-04 12:05",
+    "push_validated": "2026-06-05 12:10",
     "push_count": 19,
     "push_warnings": []
   }
