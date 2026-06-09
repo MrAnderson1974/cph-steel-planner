@@ -382,203 +382,6 @@
       "dg_pct": 36
     },
     {
-      "tilbudsnr": "T7789",
-      "tilbudsnavn": "Sophie Amalie Gården.",
-      "kundenavn": "ASON A/S",
-      "kundenummer": "1948",
-      "kontaktperson": "",
-      "tilbudsansvarlig": "Tom Larsen",
-      "tilbudsansvarlig_id": 15940,
-      "ja_transfer": false,
-      "startdato": "2026-05-06",
-      "slutdato": "2026-06-06",
-      "deadline": "2026-06-08",
-      "oprettet": "2026-05-06",
-      "sidst_aendret": "2026-06-07",
-      "beregnertid": 0,
-      "bt_source": "tracker_confirmed",
-      "rating_erp": 15,
-      "tags": [
-        "#Skabelon",
-        "#Exc2",
-        "#ds1140",
-        "#EXC3"
-      ],
-      "kategori_id": null,
-      "beskrivelse": "Udregnet i T7755",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
-      "hn_offer_id": 3436645,
-      "custom_field1": null,
-      "custom_field2": null,
-      "custom_field3": "",
-      "deadline_source": "opfølgningsdato",
-      "rating": "B",
-      "rating_score": 55.07772680937819,
-      "kunde_grade": "B",
-      "scheduled_days": [],
-      "planned_end": null,
-      "risk": "⚪",
-      "bt_estimated": false,
-      "steel_scope": 4,
-      "steel_desc": "Sophie Amalie Gården — søster til T7755, altaner + værn",
-      "is_sister": true,
-      "sister_group": 1,
-      "must_win": false,
-      "high_ref": false
-    },
-    {
-      "tilbudsnr": "T7764",
-      "tilbudsnavn": "Sophie Amalie Gården.",
-      "kundenavn": "Georg Berg A/S",
-      "kundenummer": "1943",
-      "kontaktperson": "",
-      "tilbudsansvarlig": "Tom Larsen",
-      "tilbudsansvarlig_id": 15940,
-      "ja_transfer": false,
-      "startdato": "2026-04-28",
-      "slutdato": "2026-05-28",
-      "deadline": "2026-06-08",
-      "oprettet": "2026-04-28",
-      "sidst_aendret": "2026-06-07",
-      "beregnertid": 0,
-      "bt_source": "tracker_confirmed",
-      "rating_erp": 15,
-      "tags": [
-        "#Exc2",
-        "#ds1140",
-        "#EXC3"
-      ],
-      "kategori_id": null,
-      "beskrivelse": "Udregnet i T7755",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
-      "hn_offer_id": 3418230,
-      "custom_field1": null,
-      "custom_field2": null,
-      "custom_field3": "",
-      "deadline_source": "opfølgningsdato",
-      "rating": "C",
-      "rating_score": null,
-      "kunde_grade": "C",
-      "scheduled_days": [],
-      "planned_end": null,
-      "risk": "⚪",
-      "bt_estimated": false,
-      "steel_scope": 4,
-      "steel_desc": "Sophie Amalie Gården — søster til T7755, altaner + værn",
-      "entreprise": "Underentreprise (stål) under Georg Berg",
-      "lokation": "Frederiksberg",
-      "is_sister": true,
-      "sister_group": 1,
-      "must_win": false,
-      "high_ref": false
-    },
-    {
-      "tilbudsnr": "T7779",
-      "tilbudsnavn": "Sophie Amalie Gårdden.",
-      "kundenavn": "LKA Entreprise A/S",
-      "kundenummer": "2344",
-      "kontaktperson": "",
-      "tilbudsansvarlig": "Tom Larsen",
-      "tilbudsansvarlig_id": 15940,
-      "ja_transfer": false,
-      "startdato": "2026-05-04",
-      "slutdato": "2026-06-04",
-      "deadline": "2026-06-08",
-      "oprettet": "2026-05-04",
-      "sidst_aendret": "2026-06-07",
-      "beregnertid": 0,
-      "bt_source": "tracker_confirmed",
-      "rating_erp": 15,
-      "tags": [
-        "#Skabelon",
-        "#Exc2",
-        "#ds1140"
-      ],
-      "kategori_id": null,
-      "beskrivelse": "Udregnet i T7755",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
-      "hn_offer_id": 3431743,
-      "custom_field1": null,
-      "custom_field2": null,
-      "custom_field3": "",
-      "deadline_source": "opfølgningsdato",
-      "rating": "C",
-      "rating_score": 52.49000751113257,
-      "kunde_grade": "C",
-      "scheduled_days": [],
-      "planned_end": null,
-      "risk": "⚪",
-      "bt_estimated": false,
-      "steel_scope": 4,
-      "steel_desc": "Sophie Amalie Gården — søster til T7755, altaner + værn",
-      "is_sister": true,
-      "sister_group": 1,
-      "must_win": false,
-      "high_ref": false
-    },
-    {
-      "tilbudsnr": "T7755",
-      "tilbudsnavn": "Sophie Amalie Gården.",
-      "kundenavn": "REBO A/S",
-      "kundenummer": "397",
-      "kontaktperson": "Tom Larsen",
-      "tilbudsansvarlig": "Tom Larsen",
-      "tilbudsansvarlig_id": 15940,
-      "ja_transfer": false,
-      "startdato": "2026-04-27",
-      "slutdato": "2026-05-27",
-      "deadline": "2026-06-08",
-      "oprettet": "2026-04-27",
-      "sidst_aendret": "2026-06-07",
-      "beregnertid": 20,
-      "bt_source": "tracker_confirmed",
-      "rating_erp": 10,
-      "tags": [
-        "#EXC3",
-        "#Exc2",
-        "#ds1140"
-      ],
-      "kategori_id": 10531,
-      "beskrivelse": "Udregnet her\n\nKære underentreprenør\n \nHermed fremsendes udbudsmaterialet vedr. Sophie Amalie Gården - ombygning, til brug for din beregning.\n \nUdbudsmaterialet kan hentes via Dropbox på dette link:\nhttps://www.dropbox.com/scl/fo/kvtzd3mmm37axhza2y0bz/AG9l2utbyan2706ezAmry4M?rlkey=o6d38b82tnh7j0p1cvf3kx7qo&st=sl82madv&dl=0\n \nDer afholdes besigtigelse tirsdag d. 28. april 2026 kl. 13.00, mødested er Marielystvej 50, 2000 Frederiksberg.\n \nVi ser frem til at modtage dit tilbud senest fredag den 22. maj 2026 kl. 12.00. Tilbud bedes sendt til tilbud@rebo.dk.",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
-      "hn_offer_id": 3415430,
-      "custom_field1": null,
-      "custom_field2": null,
-      "custom_field3": null,
-      "deadline_source": "opfølgningsdato",
-      "rating": "Ny",
-      "rating_score": null,
-      "kunde_grade": null,
-      "scheduled_days": [
-        "2026-05-28",
-        "2026-05-29",
-        "2026-06-01",
-        "2026-06-02"
-      ],
-      "planned_end": "2026-06-02",
-      "risk": "🟢",
-      "bt_estimated": false,
-      "steel_scope": 4,
-      "steel_desc": "Konstruktionsstål, gelænder, trapper, facade, porte og håndliste, EXC2/KK2, 14,8 t (Tom's estimat). Galvanisering. PSS krævet.",
-      "project_type": "EXC2",
-      "entreprise": "Underentreprise (stål) under REBO",
-      "lokation": "Frederiksberg",
-      "is_sister": false,
-      "sister_group": 1,
-      "must_win": false,
-      "high_ref": false,
-      "exc_class": "EXC2",
-      "entreprise_form": "Fagentreprise",
-      "resume": "Fagentreprise Marielystvej 50 / Rådmand Steins Alle 20-24 for REBO (ny kunde). Bred elementpakke. Søster-tilbud T7789, T7764, T7779 i samme udbudspakke.",
-      "foranalyse_kilde": "Foranalyse_T7755_Sophie_Amalie_Garden_v3.docx",
-      "ordrevaerdi_dkk": 2694000,
-      "dg_pct": 38
-    },
-    {
       "tilbudsnr": "T7821",
       "tilbudsnavn": "Ståltrappe og gelænder.",
       "kundenavn": "Jakob Skovgaard Nielsen",
@@ -733,7 +536,7 @@
         }
       ],
       "rfi_kilde": "auto",
-      "rfi_opdateret": "2026-06-08"
+      "rfi_opdateret": "2026-06-09"
     },
     {
       "tilbudsnr": "T7824",
@@ -879,9 +682,9 @@
       "foranalyse_kilde": "Foranalyse_T7825_Rockwool_Renovering_og_ombygning_C3_v1.docx",
       "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/FÆLLES/01. CPH Steels teammappe/3. Tilbud/Tilbud 2026/T7825 - Renovering C3/02 Tilbud/02.08 Foranalyse",
       "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7825%20-%20Renovering%20C3/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7825_Rockwool_Renovering_og_ombygning_C3_v1.docx",
+      "project_type": "EXC2",
       "must_win": false,
       "high_ref": false,
-      "project_type": "EXC2",
       "ordrevaerdi_dkk": 2100000,
       "dg_pct": 38
     },
@@ -987,9 +790,9 @@
       "foranalyse_kilde": "Foranalyse_T7829_gavlskakter_v1.docx",
       "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/FÆLLES/01. CPH Steels teammappe/3. Tilbud/Tilbud 2026/T7829 - Gavlskakter/02 Tilbud/02.08 Foranalyse",
       "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7829%20-%20Gavlskakter/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7829_gavlskakter_v1.docx",
+      "project_type": "EXC1",
       "must_win": false,
       "high_ref": false,
-      "project_type": "EXC1",
       "ordrevaerdi_dkk": 120000,
       "dg_pct": 38
     },
@@ -1042,11 +845,140 @@
       "foranalyse_kilde": "Foranalyse_T7830_Tobaksvejen_25_v1.docx",
       "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/FÆLLES/01. CPH Steels teammappe/3. Tilbud/Tilbud 2026/T7830 - Tobaksvejen 25/02 Tilbud/02.08 Foranalyse",
       "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7830%20-%20Tobaksvejen%2025/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7830_Tobaksvejen_25_v1.docx",
+      "project_type": "EXC2",
       "must_win": false,
       "high_ref": false,
-      "project_type": "EXC2",
       "ordrevaerdi_dkk": 1500000,
       "dg_pct": 37
+    },
+    {
+      "tilbudsnr": "T7836",
+      "tilbudsnavn": "AB Hellerup Strandgaard",
+      "kundenavn": "Hovedstadens Bygningsentreprise A/S",
+      "kundenummer": "1418",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "ja_transfer": false,
+      "startdato": "2026-08-17",
+      "slutdato": "2028-03-03",
+      "deadline": "2026-07-01",
+      "oprettet": "2026-06-08",
+      "sidst_aendret": "2026-06-08",
+      "beregnertid": 5.0,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3494461,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "A",
+      "rating_score": 75.05130371801062,
+      "kunde_grade": "A",
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "must_win": false,
+      "high_ref": false,
+      "bt_estimated": true,
+      "bt_tier": "M",
+      "bt_range": "3.0–7.0t"
+    },
+    {
+      "tilbudsnr": "T7837",
+      "tilbudsnavn": "Kontor ombygning",
+      "kundenavn": "LAURITZ HANNIBAL ApS",
+      "kundenummer": "1248",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "ja_transfer": false,
+      "startdato": "2026-08-31",
+      "slutdato": "2027-01-15",
+      "deadline": "2026-06-22",
+      "oprettet": "2026-06-08",
+      "sidst_aendret": "2026-06-08",
+      "beregnertid": 5.0,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "Nyt udbud\n \nVenlig Hilsen \nTom Larsen\nTilbudsansvarlig\n \nCPH Steel A/S\nVesterlundvej 5\n2730 Herlev\n \nMobil:      +45 40562118\nTelefon:   +45 35107000\nE-mail:     tl@cphsteel.dk\n\nBillede\nFølg med på vores hjemmeside, LinkedIn, Instagram og Facebook og få flere nyheder.\nVores salgs & Leveringsbetingelser.\n \nFra: Christian Hald - Lauritz Hannibal Entreprise igennem 12Build <messages@mail.12build.com>\nSendt: 4. juni 2026 13:37\nTil: Tom Larsen <TL@cphsteel.dk>\nEmne: Tilbudsforespørgsel - 26058 Snorresgade 15 - kontorombygning\n \nBillede\n12Build\nLauritz Hannibal Entreprise\nCPH STEEL A/S\nVesterlundvej 5\n2730 Herlev\n\nTom Larsen <tl@cphsteel.dk>\n \nTilbudsforespørgsel - 26058 Snorresgade 15 - kontorombygning\n\n\nDato\n04-06-2026\nForventet byggestart\n31-08-2026\nProjektadresse\nSnorresgade 15, 2300 København\nForventet aflevering\n15-01-2027\nEntreprise form\nHovedentreprise\n \n\nProjekt\n26058 Snorresgade 15 - kontorombygning (Beregning)\nBillede\nHej Tom\n\nVi er blevet indbudt til at afgive tilbud på sagen 26058 Snorresgade 15 - kontorombygning i Hovedentreprise og i den forbindelse fremsender jeg her den indledende forespørgsel om du kunne have interesse i at afgive tilbud på projektet.\n\nDu anmodes om tilbud på følgende:\n\n- Smed\n\nSagen overordnet:\n\nOmbygning af kontormiljø\n\n1. Opgaven\n\nPå ovennævnte sag, hvor vi er indbudt som hovedentreprenør, anmodes I om at afgive pris efter kriteriet, økonomisk mest fordelagtige pris, på følgende:\n\n2. Udbudsmaterialet består af følgende\n\n• Dette udbudsbrev\n• Standardbetingelser For Underleverandører, februar 2026\n\nDer kan ikke afgives alternative tilbud. Opgaven skal udføres som beskrevet.\nTilbuddet skal omfatte samtlige ydelser, der er nødvendig for arbejdets fuldstændige gennemførelse. Tillægsudgifter, der skyldes manglende kendskab til de eksisterende forhold, kan ikke anerkendes.\n\nTilbud affattet på dansk består af underskrevet tilbudsliste med de i dette punkt nævnte vedlagte dokumenter:\n\n• Tilbudsliste\n\nTilbuddet skal indeholde priser på samtlige forhold i forbindelse med udførelsen af arbejdet. Tilbudsgiver skal udfylde og vedlægge, den gældende tilbudsliste, til sit tilbud.\n\nNår udbudsmaterialet indeholder mængdefortegnelse, afgives tilbud på grundlag af de i udbudsmaterialet opgivne mængder. De opgivne mængder er nettomængder.\n\nMængder under særligt angivne poster i tilbudslisten er tilnærmede. Beløb som ved prissætningen afsættes hertil medregnes i tilbuddet, men vil kun komme til udbetaling i det omfang den pågældende ydelse rekvireres af byggeledelsen.\nTilhørende enhedspriser skal omfatte alle nødvendige ydelser for den pågældende posts fuldstændige færdiggørelse herunder bi-ydelser i henhold til håndværksmæssig sædvane, så enhedspriser multipliceret med tilhørende mængdeangivelser tilsammen udgør tilbudssummen.\n\n3. Forbehold\n\nTilbudsgiver opfordres til at afstå fra at tage forbehold, herunder standardforbehold, da dette kan bevirke, at tilbuddet vil blive afvist. Hvis tilbudsgiver finder, at der er krav i udbudsmaterialet, der er uhensigtsmæssige, bør der i stedet stilles skriftlige spørgsmål med forslag til ændringer.\n\n4. Vedståelsesfrist\n\nVedståelsesfristen for tilbuddet er fire måneder fra tilbudsfristens udløb.\n\n5. Tildelingskriterium\n\nOpgaven bliver tildelt på baggrund af tildelingskriteriet ”mest fordelagtige tilbud”.\n\nNår tilbudsgiver udfylder tilbudslisten, skal tilbudspriser angives i danske kroner eksklusive moms.\n\n6. Spørgsmål\n\nHvis du har spørgsmål til udbudsmaterialet, kan du stille dem på to måder:\n\nDirekte besked: Log ind på platformen og send en besked under fanen \"Kommunikation\".\nE-mail: Svar direkte på denne mail.\nSpørgsmål fremsendt efter den angivne frist kan ikke forventes besvaret. Al korrespondance vedrørende sagen skal gå gennem Lauritz Hannibal A/S.\n\n7. Fremsendelse af tilbud\n\nVed sin underskrift på tilbuddet tilkendegiver tilbudsgiver, at han godkender det modtagende udbudsmateriale som værende fyldestgørende for afgivelse af tilbud, og at han ved selvsyn har gjort sig bekendt med forholdende på arbejdsstedet.\nDet er alene tilbudsgiverens ansvar, at tilbuddet er rettidigt fremme og komplet.\n\nTilbuddet skal afleveres i medsendte tilbudslister. Hvis tilbuddet ikke afleveres i medsendte tilbudslister, vil tilbuddet ikke anses for at være komplet og dermed blive afvist.\nTilbudsgiver er alene ansvarlig for, at samtlige formler i tilbudslisten er korrekte, så tilbudsgiver selv er ansvarlig for at sammentællingen er korrekt.\n\nDu kan indsende dit tilbud på en af følgende måder:\n\nVia e-mail: Klik på knappen \"Indsend tilbud\" direkte her i mailen.\nVia 12Build platformen: Log ind på platformen og upload dit tilbud under punktet \"Indsend tilbud\"\nBetaling og Deres sikkerhedsstillelse vil ske i henhold til aftale, øvrige betingelser i henhold til AB18. Underentreprenøren afholder selv alle udgifter i forbindelse med tilbudsudregningen.\n\nLauritz Hannibal A/S forbeholder sig ret til frit at vælge mellem de indkomne tilbud jf. kriteriet ”økonomisk mest fordelagtige pris”. Underentreprenøren afholder selv udgiften til affald.\n\nLauritz Hannibal A/S stiller ikke garanti til underentreprenører. \n\nLauritz Hannibal A/S’ ”Standardbetingelser For Underleverandører” af februar 2026 er gældende for entreprisen, men udbudsmaterialet vil til en hver tid have forrang.\n\n \n \nTidsplan\nJeg vil gerne modtage dit tilbud senest:\n22-06-2026 15:00 *\n* tilbud\nSpørgsmål imødeses indtil:\n17-06-2026\n\n\nVenlig hilsen,\n\nChristian Hald, Tilbudschef\n \n\nTelefon\n: 4529954730\nEmail\n: cha@lzha.dk\n \n\nLauritz Hannibal Entreprise\n\n\n\nLauritz Hannibal Entreprise (Søborg)\nTelefon\n: 4538104266\nWebside\n: https://lauritz-hannibal.dk/\nCVR nummer\n: 73251419\nAdresse\nTransformervej 17\n2860 Søborg\nDanmark\n \nDit svar til Lauritz Hannibal Entreprise\nJa, jeg vil beregne\nJeg gennemgår materialet før respons\n \nSvar / Jeg har et spørgsmål\nNej, ønsker ikke at afgive tilbud\nTilbud\nIndsend tilbud\nDit tilbud vil kun blive gjort synligt for Lauritz Hannibal Entreprise , som du giver dette tilbud til.\nDit tilbud vil kun blive gjort synligt for Lauritz Hannibal Entreprise , som du giver dette tilbud til.\n \nProjektdokumenter\n12Build er tilbudsplatformen, som din entreprenør arbejder i. Download dine projektdokumenter gratis ved at bruge knapperne nedenfor og samarbejd optimalt i et sikkert miljø.\n\nSe dokumenter\nDownload vedhæftede dokumenter\n \nDownload alle dokumenter\nBestil dokumenter\n\nUd over de viste relevante dokumenter kan du se alle projektdokumenter på 12Build.\n \n-\n01 Udbudsmateriale\npdf2026-023 Dokumentliste\n\n-\n\n01 Udbudsmateriale / Arkitekt\nSpacelab, arkitekttegninger og tegningsliste\npdf890_Dørskema_03jun202626\npdf890_Tegningsliste_udbud_ombygning_3jun2026\npdfA00-BL-001_Belysningsplaner, fremt.f._3jun2026\npdfA00-GP-001_Gulvplaner, fremt.f_3jun2026\npdfA00-LO-001_Loftsplaner, fremt.f._3jun2026\npdfA00-P-001_Planer_frem_f_3jun2026\npdfA00-P-E00-Situationsplan_3jun2026\npdfA00-PU-001_Snit og opbygnings principper_3jun2026\npdfA00-PU-002_Principopbygning, køkkener_3jun2026\npdfA00_BP_E01-Byggeplads eksist.f -_3jun2026\n\n-\n\n01 Udbudsmateriale\nEL\npdf2026-023_K07_H6_N001 - Tegningsliste\npdf2026-023_K07_M43_S1_T63_H1_E4-E5_N003 - Loftplan - Sensor 4.sal\npdf2026-023_K07_M66_S1_T61_H1_E4-E5_N002 - Føringveje EL - 4.sal\npdf2026-023_K07_M66_S1_T63_H1_E4-E5_N001 - EL-plan - 4.sal\npdf2026-023_K07_S1_H0_N001 - EL - Note\npdf2026-023_K07_S1_H0_N003 - Tavlediagram - Forsyning 4.sal og 5.sal\n\n-\n\n01 Udbudsmateriale\nFB, tidsplan og tilbudslister\npdf890_Tilbudsliste_03jun2026.xlsx - Gruppér\npdf890_tidsplan_udbud_03jun2026\npdf980_FB_03jun2026\n\n-\n\n01 Udbudsmateriale\nKonstruktion\npdf2026-023_K09_H5_N001 - Detaljehæfte Konstruktioner\npdf2026-023_K09_T29_S1_H1_E4_E5_N001 - Fremtidig KON plan 4. sal\npdf2026-023_K09_T29_S4_H1_E4_N001 - Interimsplan E4\npdf2026-023_K09_T99_H6_N001 - Tegningsliste KON\n\n-\n\n01 Udbudsmateriale\nUdbudsbrev\npdf890_udbudsbrev_LH_03jun2026\n\n-\n\nVilkår og betingelser\npdfSTANDARDBETINGELSER Lauritz Hannibal Aps\npdfUNDERENTREPRISEKONTRAKT\n \nPowered By12BuildConnecting Expertise",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3494494,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "Ny",
+      "rating_score": null,
+      "kunde_grade": null,
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "must_win": false,
+      "high_ref": false,
+      "bt_estimated": true,
+      "bt_tier": "M",
+      "bt_range": "3.0–7.0t"
+    },
+    {
+      "tilbudsnr": "T7835",
+      "tilbudsnavn": "VIBO afd. 127 - Runddelen",
+      "kundenavn": "Hovedstadens Bygningsentreprise A/S",
+      "kundenummer": "1418",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "ja_transfer": false,
+      "startdato": "2027-05-18",
+      "slutdato": "2028-07-21",
+      "deadline": "2026-08-05",
+      "oprettet": "2026-06-08",
+      "sidst_aendret": "2026-06-08",
+      "beregnertid": 5.0,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3494441,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "A",
+      "rating_score": 75.05130371801062,
+      "kunde_grade": "A",
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "must_win": false,
+      "high_ref": false,
+      "bt_estimated": true,
+      "bt_tier": "M",
+      "bt_range": "3.0–7.0t"
     }
   ],
   "afsendt": [
@@ -1091,13 +1023,6 @@
       "kundenavn": "Tawhid Islamisk Trossamfund",
       "afsendelsesdato": "2026-05-12",
       "hn_offer_id": 3446059
-    },
-    {
-      "tilbudsnr": "T7541",
-      "tilbudsnavn": "Vibo Afd. 142",
-      "kundenavn": "Enemærke & Petersen A/S",
-      "afsendelsesdato": "2026-02-06",
-      "hn_offer_id": 3247702
     }
   ],
   "schedule": {
@@ -1121,10 +1046,6 @@
     ],
     "2026-05-28": [
       {
-        "tilbudsnr": "T7755",
-        "hours": 2.0000000000000018
-      },
-      {
         "tilbudsnr": "T7789",
         "hours": 0,
         "is_sister_display": true
@@ -1144,10 +1065,6 @@
       {
         "tilbudsnr": "T7824",
         "hours": 5.0
-      },
-      {
-        "tilbudsnr": "T7755",
-        "hours": 5.0
       }
     ],
     "2026-06-01": [
@@ -1158,19 +1075,11 @@
       {
         "tilbudsnr": "T7824",
         "hours": 5.0
-      },
-      {
-        "tilbudsnr": "T7755",
-        "hours": 5.0
       }
     ],
     "2026-06-02": [
       {
         "tilbudsnr": "T7825",
-        "hours": 5.0
-      },
-      {
-        "tilbudsnr": "T7755",
         "hours": 5.0
       },
       {
@@ -1226,6 +1135,14 @@
     ],
     "2026-06-09": [
       {
+        "tilbudsnr": "T7836",
+        "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7837",
+        "hours": 5.0
+      },
+      {
         "tilbudsnr": "T7818",
         "hours": 5.0
       },
@@ -1236,11 +1153,19 @@
     ],
     "2026-06-10": [
       {
+        "tilbudsnr": "T7836",
+        "hours": 2.5
+      },
+      {
         "tilbudsnr": "T7810",
         "hours": 2.5
       },
       {
         "tilbudsnr": "T7819",
+        "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7835",
         "hours": 2.5
       }
     ],
@@ -1251,6 +1176,10 @@
       },
       {
         "tilbudsnr": "T7819",
+        "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7835",
         "hours": 2.5
       }
     ],
@@ -1727,16 +1656,16 @@
     ]
   },
   "meta": {
-    "generated": "2026-06-08 12:05",
+    "generated": "2026-06-09 12:05",
     "source": "E-regnskab API + tracker merge (pipeline.py)",
-    "active_count": 19,
-    "afsendt_count": 7,
-    "removed_count": 0,
-    "ghost_removed": 0,
-    "merged_at": "2026-06-08 12:05",
-    "planner_version": "2026-06-05 12:10",
-    "push_validated": "2026-06-08 12:05",
-    "push_count": 19,
+    "active_count": 18,
+    "afsendt_count": 6,
+    "removed_count": 4,
+    "ghost_removed": 4,
+    "merged_at": "2026-06-09 12:05",
+    "planner_version": "2026-06-08 12:05",
+    "push_validated": "2026-06-09 12:05",
+    "push_count": 18,
     "push_warnings": []
   }
 }
