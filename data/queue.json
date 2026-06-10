@@ -536,7 +536,7 @@
         }
       ],
       "rfi_kilde": "auto",
-      "rfi_opdateret": "2026-06-09"
+      "rfi_opdateret": "2026-06-10"
     },
     {
       "tilbudsnr": "T7824",
@@ -885,14 +885,17 @@
       "rating": "A",
       "rating_score": 75.05130371801062,
       "kunde_grade": "A",
-      "scheduled_days": [],
-      "planned_end": null,
+      "scheduled_days": [
+        "2026-06-11",
+        "2026-06-12"
+      ],
+      "planned_end": "2026-06-12",
       "risk": "⚪",
-      "must_win": false,
-      "high_ref": false,
       "bt_estimated": true,
       "bt_tier": "M",
-      "bt_range": "3.0–7.0t"
+      "bt_range": "3.0–7.0t",
+      "must_win": false,
+      "high_ref": false
     },
     {
       "tilbudsnr": "T7837",
@@ -928,14 +931,16 @@
       "rating": "Ny",
       "rating_score": null,
       "kunde_grade": null,
-      "scheduled_days": [],
-      "planned_end": null,
+      "scheduled_days": [
+        "2026-06-10"
+      ],
+      "planned_end": "2026-06-10",
       "risk": "⚪",
-      "must_win": false,
-      "high_ref": false,
       "bt_estimated": true,
       "bt_tier": "M",
-      "bt_range": "3.0–7.0t"
+      "bt_range": "3.0–7.0t",
+      "must_win": false,
+      "high_ref": false
     },
     {
       "tilbudsnr": "T7835",
@@ -971,6 +976,52 @@
       "rating": "A",
       "rating_score": 75.05130371801062,
       "kunde_grade": "A",
+      "scheduled_days": [
+        "2026-06-12",
+        "2026-06-16"
+      ],
+      "planned_end": "2026-06-16",
+      "risk": "⚪",
+      "bt_estimated": true,
+      "bt_tier": "M",
+      "bt_range": "3.0–7.0t",
+      "must_win": false,
+      "high_ref": false
+    },
+    {
+      "tilbudsnr": "T7846",
+      "tilbudsnavn": "1269 KRM: ING-projekt, karnap",
+      "kundenavn": "SærByg Entreprise ApS",
+      "kundenummer": "2355",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "ja_transfer": false,
+      "startdato": "2026-06-10",
+      "slutdato": "2026-07-10",
+      "deadline": "2026-06-24",
+      "oprettet": "2026-06-10",
+      "sidst_aendret": "2026-06-10",
+      "beregnertid": 5.0,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3498854,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "C",
+      "rating_score": 50.37743441171737,
+      "kunde_grade": "C",
       "scheduled_days": [],
       "planned_end": null,
       "risk": "⚪",
@@ -979,6 +1030,264 @@
       "bt_estimated": true,
       "bt_tier": "M",
       "bt_range": "3.0–7.0t"
+    },
+    {
+      "tilbudsnr": "T7847",
+      "tilbudsnavn": "Kvartsvings-ståltrappe",
+      "kundenavn": "Anders Flygge Juul",
+      "kundenummer": "",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "ja_transfer": false,
+      "startdato": "2026-06-10",
+      "slutdato": "2026-07-10",
+      "deadline": "2026-06-29",
+      "oprettet": "2026-06-10",
+      "sidst_aendret": "2026-06-10",
+      "beregnertid": 2.5,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3498865,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "Ny",
+      "rating_score": null,
+      "kunde_grade": null,
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "must_win": false,
+      "high_ref": false,
+      "bt_estimated": true,
+      "bt_tier": "S",
+      "bt_range": "1.0–4.0t"
+    },
+    {
+      "tilbudsnr": "T7848",
+      "tilbudsnavn": "Kvartsvings-ståltrappe",
+      "kundenavn": "Anders Flygge Juul",
+      "kundenummer": "",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 49884,
+      "ja_transfer": true,
+      "startdato": "2026-06-10",
+      "slutdato": "2026-07-10",
+      "deadline": "2026-06-10",
+      "oprettet": "2026-06-10",
+      "sidst_aendret": "2026-06-10",
+      "beregnertid": 2.5,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3498867,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "Ny",
+      "rating_score": null,
+      "kunde_grade": null,
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "must_win": false,
+      "high_ref": false,
+      "bt_estimated": true,
+      "bt_tier": "S",
+      "bt_range": "1.0–4.0t"
+    },
+    {
+      "tilbudsnr": "T7849",
+      "tilbudsnavn": "Kvartsvings-ståltrappe",
+      "kundenavn": "Anders Flygge Juul",
+      "kundenummer": "",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 49884,
+      "ja_transfer": true,
+      "startdato": "2026-06-10",
+      "slutdato": "2026-07-10",
+      "deadline": "2026-06-10",
+      "oprettet": "2026-06-10",
+      "sidst_aendret": "2026-06-10",
+      "beregnertid": 2.5,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3498868,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "Ny",
+      "rating_score": null,
+      "kunde_grade": null,
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "must_win": false,
+      "high_ref": false,
+      "bt_estimated": true,
+      "bt_tier": "S",
+      "bt_range": "1.0–4.0t"
+    },
+    {
+      "tilbudsnr": "T7850",
+      "tilbudsnavn": "Kvartsvings-ståltrappe",
+      "kundenavn": "Anders Flygge Juul",
+      "kundenummer": "",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 49884,
+      "ja_transfer": true,
+      "startdato": "2026-06-10",
+      "slutdato": "2026-07-10",
+      "deadline": "2026-06-10",
+      "oprettet": "2026-06-10",
+      "sidst_aendret": "2026-06-10",
+      "beregnertid": 2.5,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3498869,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "Ny",
+      "rating_score": null,
+      "kunde_grade": null,
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "must_win": false,
+      "high_ref": false,
+      "bt_estimated": true,
+      "bt_tier": "S",
+      "bt_range": "1.0–4.0t"
+    },
+    {
+      "tilbudsnr": "T7851",
+      "tilbudsnavn": "Kvartsvings-ståltrappe",
+      "kundenavn": "Anders Flygge Juul",
+      "kundenummer": "",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 49884,
+      "ja_transfer": true,
+      "startdato": "2026-06-10",
+      "slutdato": "2026-07-10",
+      "deadline": "2026-06-10",
+      "oprettet": "2026-06-10",
+      "sidst_aendret": "2026-06-10",
+      "beregnertid": 2.5,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3498870,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "Ny",
+      "rating_score": null,
+      "kunde_grade": null,
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "must_win": false,
+      "high_ref": false,
+      "bt_estimated": true,
+      "bt_tier": "S",
+      "bt_range": "1.0–4.0t"
+    },
+    {
+      "tilbudsnr": "T7852",
+      "tilbudsnavn": "Kvartsvings-ståltrappe",
+      "kundenavn": "Anders Flygge Juul",
+      "kundenummer": "",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 49884,
+      "ja_transfer": true,
+      "startdato": "2026-06-10",
+      "slutdato": "2026-07-10",
+      "deadline": "2026-06-10",
+      "oprettet": "2026-06-10",
+      "sidst_aendret": "2026-06-10",
+      "beregnertid": 2.5,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3498871,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "Ny",
+      "rating_score": null,
+      "kunde_grade": null,
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "must_win": false,
+      "high_ref": false,
+      "bt_estimated": true,
+      "bt_tier": "S",
+      "bt_range": "1.0–4.0t"
     }
   ],
   "afsendt": [
@@ -1153,8 +1462,12 @@
     ],
     "2026-06-10": [
       {
-        "tilbudsnr": "T7836",
+        "tilbudsnr": "T7846",
         "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7837",
+        "hours": 5.0
       },
       {
         "tilbudsnr": "T7810",
@@ -1163,13 +1476,17 @@
       {
         "tilbudsnr": "T7819",
         "hours": 2.5
-      },
-      {
-        "tilbudsnr": "T7835",
-        "hours": 2.5
       }
     ],
     "2026-06-11": [
+      {
+        "tilbudsnr": "T7846",
+        "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7836",
+        "hours": 2.5
+      },
       {
         "tilbudsnr": "T7812",
         "hours": 2.5
@@ -1177,21 +1494,33 @@
       {
         "tilbudsnr": "T7819",
         "hours": 2.5
+      }
+    ],
+    "2026-06-12": [
+      {
+        "tilbudsnr": "T7836",
+        "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7821",
+        "hours": 2.5
       },
       {
         "tilbudsnr": "T7835",
         "hours": 2.5
       }
     ],
-    "2026-06-12": [
-      {
-        "tilbudsnr": "T7821",
-        "hours": 2.5
-      }
-    ],
     "2026-06-16": [
       {
         "tilbudsnr": "T7809",
+        "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7847",
+        "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7835",
         "hours": 2.5
       }
     ]
@@ -1656,16 +1985,16 @@
     ]
   },
   "meta": {
-    "generated": "2026-06-09 12:05",
+    "generated": "2026-06-10 09:31",
     "source": "E-regnskab API + tracker merge (pipeline.py)",
-    "active_count": 18,
+    "active_count": 25,
     "afsendt_count": 6,
-    "removed_count": 4,
-    "ghost_removed": 4,
-    "merged_at": "2026-06-09 12:05",
-    "planner_version": "2026-06-08 12:05",
-    "push_validated": "2026-06-09 12:05",
-    "push_count": 18,
+    "removed_count": 0,
+    "ghost_removed": 0,
+    "merged_at": "2026-06-10 09:31",
+    "planner_version": "2026-06-09 12:05",
+    "push_validated": "2026-06-10 09:31",
+    "push_count": 25,
     "push_warnings": []
   }
 }
