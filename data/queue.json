@@ -476,6 +476,12 @@
       "planned_end": "2026-06-04",
       "risk": "🟡",
       "bt_estimated": false,
+      "projektnavn_doc": "TAAR — Privat luksus villa",
+      "entreprise_form": "FE04 + FE09",
+      "exc_class": "EXC2 (CC2/PC2/SC2)",
+      "foranalyse_kilde": "Foranalyse_T7808_TAAR_v1.pdf",
+      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/FÆLLES/01. CPH Steels teammappe/3. Tilbud/Tilbud 2026/T7808 TAAR/02 Tilbud/02.08 Foranalyse",
+      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7808%20TAAR/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7808_TAAR_v1.pdf",
       "steel_scope": 5,
       "steel_desc": "FE04: konstruktionsstål S355J2 + rustfrit, 15–20 t, brandmaling DS1140 (500°C). FE09: smedearbejder 2–4 t, galv. stål + alu, prøvesamling obligatorisk. Samlet ~17–24 t.",
       "project_type": "EXC2 (CC2/PC2/SC2)",
@@ -484,54 +490,36 @@
       "is_sister": false,
       "must_win": false,
       "high_ref": false,
-      "exc_class": "EXC2 (CC2/PC2/SC2)",
-      "entreprise_form": "FE04 + FE09",
       "resume": "Prestigeprojekt — privat luksus villa for Bjarke Ingels (BIG), Strandvejen 626A. Hybridkonstruktion beton/stål/CLT. Ikke-laveste-pris evaluering. AB 92 kontrakt — juridisk review krævet inden DL 5. juni.",
-      "foranalyse_kilde": "Foranalyse_T7808_TAAR_v1.pdf",
       "rfi": [
         {
           "type": "INFO",
-          "tekst": "CV'er: Tilpas Rosenborg-CV'er til TAAR. Udarbejd CV for Lasse Hovmand.",
-          "status": "AFVENTER"
+          "tekst": "RFI-01: FE04 Stykliste — profilvægte og mål n Delvis",
+          "status": "DELVIS"
+        },
+        {
+          "type": "UL",
+          "tekst": "RFI-02: Brandmaling — tykkelsesspec og leverandørgaranti n Delvis",
+          "status": "DELVIS"
         },
         {
           "type": "INFO",
-          "tekst": "Organisationsdiagram for TAAR (fremhæv Allan for FE09)",
+          "tekst": "RFI-04: Aluminium — legeringstype nn Åben",
+          "status": "AABEN"
+        },
+        {
+          "type": "UL",
+          "tekst": "RFI-06: Brandkrav FE09 — K01_C05_N004 n Afventer",
           "status": "AFVENTER"
         },
         {
-          "type": "INFO",
-          "tekst": "Tom: Opmål profiler FE04 + gennemgå FE09 tilbudsliste",
-          "status": "AFVENTER"
+          "type": "TEKNISK",
+          "tekst": "RFI-09: IFC-model — placering nn Åben",
+          "status": "AABEN"
         },
         {
           "type": "INFO",
-          "tekst": "Afklar aluminium-kapacitet: WPS, svejseprøver, leverandør",
-          "status": "AFVENTER"
-        },
-        {
-          "type": "INFO",
-          "tekst": "Besøg byggeplads for logistik-vurdering",
-          "status": "AFVENTER"
-        },
-        {
-          "type": "INFO",
-          "tekst": "Kalkulation: Prissætning FE04 + FE09",
-          "status": "AFVENTER"
-        },
-        {
-          "type": "INFO",
-          "tekst": "Skriv bæredygtighedsafsnit (½ side)",
-          "status": "AFVENTER"
-        },
-        {
-          "type": "INFO",
-          "tekst": "Tilbudsbrev: Udarbejdelse og intern godkendelse",
-          "status": "AFVENTER"
-        },
-        {
-          "type": "INFO",
-          "tekst": "Aflevering af komplet tilbud FE04 + FE09",
+          "tekst": "RFI-10: Facadetegninger FE10 n Afventer",
           "status": "AFVENTER"
         }
       ],
@@ -1329,14 +1317,16 @@
       "rating": "B",
       "rating_score": 67.87441654595203,
       "kunde_grade": "B",
-      "scheduled_days": [],
-      "planned_end": null,
+      "scheduled_days": [
+        "2026-06-10"
+      ],
+      "planned_end": "2026-06-10",
       "risk": "⚪",
-      "must_win": false,
-      "high_ref": false,
       "bt_estimated": true,
       "bt_tier": "M",
-      "bt_range": "3.0–7.0t"
+      "bt_range": "3.0–7.0t",
+      "must_win": false,
+      "high_ref": false
     }
   ],
   "afsendt": [
@@ -1516,7 +1506,7 @@
       },
       {
         "tilbudsnr": "T7853",
-        "hours": 2.5
+        "hours": 5.0
       },
       {
         "tilbudsnr": "T7837",
@@ -1534,10 +1524,6 @@
     "2026-06-11": [
       {
         "tilbudsnr": "T7836",
-        "hours": 2.5
-      },
-      {
-        "tilbudsnr": "T7853",
         "hours": 2.5
       },
       {
@@ -2042,15 +2028,15 @@
     ]
   },
   "meta": {
-    "generated": "2026-06-10 09:37",
+    "generated": "2026-06-10 11:32",
     "source": "E-regnskab API + tracker merge (pipeline.py)",
     "active_count": 26,
     "afsendt_count": 6,
     "removed_count": 0,
     "ghost_removed": 0,
-    "merged_at": "2026-06-10 09:37",
-    "planner_version": "2026-06-10 09:31",
-    "push_validated": "2026-06-10 09:37",
+    "merged_at": "2026-06-10 11:32",
+    "planner_version": "2026-06-10 09:37",
+    "push_validated": "2026-06-10 11:32",
     "push_count": 26,
     "push_warnings": []
   }
