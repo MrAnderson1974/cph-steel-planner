@@ -1086,14 +1086,17 @@
       "rating": "B",
       "rating_score": 54.03971511347176,
       "kunde_grade": "B",
-      "scheduled_days": [],
-      "planned_end": null,
+      "scheduled_days": [
+        "2026-06-11",
+        "2026-06-12"
+      ],
+      "planned_end": "2026-06-16",
       "risk": "⚪",
-      "must_win": false,
-      "high_ref": false,
       "bt_estimated": true,
       "bt_tier": "M",
-      "bt_range": "3.0–7.0t"
+      "bt_range": "3.0–7.0t",
+      "must_win": false,
+      "high_ref": false
     },
     {
       "tilbudsnr": "T7858",
@@ -1129,14 +1132,17 @@
       "rating": "Ny",
       "rating_score": null,
       "kunde_grade": null,
-      "scheduled_days": [],
-      "planned_end": null,
+      "scheduled_days": [
+        "2026-06-12",
+        "2026-06-16"
+      ],
+      "planned_end": "2026-06-19",
       "risk": "⚪",
-      "must_win": false,
-      "high_ref": false,
       "bt_estimated": true,
       "bt_tier": "M",
-      "bt_range": "3.0–7.0t"
+      "bt_range": "3.0–7.0t",
+      "must_win": false,
+      "high_ref": false
     },
     {
       "tilbudsnr": "T7861",
@@ -1172,14 +1178,16 @@
       "rating": "C",
       "rating_score": 51.10842856376415,
       "kunde_grade": "C",
-      "scheduled_days": [],
-      "planned_end": null,
+      "scheduled_days": [
+        "2026-06-17"
+      ],
+      "planned_end": "2026-06-26",
       "risk": "⚪",
-      "must_win": false,
-      "high_ref": false,
       "bt_estimated": true,
       "bt_tier": "M",
-      "bt_range": "3.0–7.0t"
+      "bt_range": "3.0–7.0t",
+      "must_win": false,
+      "high_ref": false
     },
     {
       "tilbudsnr": "T7857",
@@ -1215,14 +1223,17 @@
       "rating": "C",
       "rating_score": 46.99293148774076,
       "kunde_grade": "C",
-      "scheduled_days": [],
-      "planned_end": null,
+      "scheduled_days": [
+        "2026-06-16",
+        "2026-06-17"
+      ],
+      "planned_end": "2026-06-25",
       "risk": "⚪",
-      "must_win": false,
-      "high_ref": false,
       "bt_estimated": true,
       "bt_tier": "M",
-      "bt_range": "3.0–7.0t"
+      "bt_range": "3.0–7.0t",
+      "must_win": false,
+      "high_ref": false
     },
     {
       "tilbudsnr": "T7859",
@@ -1258,14 +1269,16 @@
       "rating": "B",
       "rating_score": 54.03971511347176,
       "kunde_grade": "B",
-      "scheduled_days": [],
-      "planned_end": null,
+      "scheduled_days": [
+        "2026-06-11"
+      ],
+      "planned_end": "2026-06-12",
       "risk": "⚪",
-      "must_win": false,
-      "high_ref": false,
       "bt_estimated": true,
       "bt_tier": "M",
-      "bt_range": "3.0–7.0t"
+      "bt_range": "3.0–7.0t",
+      "must_win": false,
+      "high_ref": false
     }
   ],
   "afsendt": [
@@ -1455,6 +1468,10 @@
         "hours": 2.5
       },
       {
+        "tilbudsnr": "T7858",
+        "hours": 2.5
+      },
+      {
         "tilbudsnr": "T7827",
         "hours": 2.5
       },
@@ -1485,31 +1502,27 @@
         "hours": 2.5
       },
       {
+        "tilbudsnr": "T7857",
+        "hours": 2.5
+      },
+      {
         "tilbudsnr": "T7835",
         "hours": 2.5
       }
     ],
     "2026-06-17": [
       {
-        "tilbudsnr": "T7858",
-        "hours": 2.5
-      },
-      {
         "tilbudsnr": "T7861",
-        "hours": 2.5
+        "hours": 5.0
       },
       {
         "tilbudsnr": "T7857",
-        "hours": 5.0
+        "hours": 2.5
       }
     ],
     "2026-06-18": [
       {
         "tilbudsnr": "T7855",
-        "hours": 2.5
-      },
-      {
-        "tilbudsnr": "T7861",
         "hours": 2.5
       }
     ],
@@ -1962,33 +1975,17 @@
       "desc": "Biskop Krags Vænge — bjælker + brandsikring (mindre scope)"
     }
   },
-  "sister_groups": {
-    "Sophie Amalie Gården": [
-      "T7755",
-      "T7764",
-      "T7789",
-      "T7779"
-    ],
-    "Biskop Krags Vænge 7": [
-      "T7804",
-      "T7799"
-    ],
-    "Huset KBH": [
-      "T7744",
-      "T7753",
-      "T7747"
-    ]
-  },
+  "sister_groups": {},
   "meta": {
-    "generated": "2026-06-11 08:20",
+    "generated": "2026-06-11 08:42",
     "source": "E-regnskab API + tracker merge (pipeline.py)",
     "active_count": 26,
     "afsendt_count": 5,
     "removed_count": 0,
     "ghost_removed": 0,
-    "merged_at": "2026-06-11 08:20",
-    "planner_version": "2026-06-11 07:29",
-    "push_validated": "2026-06-11 08:20",
+    "merged_at": "2026-06-11 08:42",
+    "planner_version": "2026-06-11 08:20",
+    "push_validated": "2026-06-11 08:42",
     "push_count": 26,
     "push_warnings": []
   }
