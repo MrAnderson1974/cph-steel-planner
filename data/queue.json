@@ -1324,56 +1324,6 @@
     }
   ],
   "schedule": {
-    "2026-06-08": [
-      {
-        "tilbudsnr": "T7817",
-        "hours": 5.0
-      },
-      {
-        "tilbudsnr": "T7829",
-        "hours": 5.0
-      },
-      {
-        "tilbudsnr": "T7830",
-        "hours": 2.5
-      }
-    ],
-    "2026-06-09": [
-      {
-        "tilbudsnr": "T7837",
-        "hours": 5.0
-      },
-      {
-        "tilbudsnr": "T7818",
-        "hours": 5.0
-      },
-      {
-        "tilbudsnr": "T7830",
-        "hours": 2.5
-      }
-    ],
-    "2026-06-10": [
-      {
-        "tilbudsnr": "T7846",
-        "hours": 5.0
-      },
-      {
-        "tilbudsnr": "T7853",
-        "hours": 5.0
-      },
-      {
-        "tilbudsnr": "T7837",
-        "hours": 5.0
-      },
-      {
-        "tilbudsnr": "T7810",
-        "hours": 2.5
-      },
-      {
-        "tilbudsnr": "T7819",
-        "hours": 2.5
-      }
-    ],
     "2026-06-11": [
       {
         "tilbudsnr": "T7860",
@@ -2013,15 +1963,15 @@
   },
   "sister_groups": {},
   "meta": {
-    "generated": "2026-06-11 11:42",
+    "generated": "2026-06-11 11:44",
     "source": "E-regnskab API + tracker merge (pipeline.py)",
     "active_count": 25,
     "afsendt_count": 5,
     "removed_count": 0,
     "ghost_removed": 0,
-    "merged_at": "2026-06-11 11:42",
-    "planner_version": "2026-06-11 11:41",
-    "push_validated": "2026-06-11 11:42",
+    "merged_at": "2026-06-11 11:44",
+    "planner_version": "2026-06-11 11:42",
+    "push_validated": "2026-06-11 11:44",
     "push_count": 25,
     "push_warnings": []
   }
