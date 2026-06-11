@@ -226,7 +226,13 @@
       "resume": "Tilbygning/ombygning Krogårdskolen SFO for ASON A/S. Montagestart juli 2026, aflevering april 2027. Elementliste afventer afklaring.",
       "ordrevaerdi_dkk": 1140000,
       "dg_pct": 37,
-      "fa_missing": false
+      "fa_missing": false,
+      "_ja_decision": {
+        "tracker_end": "2026-06-15",
+        "excel_finish": "2026-06-12",
+        "days_saved": 3,
+        "reason": "Tracker OK men Excel er 3d hurtigere"
+      }
     },
     {
       "tilbudsnr": "T7810",
@@ -337,7 +343,13 @@
       "entreprise_form": "Fagentreprise",
       "resume": "Fagentreprise Peder Skrams Gade 16A-C for Hovedstadens Bygningsentreprise (A-rated, 3% hit). Scope og tonnage ukendt — elementliste afventer Tom's kalkulation.",
       "dg_pct": 36,
-      "fa_missing": false
+      "fa_missing": false,
+      "_ja_decision": {
+        "tracker_end": "2026-06-22",
+        "excel_finish": "2026-06-19",
+        "days_saved": 3,
+        "reason": "Tracker OK men Excel er 3d hurtigere"
+      }
     },
     {
       "tilbudsnr": "T7821",
@@ -555,7 +567,13 @@
       "resume": "Smed-entreprise u/ Juul & Nielsen (HE) til renovering af Rockwool Center 3, Hedehusene. Scope fra tilbudsliste (rev. 04-06-2026): (1) Udvekslinger i dæk/vægge — 5 poster inkl. 4 trappeudvekslinger + ventilationsskakt. (2) Ny bjælker facade-understøtning finger A+B — 4 stk + 36 lbm × 2 + tilpasning eksist. (3) Stålbjælker + trapezpladetag over ventilationshuse — 50 m² × 2 fingre. (4) 4 stk trapper nord/syd finger A+B (inkl. trætrin, akustik og lak). (5) Stålværn langs dækforkanter 15+ lbm.",
       "ordrevaerdi_dkk": 2100000,
       "dg_pct": 38,
-      "fa_missing": false
+      "fa_missing": false,
+      "_pipeline_overridden": {
+        "old_planned_end": "2026-06-26",
+        "new_planned_end": "2026-06-25",
+        "days_saved": 1,
+        "reason": "Tracker var forsinket — Excel plan anvendt"
+      }
     },
     {
       "tilbudsnr": "T7826",
@@ -1041,9 +1059,9 @@
       "bt_range": "3.0–7.0t",
       "must_win": false,
       "high_ref": false,
-      "fa_missing": true,
       "ordrevaerdi_dkk": 42000,
-      "dg_pct": 37
+      "dg_pct": 37,
+      "fa_missing": true
     },
     {
       "tilbudsnr": "T7860",
@@ -1090,13 +1108,7 @@
       "bt_range": "3.0–7.0t",
       "must_win": false,
       "high_ref": false,
-      "fa_missing": true,
-      "_ja_decision": {
-        "tracker_end": "2026-06-16",
-        "excel_finish": "2026-06-11",
-        "days_saved": 5,
-        "reason": "Tracker OK men Excel er 5d hurtigere"
-      }
+      "fa_missing": true
     },
     {
       "tilbudsnr": "T7858",
@@ -1143,13 +1155,7 @@
       "bt_range": "3.0–7.0t",
       "must_win": false,
       "high_ref": false,
-      "fa_missing": true,
-      "_ja_decision": {
-        "tracker_end": "2026-06-19",
-        "excel_finish": "2026-06-17",
-        "days_saved": 2,
-        "reason": "Tracker OK men Excel er 2d hurtigere"
-      }
+      "fa_missing": true
     },
     {
       "tilbudsnr": "T7861",
@@ -1243,6 +1249,50 @@
       "must_win": false,
       "high_ref": false,
       "fa_missing": true
+    },
+    {
+      "tilbudsnr": "T7862",
+      "tilbudsnavn": "Egtoftevej 11",
+      "kundenavn": "Clarke Entreprise ApS",
+      "kundenummer": "2504",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 49884,
+      "ja_transfer": true,
+      "startdato": "2026-06-11",
+      "slutdato": "2026-07-11",
+      "deadline": "2026-06-16",
+      "oprettet": "2026-06-11",
+      "sidst_aendret": "2026-06-11",
+      "beregnertid": 5.0,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3502414,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "C",
+      "rating_score": 46.61281452867643,
+      "kunde_grade": "C",
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "must_win": false,
+      "high_ref": false,
+      "bt_estimated": true,
+      "bt_tier": "M",
+      "bt_range": "3.0–7.0t",
+      "fa_missing": true
     }
   ],
   "afsendt": [
@@ -1335,59 +1385,149 @@
     ],
     "2026-06-11": [
       {
-        "tilbudsnr": "T7812",
-        "hours": 2.5
-      },
-      {
         "tilbudsnr": "T7860",
-        "hours": 2.5
+        "hours": 5.0
       },
       {
-        "tilbudsnr": "T7819",
+        "tilbudsnr": "T7862",
         "hours": 2.5
       }
     ],
     "2026-06-12": [
       {
-        "tilbudsnr": "T7860",
+        "tilbudsnr": "T7862",
         "hours": 2.5
       },
       {
-        "tilbudsnr": "T7858",
+        "tilbudsnr": "T7818",
+        "hours": 2.5
+      }
+    ],
+    "2026-06-15": [
+      {
+        "tilbudsnr": "T7817",
         "hours": 2.5
       },
       {
-        "tilbudsnr": "T7827",
-        "hours": 2.5
-      },
-      {
-        "tilbudsnr": "T7847",
-        "hours": 2.5
-      },
-      {
-        "tilbudsnr": "T7821",
-        "hours": 2.5
-      },
-      {
-        "tilbudsnr": "T7835",
+        "tilbudsnr": "T7818",
         "hours": 2.5
       }
     ],
     "2026-06-16": [
       {
-        "tilbudsnr": "T7858",
-        "hours": 2.5
-      },
-      {
-        "tilbudsnr": "T7809",
+        "tilbudsnr": "T7817",
         "hours": 2.5
       },
       {
         "tilbudsnr": "T7827",
+        "hours": 5.0
+      },
+      {
+        "tilbudsnr": "T7824",
+        "hours": 2.5
+      }
+    ],
+    "2026-06-17": [
+      {
+        "tilbudsnr": "T7858",
+        "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7824",
+        "hours": 2.5
+      }
+    ],
+    "2026-06-18": [
+      {
+        "tilbudsnr": "T7858",
+        "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7829",
+        "hours": 2.5
+      }
+    ],
+    "2026-06-19": [
+      {
+        "tilbudsnr": "T7829",
+        "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7837",
+        "hours": 2.5
+      }
+    ],
+    "2026-06-22": [
+      {
+        "tilbudsnr": "T7837",
+        "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7819",
+        "hours": 5.0
+      },
+      {
+        "tilbudsnr": "T7830",
+        "hours": 2.5
+      }
+    ],
+    "2026-06-23": [
+      {
+        "tilbudsnr": "T7846",
+        "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7830",
+        "hours": 2.5
+      }
+    ],
+    "2026-06-24": [
+      {
+        "tilbudsnr": "T7846",
+        "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7853",
+        "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7825",
+        "hours": 2.5
+      }
+    ],
+    "2026-06-25": [
+      {
+        "tilbudsnr": "T7853",
         "hours": 2.5
       },
       {
         "tilbudsnr": "T7857",
+        "hours": 5.0
+      },
+      {
+        "tilbudsnr": "T7825",
+        "hours": 2.5
+      }
+    ],
+    "2026-06-26": [
+      {
+        "tilbudsnr": "T7861",
+        "hours": 2.5
+      }
+    ],
+    "2026-06-29": [
+      {
+        "tilbudsnr": "T7855",
+        "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7861",
+        "hours": 2.5
+      }
+    ],
+    "2026-06-30": [
+      {
+        "tilbudsnr": "T7855",
         "hours": 2.5
       },
       {
@@ -1395,25 +1535,37 @@
         "hours": 2.5
       }
     ],
-    "2026-06-17": [
+    "2026-07-01": [
       {
-        "tilbudsnr": "T7861",
-        "hours": 5.0
+        "tilbudsnr": "T7812",
+        "hours": 2.5
       },
       {
-        "tilbudsnr": "T7857",
+        "tilbudsnr": "T7810",
+        "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7835",
         "hours": 2.5
       }
     ],
-    "2026-06-18": [
+    "2026-07-02": [
       {
-        "tilbudsnr": "T7855",
+        "tilbudsnr": "T7847",
+        "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7826",
         "hours": 2.5
       }
     ],
-    "2026-06-19": [
+    "2026-07-03": [
       {
-        "tilbudsnr": "T7855",
+        "tilbudsnr": "T7809",
+        "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7821",
         "hours": 2.5
       }
     ]
@@ -1862,16 +2014,16 @@
   },
   "sister_groups": {},
   "meta": {
-    "generated": "2026-06-11 11:24",
+    "generated": "2026-06-11 11:41",
     "source": "E-regnskab API + tracker merge (pipeline.py)",
-    "active_count": 24,
+    "active_count": 25,
     "afsendt_count": 5,
-    "removed_count": 1,
-    "ghost_removed": 1,
-    "merged_at": "2026-06-11 11:24",
-    "planner_version": "2026-06-11 12:05",
-    "push_validated": "2026-06-11 11:24",
-    "push_count": 24,
+    "removed_count": 0,
+    "ghost_removed": 0,
+    "merged_at": "2026-06-11 11:41",
+    "planner_version": "2026-06-11 11:24",
+    "push_validated": "2026-06-11 11:41",
+    "push_count": 25,
     "push_warnings": []
   }
 }
