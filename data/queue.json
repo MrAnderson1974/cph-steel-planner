@@ -435,98 +435,6 @@
       "dg_pct": 37
     },
     {
-      "tilbudsnr": "T7808",
-      "tilbudsnavn": "TAAR: Strandvejen 626A",
-      "kundenavn": "BJARKE INGELS GROUP A/S",
-      "kundenummer": "2151",
-      "kontaktperson": "",
-      "tilbudsansvarlig": "Tom Larsen",
-      "tilbudsansvarlig_id": 15940,
-      "ja_transfer": false,
-      "startdato": "2026-05-19",
-      "slutdato": "2026-06-19",
-      "deadline": "2026-06-05",
-      "oprettet": "2026-05-19",
-      "sidst_aendret": "2026-05-22",
-      "beregnertid": 20,
-      "bt_source": "tracker_confirmed",
-      "rating_erp": null,
-      "tags": [
-        "#Skabelon",
-        "#Exc2",
-        "#ds1140"
-      ],
-      "kategori_id": null,
-      "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
-      "hn_offer_id": 3458235,
-      "custom_field1": null,
-      "custom_field2": null,
-      "custom_field3": "",
-      "deadline_source": "opfølgningsdato",
-      "rating": "B",
-      "rating_score": 61.1950077793873,
-      "kunde_grade": "B",
-      "scheduled_days": [
-        "2026-06-02",
-        "2026-06-03",
-        "2026-06-04"
-      ],
-      "planned_end": "2026-06-04",
-      "risk": "🟡",
-      "bt_estimated": false,
-      "projektnavn_doc": "TAAR — Privat luksus villa",
-      "entreprise_form": "FE04 + FE09",
-      "exc_class": "EXC2 (CC2/PC2/SC2)",
-      "foranalyse_kilde": "Foranalyse_T7808_TAAR_v1.pdf",
-      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/FÆLLES/01. CPH Steels teammappe/3. Tilbud/Tilbud 2026/T7808 TAAR/02 Tilbud/02.08 Foranalyse",
-      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7808%20TAAR/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7808_TAAR_v1.pdf",
-      "steel_scope": 5,
-      "steel_desc": "FE04: konstruktionsstål S355J2 + rustfrit, 15–20 t, brandmaling DS1140 (500°C). FE09: smedearbejder 2–4 t, galv. stål + alu, prøvesamling obligatorisk. Samlet ~17–24 t.",
-      "project_type": "EXC2 (CC2/PC2/SC2)",
-      "entreprise": "Fagentreprise 9 (Smed) — BIG projekt",
-      "lokation": "Ikke oplyst",
-      "is_sister": false,
-      "must_win": false,
-      "high_ref": false,
-      "resume": "Prestigeprojekt — privat luksus villa for Bjarke Ingels (BIG), Strandvejen 626A. Hybridkonstruktion beton/stål/CLT. Ikke-laveste-pris evaluering. AB 92 kontrakt — juridisk review krævet inden DL 5. juni.",
-      "rfi": [
-        {
-          "type": "INFO",
-          "tekst": "RFI-01: FE04 Stykliste — profilvægte og mål n Delvis",
-          "status": "DELVIS"
-        },
-        {
-          "type": "UL",
-          "tekst": "RFI-02: Brandmaling — tykkelsesspec og leverandørgaranti n Delvis",
-          "status": "DELVIS"
-        },
-        {
-          "type": "INFO",
-          "tekst": "RFI-04: Aluminium — legeringstype nn Åben",
-          "status": "AABEN"
-        },
-        {
-          "type": "UL",
-          "tekst": "RFI-06: Brandkrav FE09 — K01_C05_N004 n Afventer",
-          "status": "AFVENTER"
-        },
-        {
-          "type": "TEKNISK",
-          "tekst": "RFI-09: IFC-model — placering nn Åben",
-          "status": "AABEN"
-        },
-        {
-          "type": "INFO",
-          "tekst": "RFI-10: Facadetegninger FE10 n Afventer",
-          "status": "AFVENTER"
-        }
-      ],
-      "rfi_kilde": "auto",
-      "rfi_opdateret": "2026-06-10"
-    },
-    {
       "tilbudsnr": "T7824",
       "tilbudsnavn": "saga byg",
       "kundenavn": "SAGA BYG APS",
@@ -664,15 +572,12 @@
       "bt_estimated": true,
       "bt_tier": "M",
       "bt_range": "3.0–7.0t",
-      "projektnavn_doc": "Rockwool Renovering og ombygning C3",
-      "entreprise_form": "Underentreprise",
-      "exc_class": "EXC2",
-      "foranalyse_kilde": "Foranalyse_T7825_Rockwool_Renovering_og_ombygning_C3_v1.docx",
-      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/FÆLLES/01. CPH Steels teammappe/3. Tilbud/Tilbud 2026/T7825 - Renovering C3/02 Tilbud/02.08 Foranalyse",
-      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7825%20-%20Renovering%20C3/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7825_Rockwool_Renovering_og_ombygning_C3_v1.docx",
       "project_type": "EXC2",
       "must_win": false,
       "high_ref": false,
+      "exc_class": "EXC2",
+      "entreprise_form": "Underentreprise",
+      "foranalyse_kilde": "Foranalyse_T7825_Rockwool_Renovering_og_ombygning_C3_v1.docx",
       "ordrevaerdi_dkk": 2100000,
       "dg_pct": 38
     },
@@ -718,15 +623,12 @@
       "bt_estimated": true,
       "bt_tier": "S",
       "bt_range": "1.0–4.0t",
-      "projektnavn_doc": "trappe",
-      "entreprise_form": "Fagentreprise",
-      "exc_class": "EXC2",
-      "foranalyse_kilde": "Foranalyse_T7826_trappe_v1.docx",
-      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/FÆLLES/01. CPH Steels teammappe/3. Tilbud/Tilbud 2026/T7826 - trappe/02 Tilbud/02.08 Foranalyse",
-      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7826%20-%20trappe/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7826_trappe_v1.docx",
       "project_type": "EXC2",
       "must_win": false,
       "high_ref": false,
+      "exc_class": "EXC2",
+      "entreprise_form": "Fagentreprise",
+      "foranalyse_kilde": "Foranalyse_T7826_trappe_v1.docx",
       "ordrevaerdi_dkk": 237000,
       "dg_pct": 39
     },
@@ -772,15 +674,12 @@
       "bt_estimated": true,
       "bt_tier": "M",
       "bt_range": "3.0–7.0t",
-      "projektnavn_doc": "gavlskakter — inspektionslemme, ventilationsriste, topafdækning",
-      "entreprise_form": "Underentreprise",
-      "exc_class": "EXC1",
-      "foranalyse_kilde": "Foranalyse_T7829_gavlskakter_v1.docx",
-      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/FÆLLES/01. CPH Steels teammappe/3. Tilbud/Tilbud 2026/T7829 - Gavlskakter/02 Tilbud/02.08 Foranalyse",
-      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7829%20-%20Gavlskakter/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7829_gavlskakter_v1.docx",
       "project_type": "EXC1",
       "must_win": false,
       "high_ref": false,
+      "exc_class": "EXC1",
+      "entreprise_form": "Underentreprise",
+      "foranalyse_kilde": "Foranalyse_T7829_gavlskakter_v1.docx",
       "ordrevaerdi_dkk": 120000,
       "dg_pct": 38
     },
@@ -827,63 +726,14 @@
       "bt_estimated": true,
       "bt_tier": "M",
       "bt_range": "3.0–7.0t",
-      "projektnavn_doc": "Tobaksvejen 25",
-      "entreprise_form": "Fagentreprise",
-      "exc_class": "EXC2",
-      "foranalyse_kilde": "Foranalyse_T7830_Tobaksvejen_25_v1.docx",
-      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/FÆLLES/01. CPH Steels teammappe/3. Tilbud/Tilbud 2026/T7830 - Tobaksvejen 25/02 Tilbud/02.08 Foranalyse",
-      "foranalyse_url": "file:///Users/jessandersen/CPH%20Steel%20Dropbox/F%C3%86LLES/01.%20CPH%20Steels%20teammappe/3.%20Tilbud/Tilbud%202026/T7830%20-%20Tobaksvejen%2025/02%20Tilbud/02.08%20Foranalyse/Foranalyse_T7830_Tobaksvejen_25_v1.docx",
       "project_type": "EXC2",
       "must_win": false,
       "high_ref": false,
+      "exc_class": "EXC2",
+      "entreprise_form": "Fagentreprise",
+      "foranalyse_kilde": "Foranalyse_T7830_Tobaksvejen_25_v1.docx",
       "ordrevaerdi_dkk": 1500000,
       "dg_pct": 37
-    },
-    {
-      "tilbudsnr": "T7836",
-      "tilbudsnavn": "AB Hellerup Strandgaard",
-      "kundenavn": "Hovedstadens Bygningsentreprise A/S",
-      "kundenummer": "1418",
-      "kontaktperson": "",
-      "tilbudsansvarlig": "Tom Larsen",
-      "tilbudsansvarlig_id": 15940,
-      "ja_transfer": false,
-      "startdato": "2026-08-17",
-      "slutdato": "2028-03-03",
-      "deadline": "2026-07-01",
-      "oprettet": "2026-06-08",
-      "sidst_aendret": "2026-06-08",
-      "beregnertid": 5.0,
-      "bt_source": null,
-      "rating_erp": null,
-      "tags": [
-        "#Skabelon",
-        "#Exc2",
-        "#ds1140"
-      ],
-      "kategori_id": null,
-      "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
-      "hn_offer_id": 3494461,
-      "custom_field1": null,
-      "custom_field2": null,
-      "custom_field3": "",
-      "deadline_source": "opfølgningsdato",
-      "rating": "A",
-      "rating_score": 75.05130371801062,
-      "kunde_grade": "A",
-      "scheduled_days": [
-        "2026-06-11",
-        "2026-06-12"
-      ],
-      "planned_end": "2026-06-12",
-      "risk": "⚪",
-      "bt_estimated": true,
-      "bt_tier": "M",
-      "bt_range": "3.0–7.0t",
-      "must_win": false,
-      "high_ref": false
     },
     {
       "tilbudsnr": "T7837",
@@ -1067,223 +917,6 @@
       "high_ref": false
     },
     {
-      "tilbudsnr": "T7848",
-      "tilbudsnavn": "Kvartsvings-ståltrappe",
-      "kundenavn": "Anders Flygge Juul",
-      "kundenummer": "",
-      "kontaktperson": "",
-      "tilbudsansvarlig": "Tom Larsen",
-      "tilbudsansvarlig_id": 15940,
-      "ja_transfer": false,
-      "startdato": "2026-06-10",
-      "slutdato": "2026-07-10",
-      "deadline": "2026-06-22",
-      "oprettet": "2026-06-10",
-      "sidst_aendret": "2026-06-10",
-      "beregnertid": 2.5,
-      "bt_source": null,
-      "rating_erp": null,
-      "tags": [
-        "#Skabelon",
-        "#Exc2",
-        "#ds1140"
-      ],
-      "kategori_id": null,
-      "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
-      "hn_offer_id": 3498867,
-      "custom_field1": null,
-      "custom_field2": null,
-      "custom_field3": "",
-      "deadline_source": "opfølgningsdato",
-      "rating": "Ny",
-      "rating_score": null,
-      "kunde_grade": null,
-      "scheduled_days": [
-        "2026-06-11"
-      ],
-      "planned_end": "2026-06-11",
-      "risk": "⚪",
-      "bt_estimated": true,
-      "bt_tier": "S",
-      "bt_range": "1.0–4.0t",
-      "must_win": false,
-      "high_ref": false
-    },
-    {
-      "tilbudsnr": "T7849",
-      "tilbudsnavn": "Kvartsvings-ståltrappe",
-      "kundenavn": "Anders Flygge Juul",
-      "kundenummer": "",
-      "kontaktperson": "",
-      "tilbudsansvarlig": "Tom Larsen",
-      "tilbudsansvarlig_id": 49884,
-      "ja_transfer": true,
-      "startdato": "2026-06-10",
-      "slutdato": "2026-07-10",
-      "deadline": "2026-06-10",
-      "oprettet": "2026-06-10",
-      "sidst_aendret": "2026-06-10",
-      "beregnertid": 2.5,
-      "bt_source": null,
-      "rating_erp": null,
-      "tags": [
-        "#Skabelon",
-        "#Exc2",
-        "#ds1140"
-      ],
-      "kategori_id": null,
-      "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
-      "hn_offer_id": 3498868,
-      "custom_field1": null,
-      "custom_field2": null,
-      "custom_field3": "",
-      "deadline_source": "opfølgningsdato",
-      "rating": "Ny",
-      "rating_score": null,
-      "kunde_grade": null,
-      "scheduled_days": [],
-      "planned_end": null,
-      "risk": "⚪",
-      "bt_estimated": true,
-      "bt_tier": "S",
-      "bt_range": "1.0–4.0t",
-      "must_win": false,
-      "high_ref": false
-    },
-    {
-      "tilbudsnr": "T7850",
-      "tilbudsnavn": "Kvartsvings-ståltrappe",
-      "kundenavn": "Anders Flygge Juul",
-      "kundenummer": "",
-      "kontaktperson": "",
-      "tilbudsansvarlig": "Tom Larsen",
-      "tilbudsansvarlig_id": 49884,
-      "ja_transfer": true,
-      "startdato": "2026-06-10",
-      "slutdato": "2026-07-10",
-      "deadline": "2026-06-10",
-      "oprettet": "2026-06-10",
-      "sidst_aendret": "2026-06-10",
-      "beregnertid": 2.5,
-      "bt_source": null,
-      "rating_erp": null,
-      "tags": [
-        "#Skabelon",
-        "#Exc2",
-        "#ds1140"
-      ],
-      "kategori_id": null,
-      "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
-      "hn_offer_id": 3498869,
-      "custom_field1": null,
-      "custom_field2": null,
-      "custom_field3": "",
-      "deadline_source": "opfølgningsdato",
-      "rating": "Ny",
-      "rating_score": null,
-      "kunde_grade": null,
-      "scheduled_days": [],
-      "planned_end": null,
-      "risk": "⚪",
-      "bt_estimated": true,
-      "bt_tier": "S",
-      "bt_range": "1.0–4.0t",
-      "must_win": false,
-      "high_ref": false
-    },
-    {
-      "tilbudsnr": "T7851",
-      "tilbudsnavn": "Kvartsvings-ståltrappe",
-      "kundenavn": "Anders Flygge Juul",
-      "kundenummer": "",
-      "kontaktperson": "",
-      "tilbudsansvarlig": "Tom Larsen",
-      "tilbudsansvarlig_id": 49884,
-      "ja_transfer": true,
-      "startdato": "2026-06-10",
-      "slutdato": "2026-07-10",
-      "deadline": "2026-06-10",
-      "oprettet": "2026-06-10",
-      "sidst_aendret": "2026-06-10",
-      "beregnertid": 2.5,
-      "bt_source": null,
-      "rating_erp": null,
-      "tags": [
-        "#Skabelon",
-        "#Exc2",
-        "#ds1140"
-      ],
-      "kategori_id": null,
-      "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
-      "hn_offer_id": 3498870,
-      "custom_field1": null,
-      "custom_field2": null,
-      "custom_field3": "",
-      "deadline_source": "opfølgningsdato",
-      "rating": "Ny",
-      "rating_score": null,
-      "kunde_grade": null,
-      "scheduled_days": [],
-      "planned_end": null,
-      "risk": "⚪",
-      "bt_estimated": true,
-      "bt_tier": "S",
-      "bt_range": "1.0–4.0t",
-      "must_win": false,
-      "high_ref": false
-    },
-    {
-      "tilbudsnr": "T7852",
-      "tilbudsnavn": "Kvartsvings-ståltrappe",
-      "kundenavn": "Anders Flygge Juul",
-      "kundenummer": "",
-      "kontaktperson": "",
-      "tilbudsansvarlig": "Tom Larsen",
-      "tilbudsansvarlig_id": 49884,
-      "ja_transfer": true,
-      "startdato": "2026-06-10",
-      "slutdato": "2026-07-10",
-      "deadline": "2026-06-10",
-      "oprettet": "2026-06-10",
-      "sidst_aendret": "2026-06-10",
-      "beregnertid": 2.5,
-      "bt_source": null,
-      "rating_erp": null,
-      "tags": [
-        "#Skabelon",
-        "#Exc2",
-        "#ds1140"
-      ],
-      "kategori_id": null,
-      "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
-      "hn_offer_id": 3498871,
-      "custom_field1": null,
-      "custom_field2": null,
-      "custom_field3": "",
-      "deadline_source": "opfølgningsdato",
-      "rating": "Ny",
-      "rating_score": null,
-      "kunde_grade": null,
-      "scheduled_days": [],
-      "planned_end": null,
-      "risk": "⚪",
-      "bt_estimated": true,
-      "bt_tier": "S",
-      "bt_range": "1.0–4.0t",
-      "must_win": false,
-      "high_ref": false
-    },
-    {
       "tilbudsnr": "T7853",
       "tilbudsnavn": "AB Nordstjernen - Tag- og facaderenovering",
       "kundenavn": "PNP-Byg A/S",
@@ -1327,6 +960,91 @@
       "bt_range": "3.0–7.0t",
       "must_win": false,
       "high_ref": false
+    },
+    {
+      "tilbudsnr": "T7855",
+      "tilbudsnavn": "Fægtesalen",
+      "kundenavn": "BYGGEFIRMAET LOGIK & CO. A/S",
+      "kundenummer": "1767",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "ja_transfer": false,
+      "startdato": "2026-06-11",
+      "slutdato": "2026-07-11",
+      "deadline": "2026-07-07",
+      "oprettet": "2026-06-11",
+      "sidst_aendret": "2026-06-11",
+      "beregnertid": 5.0,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3501172,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "Ny",
+      "rating_score": null,
+      "kunde_grade": null,
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "must_win": false,
+      "high_ref": false,
+      "bt_estimated": true,
+      "bt_tier": "M",
+      "bt_range": "3.0–7.0t"
+    },
+    {
+      "tilbudsnr": "T7856",
+      "tilbudsnavn": "Vermehrensvej 11",
+      "kundenavn": "MURERFIRMAET KUSK & THOMSEN ApS",
+      "kundenummer": "2619",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "ja_transfer": false,
+      "startdato": "2026-06-11",
+      "slutdato": "2026-07-11",
+      "deadline": "2026-06-11",
+      "oprettet": "2026-06-11",
+      "sidst_aendret": "2026-06-11",
+      "beregnertid": 5.0,
+      "bt_source": null,
+      "rating_erp": 10,
+      "tags": [
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3501206,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "Ny",
+      "rating_score": null,
+      "kunde_grade": null,
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "must_win": false,
+      "high_ref": false,
+      "bt_estimated": true,
+      "bt_tier": "M",
+      "bt_range": "3.0–7.0t"
     }
   ],
   "afsendt": [
@@ -1350,13 +1068,6 @@
       "kundenavn": "P. OLESEN OG SØNNER A/S",
       "afsendelsesdato": "2026-04-30",
       "hn_offer_id": 3425788
-    },
-    {
-      "tilbudsnr": "T7661",
-      "tilbudsnavn": "Kjeld Langes Gade 6-8",
-      "kundenavn": "PNP-Byg A/S",
-      "afsendelsesdato": "2026-03-23",
-      "hn_offer_id": 3335059
     },
     {
       "tilbudsnr": "T7734-1",
@@ -1384,12 +1095,6 @@
         "tilbudsnr": "T7747",
         "hours": 0,
         "is_sister_display": true
-      }
-    ],
-    "2026-05-27": [
-      {
-        "tilbudsnr": "T7808",
-        "hours": 6
       }
     ],
     "2026-05-28": [
@@ -1429,30 +1134,18 @@
       {
         "tilbudsnr": "T7825",
         "hours": 5.0
-      },
-      {
-        "tilbudsnr": "T7808",
-        "hours": 6.67
       }
     ],
     "2026-06-03": [
       {
         "tilbudsnr": "T7825",
         "hours": 5.0
-      },
-      {
-        "tilbudsnr": "T7808",
-        "hours": 6.67
       }
     ],
     "2026-06-04": [
       {
         "tilbudsnr": "T7829",
         "hours": 5.0
-      },
-      {
-        "tilbudsnr": "T7808",
-        "hours": 6.67
       },
       {
         "tilbudsnr": "T7830",
@@ -1482,10 +1175,6 @@
       }
     ],
     "2026-06-09": [
-      {
-        "tilbudsnr": "T7836",
-        "hours": 2.5
-      },
       {
         "tilbudsnr": "T7837",
         "hours": 5.0
@@ -1523,16 +1212,12 @@
     ],
     "2026-06-11": [
       {
-        "tilbudsnr": "T7836",
-        "hours": 2.5
-      },
-      {
         "tilbudsnr": "T7812",
         "hours": 2.5
       },
       {
-        "tilbudsnr": "T7848",
-        "hours": 2.5
+        "tilbudsnr": "T7855",
+        "hours": 5.0
       },
       {
         "tilbudsnr": "T7819",
@@ -1540,10 +1225,6 @@
       }
     ],
     "2026-06-12": [
-      {
-        "tilbudsnr": "T7836",
-        "hours": 2.5
-      },
       {
         "tilbudsnr": "T7847",
         "hours": 2.5
@@ -2028,16 +1709,16 @@
     ]
   },
   "meta": {
-    "generated": "2026-06-10 12:05",
+    "generated": "2026-06-11 07:29",
     "source": "E-regnskab API + tracker merge (pipeline.py)",
-    "active_count": 26,
-    "afsendt_count": 6,
-    "removed_count": 0,
-    "ghost_removed": 0,
-    "merged_at": "2026-06-10 12:05",
-    "planner_version": "2026-06-10 11:32",
-    "push_validated": "2026-06-10 12:05",
-    "push_count": 26,
+    "active_count": 21,
+    "afsendt_count": 5,
+    "removed_count": 7,
+    "ghost_removed": 8,
+    "merged_at": "2026-06-11 07:29",
+    "planner_version": "2026-06-10 12:05",
+    "push_validated": "2026-06-11 07:29",
+    "push_count": 21,
     "push_warnings": []
   }
 }
