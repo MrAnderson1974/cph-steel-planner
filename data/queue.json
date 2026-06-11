@@ -343,13 +343,7 @@
       "entreprise_form": "Fagentreprise",
       "resume": "Fagentreprise Peder Skrams Gade 16A-C for Hovedstadens Bygningsentreprise (A-rated, 3% hit). Scope og tonnage ukendt — elementliste afventer Tom's kalkulation.",
       "dg_pct": 36,
-      "fa_missing": false,
-      "_ja_decision": {
-        "tracker_end": "2026-06-22",
-        "excel_finish": "2026-06-19",
-        "days_saved": 3,
-        "reason": "Tracker OK men Excel er 3d hurtigere"
-      }
+      "fa_missing": false
     },
     {
       "tilbudsnr": "T7821",
@@ -567,13 +561,7 @@
       "resume": "Smed-entreprise u/ Juul & Nielsen (HE) til renovering af Rockwool Center 3, Hedehusene. Scope fra tilbudsliste (rev. 04-06-2026): (1) Udvekslinger i dæk/vægge — 5 poster inkl. 4 trappeudvekslinger + ventilationsskakt. (2) Ny bjælker facade-understøtning finger A+B — 4 stk + 36 lbm × 2 + tilpasning eksist. (3) Stålbjælker + trapezpladetag over ventilationshuse — 50 m² × 2 fingre. (4) 4 stk trapper nord/syd finger A+B (inkl. trætrin, akustik og lak). (5) Stålværn langs dækforkanter 15+ lbm.",
       "ordrevaerdi_dkk": 2100000,
       "dg_pct": 38,
-      "fa_missing": false,
-      "_pipeline_overridden": {
-        "old_planned_end": "2026-06-26",
-        "new_planned_end": "2026-06-25",
-        "days_saved": 1,
-        "reason": "Tracker var forsinket — Excel plan anvendt"
-      }
+      "fa_missing": false
     },
     {
       "tilbudsnr": "T7826",
@@ -1284,14 +1272,17 @@
       "rating": "C",
       "rating_score": 46.61281452867643,
       "kunde_grade": "C",
-      "scheduled_days": [],
-      "planned_end": null,
+      "scheduled_days": [
+        "2026-06-11",
+        "2026-06-12"
+      ],
+      "planned_end": "2026-06-12",
       "risk": "⚪",
-      "must_win": false,
-      "high_ref": false,
       "bt_estimated": true,
       "bt_tier": "M",
       "bt_range": "3.0–7.0t",
+      "must_win": false,
+      "high_ref": false,
       "fa_missing": true
     }
   ],
@@ -1445,6 +1436,14 @@
       {
         "tilbudsnr": "T7829",
         "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7810",
+        "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7819",
+        "hours": 2.5
       }
     ],
     "2026-06-19": [
@@ -1455,16 +1454,24 @@
       {
         "tilbudsnr": "T7837",
         "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7819",
+        "hours": 2.5
       }
     ],
     "2026-06-22": [
       {
-        "tilbudsnr": "T7837",
+        "tilbudsnr": "T7846",
         "hours": 2.5
       },
       {
-        "tilbudsnr": "T7819",
-        "hours": 5.0
+        "tilbudsnr": "T7812",
+        "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7837",
+        "hours": 2.5
       },
       {
         "tilbudsnr": "T7830",
@@ -1477,17 +1484,25 @@
         "hours": 2.5
       },
       {
+        "tilbudsnr": "T7853",
+        "hours": 2.5
+      },
+      {
         "tilbudsnr": "T7830",
+        "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7826",
         "hours": 2.5
       }
     ],
     "2026-06-24": [
       {
-        "tilbudsnr": "T7846",
+        "tilbudsnr": "T7853",
         "hours": 2.5
       },
       {
-        "tilbudsnr": "T7853",
+        "tilbudsnr": "T7857",
         "hours": 2.5
       },
       {
@@ -1497,12 +1512,16 @@
     ],
     "2026-06-25": [
       {
-        "tilbudsnr": "T7853",
+        "tilbudsnr": "T7847",
+        "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7861",
         "hours": 2.5
       },
       {
         "tilbudsnr": "T7857",
-        "hours": 5.0
+        "hours": 2.5
       },
       {
         "tilbudsnr": "T7825",
@@ -1510,6 +1529,10 @@
       }
     ],
     "2026-06-26": [
+      {
+        "tilbudsnr": "T7855",
+        "hours": 2.5
+      },
       {
         "tilbudsnr": "T7861",
         "hours": 2.5
@@ -1521,52 +1544,28 @@
         "hours": 2.5
       },
       {
-        "tilbudsnr": "T7861",
+        "tilbudsnr": "T7821",
         "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7835",
+        "hours": 1.67
       }
     ],
     "2026-06-30": [
-      {
-        "tilbudsnr": "T7855",
-        "hours": 2.5
-      },
-      {
-        "tilbudsnr": "T7835",
-        "hours": 2.5
-      }
-    ],
-    "2026-07-01": [
-      {
-        "tilbudsnr": "T7812",
-        "hours": 2.5
-      },
-      {
-        "tilbudsnr": "T7810",
-        "hours": 2.5
-      },
-      {
-        "tilbudsnr": "T7835",
-        "hours": 2.5
-      }
-    ],
-    "2026-07-02": [
-      {
-        "tilbudsnr": "T7847",
-        "hours": 2.5
-      },
-      {
-        "tilbudsnr": "T7826",
-        "hours": 2.5
-      }
-    ],
-    "2026-07-03": [
       {
         "tilbudsnr": "T7809",
         "hours": 2.5
       },
       {
-        "tilbudsnr": "T7821",
-        "hours": 2.5
+        "tilbudsnr": "T7835",
+        "hours": 1.67
+      }
+    ],
+    "2026-07-01": [
+      {
+        "tilbudsnr": "T7835",
+        "hours": 1.67
       }
     ]
   },
@@ -2014,15 +2013,15 @@
   },
   "sister_groups": {},
   "meta": {
-    "generated": "2026-06-11 11:41",
+    "generated": "2026-06-11 11:42",
     "source": "E-regnskab API + tracker merge (pipeline.py)",
     "active_count": 25,
     "afsendt_count": 5,
     "removed_count": 0,
     "ghost_removed": 0,
-    "merged_at": "2026-06-11 11:41",
-    "planner_version": "2026-06-11 11:24",
-    "push_validated": "2026-06-11 11:41",
+    "merged_at": "2026-06-11 11:42",
+    "planner_version": "2026-06-11 11:41",
+    "push_validated": "2026-06-11 11:42",
     "push_count": 25,
     "push_warnings": []
   }
