@@ -50,7 +50,6 @@
       "exc_class": "EXC2",
       "entreprise_form": "Fagentreprise",
       "resume": "Broarbejder i Albertslund for Christiansen & Essenbæk A/S. Miljøsaneringsomfang skal afklares inden tilbud.",
-      "foranalyse_kilde": "Foranalyse_T7822_Albertslund_broarbejder_v1.docx",
       "ordrevaerdi_dkk": 1140000,
       "dg_pct": 37,
       "fa_missing": false
@@ -108,7 +107,6 @@
       "exc_class": "EXC2",
       "entreprise_form": "Under Lars Phoenix",
       "resume": "Underentreprise under Lars Phoenix. Elementliste ikke modtaget endnu.",
-      "foranalyse_kilde": "Foranalyse_T7812_Lars_Phoenix_v1.docx",
       "ordrevaerdi_dkk": 237000,
       "dg_pct": 39,
       "fa_missing": false
@@ -162,7 +160,6 @@
       "exc_class": "EXC2",
       "entreprise_form": "Fagentreprise",
       "resume": "Ny bærende bjælke i eksisterende bygning for privat bygherre via tømmermester Troels Bastrup. Simpel leverance — afklar måltjek og brandmaling REI 60.",
-      "foranalyse_kilde": "Foranalyse_T7817_Bjergbakkevej_7_v1.docx",
       "ordrevaerdi_dkk": 75000,
       "dg_pct": 38,
       "fa_missing": false
@@ -220,7 +217,6 @@
       "exc_class": "EXC2",
       "entreprise_form": "Under DDS Hjortespring Gruppen",
       "resume": "Fagentreprise Bålsted Herlev. Begrænset dokumentation i udbudsmaterialet.",
-      "foranalyse_kilde": "Foranalyse_T7809_Balsted_Herlev_v1.docx",
       "ordrevaerdi_dkk": 42000,
       "dg_pct": 37,
       "fa_missing": false
@@ -274,7 +270,6 @@
       "exc_class": "EXC2",
       "entreprise_form": "Fagentreprise",
       "resume": "Tilbygning/ombygning Krogårdskolen SFO for ASON A/S. Montagestart juli 2026, aflevering april 2027. Elementliste afventer afklaring.",
-      "foranalyse_kilde": "Foranalyse_T7818_Krogardskolen_SFO_v1.docx",
       "ordrevaerdi_dkk": 1140000,
       "dg_pct": 37,
       "fa_missing": false
@@ -332,7 +327,6 @@
       "exc_class": "EXC2",
       "entreprise_form": "Underentreprise under HVID Entreprise",
       "resume": "NOV — underentreprise under HVID. Begrænset udbudsmateriale, kun fotos tilgængeligt. Scope skal afklares.",
-      "foranalyse_kilde": "Foranalyse_T7810_NOV_v1.docx",
       "dg_pct": 36,
       "fa_missing": false
     },
@@ -384,7 +378,6 @@
       "exc_class": "EXC2",
       "entreprise_form": "Fagentreprise",
       "resume": "Fagentreprise Peder Skrams Gade 16A-C for Hovedstadens Bygningsentreprise (A-rated, 3% hit). Scope og tonnage ukendt — elementliste afventer Tom's kalkulation.",
-      "foranalyse_kilde": "Foranalyse_T7819_Peder_Skrams_gade_v1.docx",
       "dg_pct": 36,
       "fa_missing": false
     },
@@ -437,7 +430,6 @@
       "exc_class": "EXC2",
       "entreprise_form": "Fagentreprise",
       "resume": "Ståltrappe og gelænder, Asnæsgade, for Tømrer- og Snedkermester Børge Nielsen (A-rated). Lille kalkulation 2,5t. Miljøsanering skal afklares.",
-      "foranalyse_kilde": "Foranalyse_T7821_asnæsgade_v1.docx",
       "ordrevaerdi_dkk": 70000,
       "dg_pct": 37,
       "fa_missing": false
@@ -489,7 +481,6 @@
       "high_ref": false,
       "exc_class": "EXC2",
       "entreprise_form": "Fagentreprise",
-      "foranalyse_kilde": "Foranalyse_T7824_Saga_byg_v1.docx",
       "ordrevaerdi_dkk": 42000,
       "dg_pct": 37,
       "fa_missing": false
@@ -590,7 +581,6 @@
       "high_ref": false,
       "exc_class": "EXC2",
       "entreprise_form": "Underentreprise",
-      "foranalyse_kilde": "Foranalyse_T7825_Rockwool_Renovering_og_ombygning_C3_v1.docx",
       "ordrevaerdi_dkk": 2100000,
       "dg_pct": 38,
       "fa_missing": false
@@ -642,7 +632,6 @@
       "high_ref": false,
       "exc_class": "EXC2",
       "entreprise_form": "Fagentreprise",
-      "foranalyse_kilde": "Foranalyse_T7826_trappe_v1.docx",
       "ordrevaerdi_dkk": 237000,
       "dg_pct": 39,
       "fa_missing": false
@@ -694,7 +683,6 @@
       "high_ref": false,
       "exc_class": "EXC1",
       "entreprise_form": "Underentreprise",
-      "foranalyse_kilde": "Foranalyse_T7829_gavlskakter_v1.docx",
       "ordrevaerdi_dkk": 120000,
       "dg_pct": 38,
       "fa_missing": false
@@ -747,7 +735,6 @@
       "high_ref": false,
       "exc_class": "EXC2",
       "entreprise_form": "Fagentreprise",
-      "foranalyse_kilde": "Foranalyse_T7830_Tobaksvejen_25_v1.docx",
       "ordrevaerdi_dkk": 1500000,
       "dg_pct": 37,
       "fa_missing": false
@@ -1959,15 +1946,15 @@
   },
   "sister_groups": {},
   "meta": {
-    "generated": "2026-06-11 08:59",
+    "generated": "2026-06-11 09:12",
     "source": "E-regnskab API + tracker merge (pipeline.py)",
     "active_count": 25,
     "afsendt_count": 5,
-    "removed_count": 1,
-    "ghost_removed": 1,
-    "merged_at": "2026-06-11 08:59",
-    "planner_version": "2026-06-11 08:42",
-    "push_validated": "2026-06-11 08:59",
+    "removed_count": 0,
+    "ghost_removed": 0,
+    "merged_at": "2026-06-11 09:12",
+    "planner_version": "2026-06-11 08:59",
+    "push_validated": "2026-06-11 09:12",
     "push_count": 25,
     "push_warnings": []
   }
