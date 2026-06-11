@@ -1,65 +1,6 @@
 {
   "tilbud": [
     {
-      "tilbudsnr": "T7822",
-      "tilbudsnavn": "Albertslund broarbejder 2026",
-      "kundenavn": "Christiansen & Essenbæk A/S",
-      "kundenummer": "1262",
-      "kontaktperson": "",
-      "tilbudsansvarlig": "Tom Larsen",
-      "tilbudsansvarlig_id": 15940,
-      "ja_transfer": false,
-      "startdato": "2026-05-28",
-      "slutdato": "2026-06-28",
-      "deadline": "2026-06-15",
-      "oprettet": "2026-05-28",
-      "sidst_aendret": "2026-05-28",
-      "beregnertid": 5.0,
-      "bt_source": "foranalyse_json",
-      "rating_erp": null,
-      "tags": [
-        "#Skabelon",
-        "#Exc2",
-        "#ds1140"
-      ],
-      "kategori_id": null,
-      "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
-      "hn_offer_id": 3475874,
-      "custom_field1": null,
-      "custom_field2": null,
-      "custom_field3": "",
-      "deadline_source": "opfølgningsdato",
-      "rating": "C",
-      "rating_score": 51.43006599066473,
-      "kunde_grade": "C",
-      "scheduled_days": [
-        "2026-06-01",
-        "2026-06-08"
-      ],
-      "planned_end": "2026-06-08",
-      "risk": "🟢",
-      "bt_estimated": true,
-      "bt_tier": "M",
-      "bt_range": "3.0–7.0t",
-      "exc_class": "EXC2",
-      "konsekvensklasse": "KK2",
-      "entreprise": "Fagentreprise",
-      "resume": "Broarbejder i Albertslund for Christiansen & Essenbæk A/S. Miljøsaneringsomfang skal afklares inden tilbud.",
-      "ordrevaerdi_dkk": 1140000,
-      "dg_pct": 37,
-      "go_no_go": "GO",
-      "foranalyse_kilde": "T7822_foranalyse.json",
-      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/Jess Andersen/CLAUDE CO WORK/PROJECTS/Foranalyse/output",
-      "steel_desc": "Konstruktionsstål EXC2/KK2, ca. 12 t. Ingen brandmaling. Miljøsanering identificeret. PSS krævet.",
-      "project_type": "EXC2",
-      "must_win": false,
-      "high_ref": false,
-      "entreprise_form": "Fagentreprise",
-      "fa_missing": false
-    },
-    {
       "tilbudsnr": "T7812",
       "tilbudsnavn": "Altan og trappe",
       "kundenavn": "Lars Phoenix",
@@ -101,23 +42,20 @@
       "bt_estimated": true,
       "bt_tier": "S",
       "bt_range": "1.0–4.0t",
-      "exc_class": "EXC2",
-      "konsekvensklasse": "KK2",
-      "entreprise": "Under Lars Phoenix",
-      "resume": "Underentreprise under Lars Phoenix. Elementliste ikke modtaget endnu.",
-      "ordrevaerdi_dkk": 237000,
-      "dg_pct": 39,
-      "go_no_go": "GO",
-      "foranalyse_kilde": "T7812_foranalyse.json",
-      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/Jess Andersen/CLAUDE CO WORK/PROJECTS/Foranalyse/output",
       "steel_scope": 2,
       "steel_desc": "Altan og trappe, EXC2/KK2, for Lars Phoenix. Begrænset dokumentation.",
       "project_type": "EXC2",
+      "entreprise": "Under Lars Phoenix",
       "lokation": "Ikke oplyst",
       "is_sister": false,
       "must_win": false,
       "high_ref": false,
+      "exc_class": "EXC2",
+      "konsekvensklasse": "KK2",
       "entreprise_form": "Under Lars Phoenix",
+      "resume": "Underentreprise under Lars Phoenix. Elementliste ikke modtaget endnu.",
+      "ordrevaerdi_dkk": 237000,
+      "dg_pct": 39,
       "fa_missing": false
     },
     {
@@ -162,21 +100,18 @@
       "bt_estimated": true,
       "bt_tier": "M",
       "bt_range": "3.0–7.0t",
-      "exc_class": "EXC2",
-      "konsekvensklasse": "KK2",
+      "steel_desc": "2 × HE160B (~0,5 t), EXC2/KK2. Brandmaling REI 60. Direkte leverance uden montage.",
+      "project_type": "EXC2",
       "entreprise": "Direkte leverance (fremstilling + levering, ingen montage)",
       "lokation": "Bjergbakkevej 7, 2600 Glostrup",
+      "must_win": false,
+      "high_ref": false,
+      "exc_class": "EXC2",
+      "konsekvensklasse": "KK2",
+      "entreprise_form": "Fagentreprise",
       "resume": "Ny bærende bjælke i eksisterende bygning for privat bygherre via tømmermester Troels Bastrup. Simpel leverance — afklar måltjek og brandmaling REI 60.",
       "ordrevaerdi_dkk": 75000,
       "dg_pct": 38,
-      "go_no_go": "GO",
-      "foranalyse_kilde": "T7817_foranalyse.json",
-      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/Jess Andersen/CLAUDE CO WORK/PROJECTS/Foranalyse/output",
-      "steel_desc": "2 × HE160B (~0,5 t), EXC2/KK2. Brandmaling REI 60. Direkte leverance uden montage.",
-      "project_type": "EXC2",
-      "must_win": false,
-      "high_ref": false,
-      "entreprise_form": "Fagentreprise",
       "fa_missing": false
     },
     {
@@ -221,23 +156,20 @@
       "bt_estimated": true,
       "bt_tier": "S",
       "bt_range": "1.0–4.0t",
-      "exc_class": "EXC2",
-      "konsekvensklasse": "KK2",
-      "entreprise": "Under DDS Hjortespring Gruppen",
-      "resume": "Fagentreprise Bålsted Herlev. Begrænset dokumentation i udbudsmaterialet.",
-      "ordrevaerdi_dkk": 42000,
-      "dg_pct": 37,
-      "go_no_go": "GO_MED_FORBEHOLD",
-      "foranalyse_kilde": "T7809_foranalyse.json",
-      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/Jess Andersen/CLAUDE CO WORK/PROJECTS/Foranalyse/output",
       "steel_scope": 2,
       "steel_desc": "Konstruktionsstål EXC2/KK2 for DDS Hjortespring. Ingen brandmaling.",
       "project_type": "EXC2",
+      "entreprise": "Under DDS Hjortespring Gruppen",
       "lokation": "Hjortespring",
       "is_sister": false,
       "must_win": false,
       "high_ref": false,
+      "exc_class": "EXC2",
+      "konsekvensklasse": "KK2",
       "entreprise_form": "Under DDS Hjortespring Gruppen",
+      "resume": "Fagentreprise Bålsted Herlev. Begrænset dokumentation i udbudsmaterialet.",
+      "ordrevaerdi_dkk": 42000,
+      "dg_pct": 37,
       "fa_missing": false
     },
     {
@@ -282,21 +214,18 @@
       "bt_estimated": true,
       "bt_tier": "M",
       "bt_range": "3.0–7.0t",
-      "exc_class": "EXC2",
-      "konsekvensklasse": "KK2",
+      "steel_desc": "Konstruktionsstål EXC2/KK2, ca. 12 t. Ingen brandmaling. Miljøsanering identificeret. PSS krævet.",
+      "project_type": "EXC2",
       "entreprise": "Fagentreprise",
       "lokation": "Forventet aflevering Entreprise form",
+      "must_win": false,
+      "high_ref": false,
+      "exc_class": "EXC2",
+      "konsekvensklasse": "KK2",
+      "entreprise_form": "Fagentreprise",
       "resume": "Tilbygning/ombygning Krogårdskolen SFO for ASON A/S. Montagestart juli 2026, aflevering april 2027. Elementliste afventer afklaring.",
       "ordrevaerdi_dkk": 1140000,
       "dg_pct": 37,
-      "go_no_go": "GO",
-      "foranalyse_kilde": "T7818_foranalyse.json",
-      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/Jess Andersen/CLAUDE CO WORK/PROJECTS/Foranalyse/output",
-      "steel_desc": "Konstruktionsstål EXC2/KK2, ca. 12 t. Ingen brandmaling. Miljøsanering identificeret. PSS krævet.",
-      "project_type": "EXC2",
-      "must_win": false,
-      "high_ref": false,
-      "entreprise_form": "Fagentreprise",
       "fa_missing": false
     },
     {
@@ -341,22 +270,19 @@
       "bt_estimated": true,
       "bt_tier": "S",
       "bt_range": "1.0–4.0t",
-      "exc_class": "EXC2",
-      "konsekvensklasse": "KK2",
-      "entreprise": "Underentreprise under HVID Entreprise",
-      "lokation": "Ikke oplyst",
-      "resume": "NOV — underentreprise under HVID. Begrænset udbudsmateriale, kun fotos tilgængeligt. Scope skal afklares.",
-      "dg_pct": 36,
-      "go_no_go": "GO",
-      "foranalyse_kilde": "T7810_foranalyse.json",
-      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/Jess Andersen/CLAUDE CO WORK/PROJECTS/Foranalyse/output",
       "steel_scope": 1,
       "steel_desc": "Konstruktionsstål EXC2/KK2 for HVID Entreprise A/S. Minimal synlig scope fra fotos.",
       "project_type": "EXC2",
+      "entreprise": "Underentreprise under HVID Entreprise",
+      "lokation": "Ikke oplyst",
       "is_sister": false,
       "must_win": false,
       "high_ref": false,
+      "exc_class": "EXC2",
+      "konsekvensklasse": "KK2",
       "entreprise_form": "Underentreprise under HVID Entreprise",
+      "resume": "NOV — underentreprise under HVID. Begrænset udbudsmateriale, kun fotos tilgængeligt. Scope skal afklares.",
+      "dg_pct": 36,
       "fa_missing": false
     },
     {
@@ -400,21 +326,17 @@
       "planned_end": "2026-06-11",
       "risk": "🟢",
       "bt_estimated": false,
-      "exc_class": "EXC2",
-      "konsekvensklasse": "KK2",
-      "entreprise": "Fagentreprise",
-      "lokation": "Peder Skrams Gade 16A-C",
-      "resume": "Fagentreprise Peder Skrams Gade 16A-C for Hovedstadens Bygningsentreprise (A-rated, 3% hit). Scope og tonnage ukendt — elementliste afventer Tom's kalkulation.",
-      "bt_tier": "S",
-      "dg_pct": 36,
-      "go_no_go": "GO",
-      "foranalyse_kilde": "T7819_foranalyse.json",
-      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/Jess Andersen/CLAUDE CO WORK/PROJECTS/Foranalyse/output",
       "steel_desc": "Konstruktionsstål EXC2/KK2, tonnage ukendt. DS 1140 krævet. Dagbøder bekræftet.",
       "project_type": "EXC2",
+      "entreprise": "Fagentreprise",
+      "lokation": "Peder Skrams Gade 16A-C",
       "must_win": false,
       "high_ref": false,
+      "exc_class": "EXC2",
+      "konsekvensklasse": "KK2",
       "entreprise_form": "Fagentreprise",
+      "resume": "Fagentreprise Peder Skrams Gade 16A-C for Hovedstadens Bygningsentreprise (A-rated, 3% hit). Scope og tonnage ukendt — elementliste afventer Tom's kalkulation.",
+      "dg_pct": 36,
       "fa_missing": false
     },
     {
@@ -459,20 +381,17 @@
       "bt_estimated": true,
       "bt_tier": "S",
       "bt_range": "1.0–4.0t",
+      "steel_desc": "Konstruktionsstål EXC2/KK2, tonnage ukendt. Ingen brandmaling. Miljøsanering identificeret.",
+      "project_type": "EXC2",
+      "entreprise": "Fagentreprise",
+      "must_win": false,
+      "high_ref": false,
       "exc_class": "EXC2",
       "konsekvensklasse": "KK2",
-      "entreprise": "Fagentreprise",
+      "entreprise_form": "Fagentreprise",
       "resume": "Ståltrappe og gelænder, Asnæsgade, for Tømrer- og Snedkermester Børge Nielsen (A-rated). Lille kalkulation 2,5t. Miljøsanering skal afklares.",
       "ordrevaerdi_dkk": 70000,
       "dg_pct": 37,
-      "go_no_go": "GO",
-      "foranalyse_kilde": "T7821_foranalyse.json",
-      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/Jess Andersen/CLAUDE CO WORK/PROJECTS/Foranalyse/output",
-      "steel_desc": "Konstruktionsstål EXC2/KK2, tonnage ukendt. Ingen brandmaling. Miljøsanering identificeret.",
-      "project_type": "EXC2",
-      "must_win": false,
-      "high_ref": false,
-      "entreprise_form": "Fagentreprise",
       "fa_missing": false
     },
     {
@@ -517,19 +436,16 @@
       "bt_estimated": true,
       "bt_tier": "M",
       "bt_range": "3.0–7.0t",
+      "project_type": "EXC2",
+      "entreprise": "Fagentreprise",
+      "must_win": false,
+      "high_ref": false,
       "exc_class": "EXC2",
       "konsekvensklasse": "KK2",
-      "entreprise": "Fagentreprise",
+      "entreprise_form": "Fagentreprise",
       "resume": "Mængdeestimeret fra udbudsmateriale",
       "ordrevaerdi_dkk": 42000,
       "dg_pct": 37,
-      "go_no_go": "GO_MED_FORBEHOLD",
-      "foranalyse_kilde": "T7824_foranalyse.json",
-      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/Jess Andersen/CLAUDE CO WORK/PROJECTS/Foranalyse/output",
-      "project_type": "EXC2",
-      "must_win": false,
-      "high_ref": false,
-      "entreprise_form": "Fagentreprise",
       "fa_missing": false
     },
     {
@@ -575,18 +491,15 @@
       "bt_estimated": true,
       "bt_tier": "M",
       "bt_range": "3.0–7.0t",
+      "project_type": "EXC2",
+      "entreprise": "Fagentreprise",
+      "must_win": false,
+      "high_ref": false,
       "exc_class": "EXC2",
       "konsekvensklasse": "KK2",
-      "entreprise": "Fagentreprise",
       "resume": "Mængdeestimeret fra udbudsmateriale",
       "ordrevaerdi_dkk": 2679000,
       "dg_pct": 38,
-      "go_no_go": "GO",
-      "foranalyse_kilde": "T7827_foranalyse.json",
-      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/Jess Andersen/CLAUDE CO WORK/PROJECTS/Foranalyse/output",
-      "must_win": false,
-      "high_ref": false,
-      "project_type": "EXC2",
       "fa_missing": false
     },
     {
@@ -631,20 +544,17 @@
       "bt_estimated": true,
       "bt_tier": "M",
       "bt_range": "3.0–7.0t",
-      "exc_class": "EXC2",
-      "konsekvensklasse": "KK2",
+      "project_type": "EXC2",
       "entreprise": "Underentreprise (Smed) u/ Juul & Nielsen A/S (Hovedentreprise)",
       "lokation": "Hovedgaden 584, 2640 Hedehusene",
+      "must_win": false,
+      "high_ref": false,
+      "exc_class": "EXC2",
+      "konsekvensklasse": "KK2",
+      "entreprise_form": "Underentreprise",
       "resume": "Smed-entreprise u/ Juul & Nielsen (HE) til renovering af Rockwool Center 3, Hedehusene. Scope fra tilbudsliste (rev. 04-06-2026): (1) Udvekslinger i dæk/vægge — 5 poster inkl. 4 trappeudvekslinger + ventilationsskakt. (2) Ny bjælker facade-understøtning finger A+B — 4 stk + 36 lbm × 2 + tilpasning eksist. (3) Stålbjælker + trapezpladetag over ventilationshuse — 50 m² × 2 fingre. (4) 4 stk trapper nord/syd finger A+B (inkl. trætrin, akustik og lak). (5) Stålværn langs dækforkanter 15+ lbm.",
       "ordrevaerdi_dkk": 2100000,
       "dg_pct": 38,
-      "go_no_go": "GO",
-      "foranalyse_kilde": "T7825_foranalyse.json",
-      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/Jess Andersen/CLAUDE CO WORK/PROJECTS/Foranalyse/output",
-      "project_type": "EXC2",
-      "must_win": false,
-      "high_ref": false,
-      "entreprise_form": "Underentreprise",
       "fa_missing": false
     },
     {
@@ -689,19 +599,16 @@
       "bt_estimated": true,
       "bt_tier": "S",
       "bt_range": "1.0–4.0t",
+      "project_type": "EXC2",
+      "entreprise": "Fagentreprise",
+      "must_win": false,
+      "high_ref": false,
       "exc_class": "EXC2",
       "konsekvensklasse": "KK2",
-      "entreprise": "Fagentreprise",
+      "entreprise_form": "Fagentreprise",
       "resume": "Mængdeestimeret fra udbudsmateriale",
       "ordrevaerdi_dkk": 237000,
       "dg_pct": 39,
-      "go_no_go": "GO",
-      "foranalyse_kilde": "T7826_foranalyse.json",
-      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/Jess Andersen/CLAUDE CO WORK/PROJECTS/Foranalyse/output",
-      "project_type": "EXC2",
-      "must_win": false,
-      "high_ref": false,
-      "entreprise_form": "Fagentreprise",
       "fa_missing": false
     },
     {
@@ -746,20 +653,17 @@
       "bt_estimated": true,
       "bt_tier": "M",
       "bt_range": "3.0–7.0t",
-      "exc_class": "EXC1",
-      "konsekvensklasse": "KK1",
+      "project_type": "EXC1",
       "entreprise": "Underentreprise u/ LHG Tømrer A/S",
       "lokation": "Ikke oplyst",
+      "must_win": false,
+      "high_ref": false,
+      "exc_class": "EXC1",
+      "konsekvensklasse": "KK1",
+      "entreprise_form": "Underentreprise",
       "resume": "Underentreprise u/ LHG Tømrer — 3 leverancer til gavlskakter: (1) 7 stk to-delte inspektionslemme i børstet rustfrit stål, 800×900 mm, med låsemekanisme + 3 nøgler pr. sæt. (2) 7 stk ventilationsriste, stålramme + korrosionsbestandigt metalnet, 240×200 mm. (3) 7 stk topafdækning/låg 1500×300 mm med drypnæse og skjulte fastgørelser.",
       "ordrevaerdi_dkk": 120000,
       "dg_pct": 38,
-      "go_no_go": "GO_FORBEHOLD",
-      "foranalyse_kilde": "T7829_foranalyse.json",
-      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/Jess Andersen/CLAUDE CO WORK/PROJECTS/Foranalyse/output",
-      "project_type": "EXC1",
-      "must_win": false,
-      "high_ref": false,
-      "entreprise_form": "Underentreprise",
       "fa_missing": false
     },
     {
@@ -805,20 +709,17 @@
       "bt_estimated": true,
       "bt_tier": "M",
       "bt_range": "3.0–7.0t",
-      "exc_class": "EXC2",
-      "konsekvensklasse": "KK2",
+      "project_type": "EXC2",
       "entreprise": "Fagentreprise u/ Lauritz Hannibal ApS",
       "lokation": "Tobaksvejen 25, 2860 Søborg",
+      "must_win": false,
+      "high_ref": false,
+      "exc_class": "EXC2",
+      "konsekvensklasse": "KK2",
+      "entreprise_form": "Fagentreprise",
       "resume": "Fagentreprise stålkonstruktion, Tobaksvejen 25, Søborg (proj.nr. 2607). Udbudsmateriale inkl. statiske beregninger for betondæk (A2.2-1), stålkonstruktion (A2.2-2) og fundamenter (A2.2-3). KK2 kontrol med udvidet 10% kontrol (uafhængig kontrollant: WenKon). PSS krævet.",
       "ordrevaerdi_dkk": 1500000,
       "dg_pct": 37,
-      "go_no_go": "GO_FORBEHOLD",
-      "foranalyse_kilde": "T7830_foranalyse.json",
-      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/Jess Andersen/CLAUDE CO WORK/PROJECTS/Foranalyse/output",
-      "project_type": "EXC2",
-      "must_win": false,
-      "high_ref": false,
-      "entreprise_form": "Fagentreprise",
       "fa_missing": false
     },
     {
@@ -1140,7 +1041,9 @@
       "bt_range": "3.0–7.0t",
       "must_win": false,
       "high_ref": false,
-      "fa_missing": true
+      "fa_missing": true,
+      "ordrevaerdi_dkk": 42000,
+      "dg_pct": 37
     },
     {
       "tilbudsnr": "T7860",
@@ -1190,9 +1093,9 @@
       "fa_missing": true,
       "_ja_decision": {
         "tracker_end": "2026-06-16",
-        "excel_finish": "2026-06-12",
-        "days_saved": 4,
-        "reason": "Tracker OK men Excel er 4d hurtigere"
+        "excel_finish": "2026-06-11",
+        "days_saved": 5,
+        "reason": "Tracker OK men Excel er 5d hurtigere"
       }
     },
     {
@@ -1240,7 +1143,13 @@
       "bt_range": "3.0–7.0t",
       "must_win": false,
       "high_ref": false,
-      "fa_missing": true
+      "fa_missing": true,
+      "_ja_decision": {
+        "tracker_end": "2026-06-19",
+        "excel_finish": "2026-06-17",
+        "days_saved": 2,
+        "reason": "Tracker OK men Excel er 2d hurtigere"
+      }
     },
     {
       "tilbudsnr": "T7861",
@@ -1374,82 +1283,7 @@
     }
   ],
   "schedule": {
-    "2026-05-22": [
-      {
-        "tilbudsnr": "T7753",
-        "hours": 0,
-        "is_sister_display": true
-      },
-      {
-        "tilbudsnr": "T7747",
-        "hours": 0,
-        "is_sister_display": true
-      }
-    ],
-    "2026-05-28": [
-      {
-        "tilbudsnr": "T7789",
-        "hours": 0,
-        "is_sister_display": true
-      },
-      {
-        "tilbudsnr": "T7764",
-        "hours": 0,
-        "is_sister_display": true
-      },
-      {
-        "tilbudsnr": "T7779",
-        "hours": 0,
-        "is_sister_display": true
-      }
-    ],
-    "2026-05-29": [
-      {
-        "tilbudsnr": "T7824",
-        "hours": 5.0
-      }
-    ],
-    "2026-06-01": [
-      {
-        "tilbudsnr": "T7822",
-        "hours": 2.5
-      },
-      {
-        "tilbudsnr": "T7824",
-        "hours": 5.0
-      }
-    ],
-    "2026-06-02": [
-      {
-        "tilbudsnr": "T7825",
-        "hours": 5.0
-      }
-    ],
-    "2026-06-03": [
-      {
-        "tilbudsnr": "T7825",
-        "hours": 5.0
-      }
-    ],
-    "2026-06-04": [
-      {
-        "tilbudsnr": "T7829",
-        "hours": 5.0
-      },
-      {
-        "tilbudsnr": "T7830",
-        "hours": 2.5
-      },
-      {
-        "tilbudsnr": "T7826",
-        "hours": 2.5
-      }
-    ],
     "2026-06-08": [
-      {
-        "tilbudsnr": "T7822",
-        "hours": 2.5
-      },
       {
         "tilbudsnr": "T7817",
         "hours": 5.0
@@ -2028,16 +1862,16 @@
   },
   "sister_groups": {},
   "meta": {
-    "generated": "2026-06-11 12:05",
+    "generated": "2026-06-11 11:24",
     "source": "E-regnskab API + tracker merge (pipeline.py)",
-    "active_count": 25,
+    "active_count": 24,
     "afsendt_count": 5,
-    "removed_count": 0,
-    "ghost_removed": 0,
-    "merged_at": "2026-06-11 12:05",
-    "planner_version": "2026-06-11 09:12",
-    "push_validated": "2026-06-11 12:05",
-    "push_count": 25,
+    "removed_count": 1,
+    "ghost_removed": 1,
+    "merged_at": "2026-06-11 11:24",
+    "planner_version": "2026-06-11 12:05",
+    "push_validated": "2026-06-11 11:24",
+    "push_count": 24,
     "push_warnings": []
   }
 }
