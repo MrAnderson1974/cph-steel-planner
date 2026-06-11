@@ -496,9 +496,9 @@
       "ja_transfer": false,
       "startdato": "2026-08-03",
       "slutdato": "2027-10-01",
-      "deadline": "2026-06-02",
+      "deadline": "2026-06-18",
       "oprettet": "2026-06-02",
-      "sidst_aendret": "2026-06-02",
+      "sidst_aendret": "2026-06-11",
       "beregnertid": 5.0,
       "bt_source": null,
       "rating_erp": null,
@@ -519,8 +519,11 @@
       "rating": "B",
       "rating_score": 55.07772680937819,
       "kunde_grade": "B",
-      "scheduled_days": [],
-      "planned_end": null,
+      "scheduled_days": [
+        "2026-06-12",
+        "2026-06-16"
+      ],
+      "planned_end": "2026-06-16",
       "risk": "⚪",
       "bt_estimated": true,
       "bt_tier": "M",
@@ -995,14 +998,17 @@
       "rating": "Ny",
       "rating_score": null,
       "kunde_grade": null,
-      "scheduled_days": [],
-      "planned_end": null,
+      "scheduled_days": [
+        "2026-06-18",
+        "2026-06-19"
+      ],
+      "planned_end": "2026-06-19",
       "risk": "⚪",
-      "must_win": false,
-      "high_ref": false,
       "bt_estimated": true,
       "bt_tier": "M",
-      "bt_range": "3.0–7.0t"
+      "bt_range": "3.0–7.0t",
+      "must_win": false,
+      "high_ref": false
     },
     {
       "tilbudsnr": "T7856",
@@ -1037,6 +1043,221 @@
       "rating": "Ny",
       "rating_score": null,
       "kunde_grade": null,
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "bt_estimated": true,
+      "bt_tier": "M",
+      "bt_range": "3.0–7.0t",
+      "must_win": false,
+      "high_ref": false
+    },
+    {
+      "tilbudsnr": "T7860",
+      "tilbudsnavn": "Bank Mikkelsens Vej 11",
+      "kundenavn": "CH BYG A/S",
+      "kundenummer": "2385",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 49884,
+      "ja_transfer": true,
+      "startdato": "2026-08-10",
+      "slutdato": "2026-10-16",
+      "deadline": "2026-06-16",
+      "oprettet": "2026-06-11",
+      "sidst_aendret": "2026-06-11",
+      "beregnertid": 5.0,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3501537,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "B",
+      "rating_score": 54.03971511347176,
+      "kunde_grade": "B",
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "must_win": false,
+      "high_ref": false,
+      "bt_estimated": true,
+      "bt_tier": "M",
+      "bt_range": "3.0–7.0t"
+    },
+    {
+      "tilbudsnr": "T7858",
+      "tilbudsnavn": "Birkebo afd. 06",
+      "kundenavn": "Glarmestrene Stig & Jesper ApS",
+      "kundenummer": "2183",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "ja_transfer": false,
+      "startdato": "2026-06-11",
+      "slutdato": "2026-07-11",
+      "deadline": "2026-06-19",
+      "oprettet": "2026-06-11",
+      "sidst_aendret": "2026-06-11",
+      "beregnertid": 5.0,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3501433,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "Ny",
+      "rating_score": null,
+      "kunde_grade": null,
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "must_win": false,
+      "high_ref": false,
+      "bt_estimated": true,
+      "bt_tier": "M",
+      "bt_range": "3.0–7.0t"
+    },
+    {
+      "tilbudsnr": "T7861",
+      "tilbudsnavn": "Ombygning af Rådhusbuen 1B",
+      "kundenavn": "NÅR A/S",
+      "kundenummer": "2471",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 49884,
+      "ja_transfer": true,
+      "startdato": "2026-06-11",
+      "slutdato": "2026-07-11",
+      "deadline": "2026-07-02",
+      "oprettet": "2026-06-11",
+      "sidst_aendret": "2026-06-11",
+      "beregnertid": 5.0,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3501547,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "C",
+      "rating_score": 51.10842856376415,
+      "kunde_grade": "C",
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "must_win": false,
+      "high_ref": false,
+      "bt_estimated": true,
+      "bt_tier": "M",
+      "bt_range": "3.0–7.0t"
+    },
+    {
+      "tilbudsnr": "T7857",
+      "tilbudsnavn": "Overdækning til topsø",
+      "kundenavn": "SEGA BYG ApS",
+      "kundenummer": "1928",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "ja_transfer": false,
+      "startdato": "2026-06-11",
+      "slutdato": "2026-07-11",
+      "deadline": "2026-06-25",
+      "oprettet": "2026-06-11",
+      "sidst_aendret": "2026-06-11",
+      "beregnertid": 5.0,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3501419,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "C",
+      "rating_score": 46.99293148774076,
+      "kunde_grade": "C",
+      "scheduled_days": [],
+      "planned_end": null,
+      "risk": "⚪",
+      "must_win": false,
+      "high_ref": false,
+      "bt_estimated": true,
+      "bt_tier": "M",
+      "bt_range": "3.0–7.0t"
+    },
+    {
+      "tilbudsnr": "T7859",
+      "tilbudsnavn": "Rødkilde skole",
+      "kundenavn": "CH BYG A/S",
+      "kundenummer": "2385",
+      "kontaktperson": "",
+      "tilbudsansvarlig": "Tom Larsen",
+      "tilbudsansvarlig_id": 15940,
+      "ja_transfer": false,
+      "startdato": "2026-06-29",
+      "slutdato": "2026-12-31",
+      "deadline": "2026-06-15",
+      "oprettet": "2026-06-11",
+      "sidst_aendret": "2026-06-11",
+      "beregnertid": 5.0,
+      "bt_source": null,
+      "rating_erp": null,
+      "tags": [
+        "#Skabelon",
+        "#Exc2",
+        "#ds1140"
+      ],
+      "kategori_id": null,
+      "beskrivelse": "",
+      "kostpris": 0.0,
+      "salgspris": 0.0,
+      "hn_offer_id": 3501523,
+      "custom_field1": null,
+      "custom_field2": null,
+      "custom_field3": "",
+      "deadline_source": "opfølgningsdato",
+      "rating": "B",
+      "rating_score": 54.03971511347176,
+      "kunde_grade": "B",
       "scheduled_days": [],
       "planned_end": null,
       "risk": "⚪",
@@ -1216,15 +1437,27 @@
         "hours": 2.5
       },
       {
-        "tilbudsnr": "T7855",
-        "hours": 5.0
+        "tilbudsnr": "T7860",
+        "hours": 2.5
       },
       {
         "tilbudsnr": "T7819",
         "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7859",
+        "hours": 5.0
       }
     ],
     "2026-06-12": [
+      {
+        "tilbudsnr": "T7860",
+        "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7827",
+        "hours": 2.5
+      },
       {
         "tilbudsnr": "T7847",
         "hours": 2.5
@@ -1240,11 +1473,49 @@
     ],
     "2026-06-16": [
       {
+        "tilbudsnr": "T7858",
+        "hours": 2.5
+      },
+      {
         "tilbudsnr": "T7809",
         "hours": 2.5
       },
       {
+        "tilbudsnr": "T7827",
+        "hours": 2.5
+      },
+      {
         "tilbudsnr": "T7835",
+        "hours": 2.5
+      }
+    ],
+    "2026-06-17": [
+      {
+        "tilbudsnr": "T7858",
+        "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7861",
+        "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7857",
+        "hours": 5.0
+      }
+    ],
+    "2026-06-18": [
+      {
+        "tilbudsnr": "T7855",
+        "hours": 2.5
+      },
+      {
+        "tilbudsnr": "T7861",
+        "hours": 2.5
+      }
+    ],
+    "2026-06-19": [
+      {
+        "tilbudsnr": "T7855",
         "hours": 2.5
       }
     ]
@@ -1709,16 +1980,16 @@
     ]
   },
   "meta": {
-    "generated": "2026-06-11 07:29",
+    "generated": "2026-06-11 08:20",
     "source": "E-regnskab API + tracker merge (pipeline.py)",
-    "active_count": 21,
+    "active_count": 26,
     "afsendt_count": 5,
-    "removed_count": 7,
-    "ghost_removed": 8,
-    "merged_at": "2026-06-11 07:29",
-    "planner_version": "2026-06-10 12:05",
-    "push_validated": "2026-06-11 07:29",
-    "push_count": 21,
+    "removed_count": 0,
+    "ghost_removed": 0,
+    "merged_at": "2026-06-11 08:20",
+    "planner_version": "2026-06-11 07:29",
+    "push_validated": "2026-06-11 08:20",
+    "push_count": 26,
     "push_warnings": []
   }
 }
