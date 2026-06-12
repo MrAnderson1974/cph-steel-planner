@@ -921,9 +921,9 @@
       "go_no_go": "GO_MED_FORBEHOLD",
       "foranalyse_kilde": "T7846_foranalyse.json",
       "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/Jess Andersen/CLAUDE CO WORK/PROJECTS/Foranalyse/output",
+      "project_type": "EXC2",
       "must_win": false,
       "high_ref": false,
-      "project_type": "EXC2",
       "fa_missing": false,
       "ja_pinned": false
     },
@@ -1418,6 +1418,11 @@
       "must_win": false,
       "high_ref": false,
       "fa_missing": true,
+      "is_master": true,
+      "is_sister": false,
+      "sisters": [
+        "T7867"
+      ],
       "ja_pinned": false
     },
     {
@@ -1434,7 +1439,7 @@
       "deadline": "2026-07-01",
       "oprettet": "2026-06-12",
       "sidst_aendret": "2026-06-12",
-      "beregnertid": 5.0,
+      "beregnertid": 0,
       "bt_source": null,
       "rating_erp": null,
       "tags": [
@@ -1460,12 +1465,16 @@
       ],
       "planned_end": "2026-06-29",
       "risk": "⚪",
-      "bt_estimated": true,
-      "bt_tier": "M",
+      "bt_estimated": false,
+      "bt_tier": "søster",
       "bt_range": "3.0–7.0t",
       "must_win": false,
       "high_ref": false,
       "fa_missing": true,
+      "is_sister": true,
+      "is_master": false,
+      "master_nr": "T7866",
+      "sister_group": "override_T7866",
       "ja_pinned": false
     }
   ],
@@ -1633,34 +1642,24 @@
         "hours": 3.5
       },
       {
-        "tilbudsnr": "T7867",
+        "tilbudsnr": "T7861",
         "hours": 0.4
       }
     ],
     "2026-06-29": [
       {
-        "tilbudsnr": "T7867",
+        "tilbudsnr": "T7861",
         "hours": 4.6
       },
       {
-        "tilbudsnr": "T7861",
+        "tilbudsnr": "T7855",
         "hours": 1.8
       }
     ],
     "2026-06-30": [
       {
-        "tilbudsnr": "T7861",
-        "hours": 3.2
-      },
-      {
         "tilbudsnr": "T7855",
         "hours": 3.2
-      }
-    ],
-    "2026-07-01": [
-      {
-        "tilbudsnr": "T7855",
-        "hours": 1.8
       },
       {
         "tilbudsnr": "T7821",
@@ -1668,17 +1667,23 @@
       },
       {
         "tilbudsnr": "T7835",
-        "hours": 2.1
+        "hours": 0.7
       }
     ],
-    "2026-07-02": [
+    "2026-07-01": [
       {
         "tilbudsnr": "T7809",
         "hours": 2.5
       },
       {
         "tilbudsnr": "T7835",
-        "hours": 2.9
+        "hours": 3.9
+      }
+    ],
+    "2026-07-02": [
+      {
+        "tilbudsnr": "T7835",
+        "hours": 0.4
       }
     ],
     "2026-07-03": [
@@ -2420,15 +2425,15 @@
   },
   "sister_groups": {},
   "meta": {
-    "generated": "2026-06-12 12:55",
+    "generated": "2026-06-12 14:22",
     "source": "E-regnskab API + tracker merge (pipeline.py)",
     "active_count": 27,
     "afsendt_count": 5,
     "removed_count": 0,
     "ghost_removed": 49,
-    "merged_at": "2026-06-12 12:55",
-    "planner_version": "2026-06-12 12:35",
-    "push_validated": "2026-06-12 12:55",
+    "merged_at": "2026-06-12 14:22",
+    "planner_version": "2026-06-12 12:55",
+    "push_validated": "2026-06-12 14:22",
     "push_count": 27,
     "push_warnings": []
   }
