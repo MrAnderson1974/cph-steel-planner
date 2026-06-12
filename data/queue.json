@@ -59,7 +59,8 @@
       "must_win": false,
       "high_ref": false,
       "entreprise_form": "Under Lars Phoenix",
-      "fa_missing": false
+      "fa_missing": false,
+      "ja_pinned": false
     },
     {
       "tilbudsnr": "T7817",
@@ -118,7 +119,8 @@
       "must_win": false,
       "high_ref": false,
       "entreprise_form": "Fagentreprise",
-      "fa_missing": false
+      "fa_missing": false,
+      "ja_pinned": false
     },
     {
       "tilbudsnr": "T7809",
@@ -179,7 +181,8 @@
       "must_win": false,
       "high_ref": false,
       "entreprise_form": "Under DDS Hjortespring Gruppen",
-      "fa_missing": false
+      "fa_missing": false,
+      "ja_pinned": false
     },
     {
       "tilbudsnr": "T7818",
@@ -238,7 +241,8 @@
       "must_win": false,
       "high_ref": false,
       "entreprise_form": "Fagentreprise",
-      "fa_missing": false
+      "fa_missing": false,
+      "ja_pinned": false
     },
     {
       "tilbudsnr": "T7810",
@@ -298,7 +302,8 @@
       "must_win": false,
       "high_ref": false,
       "entreprise_form": "Underentreprise under HVID Entreprise",
-      "fa_missing": false
+      "fa_missing": false,
+      "ja_pinned": false
     },
     {
       "tilbudsnr": "T7819",
@@ -356,7 +361,8 @@
       "must_win": false,
       "high_ref": false,
       "entreprise_form": "Fagentreprise",
-      "fa_missing": false
+      "fa_missing": false,
+      "ja_pinned": true
     },
     {
       "tilbudsnr": "T7821",
@@ -414,7 +420,8 @@
       "must_win": false,
       "high_ref": false,
       "entreprise_form": "Fagentreprise",
-      "fa_missing": false
+      "fa_missing": false,
+      "ja_pinned": false
     },
     {
       "tilbudsnr": "T7824",
@@ -471,7 +478,8 @@
       "must_win": false,
       "high_ref": false,
       "entreprise_form": "Fagentreprise",
-      "fa_missing": false
+      "fa_missing": false,
+      "ja_pinned": false
     },
     {
       "tilbudsnr": "T7827",
@@ -528,7 +536,8 @@
       "project_type": "EXC2",
       "must_win": false,
       "high_ref": false,
-      "fa_missing": false
+      "fa_missing": false,
+      "ja_pinned": false
     },
     {
       "tilbudsnr": "T7825",
@@ -586,7 +595,8 @@
       "must_win": false,
       "high_ref": false,
       "entreprise_form": "Underentreprise",
-      "fa_missing": false
+      "fa_missing": false,
+      "ja_pinned": true
     },
     {
       "tilbudsnr": "T7826",
@@ -643,7 +653,8 @@
       "must_win": false,
       "high_ref": false,
       "entreprise_form": "Fagentreprise",
-      "fa_missing": false
+      "fa_missing": false,
+      "ja_pinned": false
     },
     {
       "tilbudsnr": "T7829",
@@ -701,7 +712,8 @@
       "must_win": false,
       "high_ref": false,
       "entreprise_form": "Underentreprise",
-      "fa_missing": false
+      "fa_missing": false,
+      "ja_pinned": false
     },
     {
       "tilbudsnr": "T7830",
@@ -760,7 +772,8 @@
       "must_win": false,
       "high_ref": false,
       "entreprise_form": "Fagentreprise",
-      "fa_missing": false
+      "fa_missing": false,
+      "ja_pinned": false
     },
     {
       "tilbudsnr": "T7837",
@@ -806,7 +819,8 @@
       "bt_range": "3.0–7.0t",
       "must_win": false,
       "high_ref": false,
-      "fa_missing": true
+      "fa_missing": true,
+      "ja_pinned": false
     },
     {
       "tilbudsnr": "T7835",
@@ -853,7 +867,8 @@
       "bt_range": "3.0–7.0t",
       "must_win": false,
       "high_ref": false,
-      "fa_missing": true
+      "fa_missing": true,
+      "ja_pinned": false
     },
     {
       "tilbudsnr": "T7846",
@@ -870,7 +885,7 @@
       "oprettet": "2026-06-10",
       "sidst_aendret": "2026-06-10",
       "beregnertid": 5.0,
-      "bt_source": null,
+      "bt_source": "foranalyse_json",
       "rating_erp": null,
       "tags": [
         "#Skabelon",
@@ -897,9 +912,20 @@
       "bt_estimated": true,
       "bt_tier": "M",
       "bt_range": "3.0–7.0t",
+      "exc_class": "EXC2",
+      "konsekvensklasse": "KK2",
+      "entreprise": "Fagentreprise",
+      "resume": "Mængdeestimeret fra udbudsmateriale",
+      "ordrevaerdi_dkk": 42000,
+      "dg_pct": 37,
+      "go_no_go": "GO_MED_FORBEHOLD",
+      "foranalyse_kilde": "T7846_foranalyse.json",
+      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/Jess Andersen/CLAUDE CO WORK/PROJECTS/Foranalyse/output",
       "must_win": false,
       "high_ref": false,
-      "fa_missing": true
+      "project_type": "EXC2",
+      "fa_missing": false,
+      "ja_pinned": false
     },
     {
       "tilbudsnr": "T7847",
@@ -945,7 +971,8 @@
       "bt_range": "1.0–4.0t",
       "must_win": false,
       "high_ref": false,
-      "fa_missing": true
+      "fa_missing": true,
+      "ja_pinned": false
     },
     {
       "tilbudsnr": "T7853",
@@ -991,7 +1018,8 @@
       "bt_range": "3.0–7.0t",
       "must_win": false,
       "high_ref": false,
-      "fa_missing": true
+      "fa_missing": true,
+      "ja_pinned": false
     },
     {
       "tilbudsnr": "T7855",
@@ -1038,7 +1066,8 @@
       "bt_range": "3.0–7.0t",
       "must_win": false,
       "high_ref": false,
-      "fa_missing": true
+      "fa_missing": true,
+      "ja_pinned": false
     },
     {
       "tilbudsnr": "T7856",
@@ -1091,7 +1120,8 @@
       "project_type": "EXC2",
       "must_win": false,
       "high_ref": false,
-      "fa_missing": false
+      "fa_missing": false,
+      "ja_pinned": false
     },
     {
       "tilbudsnr": "T7860",
@@ -1145,10 +1175,11 @@
       "go_no_go": "GO_MED_FORBEHOLD",
       "foranalyse_kilde": "T7860_foranalyse.json",
       "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/Jess Andersen/CLAUDE CO WORK/PROJECTS/Foranalyse/output",
+      "project_type": "EXC2",
       "must_win": false,
       "high_ref": false,
-      "project_type": "EXC2",
-      "fa_missing": false
+      "fa_missing": false,
+      "ja_pinned": false
     },
     {
       "tilbudsnr": "T7858",
@@ -1195,7 +1226,8 @@
       "bt_range": "3.0–7.0t",
       "must_win": false,
       "high_ref": false,
-      "fa_missing": true
+      "fa_missing": true,
+      "ja_pinned": false
     },
     {
       "tilbudsnr": "T7861",
@@ -1241,7 +1273,8 @@
       "bt_range": "3.0–7.0t",
       "must_win": false,
       "high_ref": false,
-      "fa_missing": true
+      "fa_missing": true,
+      "ja_pinned": false
     },
     {
       "tilbudsnr": "T7857",
@@ -1288,7 +1321,8 @@
       "bt_range": "3.0–7.0t",
       "must_win": false,
       "high_ref": false,
-      "fa_missing": true
+      "fa_missing": true,
+      "ja_pinned": false
     },
     {
       "tilbudsnr": "T7862",
@@ -1335,7 +1369,8 @@
       "bt_range": "3.0–7.0t",
       "must_win": false,
       "high_ref": false,
-      "fa_missing": true
+      "fa_missing": true,
+      "ja_pinned": false
     },
     {
       "tilbudsnr": "T7866",
@@ -1382,7 +1417,8 @@
       "bt_range": "3.0–7.0t",
       "must_win": false,
       "high_ref": false,
-      "fa_missing": true
+      "fa_missing": true,
+      "ja_pinned": false
     },
     {
       "tilbudsnr": "T7867",
@@ -1429,7 +1465,8 @@
       "bt_range": "3.0–7.0t",
       "must_win": false,
       "high_ref": false,
-      "fa_missing": true
+      "fa_missing": true,
+      "ja_pinned": false
     }
   ],
   "afsendt": [
@@ -1472,27 +1509,27 @@
   "schedule": {
     "2026-06-12": [
       {
-        "tilbudsnr": "T7860",
+        "tilbudsnr": "T7819",
         "hours": 5.0
       },
       {
-        "tilbudsnr": "T7862",
+        "tilbudsnr": "T7825",
         "hours": 1.4
       }
     ],
     "2026-06-15": [
       {
-        "tilbudsnr": "T7862",
+        "tilbudsnr": "T7825",
         "hours": 3.6
       },
       {
-        "tilbudsnr": "T7818",
+        "tilbudsnr": "T7860",
         "hours": 2.8
       }
     ],
     "2026-06-16": [
       {
-        "tilbudsnr": "T7818",
+        "tilbudsnr": "T7860",
         "hours": 2.2
       },
       {
@@ -2383,15 +2420,15 @@
   },
   "sister_groups": {},
   "meta": {
-    "generated": "2026-06-12 12:35",
+    "generated": "2026-06-12 12:55",
     "source": "E-regnskab API + tracker merge (pipeline.py)",
     "active_count": 27,
     "afsendt_count": 5,
     "removed_count": 0,
-    "ghost_removed": 0,
-    "merged_at": "2026-06-12 12:35",
-    "planner_version": "2026-06-12 12:05",
-    "push_validated": "2026-06-12 12:35",
+    "ghost_removed": 49,
+    "merged_at": "2026-06-12 12:55",
+    "planner_version": "2026-06-12 12:35",
+    "push_validated": "2026-06-12 12:55",
     "push_count": 27,
     "push_warnings": []
   }
