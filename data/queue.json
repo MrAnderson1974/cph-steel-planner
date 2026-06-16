@@ -2369,15 +2369,15 @@
   },
   "sister_groups": {},
   "meta": {
-    "generated": "2026-06-16 11:28",
+    "generated": "2026-06-16 11:30",
     "source": "E-regnskab API + tracker merge (pipeline.py)",
     "active_count": 25,
     "afsendt_count": 5,
     "removed_count": 0,
     "ghost_removed": 57,
-    "merged_at": "2026-06-16 11:28",
-    "planner_version": "2026-06-16 11:25",
-    "push_validated": "2026-06-16 11:28",
+    "merged_at": "2026-06-16 11:30",
+    "planner_version": "2026-06-16 11:28",
+    "push_validated": "2026-06-16 11:30",
     "push_count": 25,
     "push_warnings": []
   }
