@@ -66,69 +66,6 @@
       "gul_pris": false
     },
     {
-      "tilbudsnr": "T7817",
-      "tilbudsnavn": "Bjergbakkevej 7",
-      "kundenavn": "Troels Bastrup",
-      "kundenummer": "",
-      "kontaktperson": "",
-      "tilbudsansvarlig": "Tom Larsen",
-      "tilbudsansvarlig_id": 15940,
-      "ja_transfer": false,
-      "startdato": "2026-05-26",
-      "slutdato": "2026-06-26",
-      "deadline": "2026-06-18",
-      "oprettet": "2026-05-26",
-      "sidst_aendret": "2026-05-27",
-      "beregnertid": 5.0,
-      "bt_source": "foranalyse_json",
-      "rating_erp": null,
-      "tags": [
-        "#Skabelon",
-        "#Exc2",
-        "#ds1140"
-      ],
-      "kategori_id": null,
-      "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
-      "hn_offer_id": 3470053,
-      "custom_field1": null,
-      "custom_field2": null,
-      "custom_field3": "",
-      "deadline_source": "opfølgningsdato",
-      "rating": "Ny",
-      "rating_score": null,
-      "kunde_grade": null,
-      "scheduled_days": [
-        "2026-06-08"
-      ],
-      "planned_end": "2026-06-08",
-      "risk": "🟢",
-      "bt_estimated": true,
-      "bt_tier": "M",
-      "bt_range": "3.0–7.0t",
-      "exc_class": "EXC2",
-      "konsekvensklasse": "KK2",
-      "entreprise": "Direkte leverance (fremstilling + levering, ingen montage)",
-      "lokation": "Bjergbakkevej 7, 2600 Glostrup",
-      "resume": "Ny bærende bjælke i eksisterende bygning for privat bygherre via tømmermester Troels Bastrup. Simpel leverance — afklar måltjek og brandmaling REI 60.",
-      "ordrevaerdi_dkk": 75000,
-      "dg_pct": 38,
-      "go_no_go": "GO",
-      "foranalyse_kilde": "T7817_foranalyse.json",
-      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/Jess Andersen/CLAUDE CO WORK/PROJECTS/Foranalyse/output",
-      "steel_desc": "2 × HE160B (~0,5 t), EXC2/KK2. Brandmaling REI 60. Direkte leverance uden montage.",
-      "project_type": "EXC2",
-      "must_win": false,
-      "high_ref": false,
-      "entreprise_form": "Fagentreprise",
-      "fa_missing": false,
-      "naerhed": false,
-      "chance_score": 1,
-      "ja_pinned": false,
-      "gul_pris": true
-    },
-    {
       "tilbudsnr": "T7809",
       "tilbudsnavn": "Bålsted Herlev",
       "kundenavn": "DDS Hjortespring Gruppe",
@@ -445,67 +382,6 @@
       "gul_pris": false
     },
     {
-      "tilbudsnr": "T7824",
-      "tilbudsnavn": "saga byg",
-      "kundenavn": "SAGA BYG APS",
-      "kundenummer": "",
-      "kontaktperson": "",
-      "tilbudsansvarlig": "Tom Larsen",
-      "tilbudsansvarlig_id": 15940,
-      "ja_transfer": false,
-      "startdato": "2026-07-14",
-      "slutdato": "2026-08-18",
-      "deadline": "2026-06-18",
-      "oprettet": "2026-05-29",
-      "sidst_aendret": "2026-05-29",
-      "beregnertid": 5.0,
-      "bt_source": "foranalyse_json",
-      "rating_erp": null,
-      "tags": [
-        "#Skabelon",
-        "#Exc2",
-        "#ds1140"
-      ],
-      "kategori_id": null,
-      "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
-      "hn_offer_id": 3479144,
-      "custom_field1": null,
-      "custom_field2": null,
-      "custom_field3": "",
-      "deadline_source": "opfølgningsdato",
-      "rating": "Ny",
-      "rating_score": null,
-      "kunde_grade": null,
-      "scheduled_days": [
-        "2026-06-01"
-      ],
-      "planned_end": "2026-06-01",
-      "risk": "⚪",
-      "bt_estimated": true,
-      "bt_tier": "M",
-      "bt_range": "3.0–7.0t",
-      "exc_class": "EXC2",
-      "konsekvensklasse": "KK2",
-      "entreprise": "Fagentreprise",
-      "resume": "Mængdeestimeret fra udbudsmateriale",
-      "ordrevaerdi_dkk": 42000,
-      "dg_pct": 37,
-      "go_no_go": "GO_MED_FORBEHOLD",
-      "foranalyse_kilde": "T7824_foranalyse.json",
-      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/Jess Andersen/CLAUDE CO WORK/PROJECTS/Foranalyse/output",
-      "project_type": "EXC2",
-      "must_win": false,
-      "high_ref": false,
-      "entreprise_form": "Fagentreprise",
-      "fa_missing": false,
-      "naerhed": false,
-      "chance_score": 1,
-      "ja_pinned": false,
-      "gul_pris": false
-    },
-    {
       "tilbudsnr": "T7825",
       "tilbudsnavn": "Renovering og ombygning C3",
       "kundenavn": "Juul & Nielsen A/S",
@@ -562,12 +438,6 @@
       "high_ref": false,
       "entreprise_form": "Underentreprise",
       "fa_missing": false,
-      "_ja_decision": {
-        "tracker_end": "2026-06-23",
-        "excel_finish": "2026-06-19",
-        "days_saved": 4,
-        "reason": "Tracker OK men Excel er 4d hurtigere"
-      },
       "naerhed": true,
       "chance_score": 6,
       "ja_pinned": true,
@@ -1070,57 +940,6 @@
       "gul_pris": false
     },
     {
-      "tilbudsnr": "T7857",
-      "tilbudsnavn": "Overdækning til topsø",
-      "kundenavn": "SEGA BYG ApS",
-      "kundenummer": "1928",
-      "kontaktperson": "",
-      "tilbudsansvarlig": "Tom Larsen",
-      "tilbudsansvarlig_id": 15940,
-      "ja_transfer": false,
-      "startdato": "2026-06-11",
-      "slutdato": "2026-07-11",
-      "deadline": "2026-06-25",
-      "oprettet": "2026-06-11",
-      "sidst_aendret": "2026-06-11",
-      "beregnertid": 5.0,
-      "bt_source": null,
-      "rating_erp": null,
-      "tags": [
-        "#Skabelon",
-        "#Exc2",
-        "#ds1140"
-      ],
-      "kategori_id": null,
-      "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
-      "hn_offer_id": 3501419,
-      "custom_field1": null,
-      "custom_field2": null,
-      "custom_field3": "",
-      "deadline_source": "opfølgningsdato",
-      "rating": "C",
-      "rating_score": 46.99293148774076,
-      "kunde_grade": "C",
-      "scheduled_days": [
-        "2026-06-16",
-        "2026-06-17"
-      ],
-      "planned_end": "2026-06-25",
-      "risk": "⚪",
-      "bt_estimated": true,
-      "bt_tier": "M",
-      "bt_range": "3.0–7.0t",
-      "must_win": false,
-      "high_ref": false,
-      "fa_missing": true,
-      "naerhed": false,
-      "chance_score": 1,
-      "ja_pinned": false,
-      "gul_pris": false
-    },
-    {
       "tilbudsnr": "T7862",
       "tilbudsnavn": "Egtoftevej 11",
       "kundenavn": "Clarke Entreprise ApS",
@@ -1486,6 +1305,12 @@
       "must_win": false,
       "high_ref": false,
       "fa_missing": true,
+      "_ja_decision": {
+        "tracker_end": "2026-06-23",
+        "excel_finish": "2026-06-19",
+        "days_saved": 4,
+        "reason": "Tracker OK men Excel er 4d hurtigere"
+      },
       "naerhed": true,
       "chance_score": 6,
       "ja_pinned": false,
@@ -1513,6 +1338,13 @@
       "kundenavn": "P. OLESEN OG SØNNER A/S",
       "afsendelsesdato": "2026-04-30",
       "hn_offer_id": 3425788
+    },
+    {
+      "tilbudsnr": "T7857",
+      "tilbudsnavn": "Overdækning til topsø",
+      "kundenavn": "SEGA BYG ApS",
+      "afsendelsesdato": "2026-06-16",
+      "hn_offer_id": 3501419
     },
     {
       "tilbudsnr": "T7837",
@@ -1625,22 +1457,18 @@
         "hours": 2.5
       },
       {
-        "tilbudsnr": "T7857",
-        "hours": 5.0
-      },
-      {
-        "tilbudsnr": "T7861",
-        "hours": 1.25
-      }
-    ],
-    "2026-06-24": [
-      {
         "tilbudsnr": "T7847",
         "hours": 2.5
       },
       {
         "tilbudsnr": "T7861",
         "hours": 3.75
+      }
+    ],
+    "2026-06-24": [
+      {
+        "tilbudsnr": "T7861",
+        "hours": 1.25
       },
       {
         "tilbudsnr": "T7821",
@@ -2438,16 +2266,16 @@
   },
   "sister_groups": {},
   "meta": {
-    "generated": "2026-06-16 13:01",
+    "generated": "2026-06-16 13:08",
     "source": "E-regnskab API + tracker merge (pipeline.py)",
-    "active_count": 26,
-    "afsendt_count": 6,
-    "removed_count": 0,
-    "ghost_removed": 57,
-    "merged_at": "2026-06-16 13:01",
-    "planner_version": "2026-06-16 12:59",
-    "push_validated": "2026-06-16 13:01",
-    "push_count": 26,
+    "active_count": 23,
+    "afsendt_count": 7,
+    "removed_count": 2,
+    "ghost_removed": 58,
+    "merged_at": "2026-06-16 13:08",
+    "planner_version": "2026-06-16 13:01",
+    "push_validated": "2026-06-16 13:08",
+    "push_count": 23,
     "push_warnings": []
   }
 }
