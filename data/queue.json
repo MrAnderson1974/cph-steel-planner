@@ -1277,6 +1277,7 @@
       "high_ref": false,
       "fa_missing": true,
       "is_master": true,
+      "sister_group": "override_T7866",
       "sisters": [
         "T7874"
       ],
@@ -1336,9 +1337,9 @@
       "go_no_go": "GO_MED_FORBEHOLD",
       "foranalyse_kilde": "T7805_foranalyse.json",
       "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/Jess Andersen/CLAUDE CO WORK/PROJECTS/Foranalyse/output",
+      "project_type": "EXC2",
       "must_win": false,
       "high_ref": false,
-      "project_type": "EXC2",
       "fa_missing": false,
       "_ja_decision": {
         "tracker_end": "2026-06-22",
@@ -2433,15 +2434,15 @@
   },
   "sister_groups": {},
   "meta": {
-    "generated": "2026-06-16 12:05",
+    "generated": "2026-06-16 12:07",
     "source": "E-regnskab API + tracker merge (pipeline.py)",
     "active_count": 26,
     "afsendt_count": 5,
     "removed_count": 0,
-    "ghost_removed": 0,
-    "merged_at": "2026-06-16 12:05",
+    "ghost_removed": 57,
+    "merged_at": "2026-06-16 12:07",
     "planner_version": "2026-06-16 12:05",
-    "push_validated": "2026-06-16 12:05",
+    "push_validated": "2026-06-16 12:07",
     "push_count": 26,
     "push_warnings": []
   }
