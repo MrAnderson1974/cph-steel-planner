@@ -1273,11 +1273,11 @@
       "bt_tier": "M",
       "bt_range": "3.0–7.0t",
       "is_sister": false,
+      "sister_group": "override_T7866",
       "must_win": false,
       "high_ref": false,
       "fa_missing": true,
       "is_master": true,
-      "sister_group": "override_T7866",
       "sisters": [
         "T7874"
       ],
@@ -2434,15 +2434,15 @@
   },
   "sister_groups": {},
   "meta": {
-    "generated": "2026-06-16 12:07",
+    "generated": "2026-06-16 12:40",
     "source": "E-regnskab API + tracker merge (pipeline.py)",
     "active_count": 26,
     "afsendt_count": 5,
     "removed_count": 0,
     "ghost_removed": 57,
-    "merged_at": "2026-06-16 12:07",
-    "planner_version": "2026-06-16 12:05",
-    "push_validated": "2026-06-16 12:07",
+    "merged_at": "2026-06-16 12:40",
+    "planner_version": "2026-06-16 12:07",
+    "push_validated": "2026-06-16 12:40",
     "push_count": 26,
     "push_warnings": []
   }
