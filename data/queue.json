@@ -1168,7 +1168,7 @@
       "fa_missing": true,
       "naerhed": false,
       "chance_score": 1,
-      "ja_pinned": false,
+      "ja_pinned": true,
       "gul_pris": false
     },
     {
@@ -1547,18 +1547,22 @@
         "hours": 5.0
       },
       {
+        "tilbudsnr": "T7862",
+        "hours": 0.25
+      },
+      {
         "tilbudsnr": "T7810",
         "hours": 2.5
       },
       {
         "tilbudsnr": "T7875",
-        "hours": 0.3
+        "hours": 0.05
       }
     ],
     "2026-06-17": [
       {
         "tilbudsnr": "T7875",
-        "hours": 4.7
+        "hours": 4.95
       },
       {
         "tilbudsnr": "T7835",
@@ -1566,13 +1570,13 @@
       },
       {
         "tilbudsnr": "T7805",
-        "hours": 3.1
+        "hours": 2.85
       }
     ],
     "2026-06-18": [
       {
         "tilbudsnr": "T7805",
-        "hours": 1.9
+        "hours": 2.15
       },
       {
         "tilbudsnr": "T7853",
@@ -1584,23 +1588,23 @@
       },
       {
         "tilbudsnr": "T7866",
-        "hours": 0.9
+        "hours": 0.65
       }
     ],
     "2026-06-19": [
       {
         "tilbudsnr": "T7866",
-        "hours": 4.1
+        "hours": 4.35
       },
       {
         "tilbudsnr": "T7871",
-        "hours": 2.3
+        "hours": 2.05
       }
     ],
     "2026-06-22": [
       {
         "tilbudsnr": "T7871",
-        "hours": 2.7
+        "hours": 2.95
       },
       {
         "tilbudsnr": "T7812",
@@ -1608,13 +1612,13 @@
       },
       {
         "tilbudsnr": "T7846",
-        "hours": 1.2
+        "hours": 0.95
       }
     ],
     "2026-06-23": [
       {
         "tilbudsnr": "T7846",
-        "hours": 3.8
+        "hours": 4.05
       },
       {
         "tilbudsnr": "T7826",
@@ -1626,7 +1630,7 @@
       },
       {
         "tilbudsnr": "T7861",
-        "hours": 1.5
+        "hours": 1.25
       }
     ],
     "2026-06-24": [
@@ -1636,7 +1640,7 @@
       },
       {
         "tilbudsnr": "T7861",
-        "hours": 3.5
+        "hours": 3.75
       },
       {
         "tilbudsnr": "T7821",
@@ -2434,15 +2438,15 @@
   },
   "sister_groups": {},
   "meta": {
-    "generated": "2026-06-16 12:59",
+    "generated": "2026-06-16 13:01",
     "source": "E-regnskab API + tracker merge (pipeline.py)",
     "active_count": 26,
     "afsendt_count": 6,
     "removed_count": 0,
     "ghost_removed": 57,
-    "merged_at": "2026-06-16 12:59",
-    "planner_version": "2026-06-16 12:55",
-    "push_validated": "2026-06-16 12:59",
+    "merged_at": "2026-06-16 13:01",
+    "planner_version": "2026-06-16 12:59",
+    "push_validated": "2026-06-16 13:01",
     "push_count": 26,
     "push_warnings": []
   }
