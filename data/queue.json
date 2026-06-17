@@ -131,69 +131,6 @@
       "gul_pris": false
     },
     {
-      "tilbudsnr": "T7818",
-      "tilbudsnavn": "Krogårdskolen SFO",
-      "kundenavn": "ASON A/S",
-      "kundenummer": "1948",
-      "kontaktperson": "",
-      "tilbudsansvarlig": "Tom Larsen",
-      "tilbudsansvarlig_id": 15940,
-      "ja_transfer": false,
-      "startdato": "2026-07-07",
-      "slutdato": "2027-04-06",
-      "deadline": "2026-06-16",
-      "oprettet": "2026-05-26",
-      "sidst_aendret": "2026-05-27",
-      "beregnertid": 5.0,
-      "bt_source": "foranalyse_json",
-      "rating_erp": null,
-      "tags": [
-        "#Skabelon",
-        "#Exc2",
-        "#ds1140"
-      ],
-      "kategori_id": null,
-      "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
-      "hn_offer_id": 3470074,
-      "custom_field1": null,
-      "custom_field2": null,
-      "custom_field3": "",
-      "deadline_source": "opfølgningsdato",
-      "rating": "B",
-      "rating_score": 55.07772680937819,
-      "kunde_grade": "B",
-      "scheduled_days": [
-        "2026-06-09"
-      ],
-      "planned_end": "2026-06-09",
-      "risk": "🟢",
-      "bt_estimated": true,
-      "bt_tier": "M",
-      "bt_range": "3.0–7.0t",
-      "exc_class": "EXC2",
-      "konsekvensklasse": "KK2",
-      "entreprise": "Fagentreprise",
-      "lokation": "Forventet aflevering Entreprise form",
-      "resume": "Tilbygning/ombygning Krogårdskolen SFO for ASON A/S. Montagestart juli 2026, aflevering april 2027. Elementliste afventer afklaring.",
-      "ordrevaerdi_dkk": 1140000,
-      "dg_pct": 37,
-      "go_no_go": "GO",
-      "foranalyse_kilde": "T7818_foranalyse.json",
-      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/Jess Andersen/CLAUDE CO WORK/PROJECTS/Foranalyse/output",
-      "steel_desc": "Konstruktionsstål EXC2/KK2, ca. 12 t. Ingen brandmaling. Miljøsanering identificeret. PSS krævet.",
-      "project_type": "EXC2",
-      "must_win": false,
-      "high_ref": false,
-      "entreprise_form": "Fagentreprise",
-      "fa_missing": false,
-      "naerhed": true,
-      "chance_score": 5,
-      "ja_pinned": false,
-      "gul_pris": false
-    },
-    {
       "tilbudsnr": "T7810",
       "tilbudsnavn": "NOV",
       "kundenavn": "HVID Entreprise A/S",
@@ -505,68 +442,6 @@
       "gul_pris": false
     },
     {
-      "tilbudsnr": "T7829",
-      "tilbudsnavn": "gavlskakter",
-      "kundenavn": "LHG Tømrer A/S",
-      "kundenummer": "2469",
-      "kontaktperson": "",
-      "tilbudsansvarlig": "Tom Larsen",
-      "tilbudsansvarlig_id": 15940,
-      "ja_transfer": false,
-      "startdato": "2026-07-15",
-      "slutdato": "2026-08-14",
-      "deadline": "2026-06-22",
-      "oprettet": "2026-06-04",
-      "sidst_aendret": "2026-06-04",
-      "beregnertid": 5.0,
-      "bt_source": "foranalyse_json",
-      "rating_erp": null,
-      "tags": [
-        "#Skabelon",
-        "#Exc2",
-        "#ds1140"
-      ],
-      "kategori_id": null,
-      "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
-      "hn_offer_id": 3489582,
-      "custom_field1": null,
-      "custom_field2": null,
-      "custom_field3": "",
-      "deadline_source": "opfølgningsdato",
-      "rating": "C",
-      "rating_score": 35.121586458501,
-      "kunde_grade": "C",
-      "scheduled_days": [
-        "2026-06-08"
-      ],
-      "planned_end": "2026-06-08",
-      "risk": "⚪",
-      "bt_estimated": true,
-      "bt_tier": "M",
-      "bt_range": "3.0–7.0t",
-      "exc_class": "EXC1",
-      "konsekvensklasse": "KK1",
-      "entreprise": "Underentreprise u/ LHG Tømrer A/S",
-      "lokation": "Ikke oplyst",
-      "resume": "Underentreprise u/ LHG Tømrer — 3 leverancer til gavlskakter: (1) 7 stk to-delte inspektionslemme i børstet rustfrit stål, 800×900 mm, med låsemekanisme + 3 nøgler pr. sæt. (2) 7 stk ventilationsriste, stålramme + korrosionsbestandigt metalnet, 240×200 mm. (3) 7 stk topafdækning/låg 1500×300 mm med drypnæse og skjulte fastgørelser.",
-      "ordrevaerdi_dkk": 120000,
-      "dg_pct": 38,
-      "go_no_go": "GO_FORBEHOLD",
-      "foranalyse_kilde": "T7829_foranalyse.json",
-      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/Jess Andersen/CLAUDE CO WORK/PROJECTS/Foranalyse/output",
-      "project_type": "EXC1",
-      "must_win": false,
-      "high_ref": false,
-      "entreprise_form": "Underentreprise",
-      "fa_missing": false,
-      "naerhed": false,
-      "chance_score": 1,
-      "ja_pinned": false,
-      "gul_pris": false
-    },
-    {
       "tilbudsnr": "T7830",
       "tilbudsnavn": "Tobaksvejen 25",
       "kundenavn": "LAURITZ HANNIBAL ApS",
@@ -693,10 +568,10 @@
       "slutdato": "2026-07-10",
       "deadline": "2026-06-24",
       "oprettet": "2026-06-10",
-      "sidst_aendret": "2026-06-10",
+      "sidst_aendret": "2026-06-17",
       "beregnertid": 5.0,
       "bt_source": "foranalyse_json",
-      "rating_erp": null,
+      "rating_erp": 10,
       "tags": [
         "#Skabelon",
         "#Exc2",
@@ -841,55 +716,6 @@
       "gul_pris": false
     },
     {
-      "tilbudsnr": "T7858",
-      "tilbudsnavn": "Birkebo afd. 06",
-      "kundenavn": "Glarmestrene Stig & Jesper ApS",
-      "kundenummer": "2183",
-      "kontaktperson": "",
-      "tilbudsansvarlig": "Tom Larsen",
-      "tilbudsansvarlig_id": 15940,
-      "ja_transfer": false,
-      "startdato": "2026-06-11",
-      "slutdato": "2026-07-11",
-      "deadline": "2026-06-19",
-      "oprettet": "2026-06-11",
-      "sidst_aendret": "2026-06-11",
-      "beregnertid": 0,
-      "bt_source": "tracker_confirmed",
-      "rating_erp": null,
-      "tags": [
-        "#Skabelon",
-        "#Exc2",
-        "#ds1140"
-      ],
-      "kategori_id": null,
-      "beskrivelse": "",
-      "kostpris": 0.0,
-      "salgspris": 0.0,
-      "hn_offer_id": 3501433,
-      "custom_field1": null,
-      "custom_field2": null,
-      "custom_field3": "",
-      "deadline_source": "opfølgningsdato",
-      "rating": "Ny",
-      "rating_score": null,
-      "kunde_grade": null,
-      "scheduled_days": [
-        "2026-06-12",
-        "2026-06-16"
-      ],
-      "planned_end": "2026-06-19",
-      "risk": "⚪",
-      "bt_estimated": false,
-      "is_sister": true,
-      "sister_group": "override_T7805",
-      "must_win": false,
-      "high_ref": false,
-      "fa_missing": true,
-      "ja_pinned": false,
-      "gul_pris": false
-    },
-    {
       "tilbudsnr": "T7861",
       "tilbudsnavn": "Ombygning af Rådhusbuen 1B",
       "kundenavn": "NÅR A/S",
@@ -934,6 +760,12 @@
       "must_win": false,
       "high_ref": false,
       "fa_missing": true,
+      "_ja_decision": {
+        "tracker_end": "2026-06-26",
+        "excel_finish": "2026-06-23",
+        "days_saved": 3,
+        "reason": "Tracker OK men Excel er 3d hurtigere"
+      },
       "naerhed": false,
       "chance_score": 1,
       "ja_pinned": false,
@@ -1042,6 +874,12 @@
       "sisters": [
         "T7874"
       ],
+      "_ja_decision": {
+        "tracker_end": "2026-06-26",
+        "excel_finish": "2026-06-23",
+        "days_saved": 3,
+        "reason": "Tracker OK men Excel er 3d hurtigere"
+      },
       "naerhed": true,
       "chance_score": 5,
       "ja_pinned": false,
@@ -1090,12 +928,11 @@
       "bt_tier": "M",
       "bt_range": "3.0–7.0t",
       "exc_class": "EXC2",
-      "konsekvensklasse": "KK2",
       "entreprise": "Fagentreprise",
+      "lokation": "Birkeparken afd. 6, Birkerød",
       "resume": "Mængdeestimeret fra udbudsmateriale",
-      "ordrevaerdi_dkk": 42000,
       "dg_pct": 37,
-      "go_no_go": "GO_MED_FORBEHOLD",
+      "go_no_go": "GO",
       "foranalyse_kilde": "T7805_foranalyse.json",
       "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/Jess Andersen/CLAUDE CO WORK/PROJECTS/Foranalyse/output",
       "project_type": "EXC2",
@@ -1103,6 +940,8 @@
       "sister_group": "override_T7805",
       "must_win": false,
       "high_ref": false,
+      "konsekvensklasse": "KK2",
+      "ordrevaerdi_dkk": 42000,
       "fa_missing": false,
       "is_master": true,
       "sisters": [
@@ -1155,9 +994,19 @@
       "bt_estimated": true,
       "bt_tier": "M",
       "bt_range": "3.0–7.0t",
+      "exc_class": "EXC2",
+      "entreprise": "Smede-/fagentreprise (UE under hovedentreprise)",
+      "lokation": "Under Hillerødmotorvejsbroen, Skovbrynet St., Gladsaxe",
+      "resume": "Galvaniseret pressegitter: gitterdøre, afskærmninger, værn/trappeværn",
+      "ordrevaerdi_dkk": 450000,
+      "dg_pct": 35,
+      "go_no_go": "GO_MED_FORBEHOLD",
+      "foranalyse_kilde": "T7872_foranalyse.json",
+      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/Jess Andersen/CLAUDE CO WORK/PROJECTS/Foranalyse/output",
       "must_win": false,
       "high_ref": false,
-      "fa_missing": true,
+      "project_type": "EXC2",
+      "fa_missing": false,
       "naerhed": true,
       "chance_score": 5,
       "ja_pinned": false,
@@ -1224,9 +1073,9 @@
       "ja_transfer": true,
       "startdato": "2026-11-03",
       "slutdato": "2027-11-01",
-      "deadline": "2026-07-01",
+      "deadline": "2026-07-03",
       "oprettet": "2026-06-16",
-      "sidst_aendret": "2026-06-16",
+      "sidst_aendret": "2026-06-17",
       "beregnertid": 0,
       "bt_source": "tracker_confirmed",
       "rating_erp": 10,
@@ -1274,7 +1123,7 @@
       "oprettet": "2026-06-16",
       "sidst_aendret": "2026-06-16",
       "beregnertid": 5.0,
-      "bt_source": null,
+      "bt_source": "foranalyse_json",
       "rating_erp": null,
       "tags": [
         "#Skabelon",
@@ -1302,19 +1151,24 @@
       "bt_estimated": true,
       "bt_tier": "M",
       "bt_range": "3.0–7.0t",
+      "exc_class": "EXC2 generelt — EXC3 for udstyrsfundamenter (gevindstænger + stålplader)",
+      "konsekvensklasse": "C5-II (søjler)",
+      "entreprise": "Stål-UE under NCC hoved-/civilentreprise (AB 18)",
+      "lokation": "Sørupvej 6 / Sørupvej, Eskilstrup",
+      "resume": "Stålarbejder til 132 kV-station: (1) HE200B-stålsøjler i hulmur i AC-bygning (~37 m lang relæbygning), C5-II overflade; (2) levering+montering af riste og stål til transformere; (3) dørkplader over kabelkanaler; (4) gangbro/vandret gitter ved spærfod. Alle TBL-poster er SUM-poster uden mængder.",
+      "ordrevaerdi_dkk": 1300000,
+      "dg_pct": 25,
+      "go_no_go": "GO_MED_FORBEHOLD",
+      "foranalyse_kilde": "T7875_foranalyse.json",
+      "foranalyse_sti": "/Users/jessandersen/CPH Steel Dropbox/Jess Andersen/CLAUDE CO WORK/PROJECTS/Foranalyse/output",
       "must_win": false,
       "high_ref": false,
-      "fa_missing": true,
-      "_ja_decision": {
-        "tracker_end": "2026-06-23",
-        "excel_finish": "2026-06-19",
-        "days_saved": 4,
-        "reason": "Tracker OK men Excel er 4d hurtigere"
-      },
+      "project_type": "EXC2 generelt — EXC3 for udstyrsfundamenter (gevindstænger + stålplader)",
+      "fa_missing": false,
       "naerhed": true,
       "chance_score": 6,
       "ja_pinned": false,
-      "gul_pris": false
+      "gul_pris": true
     }
   ],
   "afsendt": [
@@ -1345,13 +1199,6 @@
       "kundenavn": "SEGA BYG ApS",
       "afsendelsesdato": "2026-06-16",
       "hn_offer_id": 3501419
-    },
-    {
-      "tilbudsnr": "T7837",
-      "tilbudsnavn": "Snorresgade 15",
-      "kundenavn": "LAURITZ HANNIBAL ApS",
-      "afsendelsesdato": "2026-06-16",
-      "hn_offer_id": 3494494
     },
     {
       "tilbudsnr": "T7734-1",
@@ -1393,432 +1240,38 @@
     ],
     "2026-06-17": [
       {
-        "tilbudsnr": "T7875",
-        "hours": 4.95
-      },
-      {
-        "tilbudsnr": "T7835",
+        "tilbudsnr": "T7805",
         "hours": 5.0
       },
       {
-        "tilbudsnr": "T7805",
-        "hours": 2.85
+        "tilbudsnr": "T7861",
+        "hours": 5.0
+      },
+      {
+        "tilbudsnr": "T7875",
+        "hours": 2.5
       }
     ],
     "2026-06-18": [
-      {
-        "tilbudsnr": "T7805",
-        "hours": 2.15
-      },
-      {
-        "tilbudsnr": "T7853",
-        "hours": 5.0
-      },
       {
         "tilbudsnr": "T7872",
         "hours": 5.0
       },
       {
-        "tilbudsnr": "T7866",
-        "hours": 0.65
-      }
-    ],
-    "2026-06-19": [
-      {
-        "tilbudsnr": "T7866",
-        "hours": 4.35
-      },
-      {
         "tilbudsnr": "T7871",
-        "hours": 2.05
-      }
-    ],
-    "2026-06-22": [
-      {
-        "tilbudsnr": "T7871",
-        "hours": 2.95
-      },
-      {
-        "tilbudsnr": "T7812",
-        "hours": 2.5
-      },
-      {
-        "tilbudsnr": "T7846",
-        "hours": 0.95
-      }
-    ],
-    "2026-06-23": [
-      {
-        "tilbudsnr": "T7846",
-        "hours": 4.05
-      },
-      {
-        "tilbudsnr": "T7826",
-        "hours": 2.5
-      },
-      {
-        "tilbudsnr": "T7847",
-        "hours": 2.5
-      },
-      {
-        "tilbudsnr": "T7861",
-        "hours": 3.75
-      }
-    ],
-    "2026-06-24": [
-      {
-        "tilbudsnr": "T7861",
-        "hours": 1.25
-      },
-      {
-        "tilbudsnr": "T7821",
-        "hours": 2.5
-      },
-      {
-        "tilbudsnr": "T7809",
-        "hours": 2.5
+        "hours": 5.0
       }
     ],
     "2026-06-25": [
       {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
+        "tilbudsnr": "T7866",
+        "hours": 2.5
       }
     ],
     "2026-06-26": [
       {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-06-29": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-06-30": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-07-01": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-07-02": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-07-03": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-07-06": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-07-07": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-07-08": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-07-09": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-07-10": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-07-13": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-07-14": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-07-15": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-07-16": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-07-17": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-07-20": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-07-21": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-07-22": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-07-23": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-07-24": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-07-27": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-07-28": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-07-29": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-07-30": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-07-31": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-08-03": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-08-04": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-08-05": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-08-06": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-08-07": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-08-10": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-08-11": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-08-12": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-08-13": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-08-14": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-08-17": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-08-18": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-08-19": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-08-20": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-08-21": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-08-24": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-08-25": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-08-26": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-08-27": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-08-28": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-08-31": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-09-01": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-09-02": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-09-03": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-09-04": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-09-07": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-09-08": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-09-09": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-09-10": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
-      }
-    ],
-    "2026-09-11": [
-      {
-        "tilbudsnr": "__admin__",
-        "hours": 6.0
+        "tilbudsnr": "T7866",
+        "hours": 2.5
       }
     ]
   },
@@ -2266,16 +1719,16 @@
   },
   "sister_groups": {},
   "meta": {
-    "generated": "2026-06-16 13:08",
+    "generated": "2026-06-17 12:05",
     "source": "E-regnskab API + tracker merge (pipeline.py)",
-    "active_count": 23,
-    "afsendt_count": 7,
-    "removed_count": 2,
-    "ghost_removed": 58,
-    "merged_at": "2026-06-16 13:08",
-    "planner_version": "2026-06-16 13:01",
-    "push_validated": "2026-06-16 13:08",
-    "push_count": 23,
+    "active_count": 20,
+    "afsendt_count": 6,
+    "removed_count": 5,
+    "ghost_removed": 57,
+    "merged_at": "2026-06-17 12:05",
+    "planner_version": "2026-06-16 13:08",
+    "push_validated": "2026-06-17 12:05",
+    "push_count": 20,
     "push_warnings": []
   }
 }
